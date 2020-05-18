@@ -1,2 +1,2 @@
 # nhcarrigan.github.io
-DESCRIPTION
+This is my personal portfolio. Take a look and enjoy!
