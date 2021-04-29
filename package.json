@@ -26,7 +26,7 @@
     "@angular/platform-browser": "11.2.11",
     "@angular/platform-browser-dynamic": "11.2.11",
     "@angular/router": "11.2.11",
-    "@sentry/angular": "6.3.3",
+    "@sentry/angular": "6.3.4",
     "@sentry/tracing": "6.3.3",
     "angular-cli-ghpages": "1.0.0-rc.1",
     "rxjs": "6.6.7",
