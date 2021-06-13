@@ -29,7 +29,7 @@
     "@sentry/angular": "6.6.0",
     "@sentry/tracing": "6.6.0",
     "angular-cli-ghpages": "1.0.0-rc.2",
-    "ng-particles": "2.10.0",
+    "ng-particles": "2.11.0",
     "rxjs": "6.6.7",
     "tone": "14.7.77",
     "tslib": "2.2.0",
