@@ -2,6 +2,7 @@
   --dark-purple: #3a3240;
   --dark-blue: #0b0080;
   --light-purple: #aea8de;
+  --light-blue: #48D1CC;
   --cursor-normal: url("/assets/img/triforce.cur");
   --cursor-pointer: url("/assets/img/sword.cur");
 }
@@ -31,6 +32,10 @@ body {
 a {
   cursor: var(--cursor-pointer), pointer;
   color: var(--dark-blue);
+}
+
+.light-link {
+  color: var(--light-blue);
 }
 
 ul {
@@ -69,6 +74,12 @@ li {
 }
 
 .nes-container.is-rounded.with-title.is-centered.is-dark {
+  margin-bottom: 20px;
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+}
+
+.nes-container.is-rounded.is-centered.is-dark {
   margin-bottom: 20px;
   background-color: var(--dark-purple);
   color: var(--light-purple);
