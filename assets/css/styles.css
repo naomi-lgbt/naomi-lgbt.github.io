@@ -5,6 +5,12 @@
   --light-blue: #48D1CC;
   --cursor-normal: url("/assets/img/triforce.cur");
   --cursor-pointer: url("/assets/img/sword.cur");
+
+  /* Sponsor Colours */
+  --silver-sponsor: #607d8b;
+  --gold-sponsor: #f1c40f;
+  --platinum-sponsor: #95a5a6;
+  --amethyst-sponsor: #9b59b6;
 }
 
 @font-face {
@@ -62,6 +68,24 @@ li {
 .job-timeline {
   font-style: italic;
   margin-top: 0;
+}
+
+/* Sponsor Tiers */
+
+.silver-sponsor {
+  color: var(--silver-sponsor);
+}
+
+.gold-sponsor {
+  color: var(--gold-sponsor);
+}
+
+.platinum-sponsor {
+  color: var(--platinum-sponsor);
+}
+
+.amethyst-sponsor {
+  color: var(--amethyst-sponsor);
 }
 
 /* NES.css Overrides */
