@@ -2,7 +2,7 @@
   --dark-purple: #3a3240;
   --dark-blue: #0b0080;
   --light-purple: #aea8de;
-  --light-blue: #48D1CC;
+  --light-blue: #48d1cc;
   --cursor-normal: url("/assets/img/triforce.cur");
   --cursor-pointer: url("/assets/img/sword.cur");
 
@@ -117,4 +117,52 @@ li {
 
 .nes-btn {
   cursor: var(--cursor-pointer), pointer;
+}
+
+/* Beccalia Styles */
+
+.gallery {
+  display: grid;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.gallery-tile {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  border-radius: 10px;
+  padding: 10px 0px;
+  font-size: 0.75rem;
+}
+
+.gallery-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+.gallery-link {
+  color: var(--light-blue)
+}
+
+@media (min-width: 300px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 299px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
