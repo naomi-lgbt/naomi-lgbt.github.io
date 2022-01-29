@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-nhcarrigan
+Naomi Carrigan (nhcarrigan)
 
 This document serves as verification of my online identities.
 
@@ -27,7 +27,7 @@ instagram: https://www.instagram.com/nhcarrigan/
 # Additional Identity Verification
 
 keybase: https://keybase.io/nhcarrigan
-gpg key: https://www.nhcarrigan.com/key.txt (8718CDA1A9FD846CBBF36A17F044C377FC95E029)
+gpg key: https://www.nhcarrigan.com/key.txt (F1E77C0CB2BA8EA1086D38A7C4D2917F8364A0AB)
 
 # Pls gib money?
 
@@ -37,17 +37,17 @@ ko-fi: https://ko-fi.com/nhcarrigan
 paypal: https://www.paypal.com/paypalme/nhcarrigan
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEhxjNoan9hGy782oX8ETDd/yV4CkFAmE5Z78ACgkQ8ETDd/yV
-4CnOjRAA0saIOA7AOt8GQ70LvmZwOzLeMGPh83P4soqkYgb5RL7AkiG8nT0n95Dc
-czB7QBC8mhYff9kcT/YSgsWbZmrS2rxhf/Pzjc6x/c5bNJcDvMvdTj9169Dili5E
-pwAFRaDwqHPvEtij2eYtpW1Ty8bDuViVwk5kENFWsXJb2Ts/HBu3ry8cLUn2hJqu
-ClFERSg2Ov4PqFjuUGcKzXXegzFqD7qFkxk+3mueAEtnr6xr6GdyZcgSQjIWiSsd
-FSKwnmN3drhVqFIwo5eYuP7p+ZL3hF8eQx1Qex+KPBP59CoMrmMnnQGsvzWPodn6
-QLlGG096bdtAlSK/54hR5T5QL+1Zvex6Vw+HLhAldtG1XDOkAPQZ1DZLCVFLD8sB
-lDzdA4tuj0ROHzLw9TZWJMKUESjEsG8H9LaOD1RbRDuyLs0sifhokG/7gLUMr1dC
-eXvnc6A9hkl5/3WfIDurR2Zb+yyw+POLpeRajjyPd0S2dITUuVQKIabTrpX/aLtT
-BVRsw3pqDypP+i+FDuK62FKIZ8m4teRUsKp31zjTz6ei4eJ3yJlIAMt076YRG7nD
-rZSkUbzl22IYd6d5wUSiRCdkFnBGeLx4e6Fk7PCgIVWMHjB6Ws59hJLK8YRWPcp1
-5Bf/LeoOQvRgIqpBfrqL7lDA7H9ukEN3xvrgLq0PXgrd3zKJ2pY=
-=Jkss
+iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmH1T4EACgkQxNKRf4Nk
+oKtsig//SLa8XnzG16VBEMbcBInFiJbNoq1h80LF/TfG5sNxhIJt364SIafdJBEt
+D88rbpk9Qj8hn5i8f1g8WN7DENV6bXz9t/Am2qXXfd6fqM1JxT3C+gmsQCfxiO1j
+cyL1eNsf9yrxsxM8PROb2uOFAywxyy6FrnOvIhngU504arnMgqR+hhlPKEa3/Y4j
+fhzmLyN5HU9Pk6OTiSk56/MX/CTSx2vfapYFl62vg3nZE9DPpBGhaF6bBjZXbiHN
+N+Pb3US8rYKtHufgT/wtFgN3xvCpT2I0bFLL+rLjMhAw8CrhJuQWU3bqWU+W/APP
++BljtPtOJo5wrDf1i+z/xH+zRW/4NV6f+1LuTvEFgLQFXab4G21CbLflqDjk8Lil
+kcCZBfwgqRRN/vZXeIoBs0JdhuxX+qIOsQpvnp0zYvb8+cLJ4OgvUnc1bOGLRnNO
+s/mMFzVfqGDK7GhDgTlzRZlZFT/bcnIt02R+m0kiYFjsa6IB+7WKhH6aGOga0Svv
+oqtcA23afmNgRHzv1M4KOeihbKjxLNfFlOeq+/paTeUruXw6YJpcFKfholgthPTS
+feANrzINoGFgIJyOfkJkc/M4alKUOuouwQvPphY9Od1RxgYl8ELalKh9R55CE6ds
+Kvqc1mzJfio40n1JLxkTYaG+CzyvFw6JQWBQLb6l8U8lNnjNNpY=
+=IlCa
 -----END PGP SIGNATURE-----
