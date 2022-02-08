@@ -1,0 +1,24 @@
+.games-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.game {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  padding: 10px;
+}
+
+.game img {
+  width: 75%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 749px) {
+  .games-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
