@@ -5,24 +5,53 @@ Naomi Carrigan (nhcarrigan)
 
 This document serves as verification of my online identities.
 
+IF YOU SEE MY USERNAME ELSEWHERE, PLEASE NOTIFY ME. I will confirm or deny the legitimacy of that account.
+
 # Primary Contact points (in order of response time)
 
 chat with me: https://chat.nhcarrigan.com (Discord Server ID: 778130114772598785)
 discord: nhcarrigan#0001 (ID: 465650873650118659)
 github: nhcarrigan - https://github.com/nhcarrigan
-email: nhcarrigan@gmail.com
+email: contact@nhcarrigan.com
 
-# Secondary Contact points (in order of relevance)
+# Secondary Contact points (in order of activity)
+
 twitter: @nhcarrigan - https://twitter.com/nhcarrigan
 freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
-linkedin: https://linkedin.com/in/nhcarrigan
-codepen: https://codepen.io/nhcarrigan
-replit: https://replit.com/@nhcarrigan
 steam: https://steamcommunity.com/id/nhcarrigan
+linkedin: https://linkedin.com/in/nhcarrigan
+itch: https://itch.io/profile/nhcarrigan
 twitch: https://www.twitch.tv/nhcarrigan
 facebook: https://www.facebook.com/nhcarrigan
 reddit: https://www.reddit.com/user/nhcarrigan
+
+# Other Profiles (unlikely to respond to contact requests)
+
+codepen: https://codepen.io/nhcarrigan
+replit: https://replit.com/@nhcarrigan
 instagram: https://www.instagram.com/nhcarrigan/
+hashnode: https://hashnode.com/@nhcarrigan
+gaia online: https://www.gaiaonline.com/profiles/nhcarrigan/45571101/
+liquipedia: https://liquipedia.net/rocketleague/User:Nhcarrigan and https://liquipedia.net/valorant/User:Nhcarrigan
+codewars: https://www.codewars.com/users/nhcarrigan
+leetcode: https://leetcode.com/nhcarrigan/
+hackerrank: https://www.hackerrank.com/nhcarrigan
+ubisoft: nhcarrigan
+epic games: nhcarrigan
+origin: nhcarrigan
+dnd beyond: https://www.dndbeyond.com/members/nhcarrigan
+roll20: https://app.roll20.net/users/9564775/nhcarrigan
+
+# Owned Domains
+
+beccalia.com
+beccalyria.com
+dennagrey.com
+miku.rocks
+nhcarrigan.com
+rosalianightsong.com
+starfazers.art
+uwu.cafe
 
 # Additional Identity Verification
 
@@ -35,19 +64,24 @@ patreon: https://www.patreon.com/nhcarrigan
 github sponsors: https://github.com/sponsors/nhcarrigan
 ko-fi: https://ko-fi.com/nhcarrigan
 paypal: https://www.paypal.com/paypalme/nhcarrigan
+
+# Known Impostor Accounts (these are NOT me)
+
+None :)
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmH1T4EACgkQxNKRf4Nk
-oKtsig//SLa8XnzG16VBEMbcBInFiJbNoq1h80LF/TfG5sNxhIJt364SIafdJBEt
-D88rbpk9Qj8hn5i8f1g8WN7DENV6bXz9t/Am2qXXfd6fqM1JxT3C+gmsQCfxiO1j
-cyL1eNsf9yrxsxM8PROb2uOFAywxyy6FrnOvIhngU504arnMgqR+hhlPKEa3/Y4j
-fhzmLyN5HU9Pk6OTiSk56/MX/CTSx2vfapYFl62vg3nZE9DPpBGhaF6bBjZXbiHN
-N+Pb3US8rYKtHufgT/wtFgN3xvCpT2I0bFLL+rLjMhAw8CrhJuQWU3bqWU+W/APP
-+BljtPtOJo5wrDf1i+z/xH+zRW/4NV6f+1LuTvEFgLQFXab4G21CbLflqDjk8Lil
-kcCZBfwgqRRN/vZXeIoBs0JdhuxX+qIOsQpvnp0zYvb8+cLJ4OgvUnc1bOGLRnNO
-s/mMFzVfqGDK7GhDgTlzRZlZFT/bcnIt02R+m0kiYFjsa6IB+7WKhH6aGOga0Svv
-oqtcA23afmNgRHzv1M4KOeihbKjxLNfFlOeq+/paTeUruXw6YJpcFKfholgthPTS
-feANrzINoGFgIJyOfkJkc/M4alKUOuouwQvPphY9Od1RxgYl8ELalKh9R55CE6ds
-Kvqc1mzJfio40n1JLxkTYaG+CzyvFw6JQWBQLb6l8U8lNnjNNpY=
-=IlCa
+iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmIXpaYACgkQxNKRf4Nk
+oKt7Cg//f8HdePi8oof70Zj5n67j69iSGqQeBi5j2lbUjvDmH/EM7oLrCBc2Z8EA
+KbVdjpUmKc1cNU1/r/Z0cUcFByDCd0+2CoIrve61rbmu3pWrdSSoIFk7zoyHL6wC
+Q1uYHFlS/D93xZgyVV68MQ9DBIsKwhkGqln1fuuD3n/xilgTNQvZzxrVPwaK3+xB
+t7rBlB9TqoCx3WdXOU2eUJYqAI2pfefa8ZXAOPbkLjxn0vNFa+9yrSJyuv03kSwp
+TZeYzmfWYXkvRKg1Znt6H4JRPJ0CeYYoJpem8nkBQbevMCZov9FXnv0fILbBG6kU
+gMpXp8zTCAS1jE6KbBIsWKIxxe3aokx0N2+0OmVCgUF2ctGQ+4mvNx9NUXauqyWo
+TAfO5Ghq3KwPdKC1ZHr4AI6CvMbB73iDFWA6uNQ7EhGNBzOX0+3NZ1DEG2h+ZRbo
+6bcCAJMMQUI9i3JFoRVrnjBeFPrRA6u29H997D6n5qaQH0jrcx49TGACPQtkB/ze
+2XbflAwzmkVM0mT9rVImLMNVLO3YeC4KQc3K8g5AGv1h+wvQgzW8JlE7f3egYj2f
+Mk0zqG20WObIAppyxi+JZYD1/fpfcaEC/zTtlRAJeD8C2Sq4NrxjjVXFAuZ3a8S1
+owiZese84V9XJHKO1qJuOpy1j4fyv0g7x5WMVuK+uuHjb5Q9Hk8=
+=wAxi
 -----END PGP SIGNATURE-----
