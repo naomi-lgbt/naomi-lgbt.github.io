@@ -90,7 +90,7 @@ li {
 
 /* NES.css Overrides */
 .nes-container.is-rounded {
-  background-color: rgb(174, 168, 222);
+  background-color: rgb(174, 168, 222, 0.75);
 }
 
 .nes-container.is-rounded.with-title.is-centered {
