@@ -24,6 +24,9 @@ itch: https://itch.io/profile/nhcarrigan
 twitch: https://www.twitch.tv/nhcarrigan
 facebook: https://www.facebook.com/nhcarrigan
 reddit: https://www.reddit.com/user/nhcarrigan
+twitter: @becca_lyria - https://twitter.com/becca_lyria
+twitter: @RosaNightsong - https://twitter.com/RosaNightsong
+twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
 
 # Other Profiles (unlikely to respond to contact requests)
 
@@ -71,17 +74,17 @@ None :)
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmIXpaYACgkQxNKRf4Nk
-oKt7Cg//f8HdePi8oof70Zj5n67j69iSGqQeBi5j2lbUjvDmH/EM7oLrCBc2Z8EA
-KbVdjpUmKc1cNU1/r/Z0cUcFByDCd0+2CoIrve61rbmu3pWrdSSoIFk7zoyHL6wC
-Q1uYHFlS/D93xZgyVV68MQ9DBIsKwhkGqln1fuuD3n/xilgTNQvZzxrVPwaK3+xB
-t7rBlB9TqoCx3WdXOU2eUJYqAI2pfefa8ZXAOPbkLjxn0vNFa+9yrSJyuv03kSwp
-TZeYzmfWYXkvRKg1Znt6H4JRPJ0CeYYoJpem8nkBQbevMCZov9FXnv0fILbBG6kU
-gMpXp8zTCAS1jE6KbBIsWKIxxe3aokx0N2+0OmVCgUF2ctGQ+4mvNx9NUXauqyWo
-TAfO5Ghq3KwPdKC1ZHr4AI6CvMbB73iDFWA6uNQ7EhGNBzOX0+3NZ1DEG2h+ZRbo
-6bcCAJMMQUI9i3JFoRVrnjBeFPrRA6u29H997D6n5qaQH0jrcx49TGACPQtkB/ze
-2XbflAwzmkVM0mT9rVImLMNVLO3YeC4KQc3K8g5AGv1h+wvQgzW8JlE7f3egYj2f
-Mk0zqG20WObIAppyxi+JZYD1/fpfcaEC/zTtlRAJeD8C2Sq4NrxjjVXFAuZ3a8S1
-owiZese84V9XJHKO1qJuOpy1j4fyv0g7x5WMVuK+uuHjb5Q9Hk8=
-=wAxi
+iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmIZsk8ACgkQxNKRf4Nk
+oKtJ5A/9GV0EGhhP73fi5MREVzDJi0HCAJ3m2X/OO/1vTsn4Igjh3N79kbrkipL8
+AjcUbaRDJoTQ6BFWspNq1L5D36VJ3bU5KyAXM3NJcGsY3fx5G58TRq2HHmh86Prc
+TAWQ1tLmhfQuDjar7hQMWTQsZkJQbVQzb517fBBZpjIgIopzn47xF1VcLdM1mrjL
+z7+97AOeAAtDm+N26RZNnJWhgsq5g701GIuuXENrm0KQtLWDgKelZ2OvRDHovJn6
+5FR2T59heGNE2JplUylGzf5NzeQ7bFkDN5OeHrCup6s57ZbuYnTxL0Y5DmtJ1m9I
+WmtUolHH06UbYlKsaDWt1qgP1QM71CaAp5066fKAlxDA80heh6NFjVLqHaXPxnv+
+Ze1qdRuHvdjq3Y/20jvv6N5eTOg4BE+bED+VQrIeOTG2878bBJEUG4Cggt5xIJlW
+dLpqEQkld/oyV0dZLwJVGjeCO1GO9zaApeihNWlOaFF4aOdJKtKXRbc/SbCUhb3U
+hmFP5NzFB379w++BfUVjCnQr6qUxnWXrv9Y6B7egFN5gAiUH0ajH0Pe6d1Klxqcf
+woXvYmyDg0ZjqmI1lL/Lj3MQY0V3HnauFf1diB8lG+NLJEeYsnypxmVS6tQhV630
+/isiTU4v7pOaxj/JKjp8qufLMUW7QP/MtUfJ3HGByC5wnqOVYKs=
+=lU8m
 -----END PGP SIGNATURE-----
