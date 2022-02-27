@@ -42,6 +42,7 @@ hackerrank: https://www.hackerrank.com/nhcarrigan
 ubisoft: nhcarrigan
 epic games: nhcarrigan
 origin: nhcarrigan
+battlenet: nhcarrigan#1956
 dnd beyond: https://www.dndbeyond.com/members/nhcarrigan
 roll20: https://app.roll20.net/users/9564775/nhcarrigan
 
@@ -74,17 +75,17 @@ None :)
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmIZsk8ACgkQxNKRf4Nk
-oKtJ5A/9GV0EGhhP73fi5MREVzDJi0HCAJ3m2X/OO/1vTsn4Igjh3N79kbrkipL8
-AjcUbaRDJoTQ6BFWspNq1L5D36VJ3bU5KyAXM3NJcGsY3fx5G58TRq2HHmh86Prc
-TAWQ1tLmhfQuDjar7hQMWTQsZkJQbVQzb517fBBZpjIgIopzn47xF1VcLdM1mrjL
-z7+97AOeAAtDm+N26RZNnJWhgsq5g701GIuuXENrm0KQtLWDgKelZ2OvRDHovJn6
-5FR2T59heGNE2JplUylGzf5NzeQ7bFkDN5OeHrCup6s57ZbuYnTxL0Y5DmtJ1m9I
-WmtUolHH06UbYlKsaDWt1qgP1QM71CaAp5066fKAlxDA80heh6NFjVLqHaXPxnv+
-Ze1qdRuHvdjq3Y/20jvv6N5eTOg4BE+bED+VQrIeOTG2878bBJEUG4Cggt5xIJlW
-dLpqEQkld/oyV0dZLwJVGjeCO1GO9zaApeihNWlOaFF4aOdJKtKXRbc/SbCUhb3U
-hmFP5NzFB379w++BfUVjCnQr6qUxnWXrv9Y6B7egFN5gAiUH0ajH0Pe6d1Klxqcf
-woXvYmyDg0ZjqmI1lL/Lj3MQY0V3HnauFf1diB8lG+NLJEeYsnypxmVS6tQhV630
-/isiTU4v7pOaxj/JKjp8qufLMUW7QP/MtUfJ3HGByC5wnqOVYKs=
-=lU8m
+iQIzBAEBCgAdFiEE8ed8DLK6jqEIbTinxNKRf4NkoKsFAmIbrvoACgkQxNKRf4Nk
+oKuq1g/+Ng0dAiNhM1gnkkd73zghhCussmVwAb0cyWqNQ/HMIIUh76F+erSTW0go
+S6iGSSFGQH32HkABO38+DDHrMP6hK9baoNXIWhRDIli/0ylA/PZMadaZz1eVvoI3
+4WrC6y7z6QjrGre3PjE1jE8gh3Vr5159F9kfiIXBCmTS6WwTEoXUgZflSnDaIzKs
+Py4H+Gur2bhSN1b/Pxu1cA0llKzDnLl/upL8pO473o0CwhdiwdhAKZYMPZ+Kc42z
+Z7U+fgY8+tyfnkmLQ9AyW8ZlJL9nswjpUb8A5PfrgNPq/Cz2Jt5zxKnODXSrmTmg
++98mWS71kDK4zHYscQTaPYsP0+3pNn9TSiwOjQnuVFNVq70amH/TpKhVzTPJoA9y
+BOOP3oWA4mK0u17qsg1Huha71ueYXLHzhiXKLSmwwg5Q/9a3EPv3bBy8nhEsC7/8
+W1Acx01ZuAO7x5AVO7Bt96aQeT6l0zqeP2+p3eEBf1MvYLATCmWUvgSwyGm+Sv5B
+96E6u0beBvtupr8O7F0gYaGVThcfJb8bRP+AAkG6uX6bWtqZ8h0/4vTIBxJli69B
+jvLOdEG2mjPAF0YNzX+43nt4gXlyZW0n3PcNxe9VhZ6BIg0pIJ428YgTHYCsqemd
+BYZyQ1ff2jugDak+eNOqvI75kVZPcx8uzZR870aKyXxfMdFgqro=
+=yMja
 -----END PGP SIGNATURE-----
