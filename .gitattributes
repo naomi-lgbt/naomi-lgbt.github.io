@@ -8,6 +8,7 @@
 *.png binary
 *.jpg binary
 *.cur binary
+*.gif binary
 
 # Don't touch my fonts
 *.ttf binary

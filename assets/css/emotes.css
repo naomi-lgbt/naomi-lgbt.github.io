@@ -1,0 +1,34 @@
+.emote-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.emote {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  padding: 10px;
+}
+
+.emote img {
+  width: 75%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+#model {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+a {
+  color: var(--light-blue);
+}
+
+@media screen and (max-width: 749px) {
+  .emote-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
