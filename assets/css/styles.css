@@ -3,8 +3,8 @@
   --dark-blue: #0b0080;
   --light-purple: #aea8de;
   --light-blue: #48d1cc;
-  --cursor-normal: url("/assets/img/triforce.cur");
-  --cursor-pointer: url("/assets/img/sword.cur");
+  --cursor-normal: url("/assets/img/cursor.cur");
+  --cursor-pointer: url("/assets/img/pointer.cur");
 
   /* Sponsor Colours */
   --silver-sponsor: #607d8b;
