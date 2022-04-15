@@ -1,4 +1,4 @@
-# nhcarrigan's Portfolio
+# Naomi Carrigan's Portfolio
 
 This is the repository for my home page.
 
