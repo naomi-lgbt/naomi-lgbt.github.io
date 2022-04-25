@@ -46,6 +46,8 @@ origin: nhcarrigan
 battlenet: nhcarrigan#1956
 dnd beyond: https://www.dndbeyond.com/members/nhcarrigan
 roll20: https://app.roll20.net/users/9564775/nhcarrigan
+mastodon: https://mstdn.social/web/@nhcarrigan
+tumblr: https://nhcarrigan.tumblr.com
 
 # Owned Domains
 
@@ -74,17 +76,17 @@ paypal: https://www.paypal.com/paypalme/nhcarrigan
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmJUQroACgkQa+klaYyt
-iQeFqBAAo16wYkgsCGSSooxlU2eeOnRO/pxvsAH9J9Z0Jcb1nlX82Xgi16LJr5nz
-sevO2K1kuy3OGFwG1JYgFwxRzDNgOf9HGVIucJ26QOy7BmmH9BophcLQlO4cKjNk
-zKXyoMUD4vkoW0UKmug1uyPHy9AtTSRTS9uMiEGfyB0pBL3Tx/KRDnSgc+y/z81J
-ZH4daXQvyUKdk395UKELoSj2stixFFdEM/N2UyEqU0Q4UJ32hSdT1BrWpawQfDuM
-ClyFHJ4rLEYHaVh04sELByurcagqN1U1ui0t4GwoVsD9mWEPnpKOMQEw5o870YcZ
-42Go4zeyC3LBx94bZ1vnCKsyHsQAGMJLLXumLqxDtwFJ7ASD9ThZNXR4Op63ucNx
-AMMXAO5zIxbSKkqYwcoJ31aXltDEphd5yhGu/BHnzK29Jqd97853wGG1Gx4uo2Go
-NGG3DAvD9fgwDWtyoa6G+NHl3pSNxK+ML5qX1ng6abGTgS4P6QybG9T/UKV/u5vT
-6OhJG+e7BTAmCcM6K+8sIFW5jU2qwyGY6x57PO71uU53MXuRWrEvRx62OizsFl1t
-5OTgs0BlkXgLcBCIxuZTuY2i8rbv87kx5s3kAXSAeDkf+qU+DQdvY7m/ObCALY/D
-RZvRGuJFlUttKmTGad0dOA5Hp4UHYk9A4+VVDltAfF91KUAgwv4=
-=rGwW
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmJnEq4ACgkQa+klaYyt
+iQegqg//RFzN8raTvv7sPnHZfWKZ8sVo15FSNZi1ELF0FtkyeJQcCIvNqN1EGNaX
+dQfdmWFvpEIP0o8WEK9SkuurNUE4rufOn4O10o/TMuE8HPbXjScPP+kGuJxqVlSt
+aMIGFOeyyC6K0wd78teZkFQLepvTG0CeTsjHSmlMvg0GUMHuBb6unArU8gbXEHnW
+c616rUU4C2ZmwjvjMa5HSuoXMDrq16ItP0fujkI7TIoLLVe1Qb98uVggtVjCy01R
+S/xYPyf16ntIR2gJ5lDFPrKNRt4L539nS1kjbtrufnJWEqZnhyWGMugV7Wrxx0tX
+YHS9NIcJewdNFD/VuqxZM3cTkBL1S9eHbRx+emuWRLWtPPgeNl4vqw9tVcG3tnWn
+SYgklFbDyVBDtXfotHzw9ZXLG5o8yA/a+T51PVcnvM2SS+Sl8F0Ug/iSdmGzRJSZ
+hUvX+01udB2iJbhd/RmBX6ruVFBxqBzVSECut9CnLqpCTQLjlGTU5sAHg8xVPkxd
+Jd5Co0Zy/XHhC/9c96KiOQ3DY62iyN3tBWHuQibXHHo1UU1mccCSuhhdnN459gFO
+XTBmPNWbTS1Is/N+EMidIYnYjNcu1NX6RawmO59KuQq3dI7Ja+G59gavyAar+UWC
+vlfHM73g+Ji0ts4BEPg35or3B/VvrbcRRubdhUhR34T/YViTeI4=
+=zztS
 -----END PGP SIGNATURE-----
