@@ -84,6 +84,16 @@ li {
   left: 0;
 }
 
+.dialogue {
+  display: grid;
+  grid-template-columns: 144px auto;
+}
+
+.face {
+    width: 144px;
+    height: 144px;
+}
+
 /* NES.css Overrides */
 .nes-container.is-rounded {
   background-color: rgb(174, 168, 222, 0.75);

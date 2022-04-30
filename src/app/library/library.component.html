@@ -1,0 +1,52 @@
+<div class="content">
+  <div
+    *ngIf="!openBook"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">The Library</h1>
+    <p>
+      As you walk in to this hall of knowledge, your eyes readjust to the dim
+      candle light. The first thing you notice is just how quiet it is. Which
+      makes sense, libraries are always quiet.
+    </p>
+    <p>
+      Near the entrance is a large desk. A polite but quiet woman sits there. As
+      she notices you, she waves you over. When you approach the desk, she
+      speaks to you.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/librarian.png" />
+      <p>Hello there! Was there a specific book you were looking for?</p>
+    </div>
+    <p>Which book would you like to ask about?</p>
+  </div>
+  <div *ngIf="openBook" class="nes-container with-title is-centered is-rounded">
+    <h1 class="title">{{ openBook.title }}</h1>
+    <p>
+      The librarian hands you the book you asked for. You slowly open it,
+      turning through the pages.
+    </p>
+    <div class="nes-container with-title is-centered is-dark is-rounded">
+      <p *ngFor="let line of openBook.text">{{ line }}</p>
+    </div>
+    <p>
+      Closing the book, you hand it back to the librarian, who smiles at you.
+    </p>
+    <div
+    class="nes-container with-title is-centered is-dark is-rounded dialogue"
+  >
+    <img src="assets/img/faces/librarian.png" />
+    <p>Would you like to look at another?</p>
+  </div>
+  </div>
+  <button class="nes-btn" (click)="loadBook('naomi')">Who is Naomi?</button>
+  <button class="nes-btn" (click)="loadBook('before')">
+    Before The Journey
+  </button>
+  <button class="nes-btn" (click)="loadBook('dev')">
+    The Life of a Developer
+  </button>
+  <a class="nes-btn" routerLink="/plaza">Thank her, and leave.</a>
+</div>
