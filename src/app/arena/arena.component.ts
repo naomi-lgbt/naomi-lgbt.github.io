@@ -13,8 +13,6 @@ export class ArenaComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
-
   changeView(name: string) {
     this.view = name;
     this.fights = hallOfFame;
