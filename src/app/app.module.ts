@@ -7,6 +7,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
 import { PlazaComponent } from './plaza/plaza.component';
 import { ArenaComponent } from './arena/arena.component';
+import { TavernComponent } from './tavern/tavern.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ArenaComponent } from './arena/arena.component';
     LandingComponent,
     LibraryComponent,
     PlazaComponent,
-    ArenaComponent
+    ArenaComponent,
+    TavernComponent
   ],
   imports: [
     BrowserModule,

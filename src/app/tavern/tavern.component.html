@@ -1,0 +1,135 @@
+<div class="content">
+  <div
+    *ngIf="view === 'intro'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Tavern</h1>
+    <p>
+      The smell of alcohol hits your nose instantly as you open the door to the
+      tavern. Looking around, the place is packed with tables, and each seems to
+      be occupied by multiple adventurers already.
+    </p>
+    <p>
+      At the back of the tavern seems to be the bar area. A woman stands there,
+      polishing some glasses. When she looks up and sees you, she smiles.
+    </p>
+    <p>
+      You approach the barmaid and ask about the full tables, hoping for a place
+      to sit and rest your weary legs.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/barmaid.png" class="face" />
+      <p>
+        Welcome, traveller! This is a social tavern. You are welcome to sit
+        wherever you like, your fellow adventurers are quite friendly and happy
+        to chat. And Naomi herself might even drop by!
+      </p>
+    </div>
+    <p>
+      She explains that some tables are more popular than others, and that she
+      can give you a recommendation or show you the full list.
+    </p>
+  </div>
+  <div
+    *ngIf="view === 'rec'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1>Tavern</h1>
+    <p>
+      You ask the barmaid for a list of recommended tables. She smiles and
+      slides a small sheet of paper across the bartop.
+    </p>
+    <p>You pick up the paper and read the contents.</p>
+    <div class="nes-container with-title is-centered is-dark is-rounded">
+      <p>
+        The Discord table is a great place to chat with other adventurers about
+        Naomi's fights, your own work, or even other interests such as gaming.
+      </p>
+      <p>
+        The GitHub table is where you should go if you specifically want to work
+        with other fighters to fight in the Arena.
+      </p>
+      <p>
+        The Twitter table is the place where Naomi will share quick updates
+        about her life.
+      </p>
+      <p>
+        The Steam table is all about gaming, and you might be able to play with
+        Naomi!
+      </p>
+    </div>
+    <p>Which table would you like to sit at?</p>
+  </div>
+  <div
+    *ngIf="view === 'full'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1>Tavern</h1>
+    <p>
+      You politely request the full list of available tables. The barmaid points
+      toward a poster hung in the back corner of the tavern. She also hands you
+      a small lens.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/barmaid.png" class="face" />
+      <p>
+        You'll want to use this lens to validate that no one has tampered with
+        the poster. It hasn't happened yet, but just in case...
+      </p>
+    </div>
+    <p>
+      You approach the poster and see that it is rather long. It would seem
+      there are a lot of options available for seating!
+    </p>
+    <p>Are you sure you want to read all this?</p>
+  </div>
+  <div *ngIf="view === 'rec'">
+    <a
+      class="nes-btn"
+      href="https://links.nhcarrigan.com/discord"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Discord</a
+    >
+    <a
+      class="nes-btn"
+      href="https://links.nhcarrigan.com/github"
+      target="_blank"
+      rel="noopener noreferrer"
+      >GitHub</a
+    >
+    <a
+      class="nes-btn"
+      href="https://links.nhcarrigan.com/twitter"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+    <a
+      class="nes-btn"
+      href="https://links.nhcarrigan.com/steam"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Steam</a
+    >
+  </div>
+  <div *ngIf="view === 'full'">
+    <a class="nes-btn" target="_blank" href="/assets/data/verify.txt"
+      >Read the Poster</a
+    >
+    <a class="nes-btn" target="_blank" href="/assets/data/key.txt"
+      >Examine the Lens</a
+    >
+  </div>
+  <button *ngIf="view !== 'rec'" class="nes-btn" (click)="changeView('rec')">
+    Ask for Recommendations
+  </button>
+  <button *ngIf="view !== 'full'" class="nes-btn" (click)="changeView('full')">
+    See the Full List
+  </button>
+  <a class="nes-btn" routerLink="/plaza">Stay sober and go outside</a>
+</div>
