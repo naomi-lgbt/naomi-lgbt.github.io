@@ -1,0 +1,85 @@
+<div class="content">
+  <div
+    *ngIf="view === 'intro'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Training Hall</h1>
+    <p>
+      You decide to check out the training hall, where students can be seen
+      sparring with each other in the front gardens. Walking past them all, you
+      enter the building.
+    </p>
+    <p>
+      Inside, you see instructors walking students through some drills. Swinging
+      their weapons at straw dummies, every student is hard at work. One of the
+      instructors turns to you.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/trainer.png" class="face" />
+      <p>Hello there! Here for some training?</p>
+    </div>
+    <p>You nod politely, interested to see how this all works.</p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/trainer.png" class="face" />
+      <p>
+        Very good! The best training starts with reviewing past adventurers'
+        success. In this case, we'll look at some of Naomi's travels.
+      </p>
+    </div>
+    <p>She turns and walks off, motioning for you to come with her.</p>
+  </div>
+  <div
+    *ngIf="view === 'games'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Training Hall</h1>
+    <p>
+      You follow the instructor into a small room. Scattered around the room are
+      various scrolls, each depicting one of Naomi's adventures.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/trainer.png" class="face" />
+      <p>
+        Spend some time studying these. Learn from them. When your learning is
+        sufficient, we can proceed.
+      </p>
+    </div>
+    <p>
+      She turns and walks out of the room, closing the door behind her. You're
+      left to browse the scrolls at your leisure.
+    </p>
+  </div>
+  <div
+    *ngIf="view === 'games'"
+    class="nes-container is-rounded is-centered games-grid"
+  >
+    <div *ngFor="let game of games" class="game">
+      <a href="/assets/img/games/{{ game.fileName }}" target="_blank">
+        <img
+          src="/assets/img/games/{{ game.fileName }}"
+          alt="{{ game.game }}"
+        />
+      </a>
+      <p class="game-title">{{ game.game }}</p>
+    </div>
+  </div>
+  <button
+    *ngIf="view !== 'games'"
+    class="nes-btn"
+    (click)="changeView('games')"
+  >
+    Follow the instructor
+  </button>
+  <a *ngIf="view !== 'games'" class="nes-btn" routerLink="/plaza"
+    >This is too hard - Back outside!</a
+  >
+  <a *ngIf="view === 'games'" class="nes-btn" routerLink="/plaza"
+    >That's enough for today</a
+  >
+</div>

@@ -9,6 +9,7 @@ import { PlazaComponent } from './plaza/plaza.component';
 import { ArenaComponent } from './arena/arena.component';
 import { TavernComponent } from './tavern/tavern.component';
 import { MuseumComponent } from './museum/museum.component';
+import { TrainingHallComponent } from './training-hall/training-hall.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MuseumComponent } from './museum/museum.component';
     PlazaComponent,
     ArenaComponent,
     TavernComponent,
-    MuseumComponent
+    MuseumComponent,
+    TrainingHallComponent
   ],
   imports: [
     BrowserModule,
