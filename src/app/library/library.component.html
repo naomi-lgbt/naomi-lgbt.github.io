@@ -17,7 +17,11 @@
     <div
       class="nes-container with-title is-centered is-dark is-rounded dialogue"
     >
-      <img src="assets/img/faces/librarian.png" class="face"/>
+      <img
+        src="assets/img/faces/librarian.png"
+        class="face"
+        alt="librarian's face"
+      />
       <p>Hello there! Was there a specific book you were looking for?</p>
     </div>
     <p>Which book would you like to ask about?</p>
@@ -35,17 +39,35 @@
       Closing the book, you hand it back to the librarian, who smiles at you.
     </p>
     <div
-    class="nes-container with-title is-centered is-dark is-rounded dialogue"
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/faces/librarian.png"
+        class="face"
+        alt="librarian's face"
+      />
+      <p>Would you like to look at another?</p>
+    </div>
+  </div>
+  <button
+    *ngIf="openBook?.key !== 'naomi'"
+    class="nes-btn"
+    (click)="loadBook('naomi')"
   >
-    <img src="assets/img/faces/librarian.png" class="face"/>
-    <p>Would you like to look at another?</p>
-  </div>
-  </div>
-  <button *ngIf="openBook?.key !== 'naomi'" class="nes-btn" (click)="loadBook('naomi')">Who is Naomi?</button>
-  <button *ngIf="openBook?.key !== 'before'" class="nes-btn" (click)="loadBook('before')">
+    Who is Naomi?
+  </button>
+  <button
+    *ngIf="openBook?.key !== 'before'"
+    class="nes-btn"
+    (click)="loadBook('before')"
+  >
     Before The Journey
   </button>
-  <button *ngIf="openBook?.key !== 'dev'" class="nes-btn" (click)="loadBook('dev')">
+  <button
+    *ngIf="openBook?.key !== 'dev'"
+    class="nes-btn"
+    (click)="loadBook('dev')"
+  >
     The Life of a Developer
   </button>
   <a class="nes-btn" routerLink="/plaza">Thank her, and leave</a>
