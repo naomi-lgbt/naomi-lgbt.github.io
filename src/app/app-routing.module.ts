@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ArenaComponent } from './arena/arena.component';
+import { CastleComponent } from './castle/castle.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
 import { MuseumComponent } from './museum/museum.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'museum', component: MuseumComponent },
   { path: 'training-hall', component: TrainingHallComponent },
   { path: 'temple', component: TempleComponent },
+  { path: 'castle', component: CastleComponent },
 ];
 
 @NgModule({

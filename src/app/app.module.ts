@@ -11,6 +11,7 @@ import { TavernComponent } from './tavern/tavern.component';
 import { MuseumComponent } from './museum/museum.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
 import { TempleComponent } from './temple/temple.component';
+import { CastleComponent } from './castle/castle.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TempleComponent } from './temple/temple.component';
     TavernComponent,
     MuseumComponent,
     TrainingHallComponent,
-    TempleComponent
+    TempleComponent,
+    CastleComponent
   ],
   imports: [
     BrowserModule,
