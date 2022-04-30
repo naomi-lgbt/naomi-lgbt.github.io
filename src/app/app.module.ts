@@ -12,6 +12,7 @@ import { MuseumComponent } from './museum/museum.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
 import { TempleComponent } from './temple/temple.component';
 import { CastleComponent } from './castle/castle.component';
+import { ConfirmComponent } from './confirm/confirm.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CastleComponent } from './castle/castle.component';
     MuseumComponent,
     TrainingHallComponent,
     TempleComponent,
-    CastleComponent
+    CastleComponent,
+    ConfirmComponent
   ],
   imports: [
     BrowserModule,
