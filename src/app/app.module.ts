@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
 import { PlazaComponent } from './plaza/plaza.component';
+import { ArenaComponent } from './arena/arena.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     LibraryComponent,
-    PlazaComponent
+    PlazaComponent,
+    ArenaComponent
   ],
   imports: [
     BrowserModule,

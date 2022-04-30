@@ -86,12 +86,12 @@ li {
 
 .dialogue {
   display: grid;
-  grid-template-columns: 144px auto;
+  grid-template-columns: 100px auto;
 }
 
 .face {
-    width: 144px;
-    height: 144px;
+    width: 100px;
+    height: 100px;
 }
 
 /* NES.css Overrides */
