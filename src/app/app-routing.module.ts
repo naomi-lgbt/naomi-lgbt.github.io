@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ArenaComponent } from './arena/arena.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
+import { MuseumComponent } from './museum/museum.component';
 import { PlazaComponent } from './plaza/plaza.component';
 import { TavernComponent } from './tavern/tavern.component';
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'library', component: LibraryComponent },
   { path: 'arena', component: ArenaComponent },
   { path: 'tavern', component: TavernComponent },
+  { path: 'museum', component: MuseumComponent },
 ];
 
 @NgModule({

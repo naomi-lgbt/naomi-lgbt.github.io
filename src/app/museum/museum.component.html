@@ -1,0 +1,108 @@
+<div class="content">
+  <div
+    *ngIf="view === 'intro'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Museum</h1>
+    <p>
+      Entering the museum, you notice it is quite large and seems to be filled
+      with art. On closer examination, all of that art seems to be of Naomi.
+    </p>
+    <p>A young woman greets you at the door, smiling warmly.</p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/curator.png" class="face" />
+      <p>
+        Welcome to the Avalon Museum! Would you like to hear more about our
+        exhibits?
+      </p>
+    </div>
+    <p>You nod politely, wondering what exactly this place has to offer.</p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img src="assets/img/faces/curator.png" class="face" />
+      <p>
+        We currently have two exhibits. Our portrait exhibit is the most
+        popular, but we also have a special "Emotion" exhibit.
+      </p>
+    </div>
+    <p>Which exhibit would you like to see?</p>
+  </div>
+  <div
+    *ngIf="view === 'portrait'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Museum</h1>
+    <p>
+      She leads you to a hall filled with paintings, each one a detailed and
+      loving rendition of Naomi. You spend some time browsing the works.
+    </p>
+  </div>
+  <div
+    *ngIf="view === 'portrait'"
+    class="nes-container is-rounded is-centered art-grid"
+  >
+    <div *ngFor="let art of portraits" class="art">
+      <a href="/assets/img/art/{{ art.fileName }}" target="_blank">
+        <img src="/assets/img/art/{{ art.fileName }}" alt="Naomi" />
+      </a>
+      <p class="art-title">
+        By
+        <a href="{{ art.url }}" target="_blank" rel="noopener noreferrer">{{
+          art.artist
+        }}</a>
+      </p>
+    </div>
+  </div>
+  <div
+    *ngIf="view === 'emote'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Museum</h1>
+    <p>
+      She leads you into a room off to the side, almost as if this exhibit was
+      an after-thought. As you enter, the first thing that catches your eye is a
+      statue of Naomi.
+    </p>
+    <p>
+      This statue, interestingly enough, appears to be moving. It would seem
+      that there is magic at work here.
+    </p>
+    <a href="/assets/img/model.gif" target="_blank">
+      <img id="model" src="/assets/img/model.gif" alt="My VTuber model" />
+    </a>
+    <p>
+      Beyond the statue, you see smaller sculptures of Naomi making various
+      expressions. You now understand the reason for this exhibit's name, at
+      least.
+    </p>
+  </div>
+  <div
+    *ngIf="view === 'emote'"
+    class="nes-container is-rounded is-centered emote-grid"
+  >
+    <div *ngFor="let emote of emotes" class="emote">
+      <a href="/assets/img/emotes/{{ emote.fileName }}" target="_blank">
+        <img src="/assets/img/emotes/{{ emote.fileName }}" alt="Naomi" />
+      </a>
+      <p class="emote-title">{{ emote.name }}</p>
+    </div>
+  </div>
+  <button
+    *ngIf="view !== 'portrait'"
+    class="nes-btn"
+    (click)="changeView('portrait')"
+  >
+    Portrait Exhibit
+  </button>
+  <button
+    *ngIf="view !== 'emote'"
+    class="nes-btn"
+    (click)="changeView('emote')"
+  >
+    Emotion Exhibit
+  </button>
+  <a class="nes-btn" routerLink="/plaza">Enough art for now</a>
+</div>

@@ -8,6 +8,7 @@ import { LibraryComponent } from './library/library.component';
 import { PlazaComponent } from './plaza/plaza.component';
 import { ArenaComponent } from './arena/arena.component';
 import { TavernComponent } from './tavern/tavern.component';
+import { MuseumComponent } from './museum/museum.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TavernComponent } from './tavern/tavern.component';
     LibraryComponent,
     PlazaComponent,
     ArenaComponent,
-    TavernComponent
+    TavernComponent,
+    MuseumComponent
   ],
   imports: [
     BrowserModule,

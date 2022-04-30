@@ -14,5 +14,6 @@ export class TavernComponent implements OnInit {
 
   changeView(name: string) {
     this.view = name;
+    window.scrollTo({ top: 0 });
   }
 }
