@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { hallOfFame } from 'src/assets/data/hallOfFame';
 
@@ -11,6 +12,7 @@ describe('ArenaComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ArenaComponent],
+      imports: [HttpClientModule],
     }).compileComponents();
     fixture = TestBed.createComponent(ArenaComponent);
     component = fixture.componentInstance;
@@ -36,7 +38,7 @@ describe('ArenaComponent', () => {
     expect(buttons[2].textContent.trim()).toBe('Inquire about fighting');
     expect(buttons[3].tagName).toBe('A');
     expect(buttons[3].textContent.trim()).toBe('Change your mind and leave');
-    expect(buttons[3].getAttribute('routerLink')).toBe('/plaza')
+    expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it('should load the hof view correctly', () => {
@@ -67,14 +69,16 @@ describe('ArenaComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title.textContent.trim()).toBe('Arena');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(3);
+    expect(buttons.length).toBe(4);
     expect(buttons[0].tagName).toBe('BUTTON');
-    expect(buttons[0].textContent.trim()).toBe('See the Hall of Fame');
+    expect(buttons[0].textContent.trim()).toBe('Reload History');
     expect(buttons[1].tagName).toBe('BUTTON');
-    expect(buttons[1].textContent.trim()).toBe('Inquire about fighting');
-    expect(buttons[2].tagName).toBe('A');
-    expect(buttons[2].textContent.trim()).toBe('Change your mind and leave');
-    expect(buttons[2].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[1].textContent.trim()).toBe('See the Hall of Fame');
+    expect(buttons[2].tagName).toBe('BUTTON');
+    expect(buttons[2].textContent.trim()).toBe('Inquire about fighting');
+    expect(buttons[3].tagName).toBe('A');
+    expect(buttons[3].textContent.trim()).toBe('Change your mind and leave');
+    expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it('should load the fight view correctly', () => {
@@ -88,7 +92,9 @@ describe('ArenaComponent', () => {
     expect(buttons.length).toBe(4);
     expect(buttons[0].tagName).toBe('A');
     expect(buttons[0].textContent.trim()).toBe('Read the Scroll');
-    expect(buttons[0].getAttribute('href')).toBe('https://contribute.nhcarrigan.com');
+    expect(buttons[0].getAttribute('href')).toBe(
+      'https://contribute.nhcarrigan.com'
+    );
     expect(buttons[1].tagName).toBe('BUTTON');
     expect(buttons[1].textContent.trim()).toBe('See the Hall of Fame');
     expect(buttons[2].tagName).toBe('BUTTON');

@@ -32,8 +32,8 @@
         alt="arena master's face"
       />
       <p>
-        This is a good place to be, then. Naomi is currently not fighting, but
-        you can see her hall of fame. Or did you want to enter a fight yourself?
+        This is a good place to be, then. Naomi might be fighting, or you can
+        see her hall of fame. Or did you want to enter a fight yourself?
       </p>
     </div>
   </div>
@@ -79,34 +79,29 @@
   >
     <h1 class="title">Arena</h1>
     <p>
-      Despite the arena master explaining that there are no fights going on, you
-      choose to ask if you can watch a fight. She looks annoyed, but before she
-      can speak another voice calls out to you.
+      The arena master checks the current schedule of matches, and shows you the
+      current fight.
     </p>
-    <p>
-      You turn to see who is speaking, only to realise that Naomi herself is
-      walking toward you.
+    <img
+      height="259"
+      src="https://rpc.nhcarrigan.com"
+      alt="Naomi's current activity."
+    />
+    <p *ngIf="!activities.length">
+      She then explains that there haven't been any recent fights to show you.
+    </p>
+    <p *ngIf="activities.length">
+      She also hands you a list of the recent fights.
     </p>
     <div
-      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+      *ngFor="let activity of activities"
+      class="nes-container with-title is-centered is-dark is-rounded"
     >
-      <img
-        src="assets/img/faces/naomi.png"
-        class="face"
-        alt="arena master's face"
-      />
-      <p>
-        Welcome to Avalon! I am very sorry, but while I am almost always
-        fighting bugs, our arena is under maintenance. At some point you will be
-        able to come here and see me fight in real time, but unfortunately today
-        is not the day.
-      </p>
+      <h2 class="title">{{ activity.title }}</h2>
+      <p>{{ activity.description }}</p>
+      <p>Match Occurred: {{ activity.date }}</p>
     </div>
-    <p>
-      She politely thanks you for coming before heading out, leaving you and the
-      arena master both stunned. After collecting herself, the arena master
-      turns to ask if you needed anything else.
-    </p>
+    <p>Finally, she asks if there was anything else you needed.</p>
   </div>
   <div
     *ngIf="view === 'fight'"
@@ -139,6 +134,7 @@
     target="_blank"
     >Read the Scroll</a
   >
+  <button *ngIf="view === 'watch'" class="nes-btn" (click)="bustCache()">Reload History</button>
   <button *ngIf="view !== 'hof'" class="nes-btn" (click)="changeView('hof')">
     See the Hall of Fame
   </button>

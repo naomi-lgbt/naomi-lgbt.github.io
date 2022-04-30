@@ -14,6 +14,8 @@ import { TempleComponent } from './temple/temple.component';
 import { CastleComponent } from './castle/castle.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LostComponent } from './lost/lost.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ActivityService } from './activity.service';
 
 @NgModule({
   declarations: [
@@ -28,13 +30,10 @@ import { LostComponent } from './lost/lost.component';
     TempleComponent,
     CastleComponent,
     ConfirmComponent,
-    LostComponent
+    LostComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  providers: [ActivityService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
