@@ -33,7 +33,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: var(--dark-purple);
-  font: "Press Start 2P";
+  font: "Press Start 2P", Courier;
   text-align: center;
 }
 
