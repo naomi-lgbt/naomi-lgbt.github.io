@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
+import { PlazaComponent } from './plaza/plaza.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    LibraryComponent
+    LibraryComponent,
+    PlazaComponent
   ],
   imports: [
     BrowserModule,
