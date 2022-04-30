@@ -6,6 +6,7 @@ import { LibraryComponent } from './library/library.component';
 import { MuseumComponent } from './museum/museum.component';
 import { PlazaComponent } from './plaza/plaza.component';
 import { TavernComponent } from './tavern/tavern.component';
+import { TempleComponent } from './temple/temple.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'tavern', component: TavernComponent },
   { path: 'museum', component: MuseumComponent },
   { path: 'training-hall', component: TrainingHallComponent },
+  { path: 'temple', component: TempleComponent },
 ];
 
 @NgModule({
