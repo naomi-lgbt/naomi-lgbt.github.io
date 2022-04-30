@@ -3,7 +3,7 @@
     *ngIf="!openBook"
     class="nes-container with-title is-centered is-rounded"
   >
-    <h1 class="title">The Library</h1>
+    <h1 class="title">Library</h1>
     <p>
       As you walk in to this hall of knowledge, your eyes readjust to the dim
       candle light. The first thing you notice is just how quiet it is. Which
@@ -41,12 +41,12 @@
     <p>Would you like to look at another?</p>
   </div>
   </div>
-  <button class="nes-btn" (click)="loadBook('naomi')">Who is Naomi?</button>
-  <button class="nes-btn" (click)="loadBook('before')">
+  <button *ngIf="openBook?.key !== 'naomi'" class="nes-btn" (click)="loadBook('naomi')">Who is Naomi?</button>
+  <button *ngIf="openBook?.key !== 'before'" class="nes-btn" (click)="loadBook('before')">
     Before The Journey
   </button>
-  <button class="nes-btn" (click)="loadBook('dev')">
+  <button *ngIf="openBook?.key !== 'dev'" class="nes-btn" (click)="loadBook('dev')">
     The Life of a Developer
   </button>
-  <a class="nes-btn" routerLink="/plaza">Thank her, and leave.</a>
+  <a class="nes-btn" routerLink="/plaza">Thank her, and leave</a>
 </div>

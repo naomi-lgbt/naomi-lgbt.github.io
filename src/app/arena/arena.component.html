@@ -43,14 +43,14 @@
     </p>
     <div
       *ngFor="let fight of fights"
-      class="nes-container with-title is-centered is-rounded is-dark"
+      class="nes-container with-title is-centered is-rounded is-dark fight"
     >
       <h2 class="title">{{ fight.name }}</h2>
       <p>{{ fight.description }}</p>
       <a
         *ngIf="fight.liveUrl"
         href="{{ fight.liveUrl }}"
-        class="nes-btn"
+        class="nes-btn fight-btn"
         target="_blank"
         rel="noopener noreferrer"
         >View Project</a
@@ -58,7 +58,7 @@
       <a
         *ngIf="fight.codeUrl"
         href="{{ fight.codeUrl }}"
-        class="nes-btn"
+        class="nes-btn fight-btn"
         target="_blank"
         rel="noopener noreferrer"
         >View Code</a
