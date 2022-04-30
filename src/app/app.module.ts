@@ -13,6 +13,7 @@ import { TrainingHallComponent } from './training-hall/training-hall.component';
 import { TempleComponent } from './temple/temple.component';
 import { CastleComponent } from './castle/castle.component';
 import { ConfirmComponent } from './confirm/confirm.component';
+import { LostComponent } from './lost/lost.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ConfirmComponent } from './confirm/confirm.component';
     TrainingHallComponent,
     TempleComponent,
     CastleComponent,
-    ConfirmComponent
+    ConfirmComponent,
+    LostComponent
   ],
   imports: [
     BrowserModule,

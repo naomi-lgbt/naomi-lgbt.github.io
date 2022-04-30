@@ -5,6 +5,7 @@ import { CastleComponent } from './castle/castle.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
+import { LostComponent } from './lost/lost.component';
 import { MuseumComponent } from './museum/museum.component';
 import { PlazaComponent } from './plaza/plaza.component';
 import { TavernComponent } from './tavern/tavern.component';
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'temple', component: TempleComponent },
   { path: 'castle', component: CastleComponent },
   { path: 'confirm', component: ConfirmComponent },
+  // wildcard route for 404 - ALL routes go above this :)
+  { path: '**', component: LostComponent },
 ];
 
 @NgModule({
