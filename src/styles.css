@@ -90,8 +90,8 @@ li {
 }
 
 .face {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 /* NES.css Overrides */
@@ -123,4 +123,10 @@ li {
 
 .nes-btn {
   cursor: var(--cursor-pointer), pointer;
+}
+
+@media (max-width: 1100px) {
+  .corner {
+    display: none;
+  }
 }
