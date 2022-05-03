@@ -54,7 +54,7 @@
   >
     <div *ngFor="let art of portraits" class="art">
       <a href="/assets/img/art/{{ art.fileName }}" target="_blank">
-        <img src="/assets/img/art/{{ art.fileName }}" alt="Naomi" />
+        <img src="/assets/img/art/{{ art.fileName }}" alt="{{ art.alt }}" />
       </a>
       <p class="art-title">
         By
