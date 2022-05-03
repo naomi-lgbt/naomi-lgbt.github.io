@@ -61,4 +61,9 @@ export const portraits: Portrait[] = [
     artist: 'Pyralsprites',
     url: 'https://twitter.com/pyralsprites',
   },
+  {
+    fileName: 'scarlet.jpg',
+    artist: 'Scarlet',
+    url: 'https://twitter.com/nyaaawlet'
+  }
 ];
