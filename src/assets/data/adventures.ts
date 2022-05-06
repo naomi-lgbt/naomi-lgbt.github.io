@@ -18,6 +18,10 @@ export const adventures: Adventure[] = [
     game: 'Dynasty Warriors 8',
   },
   {
+    fileName: 'dynasty-warriors-9.jpg',
+    game: 'Dynasty Warriors 9',
+  },
+  {
     fileName: 'elden-ring.jpg',
     game: 'Elden Ring',
   },
