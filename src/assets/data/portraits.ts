@@ -79,4 +79,10 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/nyaaawlet',
     alt: 'Naomi lying on her bed',
   },
+  {
+    fileName: 'feito5.png',
+    artist: 'feito161',
+    url: 'https://twitter.com/feito161',
+    alt: 'Naomi sitting on her knees, looking up at you with a tired expression',
+  },
 ];
