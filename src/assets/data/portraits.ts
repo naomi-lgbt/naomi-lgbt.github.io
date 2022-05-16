@@ -91,4 +91,10 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/sherhan3666',
     alt: 'Naomi laying in bed',
   },
+  {
+    fileName: 'starfazers.png',
+    artist: 'Starfazers',
+    url: 'https://starfazers.art',
+    alt: 'Naomi crouching down with her tongue stuck out.',
+  },
 ];
