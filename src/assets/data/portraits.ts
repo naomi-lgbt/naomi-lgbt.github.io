@@ -97,4 +97,10 @@ export const portraits: Portrait[] = [
     url: 'https://starfazers.art',
     alt: 'Naomi crouching down with her tongue stuck out.',
   },
+  {
+    fileName: 'feito6.png',
+    artist: 'feito161',
+    url: 'https://twitter.com/feito161',
+    alt: 'Naomi sitting, hugging her legs'
+  }
 ];
