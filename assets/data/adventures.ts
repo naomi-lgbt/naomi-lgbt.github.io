@@ -58,6 +58,10 @@ export const adventures: Adventure[] = [
     game: 'Soul Calibur VI',
   },
   {
+    fileName: 'swtor.jpg',
+    game: 'Star Wars: The Old Republic',
+  },
+  {
     fileName: 'sunset-overdrive.jpg',
     game: 'Sunset Overdrive',
   },
