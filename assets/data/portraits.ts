@@ -104,7 +104,7 @@ export const portraits: Portrait[] = [
     alt: 'Naomi sitting, hugging her legs',
   },
   {
-    fileName: 'AidenRO.png',
+    fileName: 'AidenR0.png',
     artist: 'Aiden',
     url: 'https://twitter.com/AidenR0',
     alt: 'Naomi sitting with her legs extended',
