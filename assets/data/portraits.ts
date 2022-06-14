@@ -101,6 +101,12 @@ export const portraits: Portrait[] = [
     fileName: 'feito6.png',
     artist: 'feito161',
     url: 'https://twitter.com/feito161',
-    alt: 'Naomi sitting, hugging her legs'
-  }
+    alt: 'Naomi sitting, hugging her legs',
+  },
+  {
+    fileName: 'AidenRO.png',
+    artist: 'Aiden',
+    url: 'https://twitter.com/AidenR0',
+    alt: 'Naomi sitting with her legs extended',
+  },
 ];
