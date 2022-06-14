@@ -42,6 +42,10 @@ export const adventures: Adventure[] = [
     game: 'Pathfinder: Wrath of the Righteous',
   },
   {
+    fileName: 'saints-row-boss-factory.png',
+    game: 'Saints Row: Boss Factory',
+  },
+  {
     fileName: 'saints-row-3.jpg',
     game: 'Saints Row the Third',
   },
