@@ -4,7 +4,7 @@ This is the repository for my home page.
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://www.nhcarrigan.com)
+This page is currently deployed. [View the live website.](https://www.naomi.lgbt/)
 
 ## Feedback and Bugs
 
