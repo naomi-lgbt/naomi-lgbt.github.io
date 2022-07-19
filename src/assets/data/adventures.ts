@@ -50,6 +50,10 @@ export const adventures: Adventure[] = [
     game: 'Saints Row the Third',
   },
   {
+    fileName: 'saints-row-4.jpg',
+    game: 'Saints Row IV',
+  },
+  {
     fileName: 'sims-4.png',
     game: 'The Sims 4',
   },
