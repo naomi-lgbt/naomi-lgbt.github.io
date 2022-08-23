@@ -78,7 +78,7 @@ export const adventures: Adventure[] = [
     game: 'Sunset Overdrive',
   },
   {
-    fileName: 'tower-of-fantasy.jpg',
+    fileName: 'tower-of-fantasy.png',
     game: 'Tower of Fantasy',
   },
 ];
