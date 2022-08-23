@@ -44,6 +44,7 @@ describe('TailorComponent', () => {
       expect(description?.textContent?.trim()).toBe(Outfits[index].description);
       const image = outfit.querySelector('.outfit-img');
       expect(image?.getAttribute('src')).toContain(Outfits[index].fileName);
+      expect(image?.getAttribute('alt')).toBe(Outfits[index].alt);
     });
   });
 });
