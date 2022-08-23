@@ -16,6 +16,7 @@ import { ConfirmComponent } from './confirm/confirm.component';
 import { LostComponent } from './lost/lost.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ActivityService } from './activity.service';
+import { TailorComponent } from './tailor/tailor.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ActivityService } from './activity.service';
     CastleComponent,
     ConfirmComponent,
     LostComponent,
+    TailorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [ActivityService],

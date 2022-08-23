@@ -25,7 +25,7 @@ describe('PlazaComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title.textContent.trim()).toBe('Town Plaza');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(7);
+    expect(buttons.length).toBe(8);
     expect(buttons[0].tagName).toBe('A');
     expect(buttons[0].textContent.trim()).toBe('Library');
     expect(buttons[0].getAttribute('routerLink')).toBe('/library');
@@ -42,10 +42,13 @@ describe('PlazaComponent', () => {
     expect(buttons[4].textContent.trim()).toBe('Training Hall');
     expect(buttons[4].getAttribute('routerLink')).toBe('/training-hall');
     expect(buttons[5].tagName).toBe('A');
-    expect(buttons[5].textContent.trim()).toBe('Temple');
-    expect(buttons[5].getAttribute('routerLink')).toBe('/temple');
+    expect(buttons[5].textContent.trim()).toBe('Tailor');
+    expect(buttons[5].getAttribute('routerLink')).toBe('/tailor');
     expect(buttons[6].tagName).toBe('A');
-    expect(buttons[6].textContent.trim()).toBe('Castle');
-    expect(buttons[6].getAttribute('routerLink')).toBe('/castle');
+    expect(buttons[6].textContent.trim()).toBe('Temple');
+    expect(buttons[6].getAttribute('routerLink')).toBe('/temple');
+    expect(buttons[7].tagName).toBe('A');
+    expect(buttons[7].textContent.trim()).toBe('Castle');
+    expect(buttons[7].getAttribute('routerLink')).toBe('/castle');
   });
 });
