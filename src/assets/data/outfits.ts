@@ -24,6 +24,24 @@ export const Outfits: Outfit[] = [
     description: 'She wears this to sleep, not in public.',
   },
   {
+    name: 'Swimwear',
+    fileName: 'swimwear.png',
+    description:
+      'Even Naomi enjoys a trip to the beach. She usually wears a shawl though - being a bit sensitive to the sun.',
+  },
+  {
+    name: 'Maid Outfit',
+    fileName: 'maid.png',
+    description:
+      'One might argue that Naomi wears this for cleaning, but really maid outfits are just loads of fun.',
+  },
+  {
+    name: 'Miku Costume',
+    fileName: 'miku.png',
+    description:
+      "Who doesn't want to cosplay Hatsune Miku? Naomi definitely pulls it off well.",
+  },
+  {
     name: 'Witch Costume',
     fileName: 'witch.png',
     description:
