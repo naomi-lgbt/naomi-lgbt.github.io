@@ -6,6 +6,10 @@ export const adventures: Adventure[] = [
     game: 'Code Vein',
   },
   {
+    fileName: 'cyberpunk-2077.jpg',
+    game: 'Cyberpunk 2077',
+  },
+  {
     fileName: 'dos-2.jpg',
     game: 'Divinity: Original Sin II',
   },
@@ -72,5 +76,9 @@ export const adventures: Adventure[] = [
   {
     fileName: 'sunset-overdrive.jpg',
     game: 'Sunset Overdrive',
+  },
+  {
+    fileName: 'tower-of-fantasy.png',
+    game: 'Tower of Fantasy',
   },
 ];

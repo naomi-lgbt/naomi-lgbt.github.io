@@ -109,4 +109,10 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/AidenR0',
     alt: 'Naomi sitting with her legs extended',
   },
+  {
+    fileName: 'tokkipon3.png',
+    artist: 'Tokkipon',
+    url: 'https://twitter.com/tokkiponn',
+    alt: 'Naomi extending her arms as if offering a hug',
+  },
 ];
