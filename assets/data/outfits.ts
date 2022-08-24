@@ -42,6 +42,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi in a stereotypical maid outfit with a galaxy print. Her long hair is let down.',
   },
   {
+    name: 'School Uniform',
+    fileName: 'school.png',
+    description:
+      'While it has been a while since Naomi has been in school, she still has her uniform. It even still fits.',
+    alt: 'Naomi wearing a black sailor fuku and pleated skirt, her hair in her typical ponytail.',
+  },
+  {
     name: 'Miku Costume',
     fileName: 'miku.png',
     description:
