@@ -116,7 +116,7 @@ export const portraits: Portrait[] = [
     alt: 'Naomi extending her arms as if offering a hug',
   },
   {
-    fileName: 'tokkipon5.png',
+    fileName: 'tokkipon5.jpg',
     artist: 'Tokkipon',
     url: 'https://twitter.com/tokkiponn',
     alt: 'Naomi winking with a finger on her lips, wearing Miku-inspired lingerie.',
