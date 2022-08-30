@@ -121,4 +121,10 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/tokkiponn',
     alt: 'Naomi winking with a finger on her lips, wearing Miku-inspired lingerie.',
   },
+  {
+    fileName: 'kuroii_fox.jpg',
+    artist: 'KuroiiFox',
+    url: 'https://twitter.com/Kuroii_Fox',
+    alt: 'Naomi in her shrine maiden outfit, surrounded by a magical aura and sakura petals.',
+  },
 ];
