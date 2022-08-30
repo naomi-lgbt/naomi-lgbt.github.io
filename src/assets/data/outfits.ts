@@ -43,6 +43,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black dress with fishnet sleeves, her hair in twin braids.',
   },
   {
+    name: 'Kimono',
+    fileName: 'kimono.png',
+    description:
+      "Also suitable for formal wear, Naomi's kimono is one of her favourite outfits.",
+    alt: 'Naomi wearing a black kimono, with her hair in tight side-buns.',
+  },
+  {
     name: 'Cocktail Dress',
     fileName: 'cocktail.png',
     description:
