@@ -64,6 +64,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black long-sleeve ankle-length dress with white lace on the hems. ',
   },
   {
+    name: 'Overlord Coat',
+    fileName: 'overlord.png',
+    description:
+      "Sometimes you just need to look the part when you're an evil overlord!",
+    alt: 'Naomi wearing an intimidating black trench coat over her normal outfit.',
+  },
+  {
     name: 'Sleepwear',
     fileName: 'sleep.png',
     description: 'She wears this to sleep, not in public.',
@@ -82,6 +89,13 @@ export const Outfits: Outfit[] = [
     description:
       'While not her typical black attire, Naomi saw this and fell in love with the space theme.',
     alt: 'Naomi wearing a blue/purple dress with off-the-shoulder sleeves, star patterns in the fabric, and a moon-shaped cutout in the chest. Her hair is in her typical ponytail.',
+  },
+  {
+    name: 'Flower Dress',
+    fileName: 'flower.png',
+    description:
+      'This was a gift from a friend who was visiting from another world. Naomi loves the floral pattern.',
+    alt: 'Naomi wearing a black-blue dress with a floral pattern, her hair in a ponytail.',
   },
   {
     name: 'Leather Outfit',
