@@ -21,8 +21,11 @@
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
     "angular-cli-ghpages": "^1.0.0",
+    "ng-particles": "^3.2.4",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "tsparticles": "^2.2.4",
+    "tsparticles-engine": "^2.2.4",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
