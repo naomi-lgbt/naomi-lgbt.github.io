@@ -17,6 +17,7 @@ import { LostComponent } from './lost/lost.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,12 @@ import { TailorComponent } from './tailor/tailor.component';
     LostComponent,
     TailorComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    NgParticlesModule,
+  ],
   providers: [ActivityService],
   bootstrap: [AppComponent],
 })
