@@ -64,7 +64,7 @@ export const ParticleOptions = {
     },
     links: {
       color: 'random',
-      enable: true,
+      enable: false,
     },
     collisions: {
       enable: true,
@@ -95,7 +95,7 @@ export const ParticleOptions = {
         minimumValue: 1,
         speed: 3,
       },
-      value: 3,
+      value: 5,
       random: {
         enable: true,
         minimumValue: 1,
