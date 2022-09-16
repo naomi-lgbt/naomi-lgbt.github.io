@@ -98,6 +98,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black-blue dress with a floral pattern, her hair in a ponytail.',
   },
   {
+    name: 'Strappy Outfit',
+    fileName: 'strappy.png',
+    description:
+      'Naomi thought this dress was rather elegant, and the gold ribbon was a nice touch. She may have modified the shoes, though.',
+    alt: 'Naomi wearing a black Victorian style dress with gold ribbon laced across her arms and legs.',
+  },
+  {
     name: 'Leather Outfit',
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
