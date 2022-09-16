@@ -127,4 +127,16 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/Kuroii_Fox',
     alt: 'Naomi in her shrine maiden outfit, surrounded by a magical aura and sakura petals.',
   },
+  {
+    fileName: 'magicjellybeanz.jpg',
+    artist: 'MagicJellyBeanz',
+    url: 'https://twitter.com/magicjellybeanz',
+    alt: 'Naomi in her casual dress, her hair frizzy.',
+  },
+  {
+    fileName: 'feito7.png',
+    artist: 'feito161',
+    url: 'https://twitter.com/feito161',
+    alt: 'Naomi sitting with her hands clasped and her legs stretched out toward you.',
+  },
 ];
