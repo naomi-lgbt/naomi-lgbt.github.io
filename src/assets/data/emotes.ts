@@ -2,6 +2,10 @@ import { Emote } from 'src/interfaces/Emote';
 
 export const emotes: Emote[] = [
   {
+    fileName: 'NaomiBlock.png',
+    name: 'Block',
+  },
+  {
     fileName: 'NaomiBlush.png',
     name: 'Blush',
   },
@@ -14,8 +18,28 @@ export const emotes: Emote[] = [
     name: 'Cry',
   },
   {
+    fileName: 'NaomiDance.gif',
+    name: 'Dance',
+  },
+  {
+    fileName: 'NaomiDead.png',
+    name: 'Dead',
+  },
+  {
+    fileName: 'NaomiDrink.png',
+    name: 'Drink',
+  },
+  {
     fileName: 'NaomiFacepalm.png',
     name: 'Facepalm',
+  },
+  {
+    fileName: 'NaomiFight.png',
+    name: 'Fight',
+  },
+  {
+    fileName: 'NaomiGame.png',
+    name: 'Game',
   },
   {
     fileName: 'NaomiGiggle.png',
@@ -34,8 +58,16 @@ export const emotes: Emote[] = [
     name: 'Hello',
   },
   {
+    fileName: 'NaomiHere.gif',
+    name: 'Here',
+  },
+  {
     fileName: 'NaomiHide.png',
     name: 'Hide',
+  },
+  {
+    fileName: 'NaomiHug.png',
+    name: 'Hug',
   },
   {
     fileName: 'NaomiKiss.png',
@@ -62,6 +94,14 @@ export const emotes: Emote[] = [
     name: 'Ping',
   },
   {
+    fileName: 'NaomiPlead.png',
+    name: 'Plead',
+  },
+  {
+    fileName: 'NaomiPlease.png',
+    name: 'Please',
+  },
+  {
     fileName: 'NaomiPout.png',
     name: 'Pout',
   },
@@ -78,12 +118,24 @@ export const emotes: Emote[] = [
     name: 'Shy',
   },
   {
+    fileName: 'NaomiSing.png',
+    name: 'Sing',
+  },
+  {
     fileName: 'NaomiSmh.png',
     name: 'SMH',
   },
   {
+    fileName: 'NaomiSneak.png',
+    name: 'Sneak',
+  },
+  {
     fileName: 'NaomiSweat.png',
     name: 'Sweat',
+  },
+  {
+    fileName: 'NaomiThanks.gif',
+    name: 'Thanks',
   },
   {
     fileName: 'NaomiThink.png',
@@ -92,6 +144,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiThis.png',
     name: 'This',
+  },
+  {
+    fileName: 'NaomiVictory.gif',
+    name: 'Victory',
   },
   {
     fileName: 'NaomiWave.gif',
@@ -108,6 +164,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiWink.png',
     name: 'Wink',
+  },
+  {
+    fileName: 'NaomiWork.png',
+    name: 'Work',
   },
   {
     fileName: 'NaomiWow.png',
