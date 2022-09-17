@@ -132,6 +132,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi in a Hatsune Miku costume, including the iconic oversized twintails.',
   },
   {
+    name: 'Yor Costume',
+    fileName: 'yor.png',
+    description: "Doesn't she make a rather cute Thorn Princess?",
+    alt: 'Naomi in a Yor Forger costume',
+  },
+  {
     name: 'Witch Costume',
     fileName: 'witch.png',
     description:
