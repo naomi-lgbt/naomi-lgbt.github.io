@@ -106,6 +106,14 @@ export const emotes: Emote[] = [
     name: 'Pout',
   },
   {
+    fileName: 'NaomiRave.gif',
+    name: 'Rave',
+  },
+  {
+    fileName: 'NaomiSadCat.gif',
+    name: 'Sad Cat',
+  },
+  {
     fileName: 'NaomiSalute.png',
     name: 'Salute',
   },
@@ -128,6 +136,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiSneak.png',
     name: 'Sneak',
+  },
+  {
+    fileName: 'NaomiSunglasses.png',
+    name: 'Sunglasses',
   },
   {
     fileName: 'NaomiSweat.png',
