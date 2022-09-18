@@ -34,17 +34,24 @@ describe('TailorComponent', () => {
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  it('should render the outfits correctly', () => {
-    const outfits = compiled.querySelectorAll('.outfit');
-    expect(outfits.length).toBe(Outfits.length);
-    outfits.forEach((outfit, index) => {
-      const name = outfit.querySelector('h2');
-      expect(name?.textContent?.trim()).toBe(Outfits[index].name);
-      const description = outfit.querySelector('p');
-      expect(description?.textContent?.trim()).toBe(Outfits[index].description);
-      const image = outfit.querySelector('.outfit-img');
-      expect(image?.getAttribute('src')).toContain(Outfits[index].fileName);
-      expect(image?.getAttribute('alt')).toBe(Outfits[index].alt);
+  for (const outfit of Outfits) {
+    it(`should render the ${outfit.fileName} outfit`, () => {
+      const outfitBox =
+        compiled.querySelectorAll('.outfit')[Outfits.indexOf(outfit)];
+      const imgLink = outfitBox.querySelector('a');
+      expect(imgLink?.getAttribute('href')).toBe(
+        `/assets/img/outfits/${outfit.fileName}`
+      );
+      expect(imgLink?.getAttribute('target')).toBe('_blank');
+      const img = outfitBox.querySelector('img');
+      expect(img?.getAttribute('src')).toBe(
+        `/assets/img/outfits/${outfit.fileName}`
+      );
+      expect(img?.getAttribute('alt')).toBe(outfit.alt);
+      const title = outfitBox.querySelector('h2');
+      expect(title?.textContent?.trim()).toBe(outfit.name);
+      const description = outfitBox.querySelector('p');
+      expect(description?.textContent?.trim()).toBe(outfit.description);
     });
-  });
+  }
 });

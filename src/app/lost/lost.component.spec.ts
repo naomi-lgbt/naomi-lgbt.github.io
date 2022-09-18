@@ -5,7 +5,7 @@ import { LostComponent } from './lost.component';
 describe('LostComponent', () => {
   let component: LostComponent;
   let fixture: ComponentFixture<LostComponent>;
-  let compiled: any;
+  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,11 +23,11 @@ describe('LostComponent', () => {
 
   it('should render the view correctly', () => {
     const title = compiled.querySelector('h1');
-    expect(title.textContent.trim()).toBe('Lost');
+    expect(title?.textContent?.trim()).toBe('Lost');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(1);
     expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent.trim()).toBe(
+    expect(buttons[0].textContent?.trim()).toBe(
       'Make your way to the plaza'
     );
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');

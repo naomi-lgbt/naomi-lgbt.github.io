@@ -5,7 +5,7 @@ import { PlazaComponent } from './plaza.component';
 describe('PlazaComponent', () => {
   let component: PlazaComponent;
   let fixture: ComponentFixture<PlazaComponent>;
-  let compiled: any;
+  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,32 +23,32 @@ describe('PlazaComponent', () => {
 
   it('should render the view correctly', () => {
     const title = compiled.querySelector('h1');
-    expect(title.textContent.trim()).toBe('Town Plaza');
+    expect(title?.textContent?.trim()).toBe('Town Plaza');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(8);
     expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent.trim()).toBe('Library');
+    expect(buttons[0].textContent?.trim()).toBe('Library');
     expect(buttons[0].getAttribute('routerLink')).toBe('/library');
     expect(buttons[1].tagName).toBe('A');
-    expect(buttons[1].textContent.trim()).toBe('Arena');
+    expect(buttons[1].textContent?.trim()).toBe('Arena');
     expect(buttons[1].getAttribute('routerLink')).toBe('/arena');
     expect(buttons[2].tagName).toBe('A');
-    expect(buttons[2].textContent.trim()).toBe('Tavern');
+    expect(buttons[2].textContent?.trim()).toBe('Tavern');
     expect(buttons[2].getAttribute('routerLink')).toBe('/tavern');
     expect(buttons[3].tagName).toBe('A');
-    expect(buttons[3].textContent.trim()).toBe('Museum');
+    expect(buttons[3].textContent?.trim()).toBe('Museum');
     expect(buttons[3].getAttribute('routerLink')).toBe('/museum');
     expect(buttons[4].tagName).toBe('A');
-    expect(buttons[4].textContent.trim()).toBe('Training Hall');
+    expect(buttons[4].textContent?.trim()).toBe('Training Hall');
     expect(buttons[4].getAttribute('routerLink')).toBe('/training-hall');
     expect(buttons[5].tagName).toBe('A');
-    expect(buttons[5].textContent.trim()).toBe('Tailor');
+    expect(buttons[5].textContent?.trim()).toBe('Tailor');
     expect(buttons[5].getAttribute('routerLink')).toBe('/tailor');
     expect(buttons[6].tagName).toBe('A');
-    expect(buttons[6].textContent.trim()).toBe('Temple');
+    expect(buttons[6].textContent?.trim()).toBe('Temple');
     expect(buttons[6].getAttribute('routerLink')).toBe('/temple');
     expect(buttons[7].tagName).toBe('A');
-    expect(buttons[7].textContent.trim()).toBe('Castle');
+    expect(buttons[7].textContent?.trim()).toBe('Castle');
     expect(buttons[7].getAttribute('routerLink')).toBe('/castle');
   });
 });

@@ -5,7 +5,7 @@ import { LandingComponent } from './landing.component';
 describe('LandingComponent', () => {
   let component: LandingComponent;
   let fixture: ComponentFixture<LandingComponent>;
-  let compiled: any;
+  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,13 +23,15 @@ describe('LandingComponent', () => {
 
   it('should render the view correctly', () => {
     const title = compiled.querySelector('h1');
-    expect(title.textContent.trim()).toBe('Welcome');
+    expect(title?.textContent?.trim()).toBe('Welcome');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(1);
     expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent.trim()).toBe(
+    expect(buttons[0].textContent?.trim()).toBe(
       'Follow the map - and the noise'
     );
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
+    const img = compiled.querySelector('img');
+    expect(img?.getAttribute('src')).toBe('/assets/img/entry.png');
   });
 });
