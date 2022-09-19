@@ -23,6 +23,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black off-the-shoulder sun dress, with her hair let down.',
   },
   {
+    name: 'Cheer',
+    fileName: 'cheer.png',
+    description: 'Go Naomi Go! Ra Ra Ra!',
+    alt: 'Naomi wearing a black and white cheerleader outfit, with her hair in pigtails.',
+  },
+  {
     name: 'Cocktail Dress',
     fileName: 'cocktail.png',
     description:
@@ -224,6 +230,12 @@ export const Outfits: Outfit[] = [
     fileName: 'tape.png',
     description: 'Even Naomi likes to have a little fun sometimes!',
     alt: 'Naomi wearing black body-tape, with her hair in a ponytail.',
+  },
+  {
+    name: 'Usagi Costume',
+    fileName: 'usagi.png',
+    description: "Hey look, it's Sailor Moon!",
+    alt: 'Naomi wearing a white sailor fuku with a pink bow and a blue skirt, her hair in twintails with buns.',
   },
   {
     name: 'Vampire Dress',
