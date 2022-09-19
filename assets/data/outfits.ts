@@ -2,6 +2,13 @@ import { Outfit } from 'src/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Butterfly Dress',
+    fileName: 'butterfly.png',
+    description:
+      'Naomi thought this dress/kimono hybrid was exceptionally cute.',
+    alt: 'Naomi wearing a light blue dress with detached sleeves, pink accents, and some butterflies. Her hair is down and messy.',
+  },
+  {
     name: 'Casual Wear 2',
     fileName: 'casual-2.png',
     description:
@@ -21,6 +28,13 @@ export const Outfits: Outfit[] = [
     description:
       'Specifically for fancy dinner parties, Naomi typically opts for her more generic formal wear.',
     alt: 'Naomi wearing a black and blue strapless dress, skin-tight and ending halfway down her thighs. Her hair is in her typical ponytail.',
+  },
+  {
+    name: 'Cybersuit',
+    fileName: 'cybersuit.png',
+    description:
+      'One should be prepared for anything, and Naomi is ready for the apocalypse with this!',
+    alt: 'Naomi wearing a cybernetic body suit with purple neon accents. Her hair is down.',
   },
   {
     name: 'Daily Wear',
@@ -64,6 +78,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black kimono, with her hair in tight side-buns.',
   },
   {
+    name: 'Lace Skirt',
+    fileName: 'lace.png',
+    description: 'Every girl needs a little lace in her wardrobe!',
+    alt: 'Naomi wearing a sheer lace skirt with a black miniskirt underneath, and a solid lacy off-shoulder crop top. Her hair is down.',
+  },
+  {
     name: 'Leather Outfit',
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
@@ -84,6 +104,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi in a Hatsune Miku costume, including the iconic oversized twintails.',
   },
   {
+    name: 'Monarch Dress',
+    fileName: 'monarch.png',
+    description: 'Named for the butterfly motif, not for the title of a ruler.',
+    alt: 'Naomi wearing a dark purple dress with sheer sleeves, the back of the dress resembles butterfly wings. Her hair is trimmed short.',
+  },
+  {
     name: 'Moon Dress',
     fileName: 'moon.png',
     description:
@@ -96,6 +122,13 @@ export const Outfits: Outfit[] = [
     description:
       'Sometimes Naomi prefers to wear a swimsuit instead of a bikini. This one is her favourite.',
     alt: 'Naomi wearing a black one-piece swimsuit with a cutout in the chest and fishnet midriff. Her hair is let down.',
+  },
+  {
+    name: 'Orchid Dress',
+    fileName: 'orchid.png',
+    description:
+      'Named by the tailor she bought it from, Naomi would have called this a Cloud Dress.',
+    alt: 'Naomi wearing a black dress with a cloud pattern, areas of fabric removed so that it looks like a long sash wrapped around her. Her hair is in her typical ponytail.',
   },
   {
     name: 'Overlord Coat',
@@ -117,6 +150,13 @@ export const Outfits: Outfit[] = [
     description:
       "Every wardrobe needs a splash of colour, and with Naomi's favourite being purple this outfit is the perfect addition.",
     alt: 'Naomi wearing a purple lacy top and a black pleated skirt, with her hair let down.',
+  },
+  {
+    name: 'Rave Gear',
+    fileName: 'rave.png',
+    description:
+      'Arguably not an outfit, but with this attire Naomi fits right in at all the late night raves!',
+    alt: 'Naomi wearing a black mesh hoodie, with a small bustier and panties underneath. Her hair is in her typical ponytail.',
   },
   {
     name: 'Raven Dress',
@@ -158,6 +198,12 @@ export const Outfits: Outfit[] = [
     description:
       'Naomi thought this dress was rather elegant, and the gold ribbon was a nice touch. She may have modified the shoes, though.',
     alt: 'Naomi wearing a black Victorian style dress with gold ribbon laced across her arms and legs.',
+  },
+  {
+    name: 'Summer Skirt',
+    fileName: 'summer.png',
+    description: 'A nice and light outfit for when the weather heats up.',
+    alt: 'Naomi wearing a purple crop top under a short blue dress with straps, her hair in small pigtails.',
   },
   {
     name: 'Sundress',
