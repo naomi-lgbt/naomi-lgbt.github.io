@@ -23,6 +23,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black off-the-shoulder sun dress, with her hair let down.',
   },
   {
+    name: 'Catgirl',
+    fileName: 'catgirl.png',
+    description: 'Meow meow meow~!',
+    alt: 'Naomi wearing a black bunny suit with neon green accents, with matching cat ears.'
+  },
+  {
     name: 'Cheer',
     fileName: 'cheer.png',
     description: 'Go Naomi Go! Ra Ra Ra!',
