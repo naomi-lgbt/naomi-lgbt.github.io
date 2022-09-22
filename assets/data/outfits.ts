@@ -83,11 +83,24 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black and white striped dress with a lace collar, hem, garters, and sleeves. Her hair is long twintails.',
   },
   {
+    name: 'Hacker Gear',
+    fileName: 'hacker.png',
+    description:
+      'The perfect attire when working on your code!',
+    alt: 'Naomi wearing a black cybernetic dress with holographic blue ribbons extending down her arms and legs.'
+  },
+  {
     name: 'Kimono',
     fileName: 'kimono.png',
     description:
       "Also suitable for formal wear, Naomi's kimono is one of her favourite outfits.",
     alt: 'Naomi wearing a black kimono, with her hair in tight side-buns.',
+  },
+  {
+    name: 'Lace Dress',
+    fileName: 'lace-2.png',
+    description: 'This dress is nice and light, but still very elegant.',
+    alt: 'Naomi wearing a small black dress, with a large black mesh/lace dress over it.'
   },
   {
     name: 'Lace Skirt',
@@ -100,6 +113,12 @@ export const Outfits: Outfit[] = [
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
+  },
+  {
+    name: 'Maid Outfit (Pastel)',
+    fileName: 'maid-2.png',
+    description: 'Sometimes Naomi feels a bit more pastel.',
+    alt: 'Naomi wearing a light pink leotard with blue accents, and a white dress with a cage skirt.'
   },
   {
     name: 'Maid Outfit',
@@ -185,6 +204,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a red dress with a purple skirt and detached sleeves. Her hair is in tight twin buns, with braids trailing down the sides of her face.',
   },
   {
+    name: 'School Uniform - Navy',
+    fileName: 'school-2.png',
+    description: 'Another school uniform.',
+    alt: 'A nave blue sailor fuku and pleated skirt.',
+  },
+  {
     name: 'School Uniform',
     fileName: 'school.png',
     description:
@@ -203,6 +228,18 @@ export const Outfits: Outfit[] = [
     fileName: 'sleep.png',
     description: 'She wears this to sleep, not in public.',
     alt: 'Naomi wearing a black sports bra and sweatpants, with cat faces printed on the elastic bands. Her hair is put up into two buns.',
+  },
+  {
+    name: 'Spoopy Dress',
+    fileName: 'spoopy.png',
+    description: "Naomi's Halloween attire.",
+    alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.'
+  },
+  {
+    name: 'Steampunk Dress',
+    fileName: 'steampunk.png',
+    description: "Okay, it's not quite steampunk, but pretty close!",
+    alt: 'Naomi wearing a black dress, with a partially concealed cage skirt.'
   },
   {
     name: 'Strappy Outfit',
