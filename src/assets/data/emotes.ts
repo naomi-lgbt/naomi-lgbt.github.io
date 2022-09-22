@@ -70,6 +70,10 @@ export const emotes: Emote[] = [
     name: 'Hug',
   },
   {
+    fileName: 'NaomiHuh.png',
+    name: 'Huh',
+  },
+  {
     fileName: 'NaomiKiss.png',
     name: 'Kiss',
   },
@@ -80,6 +84,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiNope.gif',
     name: 'Nope',
+  },
+  {
+    fileName: 'NaomiNya.png',
+    name: 'Nya',
   },
   {
     fileName: 'NaomiPat.png',
@@ -170,20 +178,16 @@ export const emotes: Emote[] = [
     name: 'Weary',
   },
   {
-    fileName: 'NaomiWhat.png',
-    name: 'What',
-  },
-  {
     fileName: 'NaomiWink.png',
     name: 'Wink',
   },
   {
-    fileName: 'NaomiWork.png',
-    name: 'Work',
+    fileName: 'NaomiWoah.png',
+    name: 'Woah',
   },
   {
-    fileName: 'NaomiWow.png',
-    name: 'Wow',
+    fileName: 'NaomiWork.png',
+    name: 'Work',
   },
   {
     fileName: 'NaomiYawn.png',
