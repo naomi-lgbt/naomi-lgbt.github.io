@@ -2,6 +2,14 @@ import { Emote } from 'src/interfaces/Emote';
 
 export const emotes: Emote[] = [
   {
+    fileName: 'NaomiAnnoyed.png',
+    name: 'Annoyed',
+  },
+  {
+    fileName: 'NaomiBan.png',
+    name: 'Ban',
+  },
+  {
     fileName: 'NaomiBlock.png',
     name: 'Block',
   },
@@ -18,8 +26,8 @@ export const emotes: Emote[] = [
     name: 'Cry',
   },
   {
-    fileName: 'NaomiDance.gif',
-    name: 'Dance',
+    fileName: 'NaomiDancy.gif',
+    name: 'Dancy',
   },
   {
     fileName: 'NaomiDead.png',
@@ -38,20 +46,12 @@ export const emotes: Emote[] = [
     name: 'Fight',
   },
   {
-    fileName: 'NaomiGame.png',
-    name: 'Game',
-  },
-  {
     fileName: 'NaomiGiggle.png',
     name: 'Giggle',
   },
   {
     fileName: 'NaomiGrin.png',
     name: 'Grin',
-  },
-  {
-    fileName: 'NaomiHeart.png',
-    name: 'Heart',
   },
   {
     fileName: 'NaomiHello.png',
@@ -62,14 +62,6 @@ export const emotes: Emote[] = [
     name: 'Here',
   },
   {
-    fileName: 'NaomiHide.png',
-    name: 'Hide',
-  },
-  {
-    fileName: 'NaomiHug.png',
-    name: 'Hug',
-  },
-  {
     fileName: 'NaomiHuh.png',
     name: 'Huh',
   },
@@ -78,16 +70,20 @@ export const emotes: Emote[] = [
     name: 'Kiss',
   },
   {
-    fileName: 'NaomiNod.gif',
-    name: 'Nod',
+    fileName: 'NaomiNaomato.png',
+    name: 'Naomato',
   },
   {
-    fileName: 'NaomiNope.gif',
+    fileName: 'NaomiNope.png',
     name: 'Nope',
   },
   {
     fileName: 'NaomiNya.png',
     name: 'Nya',
+  },
+  {
+    fileName: 'NaomiOkay.png',
+    name: 'Okay',
   },
   {
     fileName: 'NaomiPat.png',
@@ -110,6 +106,10 @@ export const emotes: Emote[] = [
     name: 'Please',
   },
   {
+    fileName: 'NaomiPoint.png',
+    name: 'Point',
+  },
+  {
     fileName: 'NaomiPout.png',
     name: 'Pout',
   },
@@ -124,6 +124,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiSalute.png',
     name: 'Salute',
+  },
+  {
+    fileName: 'NaomiShark.png',
+    name: 'Shark',
   },
   {
     fileName: 'NaomiShrug.png',
@@ -146,6 +150,10 @@ export const emotes: Emote[] = [
     name: 'Sneak',
   },
   {
+    fileName: 'NaomiStare.png',
+    name: 'Stare',
+  },
+  {
     fileName: 'NaomiSunglasses.png',
     name: 'Sunglasses',
   },
@@ -154,8 +162,8 @@ export const emotes: Emote[] = [
     name: 'Sweat',
   },
   {
-    fileName: 'NaomiThanks.gif',
-    name: 'Thanks',
+    fileName: 'NaomiThankies.gif',
+    name: 'Thankiess',
   },
   {
     fileName: 'NaomiThink.png',
@@ -170,12 +178,12 @@ export const emotes: Emote[] = [
     name: 'Victory',
   },
   {
-    fileName: 'NaomiWave.gif',
-    name: 'Wave',
+    fileName: 'NaomiWavey.gif',
+    name: 'Wavey',
   },
   {
-    fileName: 'NaomiWeary.png',
-    name: 'Weary',
+    fileName: 'NaomiWiggle.gif',
+    name: 'Wiggle',
   },
   {
     fileName: 'NaomiWink.png',
