@@ -148,6 +148,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a blue/purple dress with off-the-shoulder sleeves, star patterns in the fabric, and a moon-shaped cutout in the chest. Her hair is in her typical ponytail.',
   },
   {
+    name: 'Mummy Costume',
+    fileName: 'mummy.png',
+    description: 'Naomi has found her Halloween costume for this year.',
+    alt: 'Naomi wearing white bloodied bandages, appearing to be a mummy.'
+  },
+  {
     name: 'Onepiece Swimsuit',
     fileName: 'onepiece.png',
     description:
