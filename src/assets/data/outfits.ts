@@ -127,6 +127,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi in a stereotypical maid outfit with a galaxy print. Her long hair is let down.',
   },
   {
+    name: 'Meeting Outfit',
+    fileName: 'meeting.png',
+    description:
+      'When you have an early morning meeting and are not a morning person.',
+    alt: 'Naomi wearing a shirt that says "I do not want to work" and a slit skirt.',
+  },
+  {
     name: 'Miku Costume',
     fileName: 'miku.png',
     description:
@@ -278,6 +285,12 @@ export const Outfits: Outfit[] = [
     fileName: 'tape.png',
     description: 'Even Naomi likes to have a little fun sometimes!',
     alt: 'Naomi wearing black body-tape, with her hair in a ponytail.',
+  },
+  {
+    name: 'Towel',
+    fileName: 'towel.png',
+    description: 'For that fresh out of the shower look.',
+    alt: 'Naomi wearing a white towel wrap.',
   },
   {
     name: 'Trans Pride Dress',
