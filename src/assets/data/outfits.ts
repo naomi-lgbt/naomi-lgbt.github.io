@@ -26,7 +26,7 @@ export const Outfits: Outfit[] = [
     name: 'Catgirl',
     fileName: 'catgirl.png',
     description: 'Meow meow meow~!',
-    alt: 'Naomi wearing a black bunny suit with neon green accents, with matching cat ears.'
+    alt: 'Naomi wearing a black bunny suit with neon green accents, with matching cat ears.',
   },
   {
     name: 'Cheer',
@@ -85,9 +85,8 @@ export const Outfits: Outfit[] = [
   {
     name: 'Hacker Gear',
     fileName: 'hacker.png',
-    description:
-      'The perfect attire when working on your code!',
-    alt: 'Naomi wearing a black cybernetic dress with holographic blue ribbons extending down her arms and legs.'
+    description: 'The perfect attire when working on your code!',
+    alt: 'Naomi wearing a black cybernetic dress with holographic blue ribbons extending down her arms and legs.',
   },
   {
     name: 'Kimono',
@@ -100,7 +99,7 @@ export const Outfits: Outfit[] = [
     name: 'Lace Dress',
     fileName: 'lace-2.png',
     description: 'This dress is nice and light, but still very elegant.',
-    alt: 'Naomi wearing a small black dress, with a large black mesh/lace dress over it.'
+    alt: 'Naomi wearing a small black dress, with a large black mesh/lace dress over it.',
   },
   {
     name: 'Lace Skirt',
@@ -118,7 +117,7 @@ export const Outfits: Outfit[] = [
     name: 'Maid Outfit (Pastel)',
     fileName: 'maid-2.png',
     description: 'Sometimes Naomi feels a bit more pastel.',
-    alt: 'Naomi wearing a light pink leotard with blue accents, and a white dress with a cage skirt.'
+    alt: 'Naomi wearing a light pink leotard with blue accents, and a white dress with a cage skirt.',
   },
   {
     name: 'Maid Outfit',
@@ -151,7 +150,7 @@ export const Outfits: Outfit[] = [
     name: 'Mummy Costume',
     fileName: 'mummy.png',
     description: 'Naomi has found her Halloween costume for this year.',
-    alt: 'Naomi wearing white bloodied bandages, appearing to be a mummy.'
+    alt: 'Naomi wearing white bloodied bandages, appearing to be a mummy.',
   },
   {
     name: 'Onepiece Swimsuit',
@@ -239,13 +238,13 @@ export const Outfits: Outfit[] = [
     name: 'Spoopy Dress',
     fileName: 'spoopy.png',
     description: "Naomi's Halloween attire.",
-    alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.'
+    alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.',
   },
   {
     name: 'Steampunk Dress',
     fileName: 'steampunk.png',
     description: "Okay, it's not quite steampunk, but pretty close!",
-    alt: 'Naomi wearing a black dress, with a partially concealed cage skirt.'
+    alt: 'Naomi wearing a black dress, with a partially concealed cage skirt.',
   },
   {
     name: 'Strappy Outfit',
@@ -279,6 +278,12 @@ export const Outfits: Outfit[] = [
     fileName: 'tape.png',
     description: 'Even Naomi likes to have a little fun sometimes!',
     alt: 'Naomi wearing black body-tape, with her hair in a ponytail.',
+  },
+  {
+    name: 'Trans Pride Dress',
+    fileName: 'trans.png',
+    description: 'Trans rights are human rights 🏳️‍⚧️',
+    alt: 'Naomi wearing a crop-top and skirt with the trans flag colours.',
   },
   {
     name: 'Usagi Costume',
