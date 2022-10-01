@@ -2,6 +2,20 @@ import { Outfit } from 'src/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Apocalypse Gear',
+    fileName: 'apocalypse.png',
+    description:
+      'Prepared for any eventuality, Naomi is ready for the apocalypse.',
+    alt: 'Naomi wearing a skin-tight cybernetic suit with a filtration mask.',
+  },
+  {
+    name: 'Arachnid Dress',
+    fileName: 'arachnid.png',
+    description:
+      'Woven from spider silk, this is the dress of the Spider Queen.',
+    alt: 'Naomi wearing a light pink dress that resembles spider webs.',
+  },
+  {
     name: 'Butterfly Dress',
     fileName: 'butterfly.png',
     description:
@@ -112,6 +126,12 @@ export const Outfits: Outfit[] = [
     description:
       "Also suitable for formal wear, Naomi's kimono is one of her favourite outfits.",
     alt: 'Naomi wearing a black kimono, with her hair in tight side-buns.',
+  },
+  {
+    name: 'Knight Armour',
+    fileName: 'knight.png',
+    description: 'A set of blessed armour, Naomi is prepared for battle!',
+    alt: 'Naomi wearing silver armour with black accents, including a long skirt open at the front.',
   },
   {
     name: 'Lace Dress',
@@ -240,6 +260,18 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple leotard with roses.',
   },
   {
+    name: 'Sakura Shrine Maiden',
+    fileName: 'sakura-2.png',
+    description: 'Naomi is a fan of the shrine maiden attire.',
+    alt: 'Naomi wearing a short white kimono with detached sleeves and a red skirt with a floral pattern.',
+  },
+  {
+    name: 'Sakura Dress',
+    fileName: 'sakura.png',
+    description: 'This dress is reminiscent of cherry blossom trees.',
+    alt: 'Naomi wearing a pink dress with floral print, and special ribbons on her arms and legs.',
+  },
+  {
     name: 'School Uniform - Navy',
     fileName: 'school-2.png',
     description: 'Another school uniform.',
@@ -333,6 +365,12 @@ export const Outfits: Outfit[] = [
     fileName: 'usagi.png',
     description: "Hey look, it's Sailor Moon!",
     alt: 'Naomi wearing a white sailor fuku with a pink bow and a blue skirt, her hair in twintails with buns.',
+  },
+  {
+    name: 'Valentine Dress',
+    fileName: 'valentine.png',
+    description: "Naomi is ready for Valentine's Day!",
+    alt: 'Naomi wearing a short purple dress with pink hearts on it.',
   },
   {
     name: 'Vampire Dress',
