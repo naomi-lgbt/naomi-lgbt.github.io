@@ -55,6 +55,24 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black tank top with a heart-shaped window, a black miniskirt with a lace hem, and her hair in her typical ponytail.',
   },
   {
+    name: 'Dancer Garb',
+    fileName: 'dancer.png',
+    description: 'Sometimes Naomi likes to get down to the music.',
+    alt: 'Naomi wearing a purple belly dancer outfit with gold accents.',
+  },
+  {
+    name: 'Demon Costume',
+    fileName: 'demon.png',
+    description: 'But what kind of demon is she?',
+    alt: 'Naomi wearing a lacy purple dress, with purple bat wings and a tail.',
+  },
+  {
+    name: 'Devil Costume',
+    fileName: 'devil.png',
+    description: 'Unleash the devil within?',
+    alt: 'Naomi wearing a red dress with devil horns.',
+  },
+  {
     name: 'Flower Dress',
     fileName: 'flower.png',
     description:
@@ -216,6 +234,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a red dress with a purple skirt and detached sleeves. Her hair is in tight twin buns, with braids trailing down the sides of her face.',
   },
   {
+    name: 'Rose Leotard',
+    fileName: 'rose.png',
+    description: 'For the days where she plans to work out.',
+    alt: 'Naomi wearing a purple leotard with roses.',
+  },
+  {
     name: 'School Uniform - Navy',
     fileName: 'school-2.png',
     description: 'Another school uniform.',
@@ -240,6 +264,12 @@ export const Outfits: Outfit[] = [
     fileName: 'sleep.png',
     description: 'She wears this to sleep, not in public.',
     alt: 'Naomi wearing a black sports bra and sweatpants, with cat faces printed on the elastic bands. Her hair is put up into two buns.',
+  },
+  {
+    name: 'Scary Dress',
+    fileName: 'spoopy-2.png',
+    description: "Naomi's fond of the strappy underlayer to this dress.",
+    alt: 'Naomi wearing a purple and orange dress, with orange ribbons down her arms and legs.',
   },
   {
     name: 'Spoopy Dress',
