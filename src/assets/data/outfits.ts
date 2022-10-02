@@ -369,7 +369,7 @@ export const Outfits: Outfit[] = [
   },
   {
     name: 'Succubus Dress',
-    fileName: 'succubus.png',
+    fileName: 'succubus-2.png',
     description: 'Will you let Naomi take your soul?',
     alt: 'Naomi wearing a revealing lacy dress with a bat-wing skirt and heart themed stockings.',
   },
