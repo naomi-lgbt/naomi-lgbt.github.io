@@ -19,7 +19,7 @@ export const Outfits: Outfit[] = [
     name: 'Blood Witch',
     fileName: 'blood.png',
     description: 'Some magic should never be touched...',
-    alt: 'Naomi wearing a re and black dress with blood on her face and leg.'
+    alt: 'Naomi wearing a re and black dress with blood on her face and leg.',
   },
   {
     name: 'Butterfly Dress',
@@ -95,8 +95,9 @@ export const Outfits: Outfit[] = [
   {
     name: 'Elegant Gown',
     fileName: 'elegant.png',
-    description: 'Naomi wears this for those extra special occasions. Dinner party anyone?',
-    alt: 'Naomi wearing a dark blue gown with floor length tassels, and a pearl necklace/shawl.'
+    description:
+      'Naomi wears this for those extra special occasions. Dinner party anyone?',
+    alt: 'Naomi wearing a dark blue gown with floor length tassels, and a pearl necklace/shawl.',
   },
   {
     name: 'Flower Dress',
@@ -120,16 +121,17 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple dress with light purple stars, detatched sleeves, and her hair in a ponytail.',
   },
   {
-    name: "Little Black Dress",
-    fileName: "gothic-3.png",
-    description: "Every girl needs a little black dress. Naomi just went a little more goth with hers.",
-    alt: 'Naomi wearing a short black dress with fishnets and small ribbons on her arms.'
+    name: 'Little Black Dress',
+    fileName: 'gothic-3.png',
+    description:
+      'Every girl needs a little black dress. Naomi just went a little more goth with hers.',
+    alt: 'Naomi wearing a short black dress with fishnets and small ribbons on her arms.',
   },
   {
     name: 'Lacy Goth',
     fileName: 'gothic-2.png',
     description: "Who doesn't love extra lace?",
-    alt: 'Naomi wearing a dark blue strapless dress with a red ruffle skirt, lace sleeves, and lace stockings.'
+    alt: 'Naomi wearing a dark blue strapless dress with a red ruffle skirt, lace sleeves, and lace stockings.',
   },
   {
     name: 'Gothic Outfit',
@@ -231,7 +233,7 @@ export const Outfits: Outfit[] = [
     name: 'Nurse Outfit',
     fileName: 'nurse.png',
     description: 'Naomi is ready to take care of you!',
-    alt: 'Naomi wearing a latex dark purple nurse dress.'
+    alt: 'Naomi wearing a latex dark purple nurse dress.',
   },
   {
     name: 'Onepiece Swimsuit',
@@ -264,8 +266,9 @@ export const Outfits: Outfit[] = [
   {
     name: 'Punk Outfit',
     fileName: 'punk.png',
-    description: 'She fell in love with the shirt, and had to get the matching skirt.',
-    alt: 'Naomi wearing a large black shirt with a picture of Miku, a teal plaid skirt, and fishnets.'
+    description:
+      'She fell in love with the shirt, and had to get the matching skirt.',
+    alt: 'Naomi wearing a large black shirt with a picture of Miku, a teal plaid skirt, and fishnets.',
   },
   {
     name: 'Purple Top',
@@ -368,7 +371,7 @@ export const Outfits: Outfit[] = [
     name: 'Succubus Dress',
     fileName: 'succubus.png',
     description: 'Will you let Naomi take your soul?',
-    alt: 'Naomi wearing a revealing lacy dress with a bat-wing skirt and heart themed stockings.'
+    alt: 'Naomi wearing a revealing lacy dress with a bat-wing skirt and heart themed stockings.',
   },
   {
     name: 'Summer Skirt',
