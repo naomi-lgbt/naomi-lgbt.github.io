@@ -16,6 +16,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a light pink dress that resembles spider webs.',
   },
   {
+    name: 'Blood Witch',
+    fileName: 'blood.png',
+    description: 'Some magic should never be touched...',
+    alt: 'Naomi wearing a re and black dress with blood on her face and leg.',
+  },
+  {
     name: 'Butterfly Dress',
     fileName: 'butterfly.png',
     description:
@@ -87,6 +93,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a red dress with devil horns.',
   },
   {
+    name: 'Elegant Gown',
+    fileName: 'elegant.png',
+    description:
+      'Naomi wears this for those extra special occasions. Dinner party anyone?',
+    alt: 'Naomi wearing a dark blue gown with floor length tassels, and a pearl necklace/shawl.',
+  },
+  {
     name: 'Flower Dress',
     fileName: 'flower.png',
     description:
@@ -106,6 +119,19 @@ export const Outfits: Outfit[] = [
     description:
       'Naomi fell in love with this dress when she saw the star patterns.',
     alt: 'Naomi wearing a purple dress with light purple stars, detatched sleeves, and her hair in a ponytail.',
+  },
+  {
+    name: 'Little Black Dress',
+    fileName: 'gothic-3.png',
+    description:
+      'Every girl needs a little black dress. Naomi just went a little more goth with hers.',
+    alt: 'Naomi wearing a short black dress with fishnets and small ribbons on her arms.',
+  },
+  {
+    name: 'Lacy Goth',
+    fileName: 'gothic-2.png',
+    description: "Who doesn't love extra lace?",
+    alt: 'Naomi wearing a dark blue strapless dress with a red ruffle skirt, lace sleeves, and lace stockings.',
   },
   {
     name: 'Gothic Outfit',
@@ -132,6 +158,12 @@ export const Outfits: Outfit[] = [
     fileName: 'knight.png',
     description: 'A set of blessed armour, Naomi is prepared for battle!',
     alt: 'Naomi wearing silver armour with black accents, including a long skirt open at the front.',
+  },
+  {
+    name: 'Kyonshi',
+    fileName: 'kyonshi.png',
+    description: 'A different form of vampire?',
+    alt: 'Naomi wearing a purple kimono-dress with a galaxy pattern and a traditional kyonshi hat.',
   },
   {
     name: 'Lace Dress',
@@ -198,6 +230,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing white bloodied bandages, appearing to be a mummy.',
   },
   {
+    name: 'Nurse Outfit',
+    fileName: 'nurse.png',
+    description: 'Naomi is ready to take care of you!',
+    alt: 'Naomi wearing a latex dark purple nurse dress.',
+  },
+  {
     name: 'Onepiece Swimsuit',
     fileName: 'onepiece.png',
     description:
@@ -224,6 +262,13 @@ export const Outfits: Outfit[] = [
     description:
       "This isn't her favourite outfit, but Naomi has this one for situations that require a more professional appearance.",
     alt: 'Naomi wearing a black long-sleeve ankle-length dress with white lace on the hems. ',
+  },
+  {
+    name: 'Punk Outfit',
+    fileName: 'punk.png',
+    description:
+      'She fell in love with the shirt, and had to get the matching skirt.',
+    alt: 'Naomi wearing a large black shirt with a picture of Miku, a teal plaid skirt, and fishnets.',
   },
   {
     name: 'Purple Top',
@@ -321,6 +366,12 @@ export const Outfits: Outfit[] = [
     description:
       'Naomi thought this dress was rather elegant, and the gold ribbon was a nice touch. She may have modified the shoes, though.',
     alt: 'Naomi wearing a black Victorian style dress with gold ribbon laced across her arms and legs.',
+  },
+  {
+    name: 'Succubus Dress',
+    fileName: 'succubus.png',
+    description: 'Will you let Naomi take your soul?',
+    alt: 'Naomi wearing a revealing lacy dress with a bat-wing skirt and heart themed stockings.',
   },
   {
     name: 'Summer Skirt',
