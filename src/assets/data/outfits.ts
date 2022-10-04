@@ -16,10 +16,23 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a light pink dress that resembles spider webs.',
   },
   {
+    name: 'Barmaid Dress',
+    fileName: 'barmaid.png',
+    description:
+      'Meant to look like a medieval tavern wench dress, Naomi spiced this up a bit.',
+    alt: 'Naomi wearing a purple slit dress with a black bodice and a spider web design.',
+  },
+  {
     name: 'Blood Witch',
     fileName: 'blood.png',
     description: 'Some magic should never be touched...',
     alt: 'Naomi wearing a re and black dress with blood on her face and leg.',
+  },
+  {
+    name: 'Bunny Hoodie',
+    fileName: 'bun.png',
+    description: 'Bun Bun Bun',
+    alt: 'Naomi wearing a purple bunny hoodie.',
   },
   {
     name: 'Butterfly Dress',
@@ -121,6 +134,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple dress with light purple stars, detatched sleeves, and her hair in a ponytail.',
   },
   {
+    name: 'Even More Lace',
+    fileName: 'gothic-4.png',
+    description: 'Yet another lacy outfit...',
+    alt: 'Naomi wearing a strapless black dress with a lace shawl.',
+  },
+  {
     name: 'Little Black Dress',
     fileName: 'gothic-3.png',
     description:
@@ -145,6 +164,13 @@ export const Outfits: Outfit[] = [
     fileName: 'hacker.png',
     description: 'The perfect attire when working on your code!',
     alt: 'Naomi wearing a black cybernetic dress with holographic blue ribbons extending down her arms and legs.',
+  },
+  {
+    name: 'Healer Robe',
+    fileName: 'healer.png',
+    description:
+      'Contrary to the Sorceress Gown, this garb gives Naomi holy magic.',
+    alt: 'Naomi wearing a light blue dress with light blue striped stockings.',
   },
   {
     name: 'Kimono',
@@ -204,6 +230,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a shirt that says "I do not want to work" and a slit skirt.',
   },
   {
+    name: 'Mermaid Bikini',
+    fileName: 'mermaid.png',
+    description: 'Naomi feels like a mermaid when she wears this.',
+    alt: 'Naomi wearing a shell bikini top, and bikini bottoms with a back-only mermaid tail skirt.',
+  },
+  {
     name: 'Miku Costume',
     fileName: 'miku.png',
     description:
@@ -255,6 +287,13 @@ export const Outfits: Outfit[] = [
     description:
       "Sometimes you just need to look the part when you're an evil overlord!",
     alt: 'Naomi wearing an intimidating black trench coat over her normal outfit.',
+  },
+  {
+    name: 'Code Princess',
+    fileName: 'princess.png',
+    description:
+      'Fitting for her Code Princess title, Naomi does feel like a princess in this gown.',
+    alt: 'Naomi wearing a long white dress with gold accents.',
   },
   {
     name: 'Professional Attire',
@@ -341,6 +380,13 @@ export const Outfits: Outfit[] = [
     fileName: 'sleep.png',
     description: 'She wears this to sleep, not in public.',
     alt: 'Naomi wearing a black sports bra and sweatpants, with cat faces printed on the elastic bands. Her hair is put up into two buns.',
+  },
+  {
+    name: 'Sorceress Gown',
+    fileName: 'sorceress.png',
+    description:
+      'The gold filigree on this gown is enchanted, and gives Naomi dark power.',
+    alt: 'Naomi wearing a short black dress with blue accents and gold filigree.',
   },
   {
     name: 'Scary Dress',
