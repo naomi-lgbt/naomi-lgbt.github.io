@@ -23,6 +23,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple slit dress with a black bodice and a spider web design.',
   },
   {
+    name: 'Beach Wear',
+    fileName: 'beach.png',
+    description:
+      'Perfect for when you want to play in the sand, but not the water.',
+    alt: 'Naomi wearing a mini blue blouse and blue denim shorts.',
+  },
+  {
     name: 'Blood Witch',
     fileName: 'blood.png',
     description: 'Some magic should never be touched...',
@@ -60,6 +67,12 @@ export const Outfits: Outfit[] = [
     fileName: 'catgirl.png',
     description: 'Meow meow meow~!',
     alt: 'Naomi wearing a black bunny suit with neon green accents, with matching cat ears.',
+  },
+  {
+    name: "Champion's Armour",
+    fileName: 'champion.png',
+    description: 'Naomi won this in an arena.',
+    alt: 'Naomi wearing a golden suit of armour.',
   },
   {
     name: 'Cheer',
@@ -125,6 +138,12 @@ export const Outfits: Outfit[] = [
     description:
       "Naomi's formal wear, reserved for more elegant occasions. You know, dinner parties and what not.",
     alt: 'Naomi wearing a black dress with fishnet sleeves, her hair in twin braids.',
+  },
+  {
+    name: 'Frilly Fuku',
+    fileName: 'frilly.png',
+    description: 'This modified sailor fuku makes Naomi feeel extra cute.',
+    alt: 'Naomi wearing a modified sailor fuku with frilly edges, and a bit more revealing.',
   },
   {
     name: 'Galaxy Dress',
@@ -202,6 +221,13 @@ export const Outfits: Outfit[] = [
     fileName: 'lace.png',
     description: 'Every girl needs a little lace in her wardrobe!',
     alt: 'Naomi wearing a sheer lace skirt with a black miniskirt underneath, and a solid lacy off-shoulder crop top. Her hair is down.',
+  },
+  {
+    name: 'Lavender Skirt',
+    fileName: 'lavender.png',
+    description:
+      'The combination of colour and flowers reminds Naomi of lavender.',
+    alt: 'Naomi wearing a lavender dress with a floral pattern, and her hair in a ponytail.',
   },
   {
     name: 'Leather Outfit',
@@ -289,6 +315,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing an intimidating black trench coat over her normal outfit.',
   },
   {
+    name: 'Panda Hoodie',
+    fileName: 'panda.png',
+    description: 'The hood has a panda, but Naomi liked the whole outfit.',
+    alt: 'Naomi wearing a purple and black hoodie with white shorts.',
+  },
+  {
     name: 'Code Princess',
     fileName: 'princess.png',
     description:
@@ -317,6 +349,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple lacy top and a black pleated skirt, with her hair let down.',
   },
   {
+    name: 'Rave Gear 2',
+    fileName: 'rave-2.png',
+    description: 'Naomi is ready for ALL the dance parties.',
+    alt: 'Naomi wearing a purple top with mesh sleeves and a purple skirt.',
+  },
+  {
     name: 'Rave Gear',
     fileName: 'rave.png',
     description:
@@ -336,6 +374,12 @@ export const Outfits: Outfit[] = [
     description:
       'Naomi picked this up during one of her travels. She found the particular shade of red beautiful.',
     alt: 'Naomi wearing a red dress with a purple skirt and detached sleeves. Her hair is in tight twin buns, with braids trailing down the sides of her face.',
+  },
+  {
+    name: 'Regal Gown',
+    fileName: 'regal.png',
+    description: 'Wearing this makes her feel like nobility.',
+    alt: 'Naomi wearing a blue dress with white frills, and white frilly capris.',
   },
   {
     name: 'Rose Leotard',
@@ -380,6 +424,12 @@ export const Outfits: Outfit[] = [
     fileName: 'sleep.png',
     description: 'She wears this to sleep, not in public.',
     alt: 'Naomi wearing a black sports bra and sweatpants, with cat faces printed on the elastic bands. Her hair is put up into two buns.',
+  },
+  {
+    name: 'Slit Dress',
+    fileName: 'slit.png',
+    description: 'This dress is a little risque, but Naomi likes it.',
+    alt: 'Naomi wearing a blue strapless dress with slits on the sides, and black lace undergarments.',
   },
   {
     name: 'Sorceress Gown',
@@ -488,5 +538,11 @@ export const Outfits: Outfit[] = [
     fileName: 'yor.png',
     description: "Doesn't she make a rather cute Thorn Princess?",
     alt: 'Naomi in a Yor Forger costume',
+  },
+  {
+    name: 'Yukata',
+    fileName: 'yukata.png',
+    description: 'Ideal for a summer festival.',
+    alt: 'Naomi wearing a purple off-shoudler yukata with a floral pattern.',
   },
 ];
