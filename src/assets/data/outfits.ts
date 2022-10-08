@@ -153,6 +153,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple dress with light purple stars, detatched sleeves, and her hair in a ponytail.',
   },
   {
+    name: 'Goddess Vestments',
+    fileName: 'goddess.png',
+    description: 'Holy robes fit for a deity.',
+    alt: 'Naomi wearing a gold stole and brasserie with black gloves, tights, and skirt.'
+  },
+  {
     name: 'Even More Lace',
     fileName: 'gothic-4.png',
     description: 'Yet another lacy outfit...',
@@ -494,6 +500,12 @@ export const Outfits: Outfit[] = [
     fileName: 'tape.png',
     description: 'Even Naomi likes to have a little fun sometimes!',
     alt: 'Naomi wearing black body-tape, with her hair in a ponytail.',
+  },
+  {
+    name: 'Toxic Radiation',
+    fileName: 'toxic.png',
+    description: 'This might actually be radioactive...',
+    alt: 'Naomi wearing a pink crop top with a star window, pink pants with detached legs, and pink gloves.'
   },
   {
     name: 'Towel',
