@@ -1,6 +1,6 @@
 .art-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .art img {
-  width: 75%;
+  width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top center;
@@ -23,7 +23,7 @@ a:not(.nes-btn) {
 
 .emote-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
 
@@ -48,9 +48,9 @@ a:not(.nes-btn) {
 
 @media screen and (max-width: 749px) {
   .art-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .emote-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
