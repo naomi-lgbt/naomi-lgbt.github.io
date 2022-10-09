@@ -36,6 +36,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a re and black dress with blood on her face and leg.',
   },
   {
+    name: 'Blue Yukata',
+    fileName: 'blue.png',
+    description: 'A yukata, but blue.',
+    alt: 'Naomi wearing a blue yukata.',
+  },
+  {
     name: 'Bunny Hoodie',
     fileName: 'bun.png',
     description: 'Bun Bun Bun',
@@ -156,7 +162,7 @@ export const Outfits: Outfit[] = [
     name: 'Goddess Vestments',
     fileName: 'goddess.png',
     description: 'Holy robes fit for a deity.',
-    alt: 'Naomi wearing a gold stole and brasserie with black gloves, tights, and skirt.'
+    alt: 'Naomi wearing a gold stole and brasserie with black gloves, tights, and skirt.',
   },
   {
     name: 'Even More Lace',
@@ -240,6 +246,12 @@ export const Outfits: Outfit[] = [
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
+  },
+  {
+    name: 'Magpie Dress',
+    fileName: 'magpie.png',
+    description: 'Inspired by your favourite corvids.',
+    alt: 'Naomi wearing a red and black dress with feather patterns.',
   },
   {
     name: 'Maid Outfit (Pastel)',
@@ -375,6 +387,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a hooded bodice, a purple skirt, and an ornate feathered cape. Her hair is in a loose ponytail.',
   },
   {
+    name: 'Victorian Dress',
+    fileName: 'red-2.png',
+    description: 'A red, Victorian style dress.',
+    alt: 'Naomi wearing a red Victorian style dress.',
+  },
+  {
     name: 'Red Dress',
     fileName: 'red.png',
     description:
@@ -445,6 +463,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a short black dress with blue accents and gold filigree.',
   },
   {
+    name: 'Spider Skirt',
+    fileName: 'spider.png',
+    description: 'Spooder?',
+    alt: 'Naomi wearing a black dress with a web-style skirt.',
+  },
+  {
     name: 'Scary Dress',
     fileName: 'spoopy-2.png',
     description: "Naomi's fond of the strappy underlayer to this dress.",
@@ -505,7 +529,7 @@ export const Outfits: Outfit[] = [
     name: 'Toxic Radiation',
     fileName: 'toxic.png',
     description: 'This might actually be radioactive...',
-    alt: 'Naomi wearing a pink crop top with a star window, pink pants with detached legs, and pink gloves.'
+    alt: 'Naomi wearing a pink crop top with a star window, pink pants with detached legs, and pink gloves.',
   },
   {
     name: 'Towel',
@@ -537,6 +561,12 @@ export const Outfits: Outfit[] = [
     description:
       'Another fun costume, Naomi sometimes wears fake fangs with this.',
     alt: 'Naomi wearing a black strapless dress with a ragged red hem, her hair in a ponytail.',
+  },
+  {
+    name: 'Villain Outfit',
+    fileName: 'villain.png',
+    description: 'For the times Naomi feels particularly evil.',
+    alt: 'Naomi wearing a black slit dress with a red cape.',
   },
   {
     name: 'Witch Costume',
