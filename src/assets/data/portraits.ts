@@ -151,4 +151,10 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/tokkiponn',
     alt: 'Naomi wearing her galaxy dress, sitting on the edge of the bed with a glass of wine in her hand.',
   },
+  {
+    fileName: 'xPrincessSkyler.png',
+    artist: 'Sparky-P',
+    url: 'https://twitter.com/xPrincessSkyler',
+    alt: 'Naomi dressed as a witch, riding her broom.'
+  }
 ];
