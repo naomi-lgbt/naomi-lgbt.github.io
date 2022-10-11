@@ -155,6 +155,6 @@ export const portraits: Portrait[] = [
     fileName: 'xPrincessSkyler.png',
     artist: 'Sparky-P',
     url: 'https://twitter.com/xPrincessSkyler',
-    alt: 'Naomi dressed as a witch, riding her broom.'
-  }
+    alt: 'Naomi dressed as a witch, riding her broom.',
+  },
 ];

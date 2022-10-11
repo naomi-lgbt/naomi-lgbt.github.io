@@ -10,6 +10,10 @@ export const adventures: Adventure[] = [
     game: 'Cyberpunk 2077',
   },
   {
+    fileName: 'dreamlight-valley.jpg',
+    game: 'Dreamlight Valley',
+  },
+  {
     fileName: 'dos-2.jpg',
     game: 'Divinity: Original Sin II',
   },
