@@ -2,6 +2,12 @@ import { Outfit } from 'src/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Anime Dress',
+    fileName: 'anime.png',
+    description: 'Look Respectfully!',
+    alt: 'Naomi wearing a purple off-shoulder dress with anime style eyes on the chest.',
+  },
+  {
     name: 'Apocalypse Gear',
     fileName: 'apocalypse.png',
     description:
@@ -21,6 +27,18 @@ export const Outfits: Outfit[] = [
     description:
       'Meant to look like a medieval tavern wench dress, Naomi spiced this up a bit.',
     alt: 'Naomi wearing a purple slit dress with a black bodice and a spider web design.',
+  },
+  {
+    name: 'Purple Beach Wear',
+    fileName: 'beach-2.png',
+    description: 'If Naomi worked on her tan, this outfit might be useful.',
+    alt: 'Naomi wearing a purple crop top and a purple plaid miniskirt.',
+  },
+  {
+    name: 'Red Beach Wear',
+    fileName: 'beach-3.png',
+    description: 'One thread away from being a bikini.',
+    alt: 'Naomi wearing a red and black bikini top and a red plaid miniskirt.',
   },
   {
     name: 'Beach Wear',
@@ -132,6 +150,18 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a dark blue gown with floor length tassels, and a pearl necklace/shawl.',
   },
   {
+    name: 'Fairy Skirt',
+    fileName: 'fairy.png',
+    description: 'Now she only needs her wings.',
+    alt: 'Naomi wearing a light purple dress with a spiky-shaped hem.',
+  },
+  {
+    name: 'Fishnet Dress',
+    fileName: 'fishnet.png',
+    description: 'Fish for some Naomis?',
+    alt: 'Naomi wearing a teal dress with a fishnet outer layer.',
+  },
+  {
     name: 'Flower Dress',
     fileName: 'flower.png',
     description:
@@ -204,6 +234,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a light blue dress with light blue striped stockings.',
   },
   {
+    name: 'Ivy Dress',
+    fileName: 'ivy.png',
+    description: 'A cute little forest themed dress.',
+    alt: 'Naomi wearing a green dress with an ivy pattern and red flowers.',
+  },
+  {
     name: 'Kimono',
     fileName: 'kimono.png',
     description:
@@ -246,6 +282,12 @@ export const Outfits: Outfit[] = [
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
+  },
+  {
+    name: 'Loungewear',
+    fileName: 'lounge.png',
+    description: 'Sometimes Naomi just does not want to go out.',
+    alt: 'Naomi wearing a purple cross top, purple stretch pants, and a mesh cardigan.',
   },
   {
     name: 'Magpie Dress',
@@ -456,6 +498,12 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a blue strapless dress with slits on the sides, and black lace undergarments.',
   },
   {
+    name: 'Snake Dress',
+    fileName: 'snake.png',
+    description: 'Hisssssssssssssssss',
+    alt: 'Naomi wearing a cross top and long skirt with black snake patterns.',
+  },
+  {
     name: 'Sorceress Gown',
     fileName: 'sorceress.png',
     description:
@@ -504,6 +552,12 @@ export const Outfits: Outfit[] = [
     fileName: 'summer.png',
     description: 'A nice and light outfit for when the weather heats up.',
     alt: 'Naomi wearing a purple crop top under a short blue dress with straps, her hair in small pigtails.',
+  },
+  {
+    name: 'Bright Sundress',
+    fileName: 'sundress-2.png',
+    description: 'A splash of colour in her wardrobe.',
+    alt: 'Naomi wearing a bright green sundress.',
   },
   {
     name: 'Sundress',
