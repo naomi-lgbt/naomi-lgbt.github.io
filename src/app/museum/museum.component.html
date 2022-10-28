@@ -54,7 +54,12 @@
   >
     <div *ngFor="let art of portraits" class="art">
       <a href="/assets/img/art/{{ art.fileName }}" target="_blank">
-        <img src="/assets/img/art/{{ art.fileName }}" alt="{{ art.alt }}" />
+        <img
+          src="/assets/img/art/{{ art.fileName }}"
+          alt="{{ art.alt }}"
+          class="{{ art.spicy ? 'spicy' : ''}}"
+        />
+        <p *ngIf="art.spicy" class="overlay">Might be Spicy...</p>
       </a>
       <p class="art-title">
         By
@@ -91,12 +96,12 @@
     *ngIf="view === 'emote'"
     class="nes-container is-rounded is-centered emote-grid"
   >
-  <div *ngFor="let emote of emotes" class="emote">
-    <a href="/assets/img/emotes/{{ emote.fileName }}" target="_blank">
-      <img src="/assets/img/emotes/{{ emote.fileName }}" alt="Naomi" />
-    </a>
-    <p class="emote-title">{{ emote.name }}</p>
-  </div>
+    <div *ngFor="let emote of emotes" class="emote">
+      <a href="/assets/img/emotes/{{ emote.fileName }}" target="_blank">
+        <img src="/assets/img/emotes/{{ emote.fileName }}" alt="Naomi" />
+      </a>
+      <p class="emote-title">{{ emote.name }}</p>
+    </div>
   </div>
   <button
     *ngIf="view !== 'portrait'"

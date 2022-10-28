@@ -3,4 +3,5 @@ export interface Portrait {
   artist: string;
   url: string;
   alt: string;
+  spicy: boolean;
 }

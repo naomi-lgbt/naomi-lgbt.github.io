@@ -17,6 +17,24 @@
   object-position: top center;
 }
 
+.art a {
+  position: relative;
+}
+
+.spicy {
+  filter: blur(25px);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  color: red;
+  transform: rotate(45deg);
+}
+
 a:not(.nes-btn) {
   color: var(--light-blue);
 }
