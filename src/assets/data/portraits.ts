@@ -163,4 +163,28 @@ export const portraits: Portrait[] = [
     url: 'https://twitter.com/tokkiponn',
     alt: "Naomi in her standard outfit, kissing her mistress' foot.",
   },
+  {
+    fileName: 'padoru-maker.png',
+    artist: 'Padoru Maker',
+    url: 'https://adalvalle.itch.io/padoru-maker',
+    alt: 'Padoru Naomi! Wearing a santa outfit and carrying a bag of gifts.',
+  },
+  {
+    fileName: 'xPrincessSkyler2.jpg',
+    artist: 'Sparky-P',
+    url: 'https://twitter.com/xPrincessSkyler',
+    alt: 'Naomi in a black evening dress, laying across a coffin.',
+  },
+  {
+    fileName: 'xPrincessSkyler3.png',
+    artist: 'Sparky-P',
+    url: 'https://twitter.com/xPrincessSkyler',
+    alt: 'Naomi laying in a field of flowers, wearing a red sundress.',
+  },
+  {
+    fileName: 'tokkippon9.png',
+    artist: 'Tokkipon',
+    url: 'https://twitter.com/tokkiponn',
+    alt: 'Naomi in a tickle machine.',
+  },
 ];
