@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Naomi Carrigan (nhcarrigan)
+Naomi Carrigan (NaomiLGBT / nhcarrigan)
 
 This document serves as verification of my online identities.
 
@@ -11,23 +11,31 @@ IF YOU SEE MY USERNAME ELSEWHERE, PLEASE NOTIFY ME. I will confirm or deny the l
 
 chat with me: https://chat.nhcarrigan.com (Discord Server ID: 778130114772598785)
 discord: Naomi#0001 (ID: 465650873650118659)
-github: nhcarrigan - https://github.com/nhcarrigan
+github: naomi-lgbt - https://github.com/naomi-lgbt
 email: contact@nhcarrigan.com
 
 # Secondary Contact points (in order of activity)
 
-twitter: @nhcarrigan - https://twitter.com/nhcarrigan
+twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
 freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
 freecodecamp chat: Naomi
-steam: https://steamcommunity.com/id/nhcarrigan
-linkedin: https://linkedin.com/in/nhcarrigan
-itch: https://itch.io/profile/nhcarrigan
-twitch: https://www.twitch.tv/nhcarrigan
-facebook: https://www.facebook.com/nhcarrigan
-reddit: https://www.reddit.com/user/nhcarrigan
+steam: https://steamcommunity.com/id/naomi-lgbt
+twitch: https://www.twitch.tv/naomilgbt
+linkedin: https://linkedin.com/in/naomi-lgbt
 twitter: @becca_lyria - https://twitter.com/becca_lyria
 twitter: @RosaNightsong - https://twitter.com/RosaNightsong
 twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
+twitter: @nhcarrigan - https://twitter.com/nhcarrigan
+github: nhcarrigan - https://github.com/nhcarrigan
+github: beccalyria - https://github.com/beccalyria
+github: rosalianightsong - https://github.com/RosaliaNightsong
+github: naomis-novas - https://github.com/naomis-novas
+github: naomis-archive - https://github.com/naomis-archive
+linkedin: https://linkedin.com/company/nhcarrigan/
+itch: https://itch.io/profile/nhcarrigan
+facebook: https://www.facebook.com/nhcarrigan
+reddit: https://www.reddit.com/user/nhcarrigan
+
 
 # Other Profiles (unlikely to respond to contact requests)
 
@@ -54,20 +62,27 @@ tumblr: https://nhcarrigan.tumblr.com
 beccalia.com
 beccalyria.com
 dennagrey.com
+dreamerlabs.studio
+gamersguild.org
 miku.rocks
+naomi.lgbt
+naomi.party
+naomi-pin.me
 nhcarrigan.com
+ridm-dimscor.wtf
 rosalianightsong.com
 starfazers.art
+wow-naomi.wtf
 
 # Additional Identity Verification
 
 keybase: https://keybase.io/nhcarrigan
-gpg key: https://www.nhcarrigan.com/key.txt (F1E77C0CB2BA8EA1086D38A7C4D2917F8364A0AB)
+gpg key: https://naomi.lgbt/assets/data/key.txt (E0733A3A214E74717BA897996BE925698CAD8907)
 
 # Pls gib money?
 
 patreon: https://www.patreon.com/nhcarrigan
-github sponsors: https://github.com/sponsors/nhcarrigan
+github sponsors: https://github.com/sponsors/naomi-lgbt
 ko-fi: https://ko-fi.com/nhcarrigan
 paypal: https://www.paypal.com/paypalme/nhcarrigan
 
@@ -76,17 +91,17 @@ paypal: https://www.paypal.com/paypalme/nhcarrigan
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmJnEq4ACgkQa+klaYyt
-iQegqg//RFzN8raTvv7sPnHZfWKZ8sVo15FSNZi1ELF0FtkyeJQcCIvNqN1EGNaX
-dQfdmWFvpEIP0o8WEK9SkuurNUE4rufOn4O10o/TMuE8HPbXjScPP+kGuJxqVlSt
-aMIGFOeyyC6K0wd78teZkFQLepvTG0CeTsjHSmlMvg0GUMHuBb6unArU8gbXEHnW
-c616rUU4C2ZmwjvjMa5HSuoXMDrq16ItP0fujkI7TIoLLVe1Qb98uVggtVjCy01R
-S/xYPyf16ntIR2gJ5lDFPrKNRt4L539nS1kjbtrufnJWEqZnhyWGMugV7Wrxx0tX
-YHS9NIcJewdNFD/VuqxZM3cTkBL1S9eHbRx+emuWRLWtPPgeNl4vqw9tVcG3tnWn
-SYgklFbDyVBDtXfotHzw9ZXLG5o8yA/a+T51PVcnvM2SS+Sl8F0Ug/iSdmGzRJSZ
-hUvX+01udB2iJbhd/RmBX6ruVFBxqBzVSECut9CnLqpCTQLjlGTU5sAHg8xVPkxd
-Jd5Co0Zy/XHhC/9c96KiOQ3DY62iyN3tBWHuQibXHHo1UU1mccCSuhhdnN459gFO
-XTBmPNWbTS1Is/N+EMidIYnYjNcu1NX6RawmO59KuQq3dI7Ja+G59gavyAar+UWC
-vlfHM73g+Ji0ts4BEPg35or3B/VvrbcRRubdhUhR34T/YViTeI4=
-=zztS
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmNca6QACgkQa+klaYyt
+iQf3AhAAnJzPB/30qrlMeZGy9fFIZn/55NrfVVR3Bquzvms5U+K9V7eI358RM0ss
+SD46jziL51+IYA+9zmrynaUQ0+Fyh4qDO7+/ik0dqtK4OiVK4BDiZs3INhRC4ND5
+byZjl1cn+t/rXLm0/ghtpe1NL6+XJ3QYWMWE9ATxWYandnO7gSOGSi3XqtM8FW1x
+AISIv9QokAPSIH5A5xnYFa56wnUNTyHvilMPT5tDwbaDgoYL+LJEJ6V6NscXPvzy
+qAwmAYDgBp75y3hJlNPaLZirNJIluDkheE4rd6kEnZzZgn8tVMDwUO1LDQ9DwidV
+SMW6EX0Wz5MmHLchOIOFfoUaNa3p40i0h7hPXm9P7xNr72inihvyU9648dSNFgmU
+l5NopijDqvFHJleJjV87h+RKsltSFG1c6ekEMZQDp4iELwUhDDcvOuY/AME6CITw
+iPtVXaTq0PjEwwNNZWYD+lolcwYDbDbpPZ+m5a3FP73Aw/hWPgSQ/8moq529L+hL
+W8QKtmNqIz7wixkOyzwBYoOyml7orP2QF0PoZvdU1aT9bq2nTVV9DMc5SD2Aak2r
+CaX6c7nydvHVcgDeffVVmAF4XAdZk2ePWzNcQ57yQKxscEX6POcB91mu5nKzNQah
+EvqxhfQ0CX1WjTKQfefiVYzef7XKB/cy5Vou6ZherfCk09RXTkI=
+=TE8m
 -----END PGP SIGNATURE-----
