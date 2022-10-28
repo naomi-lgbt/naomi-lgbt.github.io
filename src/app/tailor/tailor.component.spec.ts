@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Outfits } from 'src/assets/data/outfits';
+import { outfitsFiles } from 'src/assets/fileList';
 
 import { TailorComponent } from './tailor.component';
 
@@ -52,6 +53,13 @@ describe('TailorComponent', () => {
       expect(title?.textContent?.trim()).toBe(outfit.name);
       const description = outfitBox.querySelector('p');
       expect(description?.textContent?.trim()).toBe(outfit.description);
+    });
+  }
+
+  for (const file of outfitsFiles) {
+    it(`should display the ${file} outfit`, () => {
+      const outfitData = Outfits.find((outfit) => outfit.fileName === file);
+      expect(outfitData).toBeDefined();
     });
   }
 });

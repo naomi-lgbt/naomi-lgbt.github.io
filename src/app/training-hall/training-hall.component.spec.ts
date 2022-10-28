@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { adventures } from 'src/assets/data/adventures';
+import { gamesFiles } from 'src/assets/fileList';
 
 import { TrainingHallComponent } from './training-hall.component';
 
@@ -73,6 +74,13 @@ describe('TrainingHallComponent', () => {
       expect(img?.getAttribute('alt')).toBe(adventure.game);
       const title = game.querySelector('p');
       expect(title?.textContent?.trim()).toBe(adventure.game);
+    });
+  }
+
+  for (const file of gamesFiles) {
+    it(`should display the ${file} adventure`, () => {
+      const adventure = adventures.find((el) => el.fileName === file);
+      expect(adventure).toBeDefined();
     });
   }
 });

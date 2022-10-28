@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { emotes } from 'src/assets/data/emotes';
 import { portraits } from 'src/assets/data/portraits';
+import { artFiles, emotesFiles } from 'src/assets/fileList';
 
 import { MuseumComponent } from './museum.component';
 
@@ -83,6 +84,13 @@ describe('MuseumComponent', () => {
     });
   }
 
+  for (const file of artFiles) {
+    it(`should display the ${file} portrait`, () => {
+      const portrait = portraits.find((p) => p.fileName === file);
+      expect(portrait).toBeDefined();
+    });
+  }
+
   it('should render the emote view', () => {
     component.changeView('emote');
     fixture.detectChanges();
@@ -115,10 +123,19 @@ describe('MuseumComponent', () => {
       );
       expect(imageLink?.getAttribute('target')).toBe('_blank');
       const img = emoteBox.querySelector('img');
-      expect(img?.getAttribute('src')).toBe(`/assets/img/emotes/${emote.fileName}`);
+      expect(img?.getAttribute('src')).toBe(
+        `/assets/img/emotes/${emote.fileName}`
+      );
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox.querySelector('.emote-title');
       expect(title?.textContent?.trim()).toBe(emote.name);
+    });
+  }
+
+  for (const file of emotesFiles) {
+    it(`should display the ${file} portrait`, () => {
+      const emote = emotes.find((e) => e.fileName === file);
+      expect(emote).toBeDefined();
     });
   }
 });
