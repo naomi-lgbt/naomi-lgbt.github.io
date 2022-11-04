@@ -130,6 +130,18 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a pink knit sweater that sits off the shoulder, and ripped black leggings.',
   },
   {
+    name: 'Christmas Dress',
+    fileName: 'christmas-2.png',
+    description: 'But is she naughty or nice??',
+    alt: 'Naomi wearing a red and white dress with a white fur trim.',
+  },
+  {
+    name: 'Chun-Li Cosplay',
+    fileName: 'chunli.png',
+    description: 'Naomi is ready to fight on the street, I guess?',
+    alt: 'Naomi wearing a blue slit dress with black stockings, and a gold moon pattern.',
+  },
+  {
     name: 'Cocktail Dress',
     fileName: 'cocktail.png',
     description:
@@ -281,6 +293,13 @@ export const Outfits: Outfit[] = [
     fileName: 'ivy.png',
     description: 'A cute little forest themed dress.',
     alt: 'Naomi wearing a green dress with an ivy pattern and red flowers.',
+  },
+  {
+    name: 'Jinx Cosplay',
+    fileName: 'jinx.png',
+    description:
+      'He Took Everything From Us. Right Here, He Stabbed Vander In The Back, Just Like He Planned To Do With Me.',
+    alt: 'Naomi wearing a black crop top, purple striped pants, and purple gloves.',
   },
   {
     name: 'Kimono',
@@ -436,10 +455,22 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a D.Va cosplay from Overwatch.',
   },
   {
+    name: 'Paimon Cosplay',
+    fileName: 'paimon.png',
+    description: 'She is not emergency rations! She might be a snack though...',
+    alt: 'Naomi wearing a pink and white dress, with a blue starry cape.',
+  },
+  {
     name: 'Panda Hoodie',
     fileName: 'panda.png',
     description: 'The hood has a panda, but Naomi liked the whole outfit.',
     alt: 'Naomi wearing a purple and black hoodie with white shorts.',
+  },
+  {
+    name: 'Peacock Dress',
+    fileName: 'peacock.png',
+    description: "Aren't her feathers pretty?",
+    alt: 'Naomi wearing a black dress with peacock feathers on the hem.',
   },
   {
     name: 'Pink Dress',
@@ -499,6 +530,12 @@ export const Outfits: Outfit[] = [
     description:
       'Arguably not an outfit, but with this attire Naomi fits right in at all the late night raves!',
     alt: 'Naomi wearing a black mesh hoodie, with a small bustier and panties underneath. Her hair is in her typical ponytail.',
+  },
+  {
+    name: 'Raven Cosplay',
+    fileName: 'raven-tt.png',
+    description: "When there's trouble, you know who to call",
+    alt: 'Naomi wearing a black leotard, gold belt with red gems, and a purple hooded cape.',
   },
   {
     name: 'Raven Dress',
@@ -733,6 +770,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black slit dress with a red cape.',
   },
   {
+    name: 'Violet Evergarden Cosplay',
+    fileName: 'violet.png',
+    description:
+      'I will run as fast as I can to wherever my customer desires. I am the Auto Memories Doll, Violet Evergarden.',
+    alt: 'Naomi wearing a white ruffled dress with a blue petticoat.',
+  },
+  {
     name: 'Witch Costume',
     fileName: 'witch-2.png',
     description: "She's ready to cast a spell on you~!",
@@ -756,6 +800,12 @@ export const Outfits: Outfit[] = [
     fileName: 'yukata.png',
     description: 'Ideal for a summer festival.',
     alt: 'Naomi wearing a purple off-shoudler yukata with a floral pattern.',
+  },
+  {
+    name: 'ZeroTwo Cosplay',
+    fileName: 'zero.png',
+    description: 'Our sole reason to exist is to become FRANXX and fight.',
+    alt: 'Naomi wearing a Zero Two costume.',
   },
   {
     name: 'Zipper Dress',
