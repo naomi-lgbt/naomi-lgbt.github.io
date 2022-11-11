@@ -455,6 +455,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Winter Loungewear',
+    fileName: 'lounge-2.png',
+    description: 'For those cozy winter nights in front of the fire.',
+    alt: 'Naomi wearing grey bellbottom sweatpants, a flower tube top, and an off the shoulder fleece sweater.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4300843',
+    },
+  },
+  {
     name: 'Loungewear',
     fileName: 'lounge.png',
     description: 'Sometimes Naomi just does not want to go out.',
