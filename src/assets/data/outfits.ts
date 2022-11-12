@@ -209,6 +209,7 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black tank top with a heart-shaped window, a black miniskirt with a lace hem, and her hair in her typical ponytail.',
     credits: {
       top: 'https://booth.pm/en/items/3814412',
+      bottom: 'https://booth.pm/en/items/3968706',
     },
   },
   {
