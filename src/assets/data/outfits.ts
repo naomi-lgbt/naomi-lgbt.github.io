@@ -1043,7 +1043,7 @@ export const Outfits: Outfit[] = [
     },
   },
   {
-    name: 'Witch Costume',
+    name: 'Witch Dress',
     fileName: 'witch.png',
     description:
       'On occasion, Naomi likes to dress up. Her typical go-to costume is a witchy outfit.',
