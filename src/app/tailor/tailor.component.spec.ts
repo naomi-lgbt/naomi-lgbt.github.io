@@ -27,12 +27,31 @@ describe('TailorComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Tailor');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(1);
-    expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent?.trim()).toBe(
+    expect(buttons[0].tagName).toBe('BUTTON');
+    expect(buttons[0].textContent?.trim()).toBe('Model Credits');
+    expect(buttons[buttons.length - 1].tagName).toBe('A');
+    expect(buttons[buttons.length - 1].textContent?.trim()).toBe(
       'These are nice - but time to move on'
     );
-    expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[buttons.length - 1].getAttribute('routerLink')).toBe(
+      '/plaza'
+    );
+  });
+
+  it('should render the model credits correctly', () => {
+    component.renderCredits('_default');
+    fixture.detectChanges();
+    const modal = compiled.querySelector('.modal');
+    expect(modal).toBeDefined();
+    const textElements = modal?.querySelectorAll('a');
+    textElements?.forEach((el, i) => {
+      expect(el.textContent?.trim()).toBe(component.defaultCredits[i][0]);
+      expect(el.getAttribute('href')).toBe(component.defaultCredits[i][1]);
+    });
+    component.closeModal();
+    fixture.detectChanges();
+    const hiddenModal = compiled.querySelector('.modal');
+    expect(hiddenModal).toBeNull();
   });
 
   for (const outfit of Outfits) {
@@ -53,6 +72,30 @@ describe('TailorComponent', () => {
       expect(title?.textContent?.trim()).toBe(outfit.name);
       const description = outfitBox.querySelector('p');
       expect(description?.textContent?.trim()).toBe(outfit.description);
+      const creditButton = outfitBox.querySelector('.nes-btn');
+      expect(creditButton?.textContent?.trim()).toBe('Credits');
+    });
+
+    it(`should render the ${outfit.fileName} credits`, () => {
+      component.renderCredits(outfit.name);
+      fixture.detectChanges();
+      const modal = compiled.querySelector('.modal');
+      expect(modal).toBeDefined();
+      const textElements = modal?.querySelectorAll('a');
+      const textEntries = Object.entries(outfit.credits);
+      if (!textEntries.length) {
+        expect(textElements?.[0].textContent?.trim()).toBe(
+          "We're sorry, but we're still hard at work tracking down the credits for this. Make a PR?"
+        );
+        expect(textElements?.[0]?.getAttribute('href')).toBe(
+          'https://github.com/naomi-lgbt/naomi-lgbt.github.io/pulls'
+        );
+      } else {
+        textElements?.forEach((el, i) => {
+          expect(el.textContent?.trim()).toBe(textEntries[i][0]);
+          expect(el.getAttribute('href')).toBe(textEntries[i][1]);
+        });
+      }
     });
   }
 

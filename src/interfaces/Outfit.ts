@@ -3,4 +3,7 @@ export interface Outfit {
   fileName: string;
   description: string;
   alt: string;
+  credits: {
+    [piece: string]: string;
+  };
 }
