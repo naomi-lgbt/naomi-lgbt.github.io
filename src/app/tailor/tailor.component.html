@@ -10,6 +10,9 @@
       Each outfit is carefully displayed on a stand, with a placard explaining
       the purpose of the clothing.
     </p>
+    <button class="nes-btn" (click)="renderCredits('_default')">
+      Model Credits
+    </button>
     <div class="nes-container is-rounded is-centered is-dark outfits">
       <div class="outfit" *ngFor="let outfit of outfits">
         <a href="/assets/img/outfits/{{ outfit.fileName }}" target="_blank">
@@ -22,6 +25,9 @@
         <div class="outfit-description">
           <h2>{{ outfit.name }}</h2>
           <p>{{ outfit.description }}</p>
+          <button class="nes-btn" (click)="renderCredits(outfit.name)">
+            Credits
+          </button>
         </div>
       </div>
     </div>
@@ -29,4 +35,17 @@
   <a class="nes-btn" routerLink="/plaza"
     >These are nice - but time to move on</a
   >
+</div>
+<div aria-hidden="true" class="modal-bg" *ngIf="showCreditModal"></div>
+<div
+  class="modal nes-container with-title is-centered is-rounded"
+  *ngIf="showCreditModal"
+>
+  <h1>Credits</h1>
+  <p *ngFor="let credit of credits">
+    <a href="{{ credit[1] }}" target="_blank" rel="noopener noreferrer">{{
+      credit[0]
+    }}</a>
+  </p>
+  <button class="nes-btn" (click)="closeModal()">Close</button>
 </div>

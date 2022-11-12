@@ -10,9 +10,9 @@ import { Outfit } from 'src/interfaces/Outfit';
 export class TailorComponent implements OnInit {
   public outfits: Outfit[] = [];
   public defaultCredits = [
-    ['Model Design', 'Me~!'],
+    ['Model Design', 'https://naomi.lgbt'],
     ['Hair', 'https://booth.pm/en/items/4172285'],
-    ['Makeup', 'My wonderful sister~!'],
+    ['Makeup', 'https://twitter.com/greydenna'],
     ['Lips', 'https://booth.pm/en/items/3112652'],
     ['Skin', 'https://booth.pm/en/items/4148591'],
     ['Eyes', 'https://booth.pm/en/items/4108260'],
@@ -25,10 +25,41 @@ export class TailorComponent implements OnInit {
     ['Back Tattoo', 'https://booth.pm/en/items/3298203'],
     ['Ankle Tattoos', 'https://booth.pm/en/items/3297809'],
   ];
+  public credits: [string, string][] = [
+    [
+      'Something went wrong! Raise an issue?',
+      'https://github.com/naomi-lgbt/naomi-lgbt.github.io/issues',
+    ],
+  ];
+  public showCreditModal = false;
 
   constructor() {}
 
   ngOnInit(): void {
     this.outfits = Outfits;
+  }
+
+  renderCredits(outfit: string) {
+    const creditData =
+      outfit === '_default'
+        ? this.defaultCredits
+        : Object.entries(
+            this.outfits.find((o) => o.name === outfit)?.credits || {}
+          );
+    if (!creditData.length) {
+      this.credits = [
+        [
+          "We're sorry, but we're still hard at work tracking down the credits for this. Make a PR?",
+          'https://github.com/naomi-lgbt/naomi-lgbt.github.io/pulls',
+        ],
+      ];
+    } else {
+      this.credits = creditData.map((el) => [el[0], el[1]]);
+    }
+    this.showCreditModal = true;
+  }
+
+  closeModal() {
+    this.showCreditModal = false;
   }
 }
