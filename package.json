@@ -12,6 +12,10 @@
     "posttest": "node resetFiles.js",
     "deploy": "ng deploy"
   },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.1",
