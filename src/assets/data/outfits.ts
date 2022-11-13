@@ -193,6 +193,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Crusader Armour',
+    fileName: 'crusader.png',
+    description: 'Naomi is ready for battle!',
+    alt: 'Naomi wearing chainmail armour with plate overlays, a red skirt, and a red cloak.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4308595',
+    },
+  },
+  {
     name: 'Cybersuit',
     fileName: 'cybersuit.png',
     description:
@@ -642,6 +651,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black dress with peacock feathers on the hem.',
     credits: {
       outfit: 'https://booth.pm/en/items/1959973',
+    },
+  },
+  {
+    name: 'Pink Frilly Dress',
+    fileName: 'pink-2.png',
+    description: "For when she's feeling extra flowery.",
+    alt: 'Naomi wearing a frilly pink dress with gold accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4314717',
     },
   },
   {
