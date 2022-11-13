@@ -13,8 +13,8 @@
     "deploy": "ng deploy"
   },
   "engines": {
-    "node": ">=18",
-    "npm": ">=9"
+    "node": "^18.0.0",
+    "npm": "^9.0.0"
   },
   "private": true,
   "dependencies": {
