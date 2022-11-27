@@ -294,7 +294,7 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
-    name: 'Star Dress',
+    name: 'Purple Star Dress',
     fileName: 'galaxy-2.png',
     description: 'Does she have you seeing stars?',
     alt: 'Naomi wearing a purple dress with stars, and black lace sleeves.',
@@ -928,7 +928,7 @@ export const Outfits: Outfit[] = [
       "You'll get stars in your eyes when you see Naomi wearing this.",
     alt: 'Naomi wearing a blue dress with stars.',
     credits: {
-      outfit: 'https://6666669.booth.pm/items/4325683',
+      outfit: 'https://booth.pm/en/items/4325683',
     },
   },
   {
