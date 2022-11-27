@@ -681,6 +681,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Preppy Outfit',
+    fileName: 'preppy.png',
+    description:
+      'Naomi was never that kind of girl, but she looks cute in the outfit!',
+    alt: 'Naomi wearing a white cropped tank top with a boob window, and a purple pleated miniskirt.',
+    credits: {
+      outfit: 'https://valkress.booth.pm/items/4348284',
+    },
+  },
+  {
     name: 'Code Princess',
     fileName: 'princess.png',
     description:
@@ -909,6 +919,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.',
     credits: {
       outfit: 'https://booth.pm/en/items/2431686',
+    },
+  },
+  {
+    name: 'Star Dress',
+    fileName: 'star.png',
+    description:
+      "You'll get stars in your eyes when you see Naomi wearing this.",
+    alt: 'Naomi wearing a blue dress with stars.',
+    credits: {
+      outfit: 'https://6666669.booth.pm/items/4325683',
     },
   },
   {
