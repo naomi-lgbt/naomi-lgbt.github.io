@@ -2,6 +2,15 @@ import { Outfit } from 'src/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Aikido Gi',
+    fileName: 'aikido.png',
+    description: 'Naomi is ready to learn the sword.',
+    alt: 'Naomi wearing a white kimono top with a blue hakama.',
+    credits: {
+      outfit: 'https://mohsu.booth.pm/items/4359515',
+    },
+  },
+  {
     name: 'Anime Dress',
     fileName: 'anime.png',
     description: 'Look Respectfully!',
@@ -191,6 +200,15 @@ export const Outfits: Outfit[] = [
       'Specifically for fancy dinner parties, Naomi typically opts for her more generic formal wear.',
     alt: 'Naomi wearing a black and blue strapless dress, skin-tight and ending halfway down her thighs. Her hair is in her typical ponytail.',
     credits: {},
+  },
+  {
+    name: 'Lacy Croptop',
+    fileName: 'croptop.png',
+    description: 'Naomi feels like a punk rebel wearing this.',
+    alt: 'Naomi wearing a black crop top with lace and a long trench-style back.',
+    credits: {
+      outfit: 'https://takitoshop.booth.pm/items/4358817',
+    },
   },
   {
     name: 'Crusader Armour',
@@ -981,6 +999,16 @@ export const Outfits: Outfit[] = [
       'While not technically a sundress, Naomi wears it as if it were.',
     alt: 'Naomi wearing a short dress with a lacy top, her hair in a ponytail.',
     credits: {},
+  },
+  {
+    name: 'Sweater Dress',
+    fileName: 'sweater.png',
+    description: 'A nice and warm outfit for the winter.',
+    alt: 'Naomi wearing a red sweater dress with pink glitter leggings.',
+    credits: {
+      sweater: 'https://ysss.booth.pm/items/4354218',
+      leggings: 'https://mahoulotl.booth.pm/items/2851404',
+    },
   },
   {
     name: 'Swimwear',
