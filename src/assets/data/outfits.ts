@@ -81,6 +81,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Black Dress',
+    fileName: 'black.png',
+    description: "Does this count as a 'Little Black Dress'?",
+    alt: 'Naomi wearing a black skirt and a black stola-style top.',
+    credits: {
+      outfit: 'https://nims.booth.pm/items/4366367',
+    },
+  },
+  {
     name: 'Blood Witch',
     fileName: 'blood.png',
     description: 'Some magic should never be touched...',
@@ -217,6 +226,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing chainmail armour with plate overlays, a red skirt, and a red cloak.',
     credits: {
       outfit: 'https://booth.pm/en/items/4308595',
+    },
+  },
+  {
+    name: 'Cybermaid',
+    fileName: 'cybermaid.png',
+    description: "It's like a regular maid, but glowy!",
+    alt: 'Naomi wearing a black french-maid outfit with glowing purple accents.',
+    credits: {
+      outfit: 'https://fox-corp.booth.pm/items/4368549',
     },
   },
   {
@@ -530,6 +548,15 @@ export const Outfits: Outfit[] = [
       'One might argue that Naomi wears this for cleaning, but really maid outfits are just loads of fun.',
     alt: 'Naomi in a stereotypical maid outfit with a galaxy print. Her long hair is let down.',
     credits: {},
+  },
+  {
+    name: 'Maroon Dress',
+    fileName: 'maroon.png',
+    description: 'Naomi fell in love with the accenting.',
+    alt: 'Naomi wearing a maroon dress with gold accents.',
+    credits: {
+      outfit: 'https://6666669.booth.pm/items/4369503',
+    },
   },
   {
     name: 'Meeting Outfit',
@@ -979,6 +1006,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Summer Wear',
+    fileName: 'summer-2.png',
+    description: 'Perfect for those hot summer days.',
+    alt: 'Naomi wearing a white crop top and denim booty shorts.',
+    credits: {
+      outfit: 'https://meib.booth.pm/items/4366834',
+    },
+  },
+  {
     name: 'Summer Skirt',
     fileName: 'summer.png',
     description: 'A nice and light outfit for when the weather heats up.',
@@ -1097,6 +1133,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a white ruffled dress with a blue petticoat.',
     credits: {
       outfit: 'https://booth.pm/en/items/2698653',
+    },
+  },
+  {
+    name: 'Warrior Armour',
+    fileName: 'warrior.png',
+    description: 'Hopefully those sword lessons paid off.',
+    alt: 'Naomi wearing a bit of plate armour with a partial chain bodysuit.',
+    credits: {
+      outfit: 'https://meib.booth.pm/items/4366914',
     },
   },
   {
