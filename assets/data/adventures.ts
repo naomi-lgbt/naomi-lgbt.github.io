@@ -79,7 +79,7 @@ export const adventures: Adventure[] = [
   },
   {
     fileName: 'stardew-valley.png',
-    game: "Stardew Valley",
+    game: 'Stardew Valley',
   },
   {
     fileName: 'swtor.jpg',
@@ -92,5 +92,9 @@ export const adventures: Adventure[] = [
   {
     fileName: 'tower-of-fantasy.png',
     game: 'Tower of Fantasy',
+  },
+  {
+    fileName: 'wwe-2k22.jpg',
+    game: 'WWE: 2K22',
   },
 ];
