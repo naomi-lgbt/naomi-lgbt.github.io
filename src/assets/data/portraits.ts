@@ -232,4 +232,11 @@ export const portraits: Portrait[] = [
     alt: 'Cat girl Naomi, hard at work on her laptop.',
     spicy: false,
   },
+  {
+    fileName: 'tokkippon12.png',
+    artist: 'Tokkipon',
+    url: 'https://twitter.com/tokkiponn',
+    alt: 'Cat girl Naomi, holding her fluffy tail.',
+    spicy: false,
+  },
 ];
