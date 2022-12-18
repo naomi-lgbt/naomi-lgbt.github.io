@@ -517,6 +517,16 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Lovey Skirt',
+    fileName: 'lovey.png',
+    description: 'For when Naomi is feeling extra lovey-dovey',
+    alt: 'Naomi wearing a pink tanktop with butterflies, and a yellow skirt with a pink heart.',
+    credits: {
+      top: 'https://booth.pm/en/items/4403627',
+      bottom: 'https://booth.pm/en/items/4381871',
+    }
+  },
+  {
     name: 'Magical Girl',
     fileName: 'magical-girl.png',
     description: 'She needs a transformation sequence...',
