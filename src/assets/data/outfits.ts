@@ -363,6 +363,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Skimpy Goth',
+    fileName: 'gothic-5.png',
+    description: 'Maybe a bit more revealing than intended...',
+    alt: 'Naomi wearing a black corset and miniskirt.',
+    credits: {
+      outfit: 'https://trinochi.booth.pm/items/4404247',
+    },
+  },
+  {
     name: 'Even More Lace',
     fileName: 'gothic-4.png',
     description: 'Yet another lacy outfit...',
@@ -524,7 +533,7 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/4403627',
       bottom: 'https://booth.pm/en/items/4381871',
-    }
+    },
   },
   {
     name: 'Magical Girl',
@@ -947,6 +956,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a short black dress with blue accents and gold filigree.',
     credits: {
       outfit: 'https://booth.pm/en/items/4215960',
+    },
+  },
+  {
+    name: 'Space Dress',
+    fileName: 'space.png',
+    description: 'Naomi likes the stars.',
+    alt: 'Naomi wearing a black dress with a star pattern.',
+    credits: {
+      outfit: 'https://roboticmachine.booth.pm/items/4404901',
     },
   },
   {
