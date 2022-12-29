@@ -300,11 +300,30 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Fireworks Outfit',
+    fileName: 'fireworks.png',
+    description: 'For those especially festive celebrations.',
+    alt: 'Naomi wearing a blue crop top, black slanted skirt, and blue sash, all with firework patterns.',
+    credits: {
+      top: 'https://booth.pm/en/items/4436733',
+      skirt: 'https://booth.pm/en/items/4436767',
+    },
+  },
+  {
     name: 'Fishnet Dress',
     fileName: 'fishnet.png',
     description: 'Fish for some Naomis?',
     alt: 'Naomi wearing a teal dress with a fishnet outer layer.',
     credits: {},
+  },
+  {
+    name: 'Flame Witch',
+    fileName: 'flame.png',
+    description: 'Sometimes Naomi likes to play with fire.',
+    alt: 'Naomi wearing a black bra and skirt, with black flame accents on her arms and legs',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4379800',
+    },
   },
   {
     name: 'Flower Dress',
@@ -706,6 +725,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple and black hoodie with white shorts.',
     credits: {
       outfit: 'https://booth.pm/en/items/3172661',
+    },
+  },
+  {
+    name: 'Party Outfit',
+    fileName: 'party.png',
+    description: 'Time to hit the dance floor!',
+    alt: 'Naomi wearing a black corset with purple lace sleeves and black skinny pants.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4432478',
     },
   },
   {
@@ -1170,6 +1198,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a bit of plate armour with a partial chain bodysuit.',
     credits: {
       outfit: 'https://meib.booth.pm/items/4366914',
+    },
+  },
+  {
+    name: 'Wedding Dress',
+    fileName: 'wedding.png',
+    description: 'Maybe some day?',
+    alt: 'Naomi wearing a white lace wedding dress.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4434463',
     },
   },
   {
