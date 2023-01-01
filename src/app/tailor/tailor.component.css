@@ -1,24 +1,19 @@
+select {
+  display: block;
+  margin: auto;
+}
+
 .outfit {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   align-items: center;
   word-break: normal;
   overflow-wrap: anywhere;
 }
 
 .outfit-img {
-  max-width: 250px;
-}
-
-@media (max-width: 600px) {
-  .outfit {
-    grid-template-columns: auto;
-  }
-
-  .outfit-img {
-    width: 100%;
-  }
+  width: 100%
 }
 
 .modal {

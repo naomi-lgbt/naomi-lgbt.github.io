@@ -56,23 +56,24 @@ describe('TailorComponent', () => {
 
   for (const outfit of Outfits) {
     it(`should render the ${outfit.fileName} outfit`, () => {
-      const outfitBox =
-        compiled.querySelectorAll('.outfit')[Outfits.indexOf(outfit)];
-      const imgLink = outfitBox.querySelector('a');
+      component.selectOutfit(String(Outfits.indexOf(outfit)));
+      fixture.detectChanges();
+      const outfitBox = compiled.querySelector('.outfit');
+      const imgLink = outfitBox?.querySelector('a');
       expect(imgLink?.getAttribute('href')).toBe(
         `/assets/img/outfits/${outfit.fileName}`
       );
       expect(imgLink?.getAttribute('target')).toBe('_blank');
-      const img = outfitBox.querySelector('img');
+      const img = outfitBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
         `/assets/img/outfits/${outfit.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(outfit.alt);
-      const title = outfitBox.querySelector('h2');
+      const title = outfitBox?.querySelector('h2');
       expect(title?.textContent?.trim()).toBe(outfit.name);
-      const description = outfitBox.querySelector('p');
+      const description = outfitBox?.querySelector('p');
       expect(description?.textContent?.trim()).toBe(outfit.description);
-      const creditButton = outfitBox.querySelector('.nes-btn');
+      const creditButton = outfitBox?.querySelector('.nes-btn');
       expect(creditButton?.textContent?.trim()).toBe('Credits');
     });
 
