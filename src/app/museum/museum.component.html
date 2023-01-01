@@ -50,24 +50,40 @@
   </div>
   <div
     *ngIf="view === 'portrait'"
-    class="nes-container is-rounded is-centered art-grid"
+    class="nes-container is-rounded is-centered art"
   >
-    <div *ngFor="let art of portraits" class="art">
-      <a href="/assets/img/art/{{ art.fileName }}" target="_blank">
-        <img
-          src="/assets/img/art/{{ art.fileName }}"
-          alt="{{ art.alt }}"
-          class="{{ art.spicy ? 'spicy' : ''}}"
-        />
-        <p *ngIf="art.spicy" class="overlay">Might be Spicy...</p>
-      </a>
-      <p class="art-title">
-        By
-        <a href="{{ art.url }}" target="_blank" rel="noopener noreferrer">{{
-          art.artist
-        }}</a>
+    <a
+      href="/assets/img/art/{{ portraits[currentPortraitIndex].fileName }}"
+      target="_blank"
+    >
+      <img
+        src="/assets/img/art/{{ portraits[currentPortraitIndex].fileName }}"
+        alt="{{ portraits[currentPortraitIndex].alt }}"
+        class="{{ portraits[currentPortraitIndex].spicy ? 'spicy' : '' }}"
+      />
+      <p *ngIf="portraits[currentPortraitIndex].spicy" class="overlay">
+        Might be Spicy...
       </p>
-    </div>
+    </a>
+    <p class="art-title">
+      By
+      <a
+        href="{{ portraits[currentPortraitIndex].url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        >{{ portraits[currentPortraitIndex].artist }}</a
+      >
+    </p>
+    <button class="nes-btn" (click)="previousPortrait()">
+      Previous Portrait
+    </button>
+    <button class="nes-btn" (click)="nextPortrait()">Next Portrait</button>
+    <select #portrait (change)="selectPortrait(portrait.value)">
+      <option disabled selected>Jump to Portrait</option>
+      <option *ngFor="let portrait of portraits; let i = index" [value]="i">
+        {{ portrait.fileName }}
+      </option>
+    </select>
   </div>
   <div
     *ngIf="view === 'emote'"
@@ -76,32 +92,38 @@
     <h1 class="title">Museum</h1>
     <p>
       She leads you into a room off to the side, almost as if this exhibit was
-      an after-thought. As you enter, the first thing that catches your eye is a
-      statue of Naomi.
+      an after-thought.
     </p>
+
     <p>
-      This statue, interestingly enough, appears to be moving. It would seem
-      that there is magic at work here.
-    </p>
-    <a href="/assets/img/model.gif" target="_blank">
-      <img id="model" src="/assets/img/model.gif" alt="My VTuber model" />
-    </a>
-    <p>
-      Beyond the statue, you see smaller sculptures of Naomi making various
-      expressions. You now understand the reason for this exhibit's name, at
-      least.
+      You see smaller sculptures of Naomi making various expressions. You now
+      understand the reason for this exhibit's name, at least.
     </p>
   </div>
   <div
     *ngIf="view === 'emote'"
-    class="nes-container is-rounded is-centered emote-grid"
+    class="nes-container is-rounded is-centered emote"
   >
-    <div *ngFor="let emote of emotes" class="emote">
-      <a href="/assets/img/emotes/{{ emote.fileName }}" target="_blank">
-        <img src="/assets/img/emotes/{{ emote.fileName }}" alt="Naomi" />
-      </a>
-      <p class="emote-title">{{ emote.name }}</p>
-    </div>
+    <a
+      href="/assets/img/emotes/{{ emotes[currentEmoteIndex].fileName }}"
+      target="_blank"
+    >
+      <img
+        src="/assets/img/emotes/{{ emotes[currentEmoteIndex].fileName }}"
+        alt="Naomi"
+      />
+    </a>
+    <p class="emote-title">
+      {{ emotes[currentEmoteIndex].name }}
+    </p>
+    <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
+    <button class="nes-btn" (click)="nextEmote()">Next Emote</button>
+    <select #emote (change)="selectEmote(emote.value)">
+      <option disabled selected>Jump to Emote</option>
+      <option *ngFor="let emote of emotes; let i = index" [value]="i">
+        {{ emote.name }}
+      </option>
+    </select>
   </div>
   <button
     *ngIf="view !== 'portrait'"
