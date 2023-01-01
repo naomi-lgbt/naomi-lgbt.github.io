@@ -1,3 +1,8 @@
+select {
+  display: block;
+  margin: auto;
+}
+
 .content-grid img {
   height: 350px;
 }
@@ -13,11 +18,7 @@
   height: 100%;
 }
 
-.img-hell {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.img-hell img {
+.tattoo img {
   height: auto;
   width: 100%;
 }

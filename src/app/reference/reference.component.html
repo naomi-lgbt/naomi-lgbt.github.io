@@ -61,43 +61,32 @@
       </a>
     </div>
     <!--TODO: Make this paginated-->
-    <div class="content-grid img-hell" *ngIf="view === 'tattoos'">
+    <div class="tattoo" *ngIf="view === 'tattoos'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Chest</h4>
-        <a href="/assets/img/ref/chest-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/chest-tattoo.png" />
+        <h4>{{ tattooData[currentTattooIndex].name }}</h4>
+        <a
+          href="/assets/img/ref/tattoos/{{
+            tattooData[currentTattooIndex].fileName
+          }}"
+          target="_blank"
+        >
+          <img
+            src="/assets/img/ref/tattoos/{{
+              tattooData[currentTattooIndex].fileName
+            }}"
+          />
         </a>
       </div>
-      <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Stomach</h4>
-        <a href="/assets/img/ref/stomach-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/stomach-tattoo.png" />
-        </a>
-      </div>
-      <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Left Arm</h4>
-        <a href="/assets/img/ref/left-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/left-tattoo.png" />
-        </a>
-      </div>
-      <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Right Arm</h4>
-        <a href="/assets/img/ref/right-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/right-tattoo.png" />
-        </a>
-      </div>
-      <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Ankle</h4>
-        <a href="/assets/img/ref/ankle-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/ankle-tattoo.png" />
-        </a>
-      </div>
-      <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Back</h4>
-        <a href="/assets/img/ref/back-tattoo.png" target="_blank">
-          <img src="/assets/img/ref/back-tattoo.png" />
-        </a>
-      </div>
+      <button class="nes-btn" (click)="previousTattoo()">
+        Previous Tattoo
+      </button>
+      <button class="nes-btn" (click)="nextTattoo()">Next Tattoo</button>
+      <select #tatOpt (change)="selectTattoo(tatOpt.value)">
+        <option disabled selected>Jump to Tattoo</option>
+        <option *ngFor="let tattoo of tattooData; let i = index" [value]="i">
+          {{ tattoo.name }}
+        </option>
+      </select>
     </div>
   </div>
   <div class="nes-container with-title is-centered is-rounded">
