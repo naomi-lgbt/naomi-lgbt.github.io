@@ -32,6 +32,6 @@ describe('LandingComponent', () => {
     );
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
     const img = compiled.querySelector('img');
-    expect(img?.getAttribute('src')).toBe('/assets/img/entry.png');
+    expect(img?.getAttribute('src')).toBe('/assets/img/model.gif');
   });
 });
