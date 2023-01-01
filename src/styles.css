@@ -26,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: url("/assets/img/background.png") no-repeat top center fixed;
+  background: url("/assets/img/background.webp") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

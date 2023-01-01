@@ -11,6 +11,7 @@
 *.gif binary
 *.ani binary
 *.webm binary
+*.webp binary
 
 # Don't touch my fonts
 *.ttf binary
