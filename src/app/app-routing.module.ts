@@ -26,7 +26,7 @@ const routes: Routes = [
   { path: 'castle', component: CastleComponent },
   { path: 'confirm', component: ConfirmComponent },
   { path: 'tailor', component: TailorComponent },
-  { path: 'reference', component: ReferenceComponent },
+  { path: 'ref', component: ReferenceComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: '**', component: LostComponent },
 ];
