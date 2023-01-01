@@ -26,6 +26,10 @@ export const emotes: Emote[] = [
     name: 'Cry',
   },
   {
+    fileName: 'NaomiCute.png',
+    name: 'Cute',
+  },
+  {
     fileName: 'NaomiDancy.gif',
     name: 'Dancy',
   },
@@ -39,7 +43,7 @@ export const emotes: Emote[] = [
   },
   {
     fileName: 'NaomiEvil.png',
-    name: 'Evil'
+    name: 'Evil',
   },
   {
     fileName: 'NaomiFacepalm.png',
@@ -56,6 +60,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiGrin.png',
     name: 'Grin',
+  },
+  {
+    fileName: 'NaomiGun.png',
+    name: 'Gun',
   },
   {
     fileName: 'NaomiHello.png',
@@ -132,6 +140,10 @@ export const emotes: Emote[] = [
   {
     fileName: 'NaomiSalute.png',
     name: 'Salute',
+  },
+  {
+    fileName: 'NaomiSelfie.png',
+    name: 'Selfie',
   },
   {
     fileName: 'NaomiShark.png',
