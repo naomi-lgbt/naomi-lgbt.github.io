@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
+import { ReferenceComponent } from './reference/reference.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { NgParticlesModule } from 'ng-particles';
     ConfirmComponent,
     LostComponent,
     TailorComponent,
+    ReferenceComponent,
   ],
   imports: [
     BrowserModule,
