@@ -366,6 +366,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Glass Dress',
+    fileName: 'glass.png',
+    description: 'Looking like the window of a temple!',
+    alt: 'Naomi wearing a dress with a stained glass design.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3290225',
+    },
+  },
+  {
     name: 'Glitch Maid',
     fileName: 'glitch.png',
     description: 'Naomi is a glitch in the system.',
@@ -542,7 +551,9 @@ export const Outfits: Outfit[] = [
     fileName: 'lounge.png',
     description: 'Sometimes Naomi just does not want to go out.',
     alt: 'Naomi wearing a purple cross top, purple stretch pants, and a mesh cardigan.',
-    credits: {},
+    credits: {
+      top: 'https://booth.pm/en/items/3889721'
+    },
   },
   {
     name: 'Lovey Skirt',
@@ -651,6 +662,24 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing white bloodied bandages, appearing to be a mummy.',
     credits: {
       outfit: 'https://booth.pm/en/items/4192913',
+    },
+  },
+  {
+    name: "New Year's Dress",
+    fileName: 'newyear.png',
+    description: 'To end the year right. Happy New Year!',
+    alt: 'Naomi wearing a silver sparkling dress with a white sash',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4439924',
+    },
+  },
+  {
+    name: 'Night Dress',
+    fileName: 'night.png',
+    description: "She's the lady of the night.",
+    alt: 'Naomi wearing a blue slit dress with lace sleeves and star decorations.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2957270',
     },
   },
   {
@@ -783,6 +812,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Pride Skirt',
+    fileName: 'pride.png',
+    description: 'Naomi does have a lot of pride.',
+    alt: 'Naomi wearing a spaghetti strap dress with trans flag colours.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3011900',
+    },
+  },
+  {
     name: 'Code Princess',
     fileName: 'princess.png',
     description:
@@ -824,6 +862,16 @@ export const Outfits: Outfit[] = [
       "Every wardrobe needs a splash of colour, and with Naomi's favourite being purple this outfit is the perfect addition.",
     alt: 'Naomi wearing a purple lacy top and a black pleated skirt, with her hair let down.',
     credits: {},
+  },
+  {
+    name: 'Rainbow Dress',
+    fileName: 'rainbow.png',
+    description: "For when she's feeling extra sunny.",
+    alt: 'Naomi wearing a rainbow dress with an open front, and a spotted miniskirt.',
+    credits: {
+      dress: 'https://booth.pm/en/items/4442765',
+      skirt: 'https://booth.pm/en/items/3162923',
+    },
   },
   {
     name: 'Rave Gear 2',
@@ -993,6 +1041,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black dress with a star pattern.',
     credits: {
       outfit: 'https://roboticmachine.booth.pm/items/4404901',
+    },
+  },
+  {
+    name: 'Sparkly Dress',
+    fileName: 'sparkle.png',
+    description: 'This dress is a little flashy, but Naomi likes it.',
+    alt: 'Naomi wearing a maroon dress with a sparkle pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4442716',
     },
   },
   {
