@@ -10,6 +10,7 @@ import { Adventure } from 'src/interfaces/Adventure';
 export class TrainingHallComponent implements OnInit {
   public view = 'intro';
   public games: Adventure[] = [];
+  public currentGameIndex = 0;
 
   constructor() {}
 
@@ -20,5 +21,23 @@ export class TrainingHallComponent implements OnInit {
   changeView(name: string) {
     this.view = name;
     window.scrollTo({ top: 0 });
+  }
+
+  nextGame() {
+    this.currentGameIndex =
+      this.currentGameIndex === this.games.length - 1
+        ? 0
+        : this.currentGameIndex + 1;
+  }
+
+  previousGame() {
+    this.currentGameIndex =
+      this.currentGameIndex === 0
+        ? this.games.length - 1
+        : this.currentGameIndex - 1;
+  }
+
+  selectGame(index: string) {
+    this.currentGameIndex = parseInt(index);
   }
 }
