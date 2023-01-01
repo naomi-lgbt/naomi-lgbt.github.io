@@ -48,6 +48,10 @@ describe('TrainingHallComponent', () => {
     const games = compiled.querySelectorAll('.game');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(3);
+    expect(buttons[0].tagName).toBe('BUTTON');
+    expect(buttons[0].textContent?.trim()).toBe('Previous Adventure');
+    expect(buttons[1].tagName).toBe('BUTTON');
+    expect(buttons[1].textContent?.trim()).toBe('Next Adventure');
     expect(buttons[2].tagName).toBe('A');
     expect(buttons[2].textContent?.trim()).toBe("That's enough for today");
     expect(buttons[2].getAttribute('routerLink')).toBe('/plaza');

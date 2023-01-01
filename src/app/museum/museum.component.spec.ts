@@ -49,6 +49,10 @@ describe('MuseumComponent', () => {
     const art = compiled.querySelectorAll('.art');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(4);
+    expect(buttons[0].tagName).toBe('BUTTON');
+    expect(buttons[0].textContent?.trim()).toBe('Previous Portrait');
+    expect(buttons[1].tagName).toBe('BUTTON');
+    expect(buttons[1].textContent?.trim()).toBe('Next Portrait');
     expect(buttons[2].tagName).toBe('BUTTON');
     expect(buttons[2].textContent?.trim()).toBe('Emotion Exhibit');
     expect(buttons[3].tagName).toBe('A');
@@ -100,6 +104,10 @@ describe('MuseumComponent', () => {
     const motes = compiled.querySelectorAll('.emote');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(4);
+    expect(buttons[0].tagName).toBe('BUTTON');
+    expect(buttons[0].textContent?.trim()).toBe('Previous Emote');
+    expect(buttons[1].tagName).toBe('BUTTON');
+    expect(buttons[1].textContent?.trim()).toBe('Next Emote');
     expect(buttons[2].tagName).toBe('BUTTON');
     expect(buttons[2].textContent?.trim()).toBe('Portrait Exhibit');
     expect(buttons[3].tagName).toBe('A');
