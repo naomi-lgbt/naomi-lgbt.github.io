@@ -13,3 +13,4 @@
 
 # Don't touch my fonts
 *.ttf binary
+*.otf binary

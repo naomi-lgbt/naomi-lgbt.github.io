@@ -15,8 +15,8 @@
 }
 
 @font-face {
-  font-family: "Press Start 2P";
-  src: url("/assets/fonts/PressStart2P-Regular.ttf");
+  font-family: "Odudo";
+  src: url("/assets/fonts/odudomono.otf");
   font-display: swap;
 }
 
@@ -32,7 +32,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: var(--dark-purple);
-  font: "Press Start 2P", Courier, monospace;
+  font-family: "Odudo", Courier, monospace;
   text-align: center;
 }
 
