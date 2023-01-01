@@ -6,6 +6,5 @@ const { join } = require("path");
 
   await writeFile(
     dataFile,
-    `export const artFiles = [];\nexport const emotesFiles = [];\nexport const gamesFiles = [];\nexport const outfitsFiles = [];\n`
-  );
+    `export const artFiles = [];\nexport const emotesFiles = [];\nexport const gamesFiles = [];\nexport const outfitsFiles = [];\nexport const tattooFiles = []\n`  );
 })();

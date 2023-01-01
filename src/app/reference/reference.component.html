@@ -1,6 +1,6 @@
 <div class="content">
   <div class="nes-container with-title is-centered is-rounded">
-    <h2>Reference Sheet</h2>
+    <h1 class="title">Reference Sheet</h1>
     <p>
       Naomi has some standard aspects about her appearance that never change.
     </p>
@@ -26,7 +26,7 @@
     </div>
     <div class="content-grid" *ngIf="view === 'face'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Face</h4>
+        <h2 class="title">Face</h2>
         <p>
           Naomi's eyes contain miniature galaxies, and she wears purple
           lipstick, eyeshadow, and blush.
@@ -38,7 +38,7 @@
     </div>
     <div class="content-grid" *ngIf="view === 'hands'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Hands</h4>
+        <h2 class="title">Hands</h2>
         <p>
           Naomi keeps her fingernails long and filed to a point, and paints them
           purple.
@@ -50,7 +50,7 @@
     </div>
     <div class="content-grid" *ngIf="view === 'feet'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>Feet</h4>
+        <h2 class="title">Feet</h2>
         <p>
           She keeps her toes painted a sparkly purple, and never wears socks or
           shoes.
@@ -63,7 +63,7 @@
     <!--TODO: Make this paginated-->
     <div class="tattoo" *ngIf="view === 'tattoos'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
-        <h4>{{ tattooData[currentTattooIndex].name }}</h4>
+        <h2 class="title">{{ tattooData[currentTattooIndex].name }}</h2>
         <a
           href="/assets/img/ref/tattoos/{{
             tattooData[currentTattooIndex].fileName
