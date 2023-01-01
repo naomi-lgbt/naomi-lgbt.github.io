@@ -32,6 +32,7 @@ export class TailorComponent implements OnInit {
     ],
   ];
   public showCreditModal = false;
+  public currentOutfitIndex = 0;
 
   constructor() {}
 
@@ -61,5 +62,23 @@ export class TailorComponent implements OnInit {
 
   closeModal() {
     this.showCreditModal = false;
+  }
+
+  nextOutfit() {
+    this.currentOutfitIndex =
+      this.currentOutfitIndex === this.outfits.length - 1
+        ? 0
+        : this.currentOutfitIndex + 1;
+  }
+
+  previousOutfit() {
+    this.currentOutfitIndex =
+      this.currentOutfitIndex === 0
+        ? this.outfits.length - 1
+        : this.currentOutfitIndex - 1;
+  }
+
+  selectOutfit(index: string) {
+    this.currentOutfitIndex = parseInt(index);
   }
 }

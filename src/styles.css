@@ -15,8 +15,8 @@
 }
 
 @font-face {
-  font-family: "Press Start 2P";
-  src: url("/assets/fonts/PressStart2P-Regular.ttf");
+  font-family: "Odudo";
+  src: url("/assets/fonts/odudomono.otf");
   font-display: swap;
 }
 
@@ -26,14 +26,13 @@ html {
 
 body {
   margin: 0;
-  background: url("https://cdn.nhcarrigan.com/banner.png") no-repeat top center
-    fixed;
+  background: url("/assets/img/background.png") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: var(--dark-purple);
-  font: "Press Start 2P", Courier, monospace;
+  font-family: "Odudo", Courier, monospace;
   text-align: center;
 }
 

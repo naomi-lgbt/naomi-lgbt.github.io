@@ -43,7 +43,10 @@
       href="./assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-    <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml" />
+    <meta
+      name="msapplication-config"
+      content="./assets/favicon/browserconfig.xml"
+    />
     <meta name="msapplication-TileColor" content="#3a3240" />
     <meta name="theme-color" content="#3a3240" />
     <!--Styling-->
@@ -63,11 +66,17 @@
   <body>
     <app-root></app-root>
   </body>
-  <img class="corner" src="/assets/img/corner.gif" aria-hidden="true" alt="" />
-  <img
+  <video class="corner" autoplay loop muted playsinline aria-hidden="true">
+    <source src="/assets/img/corner.webm" type="video/webm" />
+  </video>
+  <video
     class="corner corner-left"
-    src="/assets/img/corner-left.gif"
+    autoplay
+    loop
+    muted
+    playsinline
     aria-hidden="true"
-    alt=""
-  />
+  >
+    <source src="/assets/img/corner-left.webm" type="video/webm" />
+  </video>
 </html>

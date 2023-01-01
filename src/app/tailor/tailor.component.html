@@ -13,24 +13,39 @@
     <button class="nes-btn" (click)="renderCredits('_default')">
       Model Credits
     </button>
-    <div class="nes-container is-rounded is-centered is-dark outfits">
-      <div class="outfit" *ngFor="let outfit of outfits">
-        <a href="/assets/img/outfits/{{ outfit.fileName }}" target="_blank">
-          <img
-            src="/assets/img/outfits/{{ outfit.fileName }}"
-            alt="{{ outfit.alt }}"
-            class="outfit-img"
-          />
-        </a>
-        <div class="outfit-description">
-          <h2>{{ outfit.name }}</h2>
-          <p>{{ outfit.description }}</p>
-          <button class="nes-btn" (click)="renderCredits(outfit.name)">
-            Credits
-          </button>
-        </div>
+    <div class="nes-container is-rounded is-centered is-dark outfit">
+      <a
+        href="/assets/img/outfits/{{ outfits[currentOutfitIndex].fileName }}"
+        target="_blank"
+      >
+        <img
+          src="/assets/img/outfits/{{ outfits[currentOutfitIndex].fileName }}"
+          alt="{{ outfits[currentOutfitIndex].alt }}"
+          class="outfit-img"
+        />
+      </a>
+      <div class="outfit-description">
+        <h2>{{ outfits[currentOutfitIndex].name }}</h2>
+        <p>{{ outfits[currentOutfitIndex].description }}</p>
+        <button
+          class="nes-btn"
+          (click)="renderCredits(outfits[currentOutfitIndex].name)"
+        >
+          Credits
+        </button>
       </div>
     </div>
+    <button class="nes-btn" (click)="previousOutfit()">Previous Outfit</button>
+    <button class="nes-btn" (click)="nextOutfit()">Next Outfit</button>
+    <select #outfit (change)="selectOutfit(outfit.value)">
+      <option disabled selected>Jump to Outfit</option>
+      <option
+        *ngFor="let outfit of outfits; let i = index"
+        [value]="i"
+      >
+        {{ outfit.name }}
+      </option>
+      </select>
   </div>
   <a class="nes-btn" routerLink="/plaza"
     >These are nice - but time to move on</a

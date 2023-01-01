@@ -1,0 +1,102 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded">
+    <h1 class="title">Reference Sheet</h1>
+    <p>
+      Naomi has some standard aspects about her appearance that never change.
+    </p>
+    <p>She is slender, with soft pale skin. She's approximately 173cm tall.</p>
+    <p>
+      She keeps her long purple hair up in a pony tail, with her bangs loose.
+    </p>
+    <p>She is never seen without her glasses.</p>
+    <p>Her tattoos can be hidden or visible on her whims.</p>
+    <p>What do you want to see?</p>
+    <button class="nes-btn" (click)="changeView('body')">Body</button>
+    <button class="nes-btn" (click)="changeView('face')">Face</button>
+    <button class="nes-btn" (click)="changeView('hands')">Hands</button>
+    <button class="nes-btn" (click)="changeView('feet')">Feet</button>
+    <button class="nes-btn" (click)="changeView('tattoos')">Tattoos</button>
+    <div class="content-grid" *ngIf="view === 'body'">
+      <a href="/assets/img/ref/front.png" target="_blank">
+        <img src="/assets/img/ref/front.png" />
+      </a>
+      <a href="/assets/img/ref/back.png" target="_blank">
+        <img src="/assets/img/ref/back.png" />
+      </a>
+    </div>
+    <div class="content-grid" *ngIf="view === 'face'">
+      <div class="nes-container with-title is-centered is-rounded is-dark">
+        <h2 class="title">Face</h2>
+        <p>
+          Naomi's eyes contain miniature galaxies, and she wears purple
+          lipstick, eyeshadow, and blush.
+        </p>
+      </div>
+      <a href="/assets/img/ref/face.png" target="_blank">
+        <img src="/assets/img/ref/face.png" />
+      </a>
+    </div>
+    <div class="content-grid" *ngIf="view === 'hands'">
+      <div class="nes-container with-title is-centered is-rounded is-dark">
+        <h2 class="title">Hands</h2>
+        <p>
+          Naomi keeps her fingernails long and filed to a point, and paints them
+          purple.
+        </p>
+      </div>
+      <a href="/assets/img/ref/hands.png" target="_blank">
+        <img src="/assets/img/ref/hands.png" />
+      </a>
+    </div>
+    <div class="content-grid" *ngIf="view === 'feet'">
+      <div class="nes-container with-title is-centered is-rounded is-dark">
+        <h2 class="title">Feet</h2>
+        <p>
+          She keeps her toes painted a sparkly purple, and never wears socks or
+          shoes.
+        </p>
+      </div>
+      <a href="/assets/img/ref/feet.png" target="_blank">
+        <img src="/assets/img/ref/feet.png" />
+      </a>
+    </div>
+    <!--TODO: Make this paginated-->
+    <div class="tattoo" *ngIf="view === 'tattoos'">
+      <div class="nes-container with-title is-centered is-rounded is-dark">
+        <h2 class="title">{{ tattooData[currentTattooIndex].name }}</h2>
+        <a
+          href="/assets/img/ref/tattoos/{{
+            tattooData[currentTattooIndex].fileName
+          }}"
+          target="_blank"
+        >
+          <img
+            src="/assets/img/ref/tattoos/{{
+              tattooData[currentTattooIndex].fileName
+            }}"
+          />
+        </a>
+      </div>
+      <button class="nes-btn" (click)="previousTattoo()">
+        Previous Tattoo
+      </button>
+      <button class="nes-btn" (click)="nextTattoo()">Next Tattoo</button>
+      <select #tatOpt (change)="selectTattoo(tatOpt.value)">
+        <option disabled selected>Jump to Tattoo</option>
+        <option *ngFor="let tattoo of tattooData; let i = index" [value]="i">
+          {{ tattoo.name }}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="nes-container with-title is-centered is-rounded">
+    <h2 class="title">Need More?</h2>
+    <p>
+      You can see previous artistic renditions of Naomi, or see her selection of
+      various outfits, or even see her in some video games!
+    </p>
+    <a routerLink="/museum" class="nes-btn">See Art</a>
+    <a routerLink="/tailor" class="nes-btn">See Outfits</a>
+    <a routerLink="/training-hall" class="nes-btn">See Games</a>
+  </div>
+</div>

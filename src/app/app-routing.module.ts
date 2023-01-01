@@ -8,6 +8,7 @@ import { LibraryComponent } from './library/library.component';
 import { LostComponent } from './lost/lost.component';
 import { MuseumComponent } from './museum/museum.component';
 import { PlazaComponent } from './plaza/plaza.component';
+import { ReferenceComponent } from './reference/reference.component';
 import { TailorComponent } from './tailor/tailor.component';
 import { TavernComponent } from './tavern/tavern.component';
 import { TempleComponent } from './temple/temple.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'castle', component: CastleComponent },
   { path: 'confirm', component: ConfirmComponent },
   { path: 'tailor', component: TailorComponent },
+  { path: 'reference', component: ReferenceComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: '**', component: LostComponent },
 ];

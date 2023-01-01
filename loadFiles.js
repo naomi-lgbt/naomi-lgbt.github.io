@@ -8,11 +8,13 @@ const { join } = require("path");
   const emotesPath = join(process.cwd(), "src", "assets", "img", "emotes");
   const gamesPath = join(process.cwd(), "src", "assets", "img", "games");
   const outfitsPath = join(process.cwd(), "src", "assets", "img", "outfits");
+  const tattoosPath = join(process.cwd(), "src", "assets", "img", "ref", "tattoos");
 
   const artFiles = await readdir(artPath);
   const emotesFiles = await readdir(emotesPath);
   const gamesFiles = await readdir(gamesPath);
   const outfitsFiles = await readdir(outfitsPath);
+  const tattoosFiles = await readdir(tattoosPath);
 
   await writeFile(
     dataFile,
@@ -22,6 +24,6 @@ const { join } = require("path");
       emotesFiles
     )};\nexport const gamesFiles = ${JSON.stringify(
       gamesFiles
-    )};\nexport const outfitsFiles = ${JSON.stringify(outfitsFiles)};\n`
+    )};\nexport const outfitsFiles = ${JSON.stringify(outfitsFiles)};\nexport const tattooFiles = ${JSON.stringify(tattoosFiles)};\n`
   );
 })();
