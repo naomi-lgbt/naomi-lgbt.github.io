@@ -10,6 +10,7 @@
 *.cur binary
 *.gif binary
 *.ani binary
+*.webm binary
 
 # Don't touch my fonts
 *.ttf binary
