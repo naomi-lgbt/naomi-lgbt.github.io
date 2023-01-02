@@ -81,6 +81,17 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Biker Gear',
+    fileName: 'biker.png',
+    description: 'Naomi does not have a motorcycle, but if she did...',
+    alt: 'Naomi wearing a black fishnet top with a red open-face corset and black thighless pants.',
+    credits: {
+      corset: 'https://booth.pm/en/items/4328541',
+      top: 'https://booth.pm/en/items/4328553',
+      pants: 'https://booth.pm/en/items/4328556',
+    },
+  },
+  {
     name: 'Black Dress',
     fileName: 'black.png',
     description: "Does this count as a 'Little Black Dress'?",
@@ -209,6 +220,16 @@ export const Outfits: Outfit[] = [
       'Specifically for fancy dinner parties, Naomi typically opts for her more generic formal wear.',
     alt: 'Naomi wearing a black and blue strapless dress, skin-tight and ending halfway down her thighs. Her hair is in her typical ponytail.',
     credits: {},
+  },
+  {
+    name: 'Comfy Wear',
+    fileName: 'comfy.png',
+    description: 'Perfect for a night in, but still looking cute.',
+    alt: 'Naomi wearing a black off-shoulder sweater and a pink miniskirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/4309949',
+      skirt: 'https://booth.pm/en/items/4302019',
+    },
   },
   {
     name: 'Lacy Croptop',
@@ -391,6 +412,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Gold Dress',
+    fileName: 'gold.png',
+    description: 'Naomi loves the way the gold accents her skin.',
+    alt: 'Naomi wearing a black dress with gold accents.',
+    credits: {
+      dress: 'https://booth.pm/en/items/4440667',
+    },
+  },
+  {
     name: 'Skimpy Goth',
     fileName: 'gothic-5.png',
     description: 'Maybe a bit more revealing than intended...',
@@ -452,6 +482,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a light blue dress with light blue striped stockings.',
     credits: {
       outfit: 'https://booth.pm/en/items/4172483',
+    },
+  },
+  {
+    name: 'Heart Bodysuit',
+    fileName: 'heart-2.png',
+    description: 'A cute little bodysuit with a heart cutout.',
+    alt: 'Naomi wearing a black bodysuit with a heart cutout in the chest.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4405964',
     },
   },
   {
@@ -552,7 +591,7 @@ export const Outfits: Outfit[] = [
     description: 'Sometimes Naomi just does not want to go out.',
     alt: 'Naomi wearing a purple cross top, purple stretch pants, and a mesh cardigan.',
     credits: {
-      top: 'https://booth.pm/en/items/3889721'
+      top: 'https://booth.pm/en/items/3889721',
     },
   },
   {
@@ -864,6 +903,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Pyjamas',
+    fileName: 'pyjamas.png',
+    description: 'Naomi is ready for a good night sleep.',
+    alt: 'Naomi wearing purple pyjamas.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4329717',
+    },
+  },
+  {
     name: 'Rainbow Dress',
     fileName: 'rainbow.png',
     description: "For when she's feeling extra sunny.",
@@ -1097,6 +1145,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Strappy Dress',
+    fileName: 'strappy-2.png',
+    description: 'Maybe a bit revealing, but Naomi thinks it is fun.',
+    alt: 'Naomi wearing a purple dress and black panties with a heart.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4331116',
+    },
+  },
+  {
     name: 'Strappy Outfit',
     fileName: 'strappy.png',
     description:
@@ -1175,6 +1232,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Tech Outfit',
+    fileName: 'tech.png',
+    description: 'Naomi is ready to code!',
+    alt: 'Naomi wearing a black trenchcoat with neon blue accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4434087',
+    },
+  },
+  {
     name: 'Tifa Cosplay',
     fileName: 'tifa.png',
     description: 'Naomi is a big fan of Final Fantasy VII.',
@@ -1203,6 +1269,15 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/3357162',
       bottom: 'https://booth.pm/en/items/2726717',
+    },
+  },
+  {
+    name: 'Trenchcoat',
+    fileName: 'trench.png',
+    description: 'She feels like a secret agent...',
+    alt: 'Naomi wearing a black bodysuit with a red trenchcoat.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4379977',
     },
   },
   {
