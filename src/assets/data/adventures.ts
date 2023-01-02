@@ -74,6 +74,10 @@ export const adventures: Adventure[] = [
     game: 'Saints Row IV',
   },
   {
+    fileName: 'shadowrun.jpg',
+    game: 'Shadowrun: Dragonfall',
+  },
+  {
     fileName: 'sims-4.png',
     game: 'The Sims 4',
   },
