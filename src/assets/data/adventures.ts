@@ -34,12 +34,20 @@ export const adventures: Adventure[] = [
     game: 'Elden Ring',
   },
   {
+    fileName: 'fell-seal.jpg',
+    game: 'Fell Seal: Arbiter’s Mark',
+  },
+  {
     fileName: 'jump-force.jpg',
     game: 'Jump Force',
   },
   {
     fileName: 'mount-and-blade-2.jpg',
     game: 'Mount & Blade II',
+  },
+  {
+    fileName: 'neverwinter-nights.jpg',
+    game: 'Neverwinter Nights',
   },
   {
     fileName: 'nioh-2.jpg',
@@ -64,6 +72,10 @@ export const adventures: Adventure[] = [
   {
     fileName: 'saints-row-4.jpg',
     game: 'Saints Row IV',
+  },
+  {
+    fileName: 'shadowrun.jpg',
+    game: 'Shadowrun: Dragonfall',
   },
   {
     fileName: 'sims-4.png',
@@ -92,6 +104,10 @@ export const adventures: Adventure[] = [
   {
     fileName: 'tower-of-fantasy.png',
     game: 'Tower of Fantasy',
+  },
+  {
+    fileName: 'unreal-tournament.jpg',
+    game: 'Unreal Tournament 2004',
   },
   {
     fileName: 'wwe-2k22.jpg',
