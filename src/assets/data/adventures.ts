@@ -42,6 +42,10 @@ export const adventures: Adventure[] = [
     game: 'Mount & Blade II',
   },
   {
+    fileName: 'neverwinter-nights.jpg',
+    game: 'Neverwinter Nights',
+  },
+  {
     fileName: 'nioh-2.jpg',
     game: 'Nioh 2',
   },
