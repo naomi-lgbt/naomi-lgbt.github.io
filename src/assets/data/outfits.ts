@@ -232,6 +232,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Cooking Apron',
+    fileName: 'cooking.png',
+    description: 'Sometimes Naomi works hard in the kitchen!',
+    alt: 'Naomi wearing a blue sports bra, black shorts, and a pink apron.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4407167',
+    },
+  },
+  {
     name: 'Lacy Croptop',
     fileName: 'croptop.png',
     description: 'Naomi feels like a punk rebel wearing this.',
@@ -276,6 +285,15 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/3814412',
       bottom: 'https://booth.pm/en/items/3968706',
+    },
+  },
+  {
+    name: 'Dancer Dress',
+    fileName: 'dancer-2.png',
+    description: 'Naomi does love putting on a show.',
+    alt: 'Naomi wearing a pink belly dancer outfit with gold accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4452134',
     },
   },
   {
@@ -1339,6 +1357,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a white lace wedding dress.',
     credits: {
       outfit: 'https://booth.pm/en/items/4434463',
+    },
+  },
+  {
+    name: 'White Dress',
+    fileName: 'white.png',
+    description: 'Does this even count?',
+    alt: 'Naomi wearing a very short white dress with a chest opening and blue accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4452921',
     },
   },
   {
