@@ -332,6 +332,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Exercise Gear',
+    fileName: 'exercise.png',
+    description: 'Naomi does try to hit the gym sometimes...',
+    alt: 'Naomi wearing a black sports bra and  black leggings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4454893',
+    },
+  },
+  {
     name: 'Fairy Skirt',
     fileName: 'fairy.png',
     description: 'Now she only needs her wings.',
@@ -532,6 +541,15 @@ export const Outfits: Outfit[] = [
       'He Took Everything From Us. Right Here, He Stabbed Vander In The Back, Just Like He Planned To Do With Me.',
     alt: 'Naomi wearing a black crop top, purple striped pants, and purple gloves.',
     credits: {},
+  },
+  {
+    name: 'Jumpsuit',
+    fileName: 'jumpsuit.png',
+    description: 'She is actually a secret agent.',
+    alt: 'Naomi wearing a black jumpsuit with a front zipper pulled fully down.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4454679',
+    },
   },
   {
     name: 'Kimono',
