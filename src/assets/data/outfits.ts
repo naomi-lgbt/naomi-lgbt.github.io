@@ -121,7 +121,9 @@ export const Outfits: Outfit[] = [
     fileName: 'bun.png',
     description: 'Bun Bun Bun',
     alt: 'Naomi wearing a purple bunny hoodie.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/1967976',
+    },
   },
   {
     name: 'Bunny Suit',
@@ -219,7 +221,9 @@ export const Outfits: Outfit[] = [
     description:
       'Specifically for fancy dinner parties, Naomi typically opts for her more generic formal wear.',
     alt: 'Naomi wearing a black and blue strapless dress, skin-tight and ending halfway down her thighs. Her hair is in her typical ponytail.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/3666370',
+    },
   },
   {
     name: 'Comfy Wear',
@@ -379,7 +383,9 @@ export const Outfits: Outfit[] = [
     description:
       'This was a gift from a friend who was visiting from another world. Naomi loves the floral pattern.',
     alt: 'Naomi wearing a black-blue dress with a floral pattern, her hair in a ponytail.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/4137106',
+    },
   },
   {
     name: 'Formal Wear',
@@ -387,7 +393,9 @@ export const Outfits: Outfit[] = [
     description:
       "Naomi's formal wear, reserved for more elegant occasions. You know, dinner parties and what not.",
     alt: 'Naomi wearing a black dress with fishnet sleeves, her hair in twin braids.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/3944817',
+    },
   },
   {
     name: 'Frilly Fuku',
@@ -610,7 +618,9 @@ export const Outfits: Outfit[] = [
     fileName: 'leather.png',
     description: 'Every girl needs a leather outfit, right??',
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/3493234',
+    },
   },
   {
     name: 'Winter Loungewear',
@@ -728,7 +738,9 @@ export const Outfits: Outfit[] = [
     description:
       'While not her typical black attire, Naomi saw this and fell in love with the space theme.',
     alt: 'Naomi wearing a blue/purple dress with off-the-shoulder sleeves, star patterns in the fabric, and a moon-shaped cutout in the chest. Her hair is in her typical ponytail.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/3554894',
+    },
   },
   {
     name: 'Mummy Costume',
@@ -1240,7 +1252,9 @@ export const Outfits: Outfit[] = [
     description:
       'While not technically a sundress, Naomi wears it as if it were.',
     alt: 'Naomi wearing a short dress with a lacy top, her hair in a ponytail.',
-    credits: {},
+    credits: {
+      outfit: 'https://booth.pm/en/items/2135380',
+    },
   },
   {
     name: 'Sweater Dress',
