@@ -114,7 +114,7 @@ export const adventures: Adventure[] = [
     game: 'WWE: 2K22',
   },
   {
-    fileName: 'xcom-2.jpg',
+    fileName: 'xcom-2.png',
     game: 'XCOM 2',
   },
 ];
