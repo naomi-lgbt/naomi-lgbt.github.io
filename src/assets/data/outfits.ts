@@ -11,6 +11,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Alice: Madness Returns Cosplay',
+    fileName: 'alice.png',
+    description: "We're all mad here.",
+    alt: 'Naomi wearing a blue dress with a white apron and black and white striped stockings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3826969',
+    },
+  },
+  {
     name: 'Anime Dress',
     fileName: 'anime.png',
     description: 'Look Respectfully!',
@@ -245,6 +254,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Tentacle Corset',
+    fileName: 'corset.png',
+    description: "Isn't it cute?",
+    alt: 'Naomi wearing an orange corset with a tentacle pattern, and blue denim shorts.',
+    credits: {
+      top: 'https://booth.pm/en/items/3876069',
+      bottoms: 'https://booth.pm/en/items/2069231',
+    },
+  },
+  {
     name: 'Lacy Croptop',
     fileName: 'croptop.png',
     description: 'Naomi feels like a punk rebel wearing this.',
@@ -260,6 +279,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing chainmail armour with plate overlays, a red skirt, and a red cloak.',
     credits: {
       outfit: 'https://booth.pm/en/items/4308595',
+    },
+  },
+  {
+    name: 'Cute Outfit',
+    fileName: 'cute.png',
+    description: 'Naomi feels extra cute and flirty.',
+    alt: 'Naomi wearing a white tied shirt and pink miniskirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/3746318',
+      bottom: 'https://booth.pm/en/items/3873810',
     },
   },
   {
@@ -436,6 +465,15 @@ export const Outfits: Outfit[] = [
     description: 'Naomi is a glitch in the system.',
     alt: 'Naomi wearing a glitchy maid outfit, with a glitchy maid headband.',
     credits: {},
+  },
+  {
+    name: 'Glitter Gown',
+    fileName: 'glitter.png',
+    description: 'Nice and sparkly!',
+    alt: 'Naomi wearing a blue gown with a glittery pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2906863',
+    },
   },
   {
     name: 'Goddess Vestments',
@@ -908,6 +946,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Prim and Proper',
+    fileName: 'prim.png',
+    description: 'She does know how to dress more properly.',
+    alt: 'Naomi wearing a white dress with a pink apron.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3102388',
+    },
+  },
+  {
     name: 'Code Princess',
     fileName: 'princess.png',
     description:
@@ -941,6 +988,15 @@ export const Outfits: Outfit[] = [
     description: "She's quite proud of how tight the corset goes.",
     alt: 'Naomi wearing a purple dress with a tight black corset with pearls strung across it.',
     credits: {},
+  },
+  {
+    name: 'Frilly Purple Dress',
+    fileName: 'purple-3.png',
+    description: 'Naomi loves the frills on this dress.',
+    alt: 'Naomi wearing a purple crop top and purple skirt, with white frilly lining.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3708788',
+    },
   },
   {
     name: 'Purple Top',
@@ -1009,6 +1065,15 @@ export const Outfits: Outfit[] = [
     description: 'A red, Victorian style dress.',
     alt: 'Naomi wearing a red Victorian style dress.',
     credits: {},
+  },
+  {
+    name: 'Red Lace',
+    fileName: 'red-3.png',
+    description: 'A red lace dress.',
+    alt: 'Naomi wearing a red dress with black lace on the hem.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3706660',
+    },
   },
   {
     name: 'Red Dress',
@@ -1247,6 +1312,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Pale Sundress',
+    fileName: 'sundress-3',
+    description: 'A nice and soft sundress to keep cool.',
+    alt: 'Naomi wearing a light pink sundress with white accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2170010',
+    },
+  },
+  {
     name: 'Sundress',
     fileName: 'sundress.png',
     description:
@@ -1353,6 +1427,15 @@ export const Outfits: Outfit[] = [
       'Another fun costume, Naomi sometimes wears fake fangs with this.',
     alt: 'Naomi wearing a black strapless dress with a ragged red hem, her hair in a ponytail.',
     credits: {},
+  },
+  {
+    name: 'Velvet Room Cosplay',
+    fileName: 'velvet-room.png',
+    description: 'I am thou, and thou art I.',
+    alt: 'Naomi wearing a cosplay of the Velvet Room characters from Persona.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2414830',
+    },
   },
   {
     name: 'Villain Outfit',
