@@ -1313,7 +1313,7 @@ export const Outfits: Outfit[] = [
   },
   {
     name: 'Pale Sundress',
-    fileName: 'sundress-3',
+    fileName: 'sundress-3.png',
     description: 'A nice and soft sundress to keep cool.',
     alt: 'Naomi wearing a light pink sundress with white accents.',
     credits: {
