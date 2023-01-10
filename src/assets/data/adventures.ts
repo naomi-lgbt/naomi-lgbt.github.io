@@ -54,6 +54,10 @@ export const adventures: Adventure[] = [
     game: 'Nioh 2',
   },
   {
+    fileName: 'outer-worlds.jpg',
+    game: 'The Outer Worlds',
+  },
+  {
     fileName: 'pathfinder-wrath.jpg',
     game: 'Pathfinder: Wrath of the Righteous',
   },
