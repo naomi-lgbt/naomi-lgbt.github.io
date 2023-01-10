@@ -417,6 +417,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Flowy Dress',
+    fileName: 'flowy.png',
+    description: 'The ribbon in the back is the fun part.',
+    alt: 'Naomi wearing a white dress with gold accents, blue ruffled hems, and a blue ribbon.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3777214',
+    },
+  },
+  {
     name: 'Formal Wear',
     fileName: 'formal.png',
     description:
@@ -927,6 +936,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Plaid Skirt',
+    fileName: 'plaid.png',
+    description: 'Naomi loves the colour.',
+    alt: 'Naomi wearing a teal plaid miniskirt, and a black croptop with a teal sleeve and a grey plaid sleeve.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4395606',
+    },
+  },
+  {
     name: 'Preppy Outfit',
     fileName: 'preppy.png',
     description:
@@ -1100,11 +1118,38 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Rose Dress',
+    fileName: 'rose-2.png',
+    description: 'The only roses are on the front though...',
+    alt: 'Naomi wearing a black steampunk style dress with white roses on the front, and gold accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4464349',
+    },
+  },
+  {
     name: 'Rose Leotard',
     fileName: 'rose.png',
     description: 'For the days where she plans to work out.',
     alt: 'Naomi wearing a purple leotard with roses.',
     credits: {},
+  },
+  {
+    name: 'Red Riding Hood',
+    fileName: 'rrh.png',
+    description: 'Over the river and through the woods?',
+    alt: 'Naomi wearing a short red dress with a red hood.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4381790',
+    },
+  },
+  {
+    name: 'Ruffled Skirt',
+    fileName: 'ruffled.png',
+    description: 'Nice and frilly!',
+    alt: 'Naomi wearing a pink dress with a ruffled hem and detatched cuffs.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2198812',
+    },
   },
   {
     name: 'Sakura Shrine Maiden',
@@ -1214,6 +1259,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Tactical Gear',
+    fileName: 'specops.png',
+    description: 'For those special missions that need a stealthy operative.',
+    alt: 'Naomi wearing black military tactical gear.',
+    credits: {
+      outfit: 'https://store.steampowered.com/app/1486350/VRoid_Studio_v1190/',
+    },
+  },
+  {
     name: 'Spider Skirt',
     fileName: 'spider.png',
     description: 'Spooder?',
@@ -1280,6 +1334,15 @@ export const Outfits: Outfit[] = [
     description: 'Does it look cute?',
     alt: "Naomi wearing a pink maid's outfit with strawberry print, and a heart shaped window.",
     credits: {},
+  },
+  {
+    name: 'Striped Pyjamas',
+    fileName: 'striped.png',
+    description: 'Nice and light for those warm summer nights.',
+    alt: 'Naomi wearing a tee and shorts with orange stripes.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/1452936',
+    },
   },
   {
     name: 'Succubus Dress',
@@ -1372,6 +1435,16 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Torn Clothing',
+    fileName: 'torn.png',
+    description: 'Surviving an apocalypse is hard.',
+    alt: 'Naomi wearing a long open vest and torn black jeans.',
+    credits: {
+      top: 'https://booth.pm/en/items/4465157',
+      bottom: 'https://booth.pm/en/items/3225397',
+    },
+  },
+  {
     name: 'Toxic Radiation',
     fileName: 'toxic.png',
     description: 'This might actually be radioactive...',
@@ -1435,6 +1508,24 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a cosplay of the Velvet Room characters from Persona.',
     credits: {
       outfit: 'https://booth.pm/en/items/2414830',
+    },
+  },
+  {
+    name: 'Argyle Vest',
+    fileName: 'vest.png',
+    description: 'A winter school uniform.',
+    alt: 'Naomi wearing a purple argyle vest over a black button up shirt, with a purple miniskirt and purple stockings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4463167',
+    },
+  },
+  {
+    name: 'Villager Dress',
+    fileName: 'villager.png',
+    description: 'Naomi feels like a medieval peasant.',
+    alt: 'Naomi wearing a tan dress with a brown cape and petticoat.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3604872',
     },
   },
   {
