@@ -37,6 +37,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Ara Ara Shirt',
+    fileName: 'ara-ara.png',
+    description: 'Ara Ara',
+    alt: 'Naomi wearing a black tee that says ara ara and a black slit skirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/3211418',
+      bottom: 'https://booth.pm/en/items/4038936',
+    },
+  },
+  {
     name: 'Arachnid Dress',
     fileName: 'arachnid.png',
     description:
@@ -225,6 +235,16 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Purple Cocktail Dress',
+    fileName: 'cocktail-2.png',
+    description: 'A nice dress for an evening out.',
+    alt: 'Naomi wearing a cocktail dress with a purple top and black pinstripe skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4200003',
+      necklace: 'https://booth.pm/en/items/4199994',
+    },
+  },
+  {
     name: 'Cocktail Dress',
     fileName: 'cocktail.png',
     description:
@@ -398,6 +418,18 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/4436733',
       skirt: 'https://booth.pm/en/items/4436767',
+    },
+  },
+  {
+    name: 'Fishnet Outfit',
+    fileName: 'fishnet-3.png',
+    description: 'How long before something rips?',
+    alt: 'Naomi wearing a fishnet croptop, black skirt, and fishnet gloves and stockings.',
+    credits: {
+      top: 'https://booth.pm/en/items/2851668',
+      bottoms: 'https://booth.pm/en/items/3095532',
+      gloves: 'https://booth.pm/en/items/2862010',
+      stockings: 'https://booth.pm/en/items/3570007',
     },
   },
   {
@@ -586,6 +618,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Red Heart Dress',
+    fileName: 'heart-3.png',
+    description: 'Is she capturing your heart?',
+    alt: 'Naomi wearing a red dress with a heart necklace and ribbon, and black lace.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3563857',
+    },
+  },
+  {
     name: 'Heart Dress',
     fileName: 'heart.png',
     description: "Naomi's heart is on her sleeve? Chest? Both??",
@@ -607,6 +648,15 @@ export const Outfits: Outfit[] = [
     description: 'A cute little forest themed dress.',
     alt: 'Naomi wearing a green dress with an ivy pattern and red flowers.',
     credits: {},
+  },
+  {
+    name: 'Blue Jeans',
+    fileName: 'jeans.png',
+    description: 'Naomi generally prefers skirts.',
+    alt: 'Naomi wearing a white crop top tee and ripped blue jeans.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4366754',
+    },
   },
   {
     name: 'Jinx Cosplay',
