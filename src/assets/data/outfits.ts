@@ -254,6 +254,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Lace Corset',
+    fileName: 'corset-2.png',
+    description: 'Maybe a little small?',
+    alt: 'Naomi wearing a small lace corset with matching gloves, and ripped black shorts.',
+    credits: {
+      top: 'https://booth.pm/en/items/4469942',
+      bottom: 'https://booth.pm/en/items/2775854',
+    },
+  },
+  {
     name: 'Tentacle Corset',
     fileName: 'corset.png',
     description: "Isn't it cute?",
@@ -581,6 +591,15 @@ export const Outfits: Outfit[] = [
     description: "Naomi's heart is on her sleeve? Chest? Both??",
     alt: 'Naomi wearing a green dress with a stylised heart cutout in the chest.',
     credits: {},
+  },
+  {
+    name: 'Cropped Hoodie',
+    fileName: 'hoodie.png',
+    description: 'Does this even count?',
+    alt: 'Naomi wearing a cropped hoodie and a black zipper skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/2799865',
+    },
   },
   {
     name: 'Ivy Dress',
