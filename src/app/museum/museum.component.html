@@ -47,6 +47,10 @@
       She leads you to a hall filled with paintings, each one a detailed and
       loving rendition of Naomi. You spend some time browsing the works.
     </p>
+    <p>
+      There are <strong>{{ portraits.length }}</strong> portraits available to
+      browse.
+    </p>
   </div>
   <div
     *ngIf="view === 'portrait'"
@@ -98,6 +102,9 @@
     <p>
       You see smaller sculptures of Naomi making various expressions. You now
       understand the reason for this exhibit's name, at least.
+    </p>
+    <p>
+      There are <strong>{{ emotes.length }}</strong> emotes available to browse.
     </p>
   </div>
   <div

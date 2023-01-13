@@ -66,13 +66,23 @@
       She turns and walks out of the room, closing the door behind her. You're
       left to browse the scrolls at your leisure.
     </p>
+    <p>
+      There are <strong>{{ games.length }}</strong> adventures available to
+      revisit.
+    </p>
   </div>
   <div
     *ngIf="view === 'games'"
     class="nes-container is-rounded is-centered game"
   >
-    <a href="/assets/img/games/{{ games[currentGameIndex].fileName }}" target="_blank">
-      <img src="/assets/img/games/{{ games[currentGameIndex].fileName }}" alt="{{ games[currentGameIndex].game }}" />
+    <a
+      href="/assets/img/games/{{ games[currentGameIndex].fileName }}"
+      target="_blank"
+    >
+      <img
+        src="/assets/img/games/{{ games[currentGameIndex].fileName }}"
+        alt="{{ games[currentGameIndex].game }}"
+      />
     </a>
     <p class="game-title">{{ games[currentGameIndex].game }}</p>
     <button class="nes-btn" (click)="previousGame()">Previous Adventure</button>
