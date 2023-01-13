@@ -87,6 +87,10 @@ describe('MuseumComponent', () => {
     });
   }
 
+  it(`should have data for all portraits`, () => {
+    expect(portraits.length).toBe(artFiles.length);
+  });
+
   for (const file of artFiles) {
     it(`should display the ${file} portrait`, () => {
       const portrait = portraits.find((p) => p.fileName === file);
@@ -137,6 +141,10 @@ describe('MuseumComponent', () => {
       expect(title?.textContent?.trim()).toBe(emote.name);
     });
   }
+
+  it(`should have data for all emotes`, () => {
+    expect(emotes.length).toBe(emotesFiles.length);
+  });
 
   for (const file of emotesFiles) {
     it(`should display the ${file} portrait`, () => {

@@ -10,6 +10,10 @@
       Each outfit is carefully displayed on a stand, with a placard explaining
       the purpose of the clothing.
     </p>
+    <p>
+      There are <strong>{{ outfits.length }}</strong> outfits available to
+      peruse.
+    </p>
     <button class="nes-btn" (click)="renderCredits('_default')">
       Model Credits
     </button>
@@ -39,13 +43,10 @@
     <button class="nes-btn" (click)="nextOutfit()">Next Outfit</button>
     <select #outfit (change)="selectOutfit(outfit.value)">
       <option disabled selected>Jump to Outfit</option>
-      <option
-        *ngFor="let outfit of outfits; let i = index"
-        [value]="i"
-      >
+      <option *ngFor="let outfit of outfits; let i = index" [value]="i">
         {{ outfit.name }}
       </option>
-      </select>
+    </select>
   </div>
   <a class="nes-btn" routerLink="/plaza"
     >These are nice - but time to move on</a

@@ -20,6 +20,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Angel Dress',
+    fileName: 'angel.png',
+    description: 'Not that she acts like an angel...',
+    alt: 'Naomi wearing a white dress with a gold sash and gold ribbons on her arms and left leg.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3984209',
+    },
+  },
+  {
     name: 'Anime Dress',
     fileName: 'anime.png',
     description: 'Look Respectfully!',
@@ -205,11 +214,30 @@ export const Outfits: Outfit[] = [
   },
 
   {
-    name: 'Cheer',
+    name: 'Cheerleader Outfit',
     fileName: 'cheer.png',
     description: 'Go Naomi Go! Ra Ra Ra!',
     alt: 'Naomi wearing a black and white cheerleader outfit, with her hair in pigtails.',
     credits: {},
+  },
+  {
+    name: 'Chiffon Dress',
+    fileName: 'chiffon.png',
+    description: 'She feels kinda fancy!',
+    alt: 'Naomi wearing a pink chiffon dress.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4217110',
+    },
+  },
+  {
+    name: 'Chihiro Cosplay',
+    fileName: 'chihiro.png',
+    description: 'Time to get spirited away?',
+    alt: 'Naomi wearing a green and white tee and red shorts',
+    credits: {
+      shirt: 'https://booth.pm/en/items/3459002',
+      shorts: 'https://booth.pm/en/items/3459490',
+    },
   },
   {
     name: 'Chill Time',
@@ -233,6 +261,15 @@ export const Outfits: Outfit[] = [
     description: 'Naomi is ready to fight on the street, I guess?',
     alt: 'Naomi wearing a blue slit dress with black stockings, and a gold moon pattern.',
     credits: {},
+  },
+  {
+    name: 'Clockwork Dress',
+    fileName: 'clockwork.png',
+    description: 'Tick tock... tick tock...',
+    alt: 'Naomi wearing a steampunk style dress with a clockwork theme.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3833922',
+    },
   },
   {
     name: 'Purple Cocktail Dress',
@@ -319,6 +356,15 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/3746318',
       bottom: 'https://booth.pm/en/items/3873810',
+    },
+  },
+  {
+    name: 'Cyberdress',
+    fileName: 'cyberdress.png',
+    description: 'She thought it was unique!',
+    alt: 'Naomi wearing a grey dress with blue neon accents and black shorts.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4164246',
     },
   },
   {
@@ -500,6 +546,16 @@ export const Outfits: Outfit[] = [
       'Naomi fell in love with this dress when she saw the star patterns.',
     alt: 'Naomi wearing a purple dress with light purple stars, detatched sleeves, and her hair in a ponytail.',
     credits: {},
+  },
+  {
+    name: 'Gamer Shirt',
+    fileName: 'gamer.png',
+    description: 'Naomi loves to play video games.',
+    alt: 'Naomi wearing a crop top with a controller print, and a purple skirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/4120388',
+      skirt: 'https://booth.pm/en/items/3994546',
+    },
   },
   {
     name: 'Glass Dress',
@@ -902,6 +958,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a latex dark purple nurse dress.',
     credits: {
       outfit: 'https://booth.pm/en/items/3380563',
+    },
+  },
+  {
+    name: 'Ocean Outfit',
+    fileName: 'ocean.png',
+    description:
+      'Naomi loves the ocean, and this outfit is a great way to show it.',
+    alt: 'Naomi wearing a crop top and tight miniskirt with an ocean pattern, and matching gloves and stockings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4170670',
     },
   },
   {

@@ -80,6 +80,10 @@ describe('TrainingHallComponent', () => {
     });
   }
 
+  it(`should have data for all games`, () => {
+    expect(adventures.length).toBe(gamesFiles.length);
+  });
+
   for (const file of gamesFiles) {
     it(`should display the ${file} adventure`, () => {
       const adventure = adventures.find((el) => el.fileName === file);
