@@ -230,6 +230,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Chihiro Cosplay',
+    fileName: 'chihiro.png',
+    description: 'Time to get spirited away?',
+    alt: 'Naomi wearing a green and white tee and red shorts',
+    credits: {
+      shirt: 'https://booth.pm/en/items/3459002',
+      shorts: 'https://booth.pm/en/items/3459490',
+    },
+  },
+  {
     name: 'Chill Time',
     fileName: 'chill.png',
     description: 'Perfect for curling up under a blanket with a good book.',
