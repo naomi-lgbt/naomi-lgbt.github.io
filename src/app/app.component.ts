@@ -8,7 +8,7 @@ import {
   Engine,
 } from 'tsparticles-engine';
 import { loadFull } from 'tsparticles';
-import { ParticleOptions } from 'src/assets/config/ParticleOptions';
+import { ParticleOptions } from 'src/app/_config/ParticleOptions';
 
 @Component({
   selector: 'app-root',

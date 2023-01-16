@@ -37,4 +37,13 @@ const djson = require('dirty-json');
     const parsedEmotesData = djson.parse(cleanedEmotesData);
     const emoteData = JSON.stringify(parsedEmotesData, null, 2);
     await writeFile(join(process.cwd(), "src", "assets", "data", "emotes.json"), emoteData, "utf-8");
+
+    // Tattoos
+
+    const tattoosPath = join(process.cwd(), "src", "app", "_data", "tattoos.ts");
+    const tattoosData = await readFile(tattoosPath, 'utf-8');
+    const cleanedTattoosData = tattoosData.replace(`import { Tattoo } from 'src/interfaces/Tattoo';\n\nexport const tattoos: Tattoo[] = `, '').replace(";", '');
+    const parsedTattoosData = djson.parse(cleanedTattoosData);
+    const tattooData = JSON.stringify(parsedTattoosData, null, 2);
+    await writeFile(join(process.cwd(), "src", "assets", "data", "tattoos.json"), tattooData, "utf-8");
 })();
