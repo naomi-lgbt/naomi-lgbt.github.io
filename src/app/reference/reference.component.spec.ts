@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { tattoos } from 'src/assets/data/tattoos';
+import { tattoos } from 'src/app/_data/tattoos';
 import { tattooFiles } from 'src/assets/fileList';
 
 import { ReferenceComponent } from './reference.component';
@@ -54,8 +54,8 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(2);
-    expect(imgs[0].getAttribute('src')).toBe('/assets/img/ref/front.png');
-    expect(imgs[1].getAttribute('src')).toBe('/assets/img/ref/back.png');
+    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/front.png');
+    expect(imgs[1].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/back.png');
   });
 
   it('should render the face view correctly', () => {
@@ -63,7 +63,7 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('/assets/img/ref/face.png');
+    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/face.png');
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Face');
   });
@@ -73,7 +73,7 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('/assets/img/ref/hands.png');
+    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/hands.png');
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Hands');
   });
@@ -83,7 +83,7 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('/assets/img/ref/feet.png');
+    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/feet.png');
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Feet');
   });
@@ -96,7 +96,7 @@ describe('ReferenceComponent', () => {
       const container = compiled.querySelector('.tattoo');
       const img = container?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `/assets/img/ref/tattoos/${tattoo.fileName}`
+        `https://cdn.naomi.lgbt/ref/tattoos/${tattoo.fileName}`
       );
       const h2 = container?.querySelector('h2');
       expect(h2?.textContent?.trim()).toBe(tattoo.name);

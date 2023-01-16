@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { library } from 'src/assets/data/library';
+import { library } from 'src/app/_data/library';
 import { LibraryBook } from 'src/interfaces/LibraryBook';
 
 @Component({

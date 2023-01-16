@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { adventures } from 'src/assets/data/adventures';
+import { adventures } from 'src/app/_data/adventures';
 import { Adventure } from 'src/interfaces/Adventure';
 
 @Component({

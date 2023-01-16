@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { adventures } from 'src/assets/data/adventures';
+import { adventures } from 'src/app/_data/adventures';
 import { gamesFiles } from 'src/assets/fileList';
 
 import { TrainingHallComponent } from './training-hall.component';
@@ -67,12 +67,12 @@ describe('TrainingHallComponent', () => {
       const game = compiled.querySelector('.game');
       const imgLink = game?.querySelector('a');
       expect(imgLink?.getAttribute('href')).toBe(
-        `/assets/img/games/${adventure.fileName}`
+        `https://cdn.naomi.lgbt/games/${adventure.fileName}`
       );
       expect(imgLink?.getAttribute('target')).toBe('_blank');
       const img = game?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `/assets/img/games/${adventure.fileName}`
+        `https://cdn.naomi.lgbt/games/${adventure.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(adventure.game);
       const title = game?.querySelector('p');
