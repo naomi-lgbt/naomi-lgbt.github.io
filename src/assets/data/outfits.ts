@@ -740,6 +740,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Kitty Dress',
+    fileName: 'kitty.png',
+    description: 'Mew mew mew',
+    alt: 'Naomi wearing a green dress with a cat pawprint cut out of the chest.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4479234',
+    },
+  },
+  {
     name: 'Knight Armour',
     fileName: 'knight.png',
     description: 'A set of blessed armour, Naomi is prepared for battle!',
@@ -981,6 +990,17 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Open Dress',
+    fileName: 'open.png',
+    description: 'This is meant to be worn at the beach...',
+    alt: 'Naomi wearing a purple dress with a slit down the middle.',
+    credits: {
+      top: 'https://booth.pm/en/items/2990208',
+      skirt: 'https://booth.pm/en/items/3071353',
+      panties: 'https://booth.pm/en/items/2924535',
+    },
+  },
+  {
     name: 'Orchid Dress',
     fileName: 'orchid.png',
     description:
@@ -1050,6 +1070,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a frilly pink dress with gold accents.',
     credits: {
       outfit: 'https://booth.pm/en/items/4314717',
+    },
+  },
+  {
+    name: 'Pink Blouse',
+    fileName: 'pink-3.png',
+    description: 'A nice cozy outfit.',
+    alt: 'Naomi wearing a pink blouse and a pink plaid skirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/4478119',
+      skirt: 'https://booth.pm/en/items/4241391',
     },
   },
   {
@@ -1251,6 +1281,15 @@ export const Outfits: Outfit[] = [
     description: 'A cute crop-top and miniskirt with lace ribbon lining.',
     alt: 'Naomi wearing a black crop-top and miniskirt with lace ribbon hems.',
     credits: {},
+  },
+  {
+    name: 'Rope Dress',
+    fileName: 'rope.png',
+    description: 'She thought it was kinda cute.',
+    alt: 'Naomi wearing a dress that is pink on top and green on the skirt, the top held together with rope.',
+    credits: {
+      dress: 'https://booth.pm/en/items/2987289',
+    },
   },
   {
     name: 'Rose Dress',
