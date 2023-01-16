@@ -17,11 +17,11 @@
     <button class="nes-btn" (click)="changeView('feet')">Feet</button>
     <button class="nes-btn" (click)="changeView('tattoos')">Tattoos</button>
     <div class="content-grid" *ngIf="view === 'body'">
-      <a href="/assets/img/ref/front.png" target="_blank">
-        <img src="/assets/img/ref/front.png" />
+      <a href="https://cdn.naomi.lgbt/ref/front.png" target="_blank">
+        <img src="https://cdn.naomi.lgbt/ref/front.png" />
       </a>
-      <a href="/assets/img/ref/back.png" target="_blank">
-        <img src="/assets/img/ref/back.png" />
+      <a href="https://cdn.naomi.lgbt/ref/back.png" target="_blank">
+        <img src="https://cdn.naomi.lgbt/ref/back.png" />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'face'">
@@ -32,8 +32,8 @@
           lipstick, eyeshadow, and blush.
         </p>
       </div>
-      <a href="/assets/img/ref/face.png" target="_blank">
-        <img src="/assets/img/ref/face.png" />
+      <a href="https://cdn.naomi.lgbt/ref/face.png" target="_blank">
+        <img src="https://cdn.naomi.lgbt/ref/face.png" />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'hands'">
@@ -44,8 +44,8 @@
           purple.
         </p>
       </div>
-      <a href="/assets/img/ref/hands.png" target="_blank">
-        <img src="/assets/img/ref/hands.png" />
+      <a href="https://cdn.naomi.lgbt/ref/hands.png" target="_blank">
+        <img src="https://cdn.naomi.lgbt/ref/hands.png" />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'feet'">
@@ -56,8 +56,8 @@
           shoes.
         </p>
       </div>
-      <a href="/assets/img/ref/feet.png" target="_blank">
-        <img src="/assets/img/ref/feet.png" />
+      <a href="https://cdn.naomi.lgbt/ref/feet.png" target="_blank">
+        <img src="https://cdn.naomi.lgbt/ref/feet.png" />
       </a>
     </div>
     <!--TODO: Make this paginated-->
@@ -65,13 +65,13 @@
       <div class="nes-container with-title is-centered is-rounded is-dark">
         <h2 class="title">{{ tattooData[currentTattooIndex].name }}</h2>
         <a
-          href="/assets/img/ref/tattoos/{{
+          href="https://cdn.naomi.lgbt/ref/tattoos/{{
             tattooData[currentTattooIndex].fileName
           }}"
           target="_blank"
         >
           <img
-            src="/assets/img/ref/tattoos/{{
+            src="https://cdn.naomi.lgbt/ref/tattoos/{{
               tattooData[currentTattooIndex].fileName
             }}"
           />
