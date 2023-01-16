@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { emotes } from 'src/assets/data/emotes';
-import { portraits } from 'src/assets/data/portraits';
+import { emotes } from 'src/app/_data/emotes';
+import { portraits } from 'src/app/_data/portraits';
 import { artFiles, emotesFiles } from 'src/assets/fileList';
 
 import { MuseumComponent } from './museum.component';

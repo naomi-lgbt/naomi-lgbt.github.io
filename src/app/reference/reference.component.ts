@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { tattoos } from 'src/assets/data/tattoos';
+import { tattoos } from 'src/app/_data/tattoos';
 
 @Component({
   selector: 'app-reference',

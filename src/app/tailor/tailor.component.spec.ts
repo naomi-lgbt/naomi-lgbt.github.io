@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Outfits } from 'src/assets/data/outfits';
+import { Outfits } from 'src/app/_data/outfits';
 import { outfitsFiles } from 'src/assets/fileList';
 
 import { TailorComponent } from './tailor.component';

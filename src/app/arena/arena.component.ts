@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { hallOfFame } from 'src/assets/data/hallOfFame';
+import { hallOfFame } from 'src/app/_data/hallOfFame';
 import { Fight } from 'src/interfaces/Fight';
 import { ActivityService } from '../activity.service';
 
