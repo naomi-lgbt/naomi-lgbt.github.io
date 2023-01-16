@@ -109,6 +109,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Belted Outfit',
+    fileName: 'belt.png',
+    description: 'The punk/goth aesthetic pleases Naomi.',
+    alt: 'Naomi wearing a black crop top and shorts with belted sleeve and legs.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4480429'
+    }
+  },
+  {
     name: 'Biker Gear',
     fileName: 'biker.png',
     description: 'Naomi does not have a motorcycle, but if she did...',
@@ -1081,6 +1090,15 @@ export const Outfits: Outfit[] = [
       top: 'https://booth.pm/en/items/4478119',
       skirt: 'https://booth.pm/en/items/4241391',
     },
+  },
+  {
+    name: 'Pink Ruffled Dress',
+    fileName: 'pink-4.png',
+    description: "It's cute and ruffled~!",
+    alt: 'Naomi wearing a black and pink dress with a pink ruffled hem.',
+    credits: {
+      dress: 'https://booth.pm/en/items/4481033'
+    }
   },
   {
     name: 'Pink Dress',
