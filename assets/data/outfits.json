@@ -164,6 +164,15 @@
     "credits": {}
   },
   {
+    "name": "Business Casual",
+    "fileName": "business.png",
+    "description": "Something a little more professional than Naomi typically wears.",
+    "alt": "Naomi wearing a pink button up shirt and a denim skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1515610"
+    }
+  },
+  {
     "name": "Butterfly Dress",
     "fileName": "butterfly.png",
     "description": "Naomi thought this dress/kimono hybrid was exceptionally cute.",
@@ -491,6 +500,15 @@
     }
   },
   {
+    "name": "Flower Skirt",
+    "fileName": "flower-2.png",
+    "description": "Some fun summer attire.",
+    "alt": "Naomi wearing a pink crop top and mini skirt with matching floral pattern, and pink stockings.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1508793"
+    }
+  },
+  {
     "name": "Flower Dress",
     "fileName": "flower.png",
     "description": "This was a gift from a friend who was visiting from another world. Naomi loves the floral pattern.",
@@ -548,6 +566,15 @@
     "credits": {
       "top": "https://booth.pm/en/items/4120388",
       "skirt": "https://booth.pm/en/items/3994546"
+    }
+  },
+  {
+    "name": "Glam Dress",
+    "fileName": "glam.png",
+    "description": "How glamorous~!",
+    "alt": "Naomi wearing a pink halter top and a sparkly black miniskirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3518221"
     }
   },
   {
@@ -718,6 +745,15 @@
     "alt": "Naomi wearing a black jumpsuit with a front zipper pulled fully down.",
     "credits": {
       "outfit": "https://booth.pm/en/items/4454679"
+    }
+  },
+  {
+    "name": "Short Kimono",
+    "fileName": "kimono-2.png",
+    "description": "Perfect for the summer festival.",
+    "alt": "Naomi wearing a short blue kimono with a yellow sash, and a floral pattern.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1628818"
     }
   },
   {
@@ -1166,6 +1202,16 @@
     }
   },
   {
+    "name": "Purple Sportwear",
+    "fileName": "purple-4.png",
+    "description": "An excellent outfit to wear for a run.",
+    "alt": "Naomi wearing a purple tank top, purple miniskirt, and purple shorts.",
+    "credits": {
+      "top": "https://booth.pm/en/items/2193069",
+      "bottoms": "https://booth.pm/en/items/2828095"
+    }
+  },
+  {
     "name": "Purple Top",
     "fileName": "purple.png",
     "description": "Every wardrobe needs a splash of colour, and with Naomi's favourite being purple this outfit is the perfect addition.",
@@ -1442,6 +1488,16 @@
     "alt": "Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.",
     "credits": {
       "outfit": "https://booth.pm/en/items/2431686"
+    }
+  },
+  {
+    "name": "Sporty Clothes",
+    "fileName": "sporty.png",
+    "description": "Good for a run or a day at the gym.",
+    "alt": "Naomi wearing a white and black coat and a black miniskirt, both with blue accents.",
+    "credits": {
+      "top": "https://booth.pm/en/items/1539679",
+      "skirt": "https://booth.pm/en/items/1790251"
     }
   },
   {
