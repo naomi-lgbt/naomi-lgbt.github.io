@@ -239,4 +239,11 @@ export const portraits: Portrait[] = [
     alt: 'Cat girl Naomi, holding her fluffy tail.',
     spicy: false,
   },
+  {
+    fileName: 'Mai_Meme.png',
+    artist: 'Mai_Meme',
+    url: '',
+    alt: 'Naomi in her daily outfit.',
+    spicy: false,
+  },
 ];
