@@ -114,8 +114,8 @@ export const Outfits: Outfit[] = [
     description: 'The punk/goth aesthetic pleases Naomi.',
     alt: 'Naomi wearing a black crop top and shorts with belted sleeve and legs.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4480429'
-    }
+      outfit: 'https://booth.pm/en/items/4480429',
+    },
   },
   {
     name: 'Biker Gear',
@@ -168,6 +168,16 @@ export const Outfits: Outfit[] = [
     description: 'Hippity Hop',
     alt: 'Naomi wearing a black bunny suit with fishnets.',
     credits: {},
+  },
+  {
+    name: 'Business Casual',
+    fileName: 'business.png',
+    description:
+      'Something a little more professional than Naomi typically wears.',
+    alt: 'Naomi wearing a pink button up shirt and a denim skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/1515610',
+    },
   },
   {
     name: 'Butterfly Dress',
@@ -504,6 +514,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Flower Skirt',
+    fileName: 'flower-2.png',
+    description: 'Some fun summer attire.',
+    alt: 'Naomi wearing a pink crop top and mini skirt with matching floral pattern, and pink stockings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/1508793',
+    },
+  },
+  {
     name: 'Flower Dress',
     fileName: 'flower.png',
     description:
@@ -564,6 +583,15 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/4120388',
       skirt: 'https://booth.pm/en/items/3994546',
+    },
+  },
+  {
+    name: 'Glam Dress',
+    fileName: 'glam.png',
+    description: 'How glamorous~!',
+    alt: 'Naomi wearing a pink halter top and a sparkly black miniskirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3518221',
     },
   },
   {
@@ -738,6 +766,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black jumpsuit with a front zipper pulled fully down.',
     credits: {
       outfit: 'https://booth.pm/en/items/4454679',
+    },
+  },
+  {
+    name: 'Short Kimono',
+    fileName: 'kimono-2.png',
+    description: 'Perfect for the summer festival.',
+    alt: 'Naomi wearing a short blue kimono with a yellow sash, and a floral pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/1628818',
     },
   },
   {
@@ -1097,8 +1134,8 @@ export const Outfits: Outfit[] = [
     description: "It's cute and ruffled~!",
     alt: 'Naomi wearing a black and pink dress with a pink ruffled hem.',
     credits: {
-      dress: 'https://booth.pm/en/items/4481033'
-    }
+      dress: 'https://booth.pm/en/items/4481033',
+    },
   },
   {
     name: 'Pink Dress',
@@ -1197,6 +1234,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple crop top and purple skirt, with white frilly lining.',
     credits: {
       outfit: 'https://booth.pm/en/items/3708788',
+    },
+  },
+  {
+    name: 'Purple Sportwear',
+    fileName: 'purple-4.png',
+    description: 'An excellent outfit to wear for a run.',
+    alt: 'Naomi wearing a purple tank top, purple miniskirt, and purple shorts.',
+    credits: {
+      top: 'https://booth.pm/en/items/2193069',
+      bottoms: 'https://booth.pm/en/items/2828095',
     },
   },
   {
@@ -1484,6 +1531,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black corset, a purple skirt and stockings, and a purple overcoat.',
     credits: {
       outfit: 'https://booth.pm/en/items/2431686',
+    },
+  },
+  {
+    name: 'Sporty Clothes',
+    fileName: 'sporty.png',
+    description: 'Good for a run or a day at the gym.',
+    alt: 'Naomi wearing a white and black coat and a black miniskirt, both with blue accents.',
+    credits: {
+      top: 'https://booth.pm/en/items/1539679',
+      skirt: 'https://booth.pm/en/items/1790251',
     },
   },
   {
