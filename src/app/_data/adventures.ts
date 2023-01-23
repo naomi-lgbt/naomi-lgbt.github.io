@@ -38,6 +38,10 @@ export const adventures: Adventure[] = [
     game: 'Fell Seal: Arbiter’s Mark',
   },
   {
+    fileName: 'god-eater.jpg',
+    game: 'God Eater: Resurrection',
+  },
+  {
     fileName: 'jump-force.jpg',
     game: 'Jump Force',
   },
