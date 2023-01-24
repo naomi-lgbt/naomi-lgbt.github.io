@@ -54,8 +54,12 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(2);
-    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/front.png');
-    expect(imgs[1].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/back.png');
+    expect(imgs[0].getAttribute('src')).toBe(
+      'https://cdn.naomi.lgbt/ref/front.png'
+    );
+    expect(imgs[1].getAttribute('src')).toBe(
+      'https://cdn.naomi.lgbt/ref/back.png'
+    );
   });
 
   it('should render the face view correctly', () => {
@@ -63,7 +67,9 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/face.png');
+    expect(imgs[0].getAttribute('src')).toBe(
+      'https://cdn.naomi.lgbt/ref/face.png'
+    );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Face');
   });
@@ -73,7 +79,9 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/hands.png');
+    expect(imgs[0].getAttribute('src')).toBe(
+      'https://cdn.naomi.lgbt/ref/hands.png'
+    );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Hands');
   });
@@ -83,7 +91,9 @@ describe('ReferenceComponent', () => {
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe('https://cdn.naomi.lgbt/ref/feet.png');
+    expect(imgs[0].getAttribute('src')).toBe(
+      'https://cdn.naomi.lgbt/ref/feet.png'
+    );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Feet');
   });
@@ -100,6 +110,12 @@ describe('ReferenceComponent', () => {
       );
       const h2 = container?.querySelector('h2');
       expect(h2?.textContent?.trim()).toBe(tattoo.name);
+    });
+  }
+
+  for (const data of tattoos) {
+    it(`${data.fileName} should exist in the CDN`, () => {
+      expect(tattooFiles).toContain(data.fileName);
     });
   }
 

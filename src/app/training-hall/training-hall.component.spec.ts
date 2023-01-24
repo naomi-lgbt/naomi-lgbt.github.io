@@ -84,6 +84,12 @@ describe('TrainingHallComponent', () => {
     expect(adventures.length).toBe(gamesFiles.length);
   });
 
+  for (const data of adventures) {
+    it(`${data.fileName} should exist in the CDN`, () => {
+      expect(gamesFiles).toContain(data.fileName);
+    });
+  }
+
   for (const file of gamesFiles) {
     it(`should display the ${file} adventure`, () => {
       const adventure = adventures.find((el) => el.fileName === file);
