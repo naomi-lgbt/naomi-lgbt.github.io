@@ -154,6 +154,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Bubble Dress',
+    fileName: 'bubbles.png',
+    description: 'Blub blub blub',
+    alt: 'Naomi wearing a blue dress with a bubble pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4490866',
+    },
+  },
+  {
     name: 'Bunny Hoodie',
     fileName: 'bun.png',
     description: 'Bun Bun Bun',
@@ -177,6 +186,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a pink button up shirt and a denim skirt.',
     credits: {
       outfit: 'https://booth.pm/en/items/1515610',
+    },
+  },
+  {
+    name: 'Butler Outfit',
+    fileName: 'butler.png',
+    description: 'Naomi is ready to serve~!',
+    alt: 'Naomi wearing a black vest, red collar, and black shorts.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3683376',
     },
   },
   {
@@ -692,6 +710,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Hakama',
+    fileName: 'hakama.png',
+    description: 'Naomi does occassionally wear pants.',
+    alt: 'Naomi wearing a white kimono and hakama with a black obi.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3632851',
+    },
+  },
+  {
     name: 'Healer Robe',
     fileName: 'healer.png',
     description:
@@ -725,6 +752,17 @@ export const Outfits: Outfit[] = [
     description: "Naomi's heart is on her sleeve? Chest? Both??",
     alt: 'Naomi wearing a green dress with a stylised heart cutout in the chest.',
     credits: {},
+  },
+  {
+    name: 'Pink Hoodie',
+    fileName: 'hoodie-2.png',
+    description: 'Not sure this actually keeps her warm...',
+    alt: 'Naomi wearing a pink cropped hoodie with a floral pattern, and a floor-length black skirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/3684613',
+      corset: 'https://booth.pm/en/items/3675397',
+      skirt: 'https://booth.pm/en/items/3679090',
+    },
   },
   {
     name: 'Cropped Hoodie',
@@ -838,6 +876,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a lavender dress with a floral pattern, and her hair in a ponytail.',
     credits: {
       outfit: 'https://booth.pm/en/items/3542694',
+    },
+  },
+  {
+    name: 'Layla Cosplay',
+    fileName: 'layla.png',
+    description: '',
+    alt: 'Naomi wearing a dress in the style of Layla from Genshin',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4496294',
     },
   },
   {
@@ -1162,6 +1209,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a teal plaid miniskirt, and a black croptop with a teal sleeve and a grey plaid sleeve.',
     credits: {
       outfit: 'https://booth.pm/en/items/4395606',
+    },
+  },
+  {
+    name: 'Poolside Skirt',
+    fileName: 'poolside.png',
+    description: 'She does not actually plan on getting in the water.',
+    alt: 'Naomi wearing a white crop top and a blue wrap-style skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4071005',
     },
   },
   {
@@ -1585,6 +1641,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Streetwear',
+    fileName: 'street.png',
+    description: 'Perfect when she wants to seem intimidating.',
+    alt: 'Naomi wearing a white croptop, and a black bolero jacket and skirt, with pink highlights.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4496307',
+    },
+  },
+  {
     name: 'Striped Pyjamas',
     fileName: 'striped.png',
     description: 'Nice and light for those warm summer nights.',
@@ -1732,6 +1797,15 @@ export const Outfits: Outfit[] = [
     description: "Hey look, it's Sailor Moon!",
     alt: 'Naomi wearing a white sailor fuku with a pink bow and a blue skirt, her hair in twintails with buns.',
     credits: {},
+  },
+  {
+    name: 'Valentine Outfit',
+    fileName: 'valentine-2.png',
+    description: "It's fun AND perfect for love.",
+    alt: 'Naomi wearing a red shawl with a heart pattern, a red bra, and red pants.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3666317',
+    },
   },
   {
     name: 'Valentine Dress',
