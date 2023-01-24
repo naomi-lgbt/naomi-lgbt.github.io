@@ -1,5 +1,5 @@
-export const artFiles = [];
-export const emotesFiles = [];
-export const gamesFiles = [];
-export const outfitsFiles = [];
-export const tattooFiles = []
+export const artFiles: string[] = [];
+export const emotesFiles: string[] = [];
+export const gamesFiles: string[] = [];
+export const outfitsFiles: string[] = [];
+export const tattooFiles: string[] = []

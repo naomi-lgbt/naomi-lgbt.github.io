@@ -104,6 +104,12 @@ describe('TailorComponent', () => {
     expect(Outfits.length).toBe(outfitsFiles.length);
   });
 
+  for (const data of Outfits) {
+    it(`${data.fileName} should exist in the CDN`, () => {
+      expect(outfitsFiles).toContain(data.fileName);
+    });
+  }
+
   for (const file of outfitsFiles) {
     it(`should display the ${file} outfit`, () => {
       const outfitData = Outfits.find((outfit) => outfit.fileName === file);

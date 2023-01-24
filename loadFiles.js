@@ -33,12 +33,12 @@ const parser = new xml2js.Parser();
 
   await writeFile(
     dataFile,
-    `export const artFiles = ${JSON.stringify(
+    `export const artFiles: string[] = ${JSON.stringify(
       art
-    )};\nexport const emotesFiles = ${JSON.stringify(
+    )};\nexport const emotesFiles: string[] = ${JSON.stringify(
       emotes
-    )};\nexport const gamesFiles = ${JSON.stringify(
+    )};\nexport const gamesFiles: string[] = ${JSON.stringify(
       games
-    )};\nexport const outfitsFiles = ${JSON.stringify(outfits)};\nexport const tattooFiles = ${JSON.stringify(tattoos)};\n`
+    )};\nexport const outfitsFiles: string[] = ${JSON.stringify(outfits)};\nexport const tattooFiles: string[] = ${JSON.stringify(tattoos)};\n`
   );
 })();
