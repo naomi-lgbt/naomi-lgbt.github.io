@@ -470,6 +470,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Elegant Skirt',
+    fileName: 'elegant-2.png',
+    description:
+      'Nice enough to wear to dinner, revealing enough to turn heads.',
+    alt: 'Naomi wearing a red corset and red open miniskirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3249965',
+    },
+  },
+  {
     name: 'Elegant Gown',
     fileName: 'elegant.png',
     description:
@@ -656,6 +666,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Goth Tanktop',
+    fileName: 'gothic-6.png',
+    description: 'She paid extra for the holes in the shirt.',
+    alt: 'Naomi wearing a black ripped tank top and purple skirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/3235432',
+      skirt: 'https://booth.pm/en/items/3290174',
+    },
+  },
+  {
     name: 'Skimpy Goth',
     fileName: 'gothic-5.png',
     description: 'Maybe a bit more revealing than intended...',
@@ -807,6 +827,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Open Kimono',
+    fileName: 'kimono-3.png',
+    description: 'She likes how it shows off her legs.',
+    alt: 'Naomi wearing a red kimono with an opening in the front of the skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3140434',
+    },
+  },
+  {
     name: 'Short Kimono',
     fileName: 'kimono-2.png',
     description: 'Perfect for the summer festival.',
@@ -894,6 +923,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.',
     credits: {
       outfit: 'https://booth.pm/en/items/3493234',
+    },
+  },
+  {
+    name: 'Leotard',
+    fileName: 'leotard.png',
+    description: 'Is she a gymnast?',
+    alt: 'Naomi wearing a purple leotard.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3167178',
     },
   },
   {
@@ -1136,6 +1174,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a purple and black hoodie with white shorts.',
     credits: {
       outfit: 'https://booth.pm/en/items/3172661',
+    },
+  },
+  {
+    name: 'Pastel Pink',
+    fileName: 'pastel.png',
+    description: 'A nice pastel outfit.',
+    alt: 'Naomi wearing a pink shirt and a white miniskirt with heart cutouts.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3122606',
     },
   },
   {
@@ -1402,6 +1449,15 @@ export const Outfits: Outfit[] = [
     description: 'A cute crop-top and miniskirt with lace ribbon lining.',
     alt: 'Naomi wearing a black crop-top and miniskirt with lace ribbon hems.',
     credits: {},
+  },
+  {
+    name: 'Bath Robe',
+    fileName: 'robe.png',
+    description: 'Even when headed to the bath, Naomi likes to look cute.',
+    alt: 'Naomi wearing a purple robe with a pink pencil skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3187250',
+    },
   },
   {
     name: 'Rope Dress',
@@ -1715,6 +1771,15 @@ export const Outfits: Outfit[] = [
     credits: {
       sweater: 'https://ysss.booth.pm/items/4354218',
       leggings: 'https://mahoulotl.booth.pm/items/2851404',
+    },
+  },
+  {
+    name: 'Swimsuit',
+    fileName: 'swimsuit.png',
+    description: 'The skirt comes off before she goes in the water.',
+    alt: 'Naomi wearing a black bikini with a lace miniskirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/3202804',
     },
   },
   {
