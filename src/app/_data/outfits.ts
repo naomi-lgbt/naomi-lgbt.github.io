@@ -147,6 +147,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Blouse',
+    fileName: 'blouse.png',
+    description: 'This is professional, right?',
+    alt: 'Naomi wearing a white croptop blouse and black skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4511531',
+    },
+  },
+  {
     name: 'Blue Yukata',
     fileName: 'blue.png',
     description: 'A yukata, but blue.',
