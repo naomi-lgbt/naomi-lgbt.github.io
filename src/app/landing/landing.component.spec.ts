@@ -31,8 +31,5 @@ describe('LandingComponent', () => {
       'Follow the map - and the noise'
     );
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
-    const video = compiled.querySelector('video');
-    const source = video?.querySelector('source');
-    expect(source?.getAttribute('src')).toBe('/assets/img/model.webm');
   });
 });

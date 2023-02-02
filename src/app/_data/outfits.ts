@@ -309,6 +309,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Circus Performer',
+    fileName: 'circus.png',
+    description: 'She likes to put on a show!',
+    alt: 'Naomi wearing an open purple skirt, a purple body suit, and detatched purple sleeves.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4515471',
+    },
+  },
+  {
     name: 'Clockwork Dress',
     fileName: 'clockwork.png',
     description: 'Tick tock... tick tock...',
