@@ -130,6 +130,10 @@ export const adventures: Adventure[] = [
     game: 'Unreal Tournament 2004',
   },
   {
+    fileName: 'roldea.png',
+    game: 'Wings of Roldea',
+  },
+  {
     fileName: 'wwe-2k22.jpg',
     game: 'WWE: 2K22',
   },
