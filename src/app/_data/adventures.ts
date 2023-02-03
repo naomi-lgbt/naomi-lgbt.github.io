@@ -35,7 +35,7 @@ export const adventures: Adventure[] = [
   },
   {
     fileName: 'fell-seal.jpg',
-    game: 'Fell Seal: Arbiter’s Mark',
+    game: "Fell Seal: Arbiter's Mark",
   },
   {
     fileName: 'god-eater.jpg',
@@ -43,7 +43,7 @@ export const adventures: Adventure[] = [
   },
   {
     fileName: 'ricca.png',
-    game: 'Holy Knight Ricca'
+    game: 'Holy Knight Ricca',
   },
   {
     fileName: 'jump-force.jpg',
@@ -52,6 +52,10 @@ export const adventures: Adventure[] = [
   {
     fileName: 'koikatsu.png',
     game: 'Koikatsu Party',
+  },
+  {
+    fileName: 'kung-fu.png',
+    game: 'Kung Fu Girl',
   },
   {
     fileName: 'mount-and-blade-2.jpg',
