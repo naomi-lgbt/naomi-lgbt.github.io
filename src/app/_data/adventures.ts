@@ -42,6 +42,10 @@ export const adventures: Adventure[] = [
     game: 'God Eater: Resurrection',
   },
   {
+    fileName: 'ricca.png',
+    game: 'Holy Knight Ricca'
+  },
+  {
     fileName: 'jump-force.jpg',
     game: 'Jump Force',
   },
