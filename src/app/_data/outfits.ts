@@ -452,6 +452,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Daisy Shirt',
+    fileName: 'daisy.png',
+    description: "It's cute and pink - what more does one need?",
+    alt: 'Naomi wearing a white cropped tank with a pink daisy on it, and pink jeans.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4522698',
+    },
+  },
+  {
     name: 'Dancer Dress',
     fileName: 'dancer-2.png',
     description: 'Naomi does love putting on a show.',
@@ -842,6 +851,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black jumpsuit with a front zipper pulled fully down.',
     credits: {
       outfit: 'https://booth.pm/en/items/4454679',
+    },
+  },
+  {
+    name: 'Kebaya',
+    fileName: 'kebaya.png',
+    description: 'Surprisingly soft and comfy.',
+    alt: 'Naomi wearing a red kebaya.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4523439',
     },
   },
   {
@@ -1996,6 +2014,15 @@ export const Outfits: Outfit[] = [
       'On occasion, Naomi likes to dress up. Her typical go-to costume is a witchy outfit.',
     alt: 'Naomi wearing a black bustier with straps in the shape of a pentagram, a lacy black shawl, and a tight black skirt. Her hair is in thick twin braids.',
     credits: {},
+  },
+  {
+    name: 'Workout Attire',
+    fileName: 'workout.png',
+    description: 'Perfect for a summertime jog.',
+    alt: 'Naomi wearing a purple cropped tank top and black mini shorts.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4520249',
+    },
   },
   {
     name: 'Yor Costume',
