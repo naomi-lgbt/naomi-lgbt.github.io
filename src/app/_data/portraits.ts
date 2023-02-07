@@ -246,4 +246,18 @@ export const portraits: Portrait[] = [
     alt: 'Naomi in her daily outfit.',
     spicy: false,
   },
+  {
+    fileName: 'miso.png',
+    artist: 'Miso',
+    url: 'https://twitter.com/mrsabamiso_pan',
+    alt: 'Naomi working while Cora bites her face.',
+    spicy: false,
+  },
+  {
+    fileName: 'miso2.png',
+    artist: 'Miso',
+    url: 'https://twitter.com/mrsabamiso_pan',
+    alt: 'The sexy ladies club, featuring Naomi, Lillith, Cora, Nashi, and Seri.',
+    spicy: false,
+  },
 ];
