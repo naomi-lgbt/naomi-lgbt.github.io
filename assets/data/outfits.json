@@ -500,6 +500,15 @@
     "credits": {}
   },
   {
+    "name": "Evening Dress",
+    "fileName": "evening.png",
+    "description": "Is this that \"Little Black Dress\" everyone talks about?",
+    "alt": "Naomi wearing a short pencil skirt dress with a plunging neck line.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4539843"
+    }
+  },
+  {
     "name": "Exercise Gear",
     "fileName": "exercise.png",
     "description": "Naomi does try to hit the gym sometimes...",
@@ -620,6 +629,16 @@
     "credits": {
       "top": "https://booth.pm/en/items/4120388",
       "skirt": "https://booth.pm/en/items/3994546"
+    }
+  },
+  {
+    "name": "Gem Dress",
+    "fileName": "gem.png",
+    "description": "The gem is a lot heavier than it looks.",
+    "alt": "Naomi wearing a purple heart-shaped gem tanktop, and a purple plaid miniskirt.",
+    "credits": {
+      "top": "https://booth.pm/en/items/4536195",
+      "skirt": "https://booth.pm/en/items/3398295"
     }
   },
   {
