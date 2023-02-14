@@ -46,4 +46,13 @@ const djson = require('dirty-json');
     const parsedTattoosData = djson.parse(cleanedTattoosData);
     const tattooData = JSON.stringify(parsedTattoosData, null, 2);
     await writeFile(join(process.cwd(), "src", "assets", "data", "tattoos.json"), tattooData, "utf-8");
+
+    // Poses
+
+    const posesPath = join(process.cwd(), "src", "app", "_data", "poses.ts");
+    const posesData = await readFile(posesPath, 'utf-8');
+    const cleanedPosesData = posesData.replace(`export const Poses = `, '').replace(";", '');
+    const parsedPosesData = djson.parse(cleanedPosesData);
+    const poseData = JSON.stringify(parsedPosesData, null, 2);
+    await writeFile(join(process.cwd(), "src", "assets", "data", "poses.json"), poseData, "utf-8");
 })();
