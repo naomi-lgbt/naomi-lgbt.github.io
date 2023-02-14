@@ -63,6 +63,25 @@ a:not(.nes-btn) {
   object-position: center;
 }
 
+.pose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.pose {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  padding: 10px;
+}
+
+.pose img {
+  width: 75%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
 #model {
   width: 500px;
   display: block;
@@ -74,6 +93,9 @@ a:not(.nes-btn) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .emote-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .pose-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
