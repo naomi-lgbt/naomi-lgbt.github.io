@@ -32,8 +32,9 @@
         alt="curator's face"
       />
       <p>
-        We currently have two exhibits. Our portrait exhibit is the most
-        popular, but we also have a special "Emotion" exhibit.
+        We currently have three exhibits. Our portrait exhibit is the most
+        popular, but we also have a special "Emotion" exhibit and a collection
+        of murals.
       </p>
     </div>
     <p>Which exhibit would you like to see?</p>
@@ -54,14 +55,18 @@
   </div>
   <div
     *ngIf="view === 'portrait'"
-    class="nes-container is-rounded is-centered art"
+    class="nes-container is-rounded is-centered image"
   >
     <a
-      href="https://cdn.naomi.lgbt/art/{{ portraits[currentPortraitIndex].fileName }}"
+      href="https://cdn.naomi.lgbt/art/{{
+        portraits[currentPortraitIndex].fileName
+      }}"
       target="_blank"
     >
       <img
-        src="https://cdn.naomi.lgbt/art/{{ portraits[currentPortraitIndex].fileName }}"
+        src="https://cdn.naomi.lgbt/art/{{
+          portraits[currentPortraitIndex].fileName
+        }}"
         alt="{{ portraits[currentPortraitIndex].alt }}"
         class="{{ portraits[currentPortraitIndex].spicy ? 'spicy' : '' }}"
       />
@@ -69,7 +74,7 @@
         Might be Spicy...
       </p>
     </a>
-    <p class="art-title">
+    <p>
       By
       <a
         href="{{ portraits[currentPortraitIndex].url }}"
@@ -109,18 +114,22 @@
   </div>
   <div
     *ngIf="view === 'emote'"
-    class="nes-container is-rounded is-centered emote"
+    class="nes-container is-rounded is-centered image"
   >
     <a
-      href="https://cdn.naomi.lgbt/emotes/{{ emotes[currentEmoteIndex].fileName }}"
+      href="https://cdn.naomi.lgbt/emotes/{{
+        emotes[currentEmoteIndex].fileName
+      }}"
       target="_blank"
     >
       <img
-        src="https://cdn.naomi.lgbt/emotes/{{ emotes[currentEmoteIndex].fileName }}"
+        src="https://cdn.naomi.lgbt/emotes/{{
+          emotes[currentEmoteIndex].fileName
+        }}"
         alt="Naomi"
       />
     </a>
-    <p class="emote-title">
+    <p>
       {{ emotes[currentEmoteIndex].name }}
     </p>
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
@@ -129,6 +138,49 @@
       <option disabled selected>Jump to Emote</option>
       <option *ngFor="let emote of emotes; let i = index" [value]="i">
         {{ emote.name }}
+      </option>
+    </select>
+  </div>
+  <div
+    *ngIf="view === 'pose'"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Museum</h1>
+    <p>
+      She leads you far into the back of the museum, where it seems like most
+      visitors aren't interested in going.
+    </p>
+
+    <p>
+      You see various murals, each depicting Naomi in a different pose or
+      situation.
+    </p>
+    <p>
+      There are <strong>{{ poses.length }}</strong> murals available to browse.
+    </p>
+  </div>
+  <div
+    *ngIf="view === 'pose'"
+    class="nes-container is-rounded is-centered image"
+  >
+    <a
+      href="https://cdn.naomi.lgbt/koikatsu/{{ poses[currentPoseIndex] }}"
+      target="_blank"
+    >
+      <img
+        src="https://cdn.naomi.lgbt/koikatsu/{{ poses[currentPoseIndex] }}"
+        alt="Naomi"
+      />
+    </a>
+    <p>
+      {{ getPoseName(poses[currentPoseIndex]) }}
+    </p>
+    <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
+    <button class="nes-btn" (click)="nextPose()">Next Mural</button>
+    <select #pose (change)="selectPose(pose.value)">
+      <option disabled selected>Jump to Mural</option>
+      <option *ngFor="let pose of poses; let i = index" [value]="i">
+        {{ getPoseName(pose) }}
       </option>
     </select>
   </div>
@@ -145,6 +197,9 @@
     (click)="changeView('emote')"
   >
     Emotion Exhibit
+  </button>
+  <button *ngIf="view !== 'pose'" class="nes-btn" (click)="changeView('pose')">
+    Mural Exhibit
   </button>
   <a class="nes-btn" routerLink="/plaza">Enough art for now</a>
 </div>

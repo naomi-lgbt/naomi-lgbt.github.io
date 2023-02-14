@@ -33,11 +33,27 @@
   },
   {
     "fileName": "fell-seal.jpg",
-    "game": "Fell Seal: Arbiter’s Mark"
+    "game": "Fell Seal: Arbiter's Mark"
+  },
+  {
+    "fileName": "god-eater.jpg",
+    "game": "God Eater: Resurrection"
+  },
+  {
+    "fileName": "ricca.png",
+    "game": "Holy Knight Ricca"
   },
   {
     "fileName": "jump-force.jpg",
     "game": "Jump Force"
+  },
+  {
+    "fileName": "koikatsu.png",
+    "game": "Koikatsu Party"
+  },
+  {
+    "fileName": "kung-fu.png",
+    "game": "Kung Fu Girl"
   },
   {
     "fileName": "mount-and-blade-2.jpg",
@@ -110,6 +126,10 @@
   {
     "fileName": "unreal-tournament.jpg",
     "game": "Unreal Tournament 2004"
+  },
+  {
+    "fileName": "roldea.png",
+    "game": "Wings of Roldea"
   },
   {
     "fileName": "wwe-2k22.jpg",

@@ -103,6 +103,15 @@
     }
   },
   {
+    "name": "Belted Outfit",
+    "fileName": "belt.png",
+    "description": "The punk/goth aesthetic pleases Naomi.",
+    "alt": "Naomi wearing a black crop top and shorts with belted sleeve and legs.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4480429"
+    }
+  },
+  {
     "name": "Biker Gear",
     "fileName": "biker.png",
     "description": "Naomi does not have a motorcycle, but if she did...",
@@ -132,11 +141,29 @@
     }
   },
   {
+    "name": "Blouse",
+    "fileName": "blouse.png",
+    "description": "This is professional, right?",
+    "alt": "Naomi wearing a white croptop blouse and black skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4511531"
+    }
+  },
+  {
     "name": "Blue Yukata",
     "fileName": "blue.png",
     "description": "A yukata, but blue.",
     "alt": "Naomi wearing a blue yukata.",
     "credits": {}
+  },
+  {
+    "name": "Bubble Dress",
+    "fileName": "bubbles.png",
+    "description": "Blub blub blub",
+    "alt": "Naomi wearing a blue dress with a bubble pattern.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4490866"
+    }
   },
   {
     "name": "Bunny Hoodie",
@@ -153,6 +180,24 @@
     "description": "Hippity Hop",
     "alt": "Naomi wearing a black bunny suit with fishnets.",
     "credits": {}
+  },
+  {
+    "name": "Business Casual",
+    "fileName": "business.png",
+    "description": "Something a little more professional than Naomi typically wears.",
+    "alt": "Naomi wearing a pink button up shirt and a denim skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1515610"
+    }
+  },
+  {
+    "name": "Butler Outfit",
+    "fileName": "butler.png",
+    "description": "Naomi is ready to serve~!",
+    "alt": "Naomi wearing a black vest, red collar, and black shorts.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3683376"
+    }
   },
   {
     "name": "Butterfly Dress",
@@ -251,6 +296,15 @@
     "description": "Naomi is ready to fight on the street, I guess?",
     "alt": "Naomi wearing a blue slit dress with black stockings, and a gold moon pattern.",
     "credits": {}
+  },
+  {
+    "name": "Circus Performer",
+    "fileName": "circus.png",
+    "description": "She likes to put on a show!",
+    "alt": "Naomi wearing an open purple skirt, a purple body suit, and detatched purple sleeves.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4515471"
+    }
   },
   {
     "name": "Clockwork Dress",
@@ -385,6 +439,15 @@
     }
   },
   {
+    "name": "Daisy Shirt",
+    "fileName": "daisy.png",
+    "description": "It's cute and pink - what more does one need?",
+    "alt": "Naomi wearing a white cropped tank with a pink daisy on it, and pink jeans.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4522698"
+    }
+  },
+  {
     "name": "Dancer Dress",
     "fileName": "dancer-2.png",
     "description": "Naomi does love putting on a show.",
@@ -421,11 +484,29 @@
     }
   },
   {
+    "name": "Elegant Skirt",
+    "fileName": "elegant-2.png",
+    "description": "Nice enough to wear to dinner, revealing enough to turn heads.",
+    "alt": "Naomi wearing a red corset and red open miniskirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3249965"
+    }
+  },
+  {
     "name": "Elegant Gown",
     "fileName": "elegant.png",
     "description": "Naomi wears this for those extra special occasions. Dinner party anyone?",
     "alt": "Naomi wearing a dark blue gown with floor length tassels, and a pearl necklace/shawl.",
     "credits": {}
+  },
+  {
+    "name": "Evening Dress",
+    "fileName": "evening.png",
+    "description": "Is this that \"Little Black Dress\" everyone talks about?",
+    "alt": "Naomi wearing a short pencil skirt dress with a plunging neck line.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4539843"
+    }
   },
   {
     "name": "Exercise Gear",
@@ -479,6 +560,15 @@
     "alt": "Naomi wearing a black bra and skirt, with black flame accents on her arms and legs",
     "credits": {
       "outfit": "https://booth.pm/en/items/4379800"
+    }
+  },
+  {
+    "name": "Flower Skirt",
+    "fileName": "flower-2.png",
+    "description": "Some fun summer attire.",
+    "alt": "Naomi wearing a pink crop top and mini skirt with matching floral pattern, and pink stockings.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1508793"
     }
   },
   {
@@ -542,6 +632,25 @@
     }
   },
   {
+    "name": "Gem Dress",
+    "fileName": "gem.png",
+    "description": "The gem is a lot heavier than it looks.",
+    "alt": "Naomi wearing a purple heart-shaped gem tanktop, and a purple plaid miniskirt.",
+    "credits": {
+      "top": "https://booth.pm/en/items/4536195",
+      "skirt": "https://booth.pm/en/items/3398295"
+    }
+  },
+  {
+    "name": "Glam Dress",
+    "fileName": "glam.png",
+    "description": "How glamorous~!",
+    "alt": "Naomi wearing a pink halter top and a sparkly black miniskirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3518221"
+    }
+  },
+  {
     "name": "Glass Dress",
     "fileName": "glass.png",
     "description": "Looking like the window of a temple!",
@@ -582,6 +691,16 @@
     "alt": "Naomi wearing a black dress with gold accents.",
     "credits": {
       "dress": "https://booth.pm/en/items/4440667"
+    }
+  },
+  {
+    "name": "Goth Tanktop",
+    "fileName": "gothic-6.png",
+    "description": "She paid extra for the holes in the shirt.",
+    "alt": "Naomi wearing a black ripped tank top and purple skirt.",
+    "credits": {
+      "top": "https://booth.pm/en/items/3235432",
+      "skirt": "https://booth.pm/en/items/3290174"
     }
   },
   {
@@ -637,6 +756,15 @@
     "credits": {}
   },
   {
+    "name": "Hakama",
+    "fileName": "hakama.png",
+    "description": "Naomi does occassionally wear pants.",
+    "alt": "Naomi wearing a white kimono and hakama with a black obi.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3632851"
+    }
+  },
+  {
     "name": "Healer Robe",
     "fileName": "healer.png",
     "description": "Contrary to the Sorceress Gown, this garb gives Naomi holy magic.",
@@ -669,6 +797,17 @@
     "description": "Naomi's heart is on her sleeve? Chest? Both??",
     "alt": "Naomi wearing a green dress with a stylised heart cutout in the chest.",
     "credits": {}
+  },
+  {
+    "name": "Pink Hoodie",
+    "fileName": "hoodie-2.png",
+    "description": "Not sure this actually keeps her warm...",
+    "alt": "Naomi wearing a pink cropped hoodie with a floral pattern, and a floor-length black skirt.",
+    "credits": {
+      "top": "https://booth.pm/en/items/3684613",
+      "corset": "https://booth.pm/en/items/3675397",
+      "skirt": "https://booth.pm/en/items/3679090"
+    }
   },
   {
     "name": "Cropped Hoodie",
@@ -709,6 +848,33 @@
     "alt": "Naomi wearing a black jumpsuit with a front zipper pulled fully down.",
     "credits": {
       "outfit": "https://booth.pm/en/items/4454679"
+    }
+  },
+  {
+    "name": "Kebaya",
+    "fileName": "kebaya.png",
+    "description": "Surprisingly soft and comfy.",
+    "alt": "Naomi wearing a red kebaya.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4523439"
+    }
+  },
+  {
+    "name": "Open Kimono",
+    "fileName": "kimono-3.png",
+    "description": "She likes how it shows off her legs.",
+    "alt": "Naomi wearing a red kimono with an opening in the front of the skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3140434"
+    }
+  },
+  {
+    "name": "Short Kimono",
+    "fileName": "kimono-2.png",
+    "description": "Perfect for the summer festival.",
+    "alt": "Naomi wearing a short blue kimono with a yellow sash, and a floral pattern.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/1628818"
     }
   },
   {
@@ -773,12 +939,30 @@
     }
   },
   {
+    "name": "Layla Cosplay",
+    "fileName": "layla.png",
+    "description": "",
+    "alt": "Naomi wearing a dress in the style of Layla from Genshin",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4496294"
+    }
+  },
+  {
     "name": "Leather Outfit",
     "fileName": "leather.png",
     "description": "Every girl needs a leather outfit, right??",
     "alt": "Naomi wearing a leather bustier with straps and a leather miniskirt. Her hair is in short pigtails.",
     "credits": {
       "outfit": "https://booth.pm/en/items/3493234"
+    }
+  },
+  {
+    "name": "Leotard",
+    "fileName": "leotard.png",
+    "description": "Is she a gymnast?",
+    "alt": "Naomi wearing a purple leotard.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3167178"
     }
   },
   {
@@ -1016,6 +1200,15 @@
     }
   },
   {
+    "name": "Pastel Pink",
+    "fileName": "pastel.png",
+    "description": "A nice pastel outfit.",
+    "alt": "Naomi wearing a pink shirt and a white miniskirt with heart cutouts.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3122606"
+    }
+  },
+  {
     "name": "Party Outfit",
     "fileName": "party.png",
     "description": "Time to hit the dance floor!",
@@ -1053,6 +1246,15 @@
     }
   },
   {
+    "name": "Pink Ruffled Dress",
+    "fileName": "pink-4.png",
+    "description": "It's cute and ruffled~!",
+    "alt": "Naomi wearing a black and pink dress with a pink ruffled hem.",
+    "credits": {
+      "dress": "https://booth.pm/en/items/4481033"
+    }
+  },
+  {
     "name": "Pink Dress",
     "fileName": "pink.png",
     "description": "The ribbon on the legs are temporary, don't worry.",
@@ -1077,6 +1279,15 @@
     "alt": "Naomi wearing a teal plaid miniskirt, and a black croptop with a teal sleeve and a grey plaid sleeve.",
     "credits": {
       "outfit": "https://booth.pm/en/items/4395606"
+    }
+  },
+  {
+    "name": "Poolside Skirt",
+    "fileName": "poolside.png",
+    "description": "She does not actually plan on getting in the water.",
+    "alt": "Naomi wearing a white crop top and a blue wrap-style skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4071005"
     }
   },
   {
@@ -1145,6 +1356,16 @@
     "alt": "Naomi wearing a purple crop top and purple skirt, with white frilly lining.",
     "credits": {
       "outfit": "https://booth.pm/en/items/3708788"
+    }
+  },
+  {
+    "name": "Purple Sportwear",
+    "fileName": "purple-4.png",
+    "description": "An excellent outfit to wear for a run.",
+    "alt": "Naomi wearing a purple tank top, purple miniskirt, and purple shorts.",
+    "credits": {
+      "top": "https://booth.pm/en/items/2193069",
+      "bottoms": "https://booth.pm/en/items/2828095"
     }
   },
   {
@@ -1243,6 +1464,15 @@
     "description": "A cute crop-top and miniskirt with lace ribbon lining.",
     "alt": "Naomi wearing a black crop-top and miniskirt with lace ribbon hems.",
     "credits": {}
+  },
+  {
+    "name": "Bath Robe",
+    "fileName": "robe.png",
+    "description": "Even when headed to the bath, Naomi likes to look cute.",
+    "alt": "Naomi wearing a purple robe with a pink pencil skirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3187250"
+    }
   },
   {
     "name": "Rope Dress",
@@ -1427,6 +1657,16 @@
     }
   },
   {
+    "name": "Sporty Clothes",
+    "fileName": "sporty.png",
+    "description": "Good for a run or a day at the gym.",
+    "alt": "Naomi wearing a white and black coat and a black miniskirt, both with blue accents.",
+    "credits": {
+      "top": "https://booth.pm/en/items/1539679",
+      "skirt": "https://booth.pm/en/items/1790251"
+    }
+  },
+  {
     "name": "Star Dress",
     "fileName": "star.png",
     "description": "You'll get stars in your eyes when you see Naomi wearing this.",
@@ -1464,6 +1704,15 @@
     "description": "Does it look cute?",
     "alt": "Naomi wearing a pink maid's outfit with strawberry print, and a heart shaped window.",
     "credits": {}
+  },
+  {
+    "name": "Streetwear",
+    "fileName": "street.png",
+    "description": "Perfect when she wants to seem intimidating.",
+    "alt": "Naomi wearing a white croptop, and a black bolero jacket and skirt, with pink highlights.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4496307"
+    }
   },
   {
     "name": "Striped Pyjamas",
@@ -1530,6 +1779,15 @@
     "credits": {
       "sweater": "https://ysss.booth.pm/items/4354218",
       "leggings": "https://mahoulotl.booth.pm/items/2851404"
+    }
+  },
+  {
+    "name": "Swimsuit",
+    "fileName": "swimsuit.png",
+    "description": "The skirt comes off before she goes in the water.",
+    "alt": "Naomi wearing a black bikini with a lace miniskirt.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3202804"
     }
   },
   {
@@ -1611,6 +1869,15 @@
     "description": "Hey look, it's Sailor Moon!",
     "alt": "Naomi wearing a white sailor fuku with a pink bow and a blue skirt, her hair in twintails with buns.",
     "credits": {}
+  },
+  {
+    "name": "Valentine Outfit",
+    "fileName": "valentine-2.png",
+    "description": "It's fun AND perfect for love.",
+    "alt": "Naomi wearing a red shawl with a heart pattern, a red bra, and red pants.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/3666317"
+    }
   },
   {
     "name": "Valentine Dress",
@@ -1715,6 +1982,15 @@
     "description": "On occasion, Naomi likes to dress up. Her typical go-to costume is a witchy outfit.",
     "alt": "Naomi wearing a black bustier with straps in the shape of a pentagram, a lacy black shawl, and a tight black skirt. Her hair is in thick twin braids.",
     "credits": {}
+  },
+  {
+    "name": "Workout Attire",
+    "fileName": "workout.png",
+    "description": "Perfect for a summertime jog.",
+    "alt": "Naomi wearing a purple cropped tank top and black mini shorts.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4520249"
+    }
   },
   {
     "name": "Yor Costume",
