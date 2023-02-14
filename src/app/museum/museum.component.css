@@ -3,26 +3,20 @@ select {
   margin: auto;
 }
 
-.art-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.art {
+.image {
   background-color: var(--dark-purple);
   color: var(--light-purple);
   padding: 10px;
 }
 
-.art img {
+.image img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top center;
 }
 
-.art a {
+.image a {
   position: relative;
 }
 
@@ -44,58 +38,8 @@ a:not(.nes-btn) {
   color: var(--light-blue);
 }
 
-.emote-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.emote {
-  background-color: var(--dark-purple);
-  color: var(--light-purple);
-  padding: 10px;
-}
-
-.emote img {
-  width: 75%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center;
-}
-
-.pose-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.pose {
-  background-color: var(--dark-purple);
-  color: var(--light-purple);
-  padding: 10px;
-}
-
-.pose img {
-  width: 75%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center;
-}
-
 #model {
   width: 500px;
   display: block;
   margin: auto;
-}
-
-@media screen and (max-width: 749px) {
-  .art-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .emote-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .pose-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }

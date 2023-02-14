@@ -55,7 +55,7 @@
   </div>
   <div
     *ngIf="view === 'portrait'"
-    class="nes-container is-rounded is-centered art"
+    class="nes-container is-rounded is-centered image"
   >
     <a
       href="https://cdn.naomi.lgbt/art/{{
@@ -74,7 +74,7 @@
         Might be Spicy...
       </p>
     </a>
-    <p class="art-title">
+    <p>
       By
       <a
         href="{{ portraits[currentPortraitIndex].url }}"
@@ -114,7 +114,7 @@
   </div>
   <div
     *ngIf="view === 'emote'"
-    class="nes-container is-rounded is-centered emote"
+    class="nes-container is-rounded is-centered image"
   >
     <a
       href="https://cdn.naomi.lgbt/emotes/{{
@@ -129,7 +129,7 @@
         alt="Naomi"
       />
     </a>
-    <p class="emote-title">
+    <p>
       {{ emotes[currentEmoteIndex].name }}
     </p>
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
@@ -161,7 +161,7 @@
   </div>
   <div
     *ngIf="view === 'pose'"
-    class="nes-container is-rounded is-centered pose"
+    class="nes-container is-rounded is-centered image"
   >
     <a
       href="https://cdn.naomi.lgbt/koikatsu/{{ poses[currentPoseIndex] }}"
@@ -172,7 +172,7 @@
         alt="Naomi"
       />
     </a>
-    <p class="pose-title">
+    <p>
       {{ getPoseName(poses[currentPoseIndex]) }}
     </p>
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
