@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ArenaComponent } from './arena/arena.component';
 import { CastleComponent } from './castle/castle.component';
+import { ConfessionalComponent } from './confessional/confessional.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'confirm', component: ConfirmComponent },
   { path: 'tailor', component: TailorComponent },
   { path: 'ref', component: ReferenceComponent },
+  { path: 'confessional', component: ConfessionalComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: '**', component: LostComponent },
 ];
