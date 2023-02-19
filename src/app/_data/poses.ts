@@ -24,6 +24,8 @@ export const Poses = [
   'camping.png',
   'cute-2.png',
   'cute.png',
+  'cutie.png',
+  'dinner.png',
   'floor-2.png',
   'floor-3.png',
   'floor-4.png',
