@@ -515,6 +515,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Elvish Dress',
+    fileName: 'elvish.png',
+    description: 'Perfect for running through the forest.',
+    alt: 'Naomi wearing a white dress with green accents and gold braclets and armlets.',
+    credits: {
+      outfit: 'https://store.steampowered.com/app/1486350/VRoid_Studio_v1190/',
+    },
+  },
+  {
     name: 'Evening Dress',
     fileName: 'evening.png',
     description: 'Is this that "Little Black Dress" everyone talks about?',
@@ -965,7 +974,8 @@ export const Outfits: Outfit[] = [
   {
     name: 'Layla Cosplay',
     fileName: 'layla.png',
-    description: '',
+    description:
+      "Did you get enough sleep? If you're still tired, you should go back to sleep for a bit... Me? *sigh* I'm... used to it...",
     alt: 'Naomi wearing a dress in the style of Layla from Genshin',
     credits: {
       outfit: 'https://booth.pm/en/items/4496294',

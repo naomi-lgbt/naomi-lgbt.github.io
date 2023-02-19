@@ -19,6 +19,7 @@ import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ReferenceComponent } from './reference/reference.component';
+import { ConfessionalComponent } from './confessional/confessional.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ReferenceComponent } from './reference/reference.component';
     LostComponent,
     TailorComponent,
     ReferenceComponent,
+    ConfessionalComponent,
   ],
   imports: [
     BrowserModule,
