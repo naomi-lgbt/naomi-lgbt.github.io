@@ -260,4 +260,11 @@ export const portraits: Portrait[] = [
     alt: 'The sexy ladies club, featuring Naomi, Lillith, Cora, Nashi, and Seri.',
     spicy: false,
   },
+  {
+    fileName: 'tokkippon13.png',
+    artist: 'Tokkipon',
+    url: 'https://twitter.com/tokkiponn',
+    alt: 'Naomi having a relaxing day at the',
+    spicy: false,
+  },
 ];
