@@ -50,7 +50,7 @@ export const adventures: Adventure[] = [
     game: 'Jump Force',
   },
   {
-    fileName: 'koikatsu.png',
+    fileName: 'koikatsu.jpg',
     game: 'Koikatsu Party',
   },
   {
