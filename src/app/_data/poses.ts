@@ -44,7 +44,6 @@ export const Poses = [
   'gaming-2.png',
   'gaming.png',
   'gasp.png',
-  'gift.png',
   'grass.png',
   'gun.png',
   'gym-2.png',
