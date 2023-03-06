@@ -46,6 +46,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Aquamancer Gear',
+    fileName: 'aquamancer.png',
+    description:
+      'Naomi is ready to take on the elements with her aquamancer gear.',
+    alt: 'Naomi wearing a blue leotard with a blue skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4597881',
+    },
+  },
+  {
     name: 'Ara Ara Shirt',
     fileName: 'ara-ara.png',
     description: 'Ara Ara',
@@ -267,6 +277,15 @@ export const Outfits: Outfit[] = [
     credits: {},
   },
   {
+    name: 'Cheongsam',
+    fileName: 'cheongsam.png',
+    description: 'She thought the mesh in the dress was extra pretty.',
+    alt: 'Naomi wearing a pink cheongsam with mesh in the front skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4513276',
+    },
+  },
+  {
     name: 'Chiffon Dress',
     fileName: 'chiffon.png',
     description: 'She feels kinda fancy!',
@@ -420,6 +439,16 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a grey dress with blue neon accents and black shorts.',
     credits: {
       outfit: 'https://booth.pm/en/items/4164246',
+    },
+  },
+  {
+    name: 'Cybergoth',
+    fileName: 'cybergoth.png',
+    description:
+      "Naomi was told this was a cybergoth outfit, but she's not sure...",
+    alt: 'Naomi wearing a black tattered croptop and shorts, with green and black ribbons around her body.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4598078',
     },
   },
   {
@@ -584,6 +613,15 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a black bra and skirt, with black flame accents on her arms and legs',
     credits: {
       outfit: 'https://booth.pm/en/items/4379800',
+    },
+  },
+  {
+    name: 'Floral Dress',
+    fileName: 'floral.png',
+    description: 'Nice and flowery!',
+    alt: 'Naomi wearing a lavender sundress with a floral pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4595543',
     },
   },
   {
@@ -1315,6 +1353,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Pirate Outfit',
+    fileName: 'pirate-2.png',
+    description: 'Yo ho, yo ho, and a bottle of rum!',
+    alt: 'Naomi wearing a white short-sleeve blouse, black corset, and red plaid skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4597360',
+    },
+  },
+  {
     name: 'Plaid Skirt',
     fileName: 'plaid.png',
     description: 'Naomi loves the colour.',
@@ -1731,6 +1778,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Stardust Dress',
+    fileName: 'stardust.png',
+    description: 'The little bursts of stars make this dress pop.',
+    alt: 'Naomi wearing a purple dress with a starburst pattern.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4594957',
+    },
+  },
+  {
     name: 'Steampunk Dress',
     fileName: 'steampunk.png',
     description: "Okay, it's not quite steampunk, but pretty close!",
@@ -1910,6 +1966,15 @@ export const Outfits: Outfit[] = [
     credits: {
       top: 'https://booth.pm/en/items/3357162',
       bottom: 'https://booth.pm/en/items/2726717',
+    },
+  },
+  {
+    name: 'Trans Hoodie',
+    fileName: 'trans-2.png',
+    description: 'Trans rights are human rights 🏳️‍⚧️',
+    alt: 'Naomi wearing a hoodie with a trans flag that says "If this flag offends you, I\'ll help you pack".',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4597724',
     },
   },
   {
