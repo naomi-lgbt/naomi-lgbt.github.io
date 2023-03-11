@@ -45,7 +45,6 @@ describe('TrainingHallComponent', () => {
     expect(component.view).toBe('games');
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Training Hall');
-    const games = compiled.querySelectorAll('.game');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(3);
     expect(buttons[0].tagName).toBe('BUTTON');
