@@ -2,6 +2,16 @@ import { Outfit } from 'src/interfaces/Outfit';
 
 export const Outfits: Outfit[] = [
   {
+    name: 'Abyss',
+    fileName: 'abyss.png',
+    description: 'Stare long into the abyss and the abyss will stare back into you.',
+    alt: 'Naomi wearing a purple shirt with a strange pattern and a red plaid miniskirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/4608652',
+      skirt: 'https://booth.pm/en/items/3728335'
+    }
+  },
+  {
     name: 'Aikido Gi',
     fileName: 'aikido.png',
     description: 'Naomi is ready to learn the sword.',
@@ -1139,6 +1149,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Minty Dress',
+    fileName: 'mint.png',
+    description: 'Naomi loves the minty green color.',
+    alt: 'Naomi wearing a mint green dress.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4604124'
+    }
+  },
+  {
     name: 'Monarch Dress',
     fileName: 'monarch.png',
     description: 'Named for the butterfly motif, not for the title of a ruler.',
@@ -1893,6 +1912,15 @@ export const Outfits: Outfit[] = [
       sweater: 'https://ysss.booth.pm/items/4354218',
       leggings: 'https://mahoulotl.booth.pm/items/2851404',
     },
+  },
+  {
+    name: 'Swimsuit with Wrap',
+    fileName: 'swim.png',
+    description: 'The wrap is a nice touch.',
+    alt: 'Naomi wearing a black one piece with pink accents, and a black and pink skirt wrap.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4604358'
+    }
   },
   {
     name: 'Swimsuit',
