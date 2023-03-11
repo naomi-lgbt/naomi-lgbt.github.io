@@ -14,10 +14,8 @@ export class AppComponent {
 
   particlesOptions = ParticleOptions;
 
+  // skipcq: JS-0105
   async particlesInit(engine: Engine): Promise<void> {
-    // Starting from 1.19.0 you can add custom presets or shape here, using the current tsParticles instance (main)
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
   }
 }
