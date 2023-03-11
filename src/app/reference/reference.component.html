@@ -18,10 +18,16 @@
     <button class="nes-btn" (click)="changeView('tattoos')">Tattoos</button>
     <div class="content-grid" *ngIf="view === 'body'">
       <a href="https://cdn.naomi.lgbt/ref/front.png" target="_blank">
-        <img src="https://cdn.naomi.lgbt/ref/front.png" />
+        <img
+          src="https://cdn.naomi.lgbt/ref/front.png"
+          alt="A full-body front view of Naomi."
+        />
       </a>
       <a href="https://cdn.naomi.lgbt/ref/back.png" target="_blank">
-        <img src="https://cdn.naomi.lgbt/ref/back.png" />
+        <img
+          src="https://cdn.naomi.lgbt/ref/back.png"
+          alt="A full-body back view of Naomi."
+        />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'face'">
@@ -33,7 +39,10 @@
         </p>
       </div>
       <a href="https://cdn.naomi.lgbt/ref/face.png" target="_blank">
-        <img src="https://cdn.naomi.lgbt/ref/face.png" />
+        <img
+          src="https://cdn.naomi.lgbt/ref/face.png"
+          alt="A close up of Naomi's face."
+        />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'hands'">
@@ -45,7 +54,10 @@
         </p>
       </div>
       <a href="https://cdn.naomi.lgbt/ref/hands.png" target="_blank">
-        <img src="https://cdn.naomi.lgbt/ref/hands.png" />
+        <img
+          src="https://cdn.naomi.lgbt/ref/hands.png"
+          alt="A close up of Naomi's hands."
+        />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'feet'">
@@ -57,7 +69,10 @@
         </p>
       </div>
       <a href="https://cdn.naomi.lgbt/ref/feet.png" target="_blank">
-        <img src="https://cdn.naomi.lgbt/ref/feet.png" />
+        <img
+          src="https://cdn.naomi.lgbt/ref/feet.png"
+          alt="A close up of Naomi's feet."
+        />
       </a>
     </div>
     <!--TODO: Make this paginated-->
@@ -74,6 +89,9 @@
             src="https://cdn.naomi.lgbt/ref/tattoos/{{
               tattooData[currentTattooIndex].fileName
             }}"
+            alt="A close up of Naomi's {{
+              tattooData[currentTattooIndex].name
+            }} tattoo."
           />
         </a>
       </div>
