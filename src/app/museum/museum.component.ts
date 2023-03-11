@@ -7,13 +7,6 @@ import { Poses } from '../_data/poses';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
 
-const parseFile = (fileName: string) => {
-  const withoutExtension = fileName.split('.')[0];
-  const [name, number] = withoutExtension.split('-');
-  const titleCasedName = `${name[0].toUpperCase()}${name.slice(1)}`;
-  return number ? `${titleCasedName} ${number}` : titleCasedName;
-}
-
 @Component({
   selector: 'app-museum',
   templateUrl: './museum.component.html',
