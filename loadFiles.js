@@ -1,4 +1,4 @@
-const { readdir, writeFile } = require("fs/promises");
+const { writeFile } = require("fs/promises");
 const { join } = require("path");
 const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
