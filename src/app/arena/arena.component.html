@@ -132,9 +132,12 @@
     class="nes-btn"
     href="https://contribute.nhcarrigan.com"
     target="_blank"
+    rel="noopener noreferrer"
     >Read the Scroll</a
   >
-  <button *ngIf="view === 'watch'" class="nes-btn" (click)="bustCache()">Reload History</button>
+  <button *ngIf="view === 'watch'" class="nes-btn" (click)="bustCache()">
+    Reload History
+  </button>
   <button *ngIf="view !== 'hof'" class="nes-btn" (click)="changeView('hof')">
     See the Hall of Fame
   </button>
