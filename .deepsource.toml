@@ -2,5 +2,7 @@ version = 1
 
 [[analyzers]]
 name = "javascript"
+enabled = true
+
   [analyzers.meta]
   skip_doc_coverage = ["class-definition", "method-definition"]
