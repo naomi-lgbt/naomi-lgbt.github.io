@@ -58,8 +58,6 @@ import { socials } from './_data/socials';
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    for (const social of socials) {
-      library.addIcons(social.icon);
-    }
+    library.addIcons(...socials.map((social) => social.icon));
   }
 }
