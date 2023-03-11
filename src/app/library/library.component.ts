@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { library } from 'src/app/_data/library';
 import { LibraryBook } from 'src/interfaces/LibraryBook';
 
@@ -7,18 +7,14 @@ import { LibraryBook } from 'src/interfaces/LibraryBook';
   templateUrl: './library.component.html',
   styleUrls: ['./library.component.css'],
 })
-export class LibraryComponent implements OnInit {
+export class LibraryComponent {
   public openBook: LibraryBook | null = null;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 
   loadBook(key: string) {
     const chosenBook = library.find((el) => el.key === key);
     if (chosenBook) {
       this.openBook = chosenBook;
-      window.scrollTo({top: 0})
+      window.scrollTo({ top: 0 });
     }
   }
 }

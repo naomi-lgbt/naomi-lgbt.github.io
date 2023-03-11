@@ -34,8 +34,6 @@ export class TailorComponent implements OnInit {
   public showCreditModal = false;
   public currentOutfitIndex = 0;
 
-  constructor() {}
-
   ngOnInit(): void {
     this.outfits = Outfits;
   }

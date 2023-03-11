@@ -21,8 +21,6 @@ export class MuseumComponent implements OnInit {
   public currentEmoteIndex = 0;
   public currentPoseIndex = 0;
 
-  constructor() {}
-
   ngOnInit(): void {
     this.portraits = portraits;
     this.emotes = emotes;
