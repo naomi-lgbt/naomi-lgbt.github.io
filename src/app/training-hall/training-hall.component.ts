@@ -12,8 +12,6 @@ export class TrainingHallComponent implements OnInit {
   public games: Adventure[] = [];
   public currentGameIndex = 0;
 
-  constructor() {}
-
   ngOnInit(): void {
     this.games = adventures;
   }

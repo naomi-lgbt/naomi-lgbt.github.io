@@ -5,7 +5,7 @@ import { CastleComponent } from './castle.component';
 describe('CastleComponent', () => {
   let component: CastleComponent;
   let fixture: ComponentFixture<CastleComponent>;
-  let compiled: any;
+  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,14 +23,14 @@ describe('CastleComponent', () => {
 
   it('should render the view correctly', () => {
     const title = compiled.querySelector('h1');
-    expect(title.textContent.trim()).toBe('Castle');
+    expect(title?.textContent?.trim()).toBe('Castle');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(2);
     expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent.trim()).toBe('Request an audience');
+    expect(buttons[0].textContent?.trim()).toBe('Request an audience');
     expect(buttons[0].getAttribute('href')).toBe('https://calendly.com/nhcarrigan');
     expect(buttons[1].tagName).toBe('A');
-    expect(buttons[1].textContent.trim()).toBe('Apologise and walk away');
+    expect(buttons[1].textContent?.trim()).toBe('Apologise and walk away');
     expect(buttons[1].getAttribute('routerLink')).toBe('/plaza');
   });
 });

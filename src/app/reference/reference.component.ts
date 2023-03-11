@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { tattoos } from 'src/app/_data/tattoos';
 
 @Component({
@@ -6,14 +6,10 @@ import { tattoos } from 'src/app/_data/tattoos';
   templateUrl: './reference.component.html',
   styleUrls: ['./reference.component.css'],
 })
-export class ReferenceComponent implements OnInit {
+export class ReferenceComponent {
   public view = '';
   public tattooData = tattoos;
   public currentTattooIndex = 0;
-
-  constructor() {}
-
-  ngOnInit(): void {}
 
   changeView(name: string) {
     this.view = name;
