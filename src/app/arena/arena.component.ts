@@ -6,7 +6,6 @@ import { ActivityService } from '../activity.service';
 @Component({
   selector: 'app-arena',
   templateUrl: './arena.component.html',
-  styleUrls: ['./arena.component.css'],
 })
 export class ArenaComponent implements OnInit {
   public view = 'intro';
