@@ -20,6 +20,12 @@ import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ReferenceComponent } from './reference/reference.component';
 import { ConfessionalComponent } from './confessional/confessional.component';
+import { SocialsComponent } from './socials/socials.component';
+import {
+  FontAwesomeModule,
+  FaIconLibrary,
+} from '@fortawesome/angular-fontawesome';
+import { socials } from './_data/socials';
 
 @NgModule({
   declarations: [
@@ -38,14 +44,20 @@ import { ConfessionalComponent } from './confessional/confessional.component';
     TailorComponent,
     ReferenceComponent,
     ConfessionalComponent,
+    SocialsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgParticlesModule,
+    FontAwesomeModule,
   ],
   providers: [ActivityService],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIcons(...socials.map((social) => social.icon));
+  }
+}
