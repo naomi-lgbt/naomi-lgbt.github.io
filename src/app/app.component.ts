@@ -1,12 +1,5 @@
 import { Component } from '@angular/core';
-import {
-  MoveDirection,
-  ClickMode,
-  HoverMode,
-  OutMode,
-  Container,
-  Engine,
-} from 'tsparticles-engine';
+import { Engine } from 'tsparticles-engine';
 import { loadFull } from 'tsparticles';
 import { ParticleOptions } from 'src/app/_config/ParticleOptions';
 
