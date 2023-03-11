@@ -5,7 +5,7 @@ import { ConfirmComponent } from './confirm.component';
 describe('ConfirmComponent', () => {
   let component: ConfirmComponent;
   let fixture: ComponentFixture<ConfirmComponent>;
-  let compiled: any;
+  let compiled: HTMLElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -23,11 +23,11 @@ describe('ConfirmComponent', () => {
 
   it('should render the view correctly', () => {
     const title = compiled.querySelector('h1');
-    expect(title.textContent.trim()).toBe('Castle');
+    expect(title?.textContent?.trim()).toBe('Castle');
     const buttons = compiled.querySelectorAll('.nes-btn');
     expect(buttons.length).toBe(1);
     expect(buttons[0].tagName).toBe('A');
-    expect(buttons[0].textContent.trim()).toBe('Explore the town');
+    expect(buttons[0].textContent?.trim()).toBe('Explore the town');
     expect(buttons[0].getAttribute('routerLink')).toBe('/plaza');
   });
 });
