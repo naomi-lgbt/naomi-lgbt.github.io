@@ -213,7 +213,7 @@ describe('MuseumComponent', () => {
       );
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox?.querySelector('p');
-      expect(title?.textContent?.trim()).toBe(component.getPoseName(pose));
+      expect(title?.textContent?.trim()).toBe(component.getPoseName(Poses.indexOf(pose)));
     });
   }
 

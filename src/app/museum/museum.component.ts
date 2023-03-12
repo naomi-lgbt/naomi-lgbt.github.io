@@ -12,6 +12,7 @@ type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
   templateUrl: './museum.component.html',
   styleUrls: ['./museum.component.css'],
 })
+
 export class MuseumComponent implements OnInit {
   public view: viewType = 'intro';
   public portraits: Portrait[] = [];
@@ -86,7 +87,8 @@ export class MuseumComponent implements OnInit {
     this.currentPoseIndex = parseInt(index);
   }
 
-  getPoseName(fileName: string) {
+  getPoseName(index: number) {
+    const fileName = this.poses[index];
     const withoutExtension = fileName.split('.')[0];
     const [name, number] = withoutExtension.split('-');
     const titleCasedName = `${name[0].toUpperCase()}${name.slice(1)}`;

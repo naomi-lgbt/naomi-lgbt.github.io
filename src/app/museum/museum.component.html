@@ -173,14 +173,14 @@
       />
     </a>
     <p>
-      {{ getPoseName(poses[currentPoseIndex]) }}
+      {{ getPoseName(currentPoseIndex) }}
     </p>
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
     <button class="nes-btn" (click)="nextPose()">Next Mural</button>
     <select #pose (change)="selectPose(pose.value)">
       <option disabled selected>Jump to Mural</option>
       <option *ngFor="let pose of poses; let i = index" [value]="i">
-        {{ getPoseName(pose) }}
+        {{ getPoseName(i) }}
       </option>
     </select>
   </div>
