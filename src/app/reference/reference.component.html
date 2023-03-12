@@ -17,25 +17,11 @@
     <button class="nes-btn" (click)="changeView('feet')">Feet</button>
     <button class="nes-btn" (click)="changeView('tattoos')">Tattoos</button>
     <div class="content-grid" *ngIf="view === 'body'">
-      <a
-        href="https://cdn.naomi.lgbt/ref/front.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://cdn.naomi.lgbt/ref/front.png"
-          alt="A full-body front view of Naomi."
-        />
+      <a href="{{ refData.front }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ refData.front }}" alt="A full-body front view of Naomi." />
       </a>
-      <a
-        href="https://cdn.naomi.lgbt/ref/back.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://cdn.naomi.lgbt/ref/back.png"
-          alt="A full-body back view of Naomi."
-        />
+      <a href="{{ refData.back }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ refData.back }}" alt="A full-body back view of Naomi." />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'face'">
@@ -46,15 +32,8 @@
           lipstick, eyeshadow, and blush.
         </p>
       </div>
-      <a
-        href="https://cdn.naomi.lgbt/ref/face.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://cdn.naomi.lgbt/ref/face.png"
-          alt="A close up of Naomi's face."
-        />
+      <a href="{{ refData.face }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ refData.face }}" alt="A close up of Naomi's face." />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'hands'">
@@ -65,15 +44,8 @@
           purple.
         </p>
       </div>
-      <a
-        href="https://cdn.naomi.lgbt/ref/hands.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://cdn.naomi.lgbt/ref/hands.png"
-          alt="A close up of Naomi's hands."
-        />
+      <a href="{{ refData.hands }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ refData.hands }}" alt="A close up of Naomi's hands." />
       </a>
     </div>
     <div class="content-grid" *ngIf="view === 'feet'">
@@ -84,18 +56,10 @@
           shoes.
         </p>
       </div>
-      <a
-        href="https://cdn.naomi.lgbt/ref/feet.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://cdn.naomi.lgbt/ref/feet.png"
-          alt="A close up of Naomi's feet."
-        />
+      <a href="{{ refData.feet }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ refData.feet }}" alt="A close up of Naomi's feet." />
       </a>
     </div>
-    <!--TODO: Make this paginated-->
     <div class="tattoo" *ngIf="view === 'tattoos'">
       <div class="nes-container with-title is-centered is-rounded is-dark">
         <h2 class="title">{{ tattooData[currentTattooIndex].name }}</h2>

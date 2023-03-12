@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { tattoos } from 'src/app/_data/tattoos';
+import { reference } from '../_data/reference';
 
 @Component({
   selector: 'app-reference',
@@ -9,6 +10,7 @@ import { tattoos } from 'src/app/_data/tattoos';
 export class ReferenceComponent {
   public view = '';
   public tattooData = tattoos;
+  public refData = reference;
   public currentTattooIndex = 0;
 
   changeView(name: string) {
