@@ -4,12 +4,13 @@ export const Outfits: Outfit[] = [
   {
     name: 'Abyss',
     fileName: 'abyss.png',
-    description: 'Stare long into the abyss and the abyss will stare back into you.',
+    description:
+      'Stare long into the abyss and the abyss will stare back into you.',
     alt: 'Naomi wearing a purple shirt with a strange pattern and a red plaid miniskirt.',
     credits: {
       top: 'https://booth.pm/en/items/4608652',
-      skirt: 'https://booth.pm/en/items/3728335'
-    }
+      skirt: 'https://booth.pm/en/items/3728335',
+    },
   },
   {
     name: 'Aikido Gi',
@@ -1154,8 +1155,8 @@ export const Outfits: Outfit[] = [
     description: 'Naomi loves the minty green color.',
     alt: 'Naomi wearing a mint green dress.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4604124'
-    }
+      outfit: 'https://booth.pm/en/items/4604124',
+    },
   },
   {
     name: 'Monarch Dress',
@@ -1855,6 +1856,16 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Striped Bikini',
+    fileName: 'stripes.png',
+    description:
+      'It looks like a bikini but it is actually really comfy sleepwear.',
+    alt: 'Naomi wearing a pink and black striped bikini with matching gloves and stockings.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4611030',
+    },
+  },
+  {
     name: 'Succubus Dress',
     fileName: 'succubus-2.png',
     description: 'Will you let Naomi take your soul?',
@@ -1919,8 +1930,8 @@ export const Outfits: Outfit[] = [
     description: 'The wrap is a nice touch.',
     alt: 'Naomi wearing a black one piece with pink accents, and a black and pink skirt wrap.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4604358'
-    }
+      outfit: 'https://booth.pm/en/items/4604358',
+    },
   },
   {
     name: 'Swimsuit',
