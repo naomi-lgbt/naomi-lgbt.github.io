@@ -1806,6 +1806,15 @@
     }
   },
   {
+    "name": "Striped Bikini",
+    "fileName": "stripes.png",
+    "description": "It looks like a bikini but it is actually really comfy sleepwear.",
+    "alt": "Naomi wearing a pink and black striped bikini with matching gloves and stockings.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4611030"
+    }
+  },
+  {
     "name": "Succubus Dress",
     "fileName": "succubus-2.png",
     "description": "Will you let Naomi take your soul?",
