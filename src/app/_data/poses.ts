@@ -146,7 +146,6 @@ export const Poses = [
   'tavern.png',
   'teahouse.png',
   'throne.png',
-  'trade-offer-template.png',
   'umbrella.png',
   'underwater.png',
   'valentine.png',
