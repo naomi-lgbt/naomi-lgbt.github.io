@@ -898,6 +898,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Holy Vestments',
+    fileName: 'holy.png',
+    description: 'She may not be religious, but she does like the look.',
+    alt: 'Naomi wearing a white robe with gold accents.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4638887'
+    }
+  },
+  {
     name: 'Ivy Dress',
     fileName: 'ivy.png',
     description: 'A cute little forest themed dress.',
@@ -2093,6 +2102,15 @@ export const Outfits: Outfit[] = [
     credits: {
       outfit: 'https://booth.pm/en/items/4225292',
     },
+  },
+  {
+    name: 'Vine Bikini',
+    fileName: 'vines.png',
+    description: 'Does this really count as swimwear?',
+    alt: 'Naomi wearing a light blue bikini with vines and stockings',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4649251'
+    }
   },
   {
     name: 'Violet Evergarden Cosplay',
