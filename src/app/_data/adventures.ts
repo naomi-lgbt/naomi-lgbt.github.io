@@ -110,6 +110,10 @@ export const adventures: Adventure[] = [
     game: 'Soul Calibur VI',
   },
   {
+    fileName: 'spellforce-3.jpg',
+    game: 'SpellForce III'
+  },
+  {
     fileName: 'stardew-valley.png',
     game: 'Stardew Valley',
   },
