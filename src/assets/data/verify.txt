@@ -9,33 +9,37 @@ IF YOU SEE MY USERNAME ELSEWHERE, PLEASE NOTIFY ME. I will confirm or deny the l
 
 # Primary Contact points (in order of response time)
 
-chat with me: https://chat.nhcarrigan.com (Discord Server ID: 778130114772598785)
+chat with me: https://chat.naomi.lgbt (Discord Server ID: 778130114772598785)
 discord: Naomi#0001 (ID: 465650873650118659)
 github: naomi-lgbt - https://github.com/naomi-lgbt
 email: contact@nhcarrigan.com
 
 # Secondary Contact points (in order of activity)
 
-twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
+mastodon: @naomi@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@naomi
+mastodon: @nhcarrigan@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@nhcarrigan
+mastodon: @becca@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@becca
+mastodon: @rosalia@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@rosalia
+mastodon: @beccalia@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/beccalia
 freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
 freecodecamp chat: Naomi
 steam: https://steamcommunity.com/id/naomi-lgbt
 twitch: https://www.twitch.tv/naomilgbt
 linkedin: https://linkedin.com/in/naomi-lgbt
-twitter: @becca_lyria - https://twitter.com/becca_lyria
-twitter: @RosaNightsong - https://twitter.com/RosaNightsong
-twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
-twitter: @nhcarrigan - https://twitter.com/nhcarrigan
 github: nhcarrigan - https://github.com/nhcarrigan
 github: beccalyria - https://github.com/beccalyria
 github: rosalianightsong - https://github.com/RosaliaNightsong
 github: naomis-novas - https://github.com/naomis-novas
 github: naomis-archive - https://github.com/naomis-archive
+twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
+twitter: @becca_lyria - https://twitter.com/becca_lyria
+twitter: @RosaNightsong - https://twitter.com/RosaNightsong
+twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
+twitter: @nhcarrigan - https://twitter.com/nhcarrigan
 linkedin: https://linkedin.com/company/nhcarrigan/
 itch: https://itch.io/profile/nhcarrigan
 facebook: https://www.facebook.com/nhcarrigan
 reddit: https://www.reddit.com/user/nhcarrigan
-
 
 # Other Profiles (unlikely to respond to contact requests)
 
@@ -54,7 +58,7 @@ origin: nhcarrigan
 battlenet: nhcarrigan#1956
 dnd beyond: https://www.dndbeyond.com/members/nhcarrigan
 roll20: https://app.roll20.net/users/9564775/nhcarrigan
-mastodon: https://mstdn.social/web/@nhcarrigan
+mastodon: https://social.freecodecamp.org/@naomi
 tumblr: https://nhcarrigan.tumblr.com
 
 # Owned Domains
@@ -91,17 +95,17 @@ paypal: https://www.paypal.com/paypalme/nhcarrigan
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmNca6QACgkQa+klaYyt
-iQf3AhAAnJzPB/30qrlMeZGy9fFIZn/55NrfVVR3Bquzvms5U+K9V7eI358RM0ss
-SD46jziL51+IYA+9zmrynaUQ0+Fyh4qDO7+/ik0dqtK4OiVK4BDiZs3INhRC4ND5
-byZjl1cn+t/rXLm0/ghtpe1NL6+XJ3QYWMWE9ATxWYandnO7gSOGSi3XqtM8FW1x
-AISIv9QokAPSIH5A5xnYFa56wnUNTyHvilMPT5tDwbaDgoYL+LJEJ6V6NscXPvzy
-qAwmAYDgBp75y3hJlNPaLZirNJIluDkheE4rd6kEnZzZgn8tVMDwUO1LDQ9DwidV
-SMW6EX0Wz5MmHLchOIOFfoUaNa3p40i0h7hPXm9P7xNr72inihvyU9648dSNFgmU
-l5NopijDqvFHJleJjV87h+RKsltSFG1c6ekEMZQDp4iELwUhDDcvOuY/AME6CITw
-iPtVXaTq0PjEwwNNZWYD+lolcwYDbDbpPZ+m5a3FP73Aw/hWPgSQ/8moq529L+hL
-W8QKtmNqIz7wixkOyzwBYoOyml7orP2QF0PoZvdU1aT9bq2nTVV9DMc5SD2Aak2r
-CaX6c7nydvHVcgDeffVVmAF4XAdZk2ePWzNcQ57yQKxscEX6POcB91mu5nKzNQah
-EvqxhfQ0CX1WjTKQfefiVYzef7XKB/cy5Vou6ZherfCk09RXTkI=
-=TE8m
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmQvbYAACgkQa+klaYyt
+iQcJCA/9FATzmIKybSjF1aT3s/G8qDmLHfyYKU/82CUuwtq1ezcEvxxVtFAap6jf
+5G9RrRuMtxIdz5NImhi/D2KzOU6yz66lDFnx64mLmEgTlmlvzbCvjiJIO5wiq29K
+SoGn4LkgB6IAfDvh8UHHB3uTIKyoySSzJwpRiZQ41DVuD2zXyZa2NqV4TPYP0pJx
+k9j1UHiWy3dFloHjoNeYuUlPCT3qAnDrx77F8WOOgYFYzpHf7LbXUV8cGnnau/d5
+C3nZed/gtx0DNNXRgaZGLPgBGT0Ichi7Hft3bexGj/3w7pVG/GnYOR/0o6YQGgjt
+SOEqsMPMA7triDHwWQkBu6LJWNTWXijRokdIIrWZRk9Xt9Kgs6r+IXpZT+I2Zuuk
+ey9Hr/ztVWoHkL9ipwXPf+bJ9+DJ+BVsjpZppZ9EzZ9eRZtpNj5SESm0vg87ANEQ
+vOmZmJC0JVajWFMByNmcztGJfL8x29LRis7ORTqTsfDiJDUoXl6gytHtd0DsTJnM
+h+7FdJsQHjN6d3/0gz3XCqK6hOqs+ffHjUTAWV3W3EfBMANdvO+Jg4XV59IkezCf
+tqhkZp/pidC1um4kaGjdosFrz7iktDP5sEhx3z9zn484jQfEZfz18hvy169CmMzm
+EwPPK7WpRPIjNQF+Dp4ML079cT3xjGvmcSrci/9aRXKcdyHVTco=
+=o+gG
 -----END PGP SIGNATURE-----
