@@ -4,10 +4,10 @@ import {
   faFreeCodeCamp,
   faGithub,
   faLinkedin,
+  faMastodon,
   faPatreon,
   faSteam,
   faTwitch,
-  faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { Social } from 'src/interfaces/Social';
 
@@ -21,9 +21,9 @@ export const socials: Social[] = [
     hover: false,
   },
   {
-    name: 'Twitter',
-    icon: faTwitter,
-    url: 'https://twitter.com/naomi_lgbt',
+    name: 'Mastodon',
+    icon: faMastodon,
+    url: 'https://mastodon.naomi.lgbt/@naomi',
     text: '#FFFFFF',
     background: '#1DA1F2',
     hover: false,
@@ -83,5 +83,5 @@ export const socials: Social[] = [
     text: '#FFFFFF',
     background: '#4267B2',
     hover: false,
-  }
+  },
 ];
