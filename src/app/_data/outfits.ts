@@ -832,8 +832,8 @@ export const Outfits: Outfit[] = [
     description: 'a',
     alt: 'Naomi wearing a Gawr Gura hoodie.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4667973'
-    }
+      outfit: 'https://booth.pm/en/items/4667973',
+    },
   },
   {
     name: 'Hacker Gear',
@@ -912,8 +912,8 @@ export const Outfits: Outfit[] = [
     description: 'She may not be religious, but she does like the look.',
     alt: 'Naomi wearing a white robe with gold accents.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4638887'
-    }
+      outfit: 'https://booth.pm/en/items/4638887',
+    },
   },
   {
     name: 'Ivy Dress',
@@ -1162,8 +1162,8 @@ export const Outfits: Outfit[] = [
     description: 'Perfect for the transition from spring to summer.',
     alt: 'Naomi wearing a white hoodie and a black mesh pencil skirt.',
     credits: {
-      outfit: 'https://booth.pm/en/items/4683503'
-    }
+      outfit: 'https://booth.pm/en/items/4683503',
+    },
   },
   {
     name: 'Miku Costume',
@@ -2127,8 +2127,8 @@ export const Outfits: Outfit[] = [
     description: 'Does this really count as swimwear?',
     alt: 'Naomi wearing a light blue bikini with vines and stockings',
     credits: {
-      outfit: 'https://booth.pm/en/items/4649251'
-    }
+      outfit: 'https://booth.pm/en/items/4649251',
+    },
   },
   {
     name: 'Violet Evergarden Cosplay',
