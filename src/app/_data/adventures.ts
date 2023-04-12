@@ -34,6 +34,10 @@ export const adventures: Adventure[] = [
     game: 'Elden Ring',
   },
   {
+    fileName: 'enderal.jpg',
+    game: 'Enderal: Forgotten Stories',
+  },
+  {
     fileName: 'fell-seal.jpg',
     game: "Fell Seal: Arbiter's Mark",
   },
