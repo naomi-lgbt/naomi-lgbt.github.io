@@ -827,6 +827,15 @@ export const Outfits: Outfit[] = [
     },
   },
   {
+    name: 'Naomi Gura',
+    fileName: 'gura.png',
+    description: 'a',
+    alt: 'Naomi wearing a Gawr Gura hoodie.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4667973'
+    }
+  },
+  {
     name: 'Hacker Gear',
     fileName: 'hacker.png',
     description: 'The perfect attire when working on your code!',
@@ -1146,6 +1155,15 @@ export const Outfits: Outfit[] = [
     credits: {
       outfit: 'https://booth.pm/en/items/4044922',
     },
+  },
+  {
+    name: 'Mesh Skirt',
+    fileName: 'mesh-2.png',
+    description: 'Perfect for the transition from spring to summer.',
+    alt: 'Naomi wearing a white hoodie and a black mesh pencil skirt.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4683503'
+    }
   },
   {
     name: 'Miku Costume',
