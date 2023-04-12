@@ -58,6 +58,10 @@ export const adventures: Adventure[] = [
     game: 'Kung Fu Girl',
   },
   {
+    fileName: 'mass-effect.bmp',
+    game: 'Mass Effect Legendary Edition',
+  },
+  {
     fileName: 'mount-and-blade-2.jpg',
     game: 'Mount & Blade II',
   },
@@ -111,7 +115,7 @@ export const adventures: Adventure[] = [
   },
   {
     fileName: 'spellforce-3.jpg',
-    game: 'SpellForce III'
+    game: 'SpellForce III',
   },
   {
     fileName: 'stardew-valley.png',
@@ -143,7 +147,7 @@ export const adventures: Adventure[] = [
   },
   {
     fileName: 'wo-long.jpg',
-    game: 'Wo Long: Fallen Dynasty'
+    game: 'Wo Long: Fallen Dynasty',
   },
   {
     fileName: 'wwe-2k22.jpg',
