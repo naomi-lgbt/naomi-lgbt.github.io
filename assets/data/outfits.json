@@ -228,6 +228,16 @@
     }
   },
   {
+    "name": "Butterfly Croptop",
+    "fileName": "butterfly-2.png",
+    "description": "It is a little tighter than Naomi expected...",
+    "alt": "Naomi wearing a black crop top with a butterfly cutout and a black miniskirt.",
+    "credits": {
+      "top": "https://booth.pm/en/items/4716465",
+      "skirt": "https://booth.pm/en/items/4716433"
+    }
+  },
+  {
     "name": "Casual Wear 2",
     "fileName": "casual-2.png",
     "description": "Another more casual outfit, though this one more closely matches Naomi's daily wear.",
@@ -801,6 +811,15 @@
     "alt": "Naomi wearing a black and white striped dress with a lace collar, hem, garters, and sleeves. Her hair is long twintails.",
     "credits": {
       "outfit": "https://booth.pm/en/items/2345744"
+    }
+  },
+  {
+    "name": "Green Rave Outfit",
+    "fileName": "green.png",
+    "description": "For someone who never leaves the house, Naomi has a lot of rave outfits.",
+    "alt": "Naomi wearing a black crop top and miniskirt with neon green accents, and neon green mesh sleeves and stockings.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4708923"
     }
   },
   {
@@ -1692,6 +1711,15 @@
     "description": "While it looks cute with the snow, it is not very warm for winter.",
     "alt": "Naomi wearing a light blue dress with lace sleeves and a snowflake design.",
     "credits": {}
+  },
+  {
+    "name": "Snowflake Dress",
+    "fileName": "snowflake.png",
+    "description": "Probably too long to actually wear in the snow.",
+    "alt": "Naomi wearing a white and blue dress with a snowflake pattern along the hem.",
+    "credits": {
+      "outfit": "https://booth.pm/en/items/4720259"
+    }
   },
   {
     "name": "Sorceress Gown",
