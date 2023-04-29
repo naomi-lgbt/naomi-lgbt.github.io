@@ -11,6 +11,7 @@ export const Poses = [
   'beach-3.png',
   'beach-4.png',
   'beach-5.png',
+  'beach-6.png',
   'beach.png',
   'beatsaber.png',
   'bed-10.png',
