@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { tattoos } from 'src/app/_data/tattoos';
+import { tattoos } from 'src/data/tattoos';
 import { reference } from '../_data/reference';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Outfits } from 'src/app/_data/outfits';
+import { Outfits } from 'src/data/outfits';
 import { Outfit } from 'src/interfaces/Outfit';
 import { HelpersService } from '../helpers.service';
 
