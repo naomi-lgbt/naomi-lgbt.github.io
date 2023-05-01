@@ -4,6 +4,7 @@ import { portraits } from 'src/app/_data/portraits';
 import { Emote } from 'src/interfaces/Emote';
 import { Portrait } from 'src/interfaces/Portrait';
 import { Poses } from '../_data/poses';
+import { HelpersService } from '../helpers.service';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
 
@@ -12,7 +13,6 @@ type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
   templateUrl: './museum.component.html',
   styleUrls: ['./museum.component.css'],
 })
-
 export class MuseumComponent implements OnInit {
   public view: viewType = 'intro';
   public portraits: Portrait[] = [];
@@ -23,9 +23,19 @@ export class MuseumComponent implements OnInit {
   public currentPoseIndex = 0;
 
   ngOnInit(): void {
-    this.portraits = portraits;
-    this.emotes = emotes;
-    this.poses = Poses;
+    this.portraits = portraits.sort((a, b) =>
+      HelpersService.numericSort(
+        HelpersService.parseFileName(a.fileName),
+        HelpersService.parseFileName(b.fileName)
+      )
+    );
+    this.emotes = emotes.sort((a, b) => a.name.localeCompare(b.name));
+    this.poses = Poses.sort((a, b) =>
+      HelpersService.numericSortWithHyphen(
+        HelpersService.parseFileName(a),
+        HelpersService.parseFileName(b)
+      )
+    );
   }
 
   changeView(name: viewType) {

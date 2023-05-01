@@ -13,7 +13,7 @@ export class TrainingHallComponent implements OnInit {
   public currentGameIndex = 0;
 
   ngOnInit(): void {
-    this.games = adventures;
+    this.games = adventures.sort((a, b) => a.game.localeCompare(b.game));
   }
 
   changeView(name: string) {

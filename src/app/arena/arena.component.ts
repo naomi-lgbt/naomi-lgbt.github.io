@@ -17,11 +17,13 @@ export class ArenaComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.getData().subscribe((data) => {
-      this.activities = data.map(({ title, description, timestamp }) => ({
-        title,
-        description,
-        date: new Date(timestamp).toLocaleString(),
-      }));
+      this.activities = data
+        .map(({ title, description, timestamp }) => ({
+          title,
+          description,
+          date: new Date(timestamp).toLocaleString(),
+        }))
+        .sort((a, b) => a.date.localeCompare(b.date));
     });
   }
 
@@ -37,7 +39,7 @@ export class ArenaComponent implements OnInit {
         title,
         description,
         date: new Date(timestamp).toLocaleString(),
-      }));
+      })).sort((a, b) => a.date.localeCompare(b.date));
     });
   }
 }
