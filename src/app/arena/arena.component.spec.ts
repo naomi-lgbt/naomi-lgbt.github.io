@@ -1,6 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { hallOfFame } from 'src/app/_data/hallOfFame';
+import { hallOfFame } from 'src/data/hallOfFame';
 
 import { ArenaComponent } from './arena.component';
 

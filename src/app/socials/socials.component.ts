@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Social } from 'src/interfaces/Social';
-import { socials } from '../_data/socials';
+import { socials } from '../../data/socials';
 
 @Component({
   selector: 'app-socials',

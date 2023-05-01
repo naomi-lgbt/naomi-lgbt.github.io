@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FontAwesomeTestingModule } from '@fortawesome/angular-fontawesome/testing';
-import { socials } from '../_data/socials';
+import { socials } from '../../data/socials';
 
 import { SocialsComponent } from './socials.component';
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Engine } from 'tsparticles-engine';
 import { loadFull } from 'tsparticles';
-import { ParticleOptions } from 'src/app/_config/ParticleOptions';
+import { ParticleOptions } from 'src/config/ParticleOptions';
 
 @Component({
   selector: 'app-root',

@@ -25,7 +25,7 @@ import {
   FontAwesomeModule,
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
-import { socials } from './_data/socials';
+import { socials } from '../data/socials';
 
 @NgModule({
   declarations: [

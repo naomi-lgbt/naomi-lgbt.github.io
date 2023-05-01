@@ -4,7 +4,7 @@ const djson = require('dirty-json');
 
 (async () => {
     // Outfits
-    const outfitsPath = join(process.cwd(), "src", "app", "_data", "outfits.ts");
+    const outfitsPath = join(process.cwd(), "src", "data", "outfits.ts");
     const outfitsData = await readFile(outfitsPath, 'utf-8');
     const cleanedOutfitData = outfitsData.replace(`import { Outfit } from 'src/interfaces/Outfit';\n\nexport const Outfits: Outfit[] = `, '').replace(";", '');
     const parsedOutfitData = djson.parse(cleanedOutfitData);
@@ -13,7 +13,7 @@ const djson = require('dirty-json');
 
     // Adventures
 
-    const adventuresPath = join(process.cwd(), "src", "app", "_data", "adventures.ts");
+    const adventuresPath = join(process.cwd(), "src", "data", "adventures.ts");
     const adventuresData = await readFile(adventuresPath, 'utf-8');
     const cleanedAdventureData = adventuresData.replace(`import { Adventure } from 'src/interfaces/Adventure';\n\nexport const adventures: Adventure[] = `, '').replace(";", '');
     const parsedAdventureData = djson.parse(cleanedAdventureData);
@@ -22,7 +22,7 @@ const djson = require('dirty-json');
 
     // Art
 
-    const artPath = join(process.cwd(), "src", "app", "_data", "portraits.ts");
+    const artPath = join(process.cwd(), "src", "data", "portraits.ts");
     const artData = await readFile(artPath, 'utf-8');
     const cleanedArtData = artData.replace(`import { Portrait } from 'src/interfaces/Portrait';\n\nexport const portraits: Portrait[] = `, '').replace(";", '');
     const parsedArtData = djson.parse(cleanedArtData);
@@ -31,7 +31,7 @@ const djson = require('dirty-json');
 
     // Emotes
 
-    const emotesPath = join(process.cwd(), "src", "app", "_data", "emotes.ts");
+    const emotesPath = join(process.cwd(), "src", "data", "emotes.ts");
     const emotesData = await readFile(emotesPath, 'utf-8');
     const cleanedEmotesData = emotesData.replace(`import { Emote } from 'src/interfaces/Emote';\n\nexport const emotes: Emote[] = `, '').replace(";", '');
     const parsedEmotesData = djson.parse(cleanedEmotesData);
@@ -40,7 +40,7 @@ const djson = require('dirty-json');
 
     // Tattoos
 
-    const tattoosPath = join(process.cwd(), "src", "app", "_data", "tattoos.ts");
+    const tattoosPath = join(process.cwd(), "src", "data", "tattoos.ts");
     const tattoosData = await readFile(tattoosPath, 'utf-8');
     const cleanedTattoosData = tattoosData.replace(`import { Tattoo } from 'src/interfaces/Tattoo';\n\nexport const tattoos: Tattoo[] = `, '').replace(";", '');
     const parsedTattoosData = djson.parse(cleanedTattoosData);
@@ -49,7 +49,7 @@ const djson = require('dirty-json');
 
     // Poses
 
-    const posesPath = join(process.cwd(), "src", "app", "_data", "poses.ts");
+    const posesPath = join(process.cwd(), "src", "data", "poses.ts");
     const posesData = await readFile(posesPath, 'utf-8');
     const cleanedPosesData = posesData.replace(`export const Poses = `, '').replace(";", '');
     const parsedPosesData = djson.parse(cleanedPosesData);

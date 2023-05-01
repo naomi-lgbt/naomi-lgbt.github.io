@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { library } from 'src/app/_data/library';
+import { library } from 'src/data/library';
 import { LibraryBook } from 'src/interfaces/LibraryBook';
 
 @Component({
