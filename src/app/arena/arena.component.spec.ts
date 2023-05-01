@@ -93,7 +93,7 @@ describe('ArenaComponent', () => {
     expect(buttons[0].tagName).toBe('A');
     expect(buttons[0].textContent?.trim()).toBe('Read the Scroll');
     expect(buttons[0].getAttribute('href')).toBe(
-      'https://contribute.nhcarrigan.com'
+      'https://contribute.naomi.lgbt'
     );
     expect(buttons[1].tagName).toBe('BUTTON');
     expect(buttons[1].textContent?.trim()).toBe('See the Hall of Fame');
