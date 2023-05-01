@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { tattoos } from 'src/data/tattoos';
-import { reference } from '../_data/reference';
+import { reference } from '../../data/reference';
 
 @Component({
   selector: 'app-reference',

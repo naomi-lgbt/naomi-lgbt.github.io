@@ -3,7 +3,7 @@ import { emotes } from 'src/data/emotes';
 import { portraits } from 'src/data/portraits';
 import { Emote } from 'src/interfaces/Emote';
 import { Portrait } from 'src/interfaces/Portrait';
-import { Poses } from '../_data/poses';
+import { Poses } from '../../data/poses';
 import { HelpersService } from '../helpers.service';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
