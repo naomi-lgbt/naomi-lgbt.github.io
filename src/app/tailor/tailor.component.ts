@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Outfits } from 'src/app/_data/outfits';
 import { Outfit } from 'src/interfaces/Outfit';
+import { HelpersService } from '../helpers.service';
 
 @Component({
   selector: 'app-tailor',
@@ -35,7 +36,7 @@ export class TailorComponent implements OnInit {
   public currentOutfitIndex = 0;
 
   ngOnInit(): void {
-    this.outfits = Outfits;
+    this.outfits = Outfits.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   renderCredits(outfit: string) {
