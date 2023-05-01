@@ -4,8 +4,8 @@
   --dark-blue: #0b0080;
   --light-purple: #aea8de;
   --light-blue: #48d1cc;
-  --cursor-normal: url("/assets/img/cursor.cur");
-  --cursor-pointer: url("/assets/img/pointer.cur");
+  --cursor-normal: url("https://cdn.nhcarrigan.com/cursors/cursor.cur");
+  --cursor-pointer: url("https://cdn.nhcarrigan.com/cursors/pointer.cur");
 
   /* Sponsor Colours */
   --silver-sponsor: #607d8b;
@@ -26,7 +26,8 @@ html {
 
 body {
   margin: 0;
-  background: url("/assets/img/background.webp") no-repeat top center fixed;
+  background: url("https://cdn.nhcarrigan.com/banner.png") no-repeat top center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
