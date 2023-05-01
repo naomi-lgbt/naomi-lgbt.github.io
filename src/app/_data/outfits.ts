@@ -2257,4 +2257,13 @@ export const Outfits: Outfit[] = [
     alt: 'Naomi wearing a white dress with a zipper down the front of the chest.',
     credits: {},
   },
+  {
+    name: 'Crystal Dress',
+    fileName: 'crystal.png',
+    description: 'The crystals are heavier than expected...',
+    alt: 'Naomi wearing a black sleeveless top and black skirt, with blue and green crystal adornments.',
+    credits: {
+      outfit: 'https://booth.pm/en/items/4731179',
+    },
+  },
 ];
