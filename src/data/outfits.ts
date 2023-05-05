@@ -2266,4 +2266,14 @@ export const Outfits: Outfit[] = [
       outfit: 'https://booth.pm/en/items/4731179',
     },
   },
+  {
+    name: 'Halter Top',
+    fileName: 'halter.png',
+    description: 'Naomi likes the hanging stars.',
+    alt: 'Naomi wearing a pink halter top with star beads hanging off the hem, and a plaid pink miniskirt.',
+    credits: {
+      top: 'https://booth.pm/en/items/4745044',
+      skirt: 'https://store.steampowered.com/app/1486350/VRoid_Studio_v1220/',
+    },
+  },
 ];
