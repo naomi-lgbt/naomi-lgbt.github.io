@@ -1,19 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import { adventures } from 'src/data/adventures';
+import { Component } from '@angular/core';
 import { Adventure } from 'src/interfaces/Adventure';
+import { AssetsService } from '../assets.service';
 
 @Component({
   selector: 'app-training-hall',
   templateUrl: './training-hall.component.html',
   styleUrls: ['./training-hall.component.css'],
 })
-export class TrainingHallComponent implements OnInit {
+export class TrainingHallComponent {
   public view = 'intro';
   public games: Adventure[] = [];
   public currentGameIndex = 0;
 
-  ngOnInit(): void {
-    this.games = adventures.sort((a, b) => a.game.localeCompare(b.game));
+  constructor(private assetService: AssetsService) {
+    this.assetService.fetchAdventures().subscribe((adventures) => {
+      this.games = adventures.sort((a, b) => a.game.localeCompare(b.game));
+    });
   }
 
   changeView(name: string) {

@@ -1,10 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { emotes } from 'src/data/emotes';
-import { portraits } from 'src/data/portraits';
+import { Component } from '@angular/core';
 import { Emote } from 'src/interfaces/Emote';
 import { Portrait } from 'src/interfaces/Portrait';
-import { Poses } from '../../data/poses';
 import { HelpersService } from '../helpers.service';
+import { AssetsService } from '../assets.service';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
 
@@ -13,7 +11,7 @@ type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
   templateUrl: './museum.component.html',
   styleUrls: ['./museum.component.css'],
 })
-export class MuseumComponent implements OnInit {
+export class MuseumComponent {
   public view: viewType = 'intro';
   public portraits: Portrait[] = [];
   public emotes: Emote[] = [];
@@ -22,20 +20,21 @@ export class MuseumComponent implements OnInit {
   public currentEmoteIndex = 0;
   public currentPoseIndex = 0;
 
-  ngOnInit(): void {
-    this.portraits = portraits.sort((a, b) =>
-      HelpersService.numericSort(
-        HelpersService.parseFileName(a.fileName),
-        HelpersService.parseFileName(b.fileName)
-      )
-    );
-    this.emotes = emotes.sort((a, b) => a.name.localeCompare(b.name));
-    this.poses = Poses.sort((a, b) =>
-      HelpersService.numericSortWithHyphen(
-        HelpersService.parseFileName(a),
-        HelpersService.parseFileName(b)
-      )
-    );
+  constructor(private assetService: AssetsService) {
+    this.assetService.fetchPortraits().subscribe((portraits) => {
+      this.portraits = portraits.sort((a, b) => a.name.localeCompare(b.name));
+    });
+    this.assetService.fetchEmotes().subscribe((emotes) => {
+      this.emotes = emotes.sort((a, b) => a.name.localeCompare(b.name));
+    });
+    this.assetService.fetchPoses().subscribe((poses) => {
+      this.poses = poses.sort((a, b) =>
+        HelpersService.numericSortWithHyphen(
+          HelpersService.parseFileName(a),
+          HelpersService.parseFileName(b)
+        )
+      );
+    });
   }
 
   changeView(name: viewType) {

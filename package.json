@@ -4,13 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "prebuild": "node generateJson.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "lint": "ng lint",
-    "pretest": "node loadFiles.js",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
-    "posttest": "node resetFiles.js",
     "predeploy": "node generateJson.js",
     "deploy": "ng deploy"
   },
@@ -61,7 +58,6 @@
     "karma-coverage": "2.2.0",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "2.0.0",
-    "typescript": "4.9.5",
-    "xml2js": "0.5.0"
+    "typescript": "4.9.5"
   }
 }

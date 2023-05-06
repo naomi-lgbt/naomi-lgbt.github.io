@@ -1,14 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { Outfits } from 'src/data/outfits';
+import { Component } from '@angular/core';
 import { Outfit } from 'src/interfaces/Outfit';
-import { HelpersService } from '../helpers.service';
+import { AssetsService } from '../assets.service';
 
 @Component({
   selector: 'app-tailor',
   templateUrl: './tailor.component.html',
   styleUrls: ['./tailor.component.css'],
 })
-export class TailorComponent implements OnInit {
+export class TailorComponent {
   public outfits: Outfit[] = [];
   public defaultCredits = [
     ['Model Design', 'https://naomi.lgbt'],
@@ -35,8 +34,10 @@ export class TailorComponent implements OnInit {
   public showCreditModal = false;
   public currentOutfitIndex = 0;
 
-  ngOnInit(): void {
-    this.outfits = Outfits.sort((a, b) => a.name.localeCompare(b.name));
+  constructor(private assetService: AssetsService) {
+    assetService.fetchOutfits().subscribe((outfits) => {
+      this.outfits = outfits.sort((a, b) => a.name.localeCompare(b.name));
+    });
   }
 
   renderCredits(outfit: string) {
