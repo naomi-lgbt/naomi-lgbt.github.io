@@ -68,14 +68,10 @@
           portraits[currentPortraitIndex].fileName
         }}"
         alt="{{ portraits[currentPortraitIndex].alt }}"
-        class="{{ portraits[currentPortraitIndex].spicy ? 'spicy' : '' }}"
       />
-      <p *ngIf="portraits[currentPortraitIndex].spicy" class="overlay">
-        Might be Spicy...
-      </p>
     </a>
     <p>
-      By
+      <em>{{ portraits[currentPortraitIndex].name }}</em> By
       <a
         href="{{ portraits[currentPortraitIndex].url }}"
         target="_blank"
@@ -90,7 +86,7 @@
     <select #portrait (change)="selectPortrait(portrait.value)">
       <option disabled selected>Jump to Portrait</option>
       <option *ngFor="let portrait of portraits; let i = index" [value]="i">
-        {{ portrait.fileName }}
+        {{ portrait.name }}
       </option>
     </select>
   </div>
@@ -168,7 +164,9 @@
       target="_blank"
     >
       <img
-        src="https://cdn.naomi.lgbt/naomi/koikatsu/{{ poses[currentPoseIndex] }}"
+        src="https://cdn.naomi.lgbt/naomi/koikatsu/{{
+          poses[currentPoseIndex]
+        }}"
         alt="Naomi"
       />
     </a>

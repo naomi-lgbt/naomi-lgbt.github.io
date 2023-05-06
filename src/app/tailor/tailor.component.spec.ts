@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Outfits } from 'src/data/outfits';
-import { outfitsFiles } from 'src/assets/fileList';
-
 import { TailorComponent } from './tailor.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AssetsService } from '../assets.service';
 
 describe('TailorComponent', () => {
   let component: TailorComponent;
@@ -12,9 +11,33 @@ describe('TailorComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [TailorComponent],
+      imports: [HttpClientModule],
+      providers: [AssetsService],
     }).compileComponents();
     fixture = TestBed.createComponent(TailorComponent);
     component = fixture.componentInstance;
+    component.outfits = [
+      {
+        name: 'Abyss',
+        fileName: 'abyss.png',
+        description:
+          'Stare long into the abyss and the abyss will stare back into you.',
+        alt: 'Naomi wearing a purple shirt with a strange pattern and a red plaid miniskirt.',
+        credits: {
+          top: 'https://booth.pm/en/items/4608652',
+          skirt: 'https://booth.pm/en/items/3728335',
+        },
+      },
+      {
+        name: 'Aikido Gi',
+        fileName: 'aikido.png',
+        description: 'Naomi is ready to learn the sword.',
+        alt: 'Naomi wearing a white kimono top with a blue hakama.',
+        credits: {
+          outfit: 'https://mohsu.booth.pm/items/4359515',
+        },
+      },
+    ];
     fixture.detectChanges();
     compiled = fixture.nativeElement;
   });
@@ -54,9 +77,9 @@ describe('TailorComponent', () => {
     expect(hiddenModal).toBeNull();
   });
 
-  for (const outfit of Outfits) {
-    it(`should render the ${outfit.fileName} outfit`, () => {
-      component.selectOutfit(String(Outfits.indexOf(outfit)));
+  it(`should render the outfits correctly`, () => {
+    for (const outfit of component.outfits) {
+      component.selectOutfit(String(component.outfits.indexOf(outfit)));
       fixture.detectChanges();
       const outfitBox = compiled.querySelector('.outfit');
       const imgLink = outfitBox?.querySelector('a');
@@ -75,9 +98,6 @@ describe('TailorComponent', () => {
       expect(description?.textContent?.trim()).toBe(outfit.description);
       const creditButton = outfitBox?.querySelector('.nes-btn');
       expect(creditButton?.textContent?.trim()).toBe('Credits');
-    });
-
-    it(`should render the ${outfit.fileName} credits`, () => {
       component.renderCredits(outfit.name);
       fixture.detectChanges();
       const modal = compiled.querySelector('.modal');
@@ -97,23 +117,6 @@ describe('TailorComponent', () => {
           expect(el.getAttribute('href')).toBe(textEntries[i][1]);
         });
       }
-    });
-  }
-
-  it(`should have data for all outfits`, () => {
-    expect(Outfits.length).toBe(outfitsFiles.length);
+    }
   });
-
-  for (const data of Outfits) {
-    it(`${data.fileName} should exist in the CDN`, () => {
-      expect(outfitsFiles).toContain(data.fileName);
-    });
-  }
-
-  for (const file of outfitsFiles) {
-    it(`should display the ${file} outfit`, () => {
-      const outfitData = Outfits.find((outfit) => outfit.fileName === file);
-      expect(outfitData).toBeDefined();
-    });
-  }
 });

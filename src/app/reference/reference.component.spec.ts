@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { tattoos } from 'src/data/tattoos';
-import { tattooFiles } from 'src/assets/fileList';
 
 import { ReferenceComponent } from './reference.component';
 
@@ -110,19 +109,6 @@ describe('ReferenceComponent', () => {
       );
       const h2 = container?.querySelector('h2');
       expect(h2?.textContent?.trim()).toBe(tattoo.name);
-    });
-  }
-
-  for (const data of tattoos) {
-    it(`${data.fileName} should exist in the CDN`, () => {
-      expect(tattooFiles).toContain(data.fileName);
-    });
-  }
-
-  for (const file of tattooFiles) {
-    it(`should render the ${file} tattoo correctly`, () => {
-      const tattooData = tattoos.find((tattoo) => tattoo.fileName === file);
-      expect(tattooData).toBeDefined();
     });
   }
 });

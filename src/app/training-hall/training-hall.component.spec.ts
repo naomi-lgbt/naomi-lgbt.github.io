@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { adventures } from 'src/data/adventures';
-import { gamesFiles } from 'src/assets/fileList';
 
 import { TrainingHallComponent } from './training-hall.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AssetsService } from '../assets.service';
 
 describe('TrainingHallComponent', () => {
   let component: TrainingHallComponent;
@@ -12,18 +12,30 @@ describe('TrainingHallComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [TrainingHallComponent],
+      imports: [HttpClientModule],
+      providers: [AssetsService],
     }).compileComponents();
     fixture = TestBed.createComponent(TrainingHallComponent);
     component = fixture.componentInstance;
+    component.games = [
+      {
+        fileName: 'code-vein.jpg',
+        game: 'Code Vein',
+      },
+      {
+        fileName: 'cyberpunk-2077.jpg',
+        game: 'Cyberpunk 2077',
+      },
+    ];
     fixture.detectChanges();
     compiled = fixture.nativeElement;
   });
 
-  it('should create', () => {
+  it('should create', async () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render the intro view', () => {
+  it('should render the intro view', async () => {
     expect(component.view).toBe('intro');
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Training Hall');
@@ -43,7 +55,7 @@ describe('TrainingHallComponent', () => {
     expect(buttons[2].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  it('should render the games view', () => {
+  it('should render the games view', async () => {
     component.changeView('games');
     fixture.detectChanges();
     compiled = fixture.nativeElement;
@@ -66,10 +78,10 @@ describe('TrainingHallComponent', () => {
     expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  for (const adventure of adventures) {
-    it(`should render the ${adventure.fileName} adventure`, () => {
+  it(`should render the adventures correctly`, async () => {
+    for (const adventure of component.games) {
       component.changeView('games');
-      component.selectGame(String(adventures.indexOf(adventure)));
+      component.selectGame(String(component.games.indexOf(adventure)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('games');
@@ -86,23 +98,6 @@ describe('TrainingHallComponent', () => {
       expect(img?.getAttribute('alt')).toBe(adventure.game);
       const title = game?.querySelector('p');
       expect(title?.textContent?.trim()).toBe(adventure.game);
-    });
-  }
-
-  it(`should have data for all games`, () => {
-    expect(adventures.length).toBe(gamesFiles.length);
+    }
   });
-
-  for (const data of adventures) {
-    it(`${data.fileName} should exist in the CDN`, () => {
-      expect(gamesFiles).toContain(data.fileName);
-    });
-  }
-
-  for (const file of gamesFiles) {
-    it(`should display the ${file} adventure`, () => {
-      const adventure = adventures.find((el) => el.fileName === file);
-      expect(adventure).toBeDefined();
-    });
-  }
 });

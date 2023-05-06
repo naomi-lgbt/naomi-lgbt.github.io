@@ -1,10 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { emotes } from 'src/data/emotes';
-import { portraits } from 'src/data/portraits';
-import { artFiles, emotesFiles, posesFiles } from 'src/assets/fileList';
-import { Poses } from '../../data/poses';
 
 import { MuseumComponent } from './museum.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AssetsService } from '../assets.service';
 
 describe('MuseumComponent', () => {
   let component: MuseumComponent;
@@ -14,9 +12,38 @@ describe('MuseumComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [MuseumComponent],
+      imports: [HttpClientModule],
+      providers: [AssetsService],
     }).compileComponents();
     fixture = TestBed.createComponent(MuseumComponent);
     component = fixture.componentInstance;
+    component.portraits = [
+      {
+        fileName: 'feito1.png',
+        name: 'Peace And Happiness',
+        artist: 'feito161',
+        url: 'https://twitter.com/feito161',
+        alt: 'Naomi standing and making peace signs with her hands.',
+      },
+      {
+        fileName: 'feito2.png',
+        name: 'Blissful Rest',
+        artist: 'feito161',
+        url: 'https://twitter.com/feito161',
+        alt: 'Naomi laying on her stomach with her legs bent upwards.',
+      },
+    ];
+    component.emotes = [
+      {
+        fileName: 'NaomiAnnoyed.png',
+        name: 'Annoyed',
+      },
+      {
+        fileName: 'NaomiBlock.png',
+        name: 'Block',
+      },
+    ];
+    component.poses = ['alone.png', 'ayleid.png'];
     fixture.detectChanges();
     compiled = fixture.nativeElement;
   });
@@ -64,10 +91,10 @@ describe('MuseumComponent', () => {
     expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  for (const portrait of portraits) {
-    it(`should render the ${portrait.fileName} art`, () => {
+  it(`should render the portraits correctly`, () => {
+    for (const portrait of component.portraits) {
       component.changeView('portrait');
-      component.selectPortrait(String(portraits.indexOf(portrait)));
+      component.selectPortrait(String(component.portraits.indexOf(portrait)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('portrait');
@@ -86,29 +113,12 @@ describe('MuseumComponent', () => {
         `https://cdn.naomi.lgbt/naomi/art/${portrait.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(portrait.alt);
-      const title = portrait.spicy
-        ? portraitBox?.querySelectorAll('p')?.[1]
-        : portraitBox?.querySelector('p');
-      expect(title?.textContent?.trim()).toBe(`By ${portrait.artist}`);
-    });
-  }
-
-  it(`should have data for all portraits`, () => {
-    expect(portraits.length).toBe(artFiles.length);
+      const title = portraitBox?.querySelector('p');
+      expect(title?.textContent?.trim()).toBe(
+        `${portrait.name} By ${portrait.artist}`
+      );
+    }
   });
-
-  for (const data of portraits) {
-    it(`${data.fileName} should exist in the CDN`, () => {
-      expect(artFiles).toContain(data.fileName);
-    });
-  }
-
-  for (const file of artFiles) {
-    it(`should display the ${file} portrait`, () => {
-      const portrait = portraits.find((p) => p.fileName === file);
-      expect(portrait).toBeDefined();
-    });
-  }
 
   it('should render the emote view', () => {
     component.changeView('emote');
@@ -132,10 +142,10 @@ describe('MuseumComponent', () => {
     expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  for (const emote of emotes) {
-    it(`should render the ${emote.fileName} emote`, () => {
+  it(`should render the emotes correctly`, () => {
+    for (const emote of component.emotes) {
       component.changeView('emote');
-      component.selectEmote(String(emotes.indexOf(emote)));
+      component.selectEmote(String(component.emotes.indexOf(emote)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('emote');
@@ -152,25 +162,8 @@ describe('MuseumComponent', () => {
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox?.querySelector('p');
       expect(title?.textContent?.trim()).toBe(emote.name);
-    });
-  }
-
-  it(`should have data for all emotes`, () => {
-    expect(emotes.length).toBe(emotesFiles.length);
+    }
   });
-
-  for (const data of emotes) {
-    it(`${data.fileName} should exist in the CDN`, () => {
-      expect(emotesFiles).toContain(data.fileName);
-    });
-  }
-
-  for (const file of emotesFiles) {
-    it(`should display the ${file} portrait`, () => {
-      const emote = emotes.find((e) => e.fileName === file);
-      expect(emote).toBeDefined();
-    });
-  }
 
   it('should render the murals view', () => {
     component.changeView('pose');
@@ -194,10 +187,10 @@ describe('MuseumComponent', () => {
     expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
   });
 
-  for (const pose of Poses) {
-    it(`should render the ${pose} pose`, () => {
+  it(`should render the poses correctly`, () => {
+    for (const pose of component.poses) {
       component.changeView('pose');
-      component.selectPose(String(Poses.indexOf(pose)));
+      component.selectPose(String(component.poses.indexOf(pose)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('pose');
@@ -213,24 +206,9 @@ describe('MuseumComponent', () => {
       );
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox?.querySelector('p');
-      expect(title?.textContent?.trim()).toBe(component.getPoseName(Poses.indexOf(pose)));
-    });
-  }
-
-  it(`should have data for all poses`, () => {
-    expect(Poses.length).toBe(posesFiles.length);
+      expect(title?.textContent?.trim()).toBe(
+        component.getPoseName(component.poses.indexOf(pose))
+      );
+    }
   });
-
-  for (const data of Poses) {
-    it(`${data} should exist in the CDN`, () => {
-      expect(posesFiles).toContain(data);
-    });
-  }
-
-  for (const file of posesFiles) {
-    it(`should display the ${file} pose`, () => {
-      const pose = Poses.find((p) => p === file);
-      expect(pose).toBeDefined();
-    });
-  }
 });
