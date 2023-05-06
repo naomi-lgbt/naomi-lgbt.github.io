@@ -8,7 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "lint": "ng lint",
     "test": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
-    "predeploy": "node generateJson.js",
     "deploy": "ng deploy"
   },
   "engines": {
