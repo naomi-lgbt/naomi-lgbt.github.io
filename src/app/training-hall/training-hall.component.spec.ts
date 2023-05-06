@@ -76,12 +76,12 @@ describe('TrainingHallComponent', () => {
       const game = compiled.querySelector('.game');
       const imgLink = game?.querySelector('a');
       expect(imgLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/games/${adventure.fileName}`
+        `https://cdn.naomi.lgbt/naomi/games/${adventure.fileName}`
       );
       expect(imgLink?.getAttribute('target')).toBe('_blank');
       const img = game?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/games/${adventure.fileName}`
+        `https://cdn.naomi.lgbt/naomi/games/${adventure.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(adventure.game);
       const title = game?.querySelector('p');

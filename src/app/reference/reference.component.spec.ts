@@ -55,10 +55,10 @@ describe('ReferenceComponent', () => {
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(2);
     expect(imgs[0].getAttribute('src')).toBe(
-      'https://cdn.naomi.lgbt/ref/front.png'
+      'https://cdn.naomi.lgbt/naomi/ref/front.png'
     );
     expect(imgs[1].getAttribute('src')).toBe(
-      'https://cdn.naomi.lgbt/ref/back.png'
+      'https://cdn.naomi.lgbt/naomi/ref/back.png'
     );
   });
 
@@ -68,7 +68,7 @@ describe('ReferenceComponent', () => {
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
     expect(imgs[0].getAttribute('src')).toBe(
-      'https://cdn.naomi.lgbt/ref/face.png'
+      'https://cdn.naomi.lgbt/naomi/ref/face.png'
     );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Face');
@@ -80,7 +80,7 @@ describe('ReferenceComponent', () => {
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
     expect(imgs[0].getAttribute('src')).toBe(
-      'https://cdn.naomi.lgbt/ref/hands.png'
+      'https://cdn.naomi.lgbt/naomi/ref/hands.png'
     );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Hands');
@@ -92,7 +92,7 @@ describe('ReferenceComponent', () => {
     const imgs = compiled.querySelectorAll('img');
     expect(imgs.length).toBe(1);
     expect(imgs[0].getAttribute('src')).toBe(
-      'https://cdn.naomi.lgbt/ref/feet.png'
+      'https://cdn.naomi.lgbt/naomi/ref/feet.png'
     );
     const h2 = compiled.querySelector('h2');
     expect(h2?.textContent?.trim()).toBe('Feet');
@@ -106,7 +106,7 @@ describe('ReferenceComponent', () => {
       const container = compiled.querySelector('.tattoo');
       const img = container?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/ref/tattoos/${tattoo.fileName}`
+        `https://cdn.naomi.lgbt/naomi/ref/tattoos/${tattoo.fileName}`
       );
       const h2 = container?.querySelector('h2');
       expect(h2?.textContent?.trim()).toBe(tattoo.name);

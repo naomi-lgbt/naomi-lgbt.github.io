@@ -61,12 +61,12 @@ describe('TailorComponent', () => {
       const outfitBox = compiled.querySelector('.outfit');
       const imgLink = outfitBox?.querySelector('a');
       expect(imgLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/outfits/${outfit.fileName}`
+        `https://cdn.naomi.lgbt/naomi/outfits/${outfit.fileName}`
       );
       expect(imgLink?.getAttribute('target')).toBe('_blank');
       const img = outfitBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/outfits/${outfit.fileName}`
+        `https://cdn.naomi.lgbt/naomi/outfits/${outfit.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(outfit.alt);
       const title = outfitBox?.querySelector('h2');

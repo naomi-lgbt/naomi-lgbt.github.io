@@ -75,7 +75,7 @@ describe('MuseumComponent', () => {
       const links = portraitBox?.querySelectorAll('a');
       const imageLink = links?.[0];
       expect(imageLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/art/${portrait.fileName}`
+        `https://cdn.naomi.lgbt/naomi/art/${portrait.fileName}`
       );
       expect(imageLink?.getAttribute('target')).toBe('_blank');
       const artistLink = links?.[1];
@@ -83,7 +83,7 @@ describe('MuseumComponent', () => {
       expect(artistLink?.getAttribute('target')).toBe('_blank');
       const img = portraitBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/art/${portrait.fileName}`
+        `https://cdn.naomi.lgbt/naomi/art/${portrait.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(portrait.alt);
       const title = portrait.spicy
@@ -142,12 +142,12 @@ describe('MuseumComponent', () => {
       const emoteBox = compiled.querySelector('.image');
       const imageLink = emoteBox?.querySelector('a');
       expect(imageLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/emotes/${emote.fileName}`
+        `https://cdn.naomi.lgbt/naomi/emotes/${emote.fileName}`
       );
       expect(imageLink?.getAttribute('target')).toBe('_blank');
       const img = emoteBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/emotes/${emote.fileName}`
+        `https://cdn.naomi.lgbt/naomi/emotes/${emote.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox?.querySelector('p');
@@ -204,12 +204,12 @@ describe('MuseumComponent', () => {
       const emoteBox = compiled.querySelector('.image');
       const imageLink = emoteBox?.querySelector('a');
       expect(imageLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/koikatsu/${pose}`
+        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose}`
       );
       expect(imageLink?.getAttribute('target')).toBe('_blank');
       const img = emoteBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/koikatsu/${pose}`
+        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose}`
       );
       expect(img?.getAttribute('alt')).toBe('Naomi');
       const title = emoteBox?.querySelector('p');
