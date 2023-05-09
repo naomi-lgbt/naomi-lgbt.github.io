@@ -57,6 +57,8 @@
     *ngIf="view === 'portrait'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ portraits[currentPortraitIndex].name }}</h2>
+    <p>{{ portraits[currentPortraitIndex].description }}</p>
     <a
       href="https://cdn.naomi.lgbt/naomi/art/{{
         portraits[currentPortraitIndex].fileName
@@ -71,7 +73,7 @@
       />
     </a>
     <p>
-      <em>{{ portraits[currentPortraitIndex].name }}</em> By
+      -- By
       <a
         href="{{ portraits[currentPortraitIndex].url }}"
         target="_blank"
@@ -112,6 +114,8 @@
     *ngIf="view === 'emote'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ emotes[currentEmoteIndex].name }}</h2>
+    <p>{{ emotes[currentEmoteIndex].description }}</p>
     <a
       href="https://cdn.naomi.lgbt/naomi/emotes/{{
         emotes[currentEmoteIndex].fileName
@@ -125,9 +129,6 @@
         alt="Naomi"
       />
     </a>
-    <p>
-      {{ emotes[currentEmoteIndex].name }}
-    </p>
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
     <button class="nes-btn" (click)="nextEmote()">Next Emote</button>
     <select #emote (change)="selectEmote(emote.value)">
@@ -159,6 +160,8 @@
     *ngIf="view === 'pose'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ poses[currentPoseIndex].name }}</h2>
+    <p>{{ poses[currentPoseIndex].description }}</p>
     <a
       href="https://cdn.naomi.lgbt/naomi/koikatsu/{{ poses[currentPoseIndex] }}"
       target="_blank"
@@ -170,15 +173,12 @@
         alt="Naomi"
       />
     </a>
-    <p>
-      {{ getPoseName(currentPoseIndex) }}
-    </p>
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
     <button class="nes-btn" (click)="nextPose()">Next Mural</button>
     <select #pose (change)="selectPose(pose.value)">
       <option disabled selected>Jump to Mural</option>
       <option *ngFor="let pose of poses; let i = index" [value]="i">
-        {{ getPoseName(i) }}
+        {{ pose.name }}
       </option>
     </select>
   </div>

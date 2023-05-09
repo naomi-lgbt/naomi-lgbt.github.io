@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Emote } from 'src/interfaces/Emote';
 import { Portrait } from 'src/interfaces/Portrait';
-import { HelpersService } from '../helpers.service';
 import { AssetsService } from '../assets.service';
+import { Pose } from 'src/interfaces/Pose';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
 
@@ -15,7 +15,7 @@ export class MuseumComponent {
   public view: viewType = 'intro';
   public portraits: Portrait[] = [];
   public emotes: Emote[] = [];
-  public poses: string[] = [];
+  public poses: Pose[] = [];
   public currentPortraitIndex = 0;
   public currentEmoteIndex = 0;
   public currentPoseIndex = 0;
@@ -28,12 +28,7 @@ export class MuseumComponent {
       this.emotes = emotes.sort((a, b) => a.name.localeCompare(b.name));
     });
     this.assetService.fetchPoses().subscribe((poses) => {
-      this.poses = poses.sort((a, b) =>
-        HelpersService.numericSortWithHyphen(
-          HelpersService.parseFileName(a),
-          HelpersService.parseFileName(b)
-        )
-      );
+      this.poses = poses.sort((a, b) => a.name.localeCompare(b.name));
     });
   }
 
@@ -94,13 +89,5 @@ export class MuseumComponent {
 
   selectPose(index: string) {
     this.currentPoseIndex = parseInt(index);
-  }
-
-  getPoseName(index: number) {
-    const fileName = this.poses[index];
-    const withoutExtension = fileName.split('.')[0];
-    const [name, number] = withoutExtension.split('-');
-    const titleCasedName = `${name[0].toUpperCase()}${name.slice(1)}`;
-    return number ? `${titleCasedName} ${number}` : titleCasedName;
   }
 }

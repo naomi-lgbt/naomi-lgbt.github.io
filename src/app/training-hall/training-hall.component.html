@@ -75,8 +75,12 @@
     *ngIf="view === 'games'"
     class="nes-container is-rounded is-centered game"
   >
+    <h2 class="title">{{ games[currentGameIndex].game }}</h2>
+    <p>{{ games[currentGameIndex].description }}</p>
     <a
-      href="https://cdn.naomi.lgbt/naomi/games/{{ games[currentGameIndex].fileName }}"
+      href="https://cdn.naomi.lgbt/naomi/games/{{
+        games[currentGameIndex].fileName
+      }}"
       target="_blank"
     >
       <img
@@ -86,7 +90,6 @@
         alt="{{ games[currentGameIndex].game }}"
       />
     </a>
-    <p class="game-title">{{ games[currentGameIndex].game }}</p>
     <button class="nes-btn" (click)="previousGame()">Previous Adventure</button>
     <button class="nes-btn" (click)="nextGame()">Next Adventure</button>
     <select #gameOpt (change)="selectGame(gameOpt.value)">
@@ -104,12 +107,12 @@
     Follow the instructor
   </button>
   <a
-  class="nes-btn"
-  href="https://games.naomi.lgbt"
-  target="_blank"
-  rel="noopener noreferrer"
-  >See Naomi's planned adventures</a
->
+    class="nes-btn"
+    href="https://games.naomi.lgbt"
+    target="_blank"
+    rel="noopener noreferrer"
+    >See Naomi's planned adventures</a
+  >
   <a *ngIf="view !== 'games'" class="nes-btn" routerLink="/plaza"
     >This is too hard - Back outside!</a
   >
