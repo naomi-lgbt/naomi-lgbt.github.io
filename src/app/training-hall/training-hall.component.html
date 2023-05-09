@@ -93,8 +93,11 @@
     <button class="nes-btn" (click)="previousGame()">Previous Adventure</button>
     <button class="nes-btn" (click)="nextGame()">Next Adventure</button>
     <select #gameOpt (change)="selectGame(gameOpt.value)">
-      <option disabled selected>Jump to Adventure</option>
-      <option *ngFor="let game of games; let i = index" [value]="i">
+      <option
+        *ngFor="let game of games; let i = index"
+        [value]="i"
+        [selected]="i === currentGameIndex"
+      >
         {{ game.game }}
       </option>
     </select>

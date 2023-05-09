@@ -86,8 +86,11 @@
     </button>
     <button class="nes-btn" (click)="nextPortrait()">Next Portrait</button>
     <select #portrait (change)="selectPortrait(portrait.value)">
-      <option disabled selected>Jump to Portrait</option>
-      <option *ngFor="let portrait of portraits; let i = index" [value]="i">
+      <option
+        *ngFor="let portrait of portraits; let i = index"
+        [value]="i"
+        [selected]="currentPortraitIndex"
+      >
         {{ portrait.name }}
       </option>
     </select>
@@ -132,8 +135,11 @@
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
     <button class="nes-btn" (click)="nextEmote()">Next Emote</button>
     <select #emote (change)="selectEmote(emote.value)">
-      <option disabled selected>Jump to Emote</option>
-      <option *ngFor="let emote of emotes; let i = index" [value]="i">
+      <option
+        *ngFor="let emote of emotes; let i = index"
+        [value]="i"
+        [selected]="i === currentEmoteIndex"
+      >
         {{ emote.name }}
       </option>
     </select>
@@ -163,12 +169,14 @@
     <h2 class="title">{{ poses[currentPoseIndex].name }}</h2>
     <p>{{ poses[currentPoseIndex].description }}</p>
     <a
-      href="https://cdn.naomi.lgbt/naomi/koikatsu/{{ poses[currentPoseIndex] }}"
+      href="https://cdn.naomi.lgbt/naomi/koikatsu/{{
+        poses[currentPoseIndex].fileName
+      }}"
       target="_blank"
     >
       <img
         src="https://cdn.naomi.lgbt/naomi/koikatsu/{{
-          poses[currentPoseIndex]
+          poses[currentPoseIndex].fileName
         }}"
         alt="Naomi"
       />
@@ -176,8 +184,11 @@
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
     <button class="nes-btn" (click)="nextPose()">Next Mural</button>
     <select #pose (change)="selectPose(pose.value)">
-      <option disabled selected>Jump to Mural</option>
-      <option *ngFor="let pose of poses; let i = index" [value]="i">
+      <option
+        *ngFor="let pose of poses; let i = index"
+        [value]="i"
+        [selected]="i === currentPoseIndex"
+      >
         {{ pose.name }}
       </option>
     </select>
