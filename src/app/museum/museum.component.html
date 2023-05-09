@@ -129,7 +129,7 @@
         src="https://cdn.naomi.lgbt/naomi/emotes/{{
           emotes[currentEmoteIndex].fileName
         }}"
-        alt="Naomi"
+        alt="{{ emotes[currentEmoteIndex].alt }}"
       />
     </a>
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
@@ -178,7 +178,7 @@
         src="https://cdn.naomi.lgbt/naomi/koikatsu/{{
           poses[currentPoseIndex].fileName
         }}"
-        alt="Naomi"
+        alt="{{ poses[currentPoseIndex].alt }}"
       />
     </a>
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>

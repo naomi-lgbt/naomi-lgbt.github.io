@@ -101,7 +101,7 @@ describe('TrainingHallComponent', () => {
       expect(img?.getAttribute('src')).toBe(
         `https://cdn.naomi.lgbt/naomi/games/${adventure.fileName}`
       );
-      expect(img?.getAttribute('alt')).toBe(adventure.game);
+      expect(img?.getAttribute('alt')).toBe(adventure.alt);
       const title = game?.querySelector('h2');
       expect(title?.textContent?.trim()).toBe(adventure.game);
       const description = game?.querySelector('p');
