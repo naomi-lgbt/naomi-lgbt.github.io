@@ -1,8 +1,6 @@
-export interface Portrait {
+export interface Pose {
   fileName: string;
   name: string;
-  artist: string;
-  url: string;
   alt: string;
   description: string;
 }

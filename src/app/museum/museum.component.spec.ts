@@ -24,6 +24,7 @@ describe('MuseumComponent', () => {
         artist: 'feito161',
         url: 'https://twitter.com/feito161',
         alt: 'Naomi standing and making peace signs with her hands.',
+        description: 'She hopes you have a great day!',
       },
       {
         fileName: 'feito2.png',
@@ -31,19 +32,39 @@ describe('MuseumComponent', () => {
         artist: 'feito161',
         url: 'https://twitter.com/feito161',
         alt: 'Naomi laying on her stomach with her legs bent upwards.',
+        description:
+          "Naomi can't sit still. She's always changing poses and kicking her legs around.",
       },
     ];
     component.emotes = [
       {
         fileName: 'NaomiAnnoyed.png',
         name: 'Annoyed',
+        alt: 'Naomi with her hands on her hips, looking away with an annoyed expression.',
+        description: 'Something made her mad, was it you?',
       },
       {
         fileName: 'NaomiBlock.png',
         name: 'Block',
+        alt: 'Naomi pointing to the block button from a Discord menu.',
+        description: "She's just teasing you. Probably.",
       },
     ];
-    component.poses = ['alone.png', 'ayleid.png'];
+    component.poses = [
+      {
+        fileName: 'alone.png',
+        name: 'A Night Alone',
+        alt: 'Naomi sitting on the couch, a beer in hand and a morose look on her face.',
+        description: "Sometimes Naomi doesn't want to spend the night alone.",
+      },
+      {
+        fileName: 'ayleid.png',
+        name: 'Ayleid Ruin',
+        alt: 'Naomi sitting on an Ayleid well, a flirty look on her face.',
+        description:
+          'When on an adventure, Naomi is always on the lookout for a great photo opportunity.',
+      },
+    ];
     fixture.detectChanges();
     compiled = fixture.nativeElement;
   });
@@ -113,10 +134,12 @@ describe('MuseumComponent', () => {
         `https://cdn.naomi.lgbt/naomi/art/${portrait.fileName}`
       );
       expect(img?.getAttribute('alt')).toBe(portrait.alt);
-      const title = portraitBox?.querySelector('p');
-      expect(title?.textContent?.trim()).toBe(
-        `${portrait.name} By ${portrait.artist}`
-      );
+      const title = portraitBox?.querySelector('h2');
+      expect(title?.textContent?.trim()).toBe(portrait.name);
+      const ps = portraitBox?.querySelectorAll('p');
+      expect(ps?.length).toBe(2);
+      expect(ps?.[0].textContent?.trim()).toBe(portrait.description);
+      expect(ps?.[1].textContent?.trim()).toBe(`-- By ${portrait.artist}`);
     }
   });
 
@@ -159,9 +182,11 @@ describe('MuseumComponent', () => {
       expect(img?.getAttribute('src')).toBe(
         `https://cdn.naomi.lgbt/naomi/emotes/${emote.fileName}`
       );
-      expect(img?.getAttribute('alt')).toBe('Naomi');
-      const title = emoteBox?.querySelector('p');
+      expect(img?.getAttribute('alt')).toBe(emote.alt);
+      const title = emoteBox?.querySelector('h2');
       expect(title?.textContent?.trim()).toBe(emote.name);
+      const description = emoteBox?.querySelector('p');
+      expect(description?.textContent?.trim()).toBe(emote.description);
     }
   });
 
@@ -197,18 +222,18 @@ describe('MuseumComponent', () => {
       const emoteBox = compiled.querySelector('.image');
       const imageLink = emoteBox?.querySelector('a');
       expect(imageLink?.getAttribute('href')).toBe(
-        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose}`
+        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose.fileName}`
       );
       expect(imageLink?.getAttribute('target')).toBe('_blank');
       const img = emoteBox?.querySelector('img');
       expect(img?.getAttribute('src')).toBe(
-        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose}`
+        `https://cdn.naomi.lgbt/naomi/koikatsu/${pose.fileName}`
       );
-      expect(img?.getAttribute('alt')).toBe('Naomi');
-      const title = emoteBox?.querySelector('p');
-      expect(title?.textContent?.trim()).toBe(
-        component.getPoseName(component.poses.indexOf(pose))
-      );
+      expect(img?.getAttribute('alt')).toBe(pose.alt);
+      const title = emoteBox?.querySelector('h2');
+      expect(title?.textContent?.trim()).toBe(pose.name);
+      const description = emoteBox?.querySelector('p');
+      expect(description?.textContent?.trim()).toBe(pose.description);
     }
   });
 });

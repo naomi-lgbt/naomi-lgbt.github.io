@@ -21,10 +21,16 @@ describe('TrainingHallComponent', () => {
       {
         fileName: 'code-vein.jpg',
         game: 'Code Vein',
+        alt: 'Naomi wearing a black knit sweater dress with no sleeves and a very low back.',
+        description:
+          'Becoming a Revenant was not what Naomi expected, but it was indeed a fun adventure.',
       },
       {
         fileName: 'cyberpunk-2077.jpg',
         game: 'Cyberpunk 2077',
+        alt: 'Naomi wearing a black tank top and leather pencil skirt, with dark sunglasses.',
+        description:
+          'By the end of this adventure, she and Johnny Silverhand became quite good friends.',
       },
     ];
     fixture.detectChanges();
@@ -95,9 +101,11 @@ describe('TrainingHallComponent', () => {
       expect(img?.getAttribute('src')).toBe(
         `https://cdn.naomi.lgbt/naomi/games/${adventure.fileName}`
       );
-      expect(img?.getAttribute('alt')).toBe(adventure.game);
-      const title = game?.querySelector('p');
+      expect(img?.getAttribute('alt')).toBe(adventure.alt);
+      const title = game?.querySelector('h2');
       expect(title?.textContent?.trim()).toBe(adventure.game);
+      const description = game?.querySelector('p');
+      expect(description?.textContent?.trim()).toBe(adventure.description);
     }
   });
 });

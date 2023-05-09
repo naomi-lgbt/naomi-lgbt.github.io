@@ -57,6 +57,8 @@
     *ngIf="view === 'portrait'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ portraits[currentPortraitIndex].name }}</h2>
+    <p>{{ portraits[currentPortraitIndex].description }}</p>
     <a
       href="https://cdn.naomi.lgbt/naomi/art/{{
         portraits[currentPortraitIndex].fileName
@@ -71,7 +73,7 @@
       />
     </a>
     <p>
-      <em>{{ portraits[currentPortraitIndex].name }}</em> By
+      -- By
       <a
         href="{{ portraits[currentPortraitIndex].url }}"
         target="_blank"
@@ -84,8 +86,11 @@
     </button>
     <button class="nes-btn" (click)="nextPortrait()">Next Portrait</button>
     <select #portrait (change)="selectPortrait(portrait.value)">
-      <option disabled selected>Jump to Portrait</option>
-      <option *ngFor="let portrait of portraits; let i = index" [value]="i">
+      <option
+        *ngFor="let portrait of portraits; let i = index"
+        [value]="i"
+        [selected]="currentPortraitIndex"
+      >
         {{ portrait.name }}
       </option>
     </select>
@@ -112,6 +117,8 @@
     *ngIf="view === 'emote'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ emotes[currentEmoteIndex].name }}</h2>
+    <p>{{ emotes[currentEmoteIndex].description }}</p>
     <a
       href="https://cdn.naomi.lgbt/naomi/emotes/{{
         emotes[currentEmoteIndex].fileName
@@ -122,17 +129,17 @@
         src="https://cdn.naomi.lgbt/naomi/emotes/{{
           emotes[currentEmoteIndex].fileName
         }}"
-        alt="Naomi"
+        alt="{{ emotes[currentEmoteIndex].alt }}"
       />
     </a>
-    <p>
-      {{ emotes[currentEmoteIndex].name }}
-    </p>
     <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
     <button class="nes-btn" (click)="nextEmote()">Next Emote</button>
     <select #emote (change)="selectEmote(emote.value)">
-      <option disabled selected>Jump to Emote</option>
-      <option *ngFor="let emote of emotes; let i = index" [value]="i">
+      <option
+        *ngFor="let emote of emotes; let i = index"
+        [value]="i"
+        [selected]="i === currentEmoteIndex"
+      >
         {{ emote.name }}
       </option>
     </select>
@@ -159,26 +166,30 @@
     *ngIf="view === 'pose'"
     class="nes-container is-rounded is-centered image"
   >
+    <h2 class="title">{{ poses[currentPoseIndex].name }}</h2>
+    <p>{{ poses[currentPoseIndex].description }}</p>
     <a
-      href="https://cdn.naomi.lgbt/naomi/koikatsu/{{ poses[currentPoseIndex] }}"
+      href="https://cdn.naomi.lgbt/naomi/koikatsu/{{
+        poses[currentPoseIndex].fileName
+      }}"
       target="_blank"
     >
       <img
         src="https://cdn.naomi.lgbt/naomi/koikatsu/{{
-          poses[currentPoseIndex]
+          poses[currentPoseIndex].fileName
         }}"
-        alt="Naomi"
+        alt="{{ poses[currentPoseIndex].alt }}"
       />
     </a>
-    <p>
-      {{ getPoseName(currentPoseIndex) }}
-    </p>
     <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
     <button class="nes-btn" (click)="nextPose()">Next Mural</button>
     <select #pose (change)="selectPose(pose.value)">
-      <option disabled selected>Jump to Mural</option>
-      <option *ngFor="let pose of poses; let i = index" [value]="i">
-        {{ getPoseName(i) }}
+      <option
+        *ngFor="let pose of poses; let i = index"
+        [value]="i"
+        [selected]="i === currentPoseIndex"
+      >
+        {{ pose.name }}
       </option>
     </select>
   </div>
