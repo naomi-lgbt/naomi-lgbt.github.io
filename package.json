@@ -33,7 +33,7 @@
     "ng-particles": "3.9.3",
     "rxjs": "7.8.1",
     "tslib": "2.5.3",
-    "tsparticles": "2.9.3",
+    "tsparticles": "2.10.0",
     "tsparticles-engine": "2.10.0",
     "zone.js": "0.13.0"
   },
