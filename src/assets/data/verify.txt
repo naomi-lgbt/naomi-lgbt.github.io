@@ -10,17 +10,12 @@ IF YOU SEE MY USERNAME ELSEWHERE, PLEASE NOTIFY ME. I will confirm or deny the l
 # Primary Contact points (in order of response time)
 
 chat with me: https://chat.naomi.lgbt (Discord Server ID: 778130114772598785)
-discord: Naomi#0001 (ID: 465650873650118659)
+discord: naomi_lgbt (ID: 465650873650118659)
 github: naomi-lgbt - https://github.com/naomi-lgbt
 email: contact@nhcarrigan.com
 
 # Secondary Contact points (in order of activity)
 
-mastodon: @naomi@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@naomi
-mastodon: @nhcarrigan@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@nhcarrigan
-mastodon: @becca@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@becca
-mastodon: @rosalia@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/@rosalia
-mastodon: @beccalia@mastodon.naomi.lgbt - https://mastodon.naomi.lgbt/beccalia
 freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
 freecodecamp chat: Naomi
 steam: https://steamcommunity.com/id/naomi-lgbt
@@ -71,12 +66,10 @@ gamersguild.org
 miku.rocks
 naomi.lgbt
 naomi.party
-naomi-pin.me
+naomi.exposed
 nhcarrigan.com
-ridm-dimscor.wtf
 rosalianightsong.com
 starfazers.art
-wow-naomi.wtf
 
 # Additional Identity Verification
 
@@ -95,17 +88,17 @@ paypal: https://www.paypal.com/paypalme/nhcarrigan
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmQvbYAACgkQa+klaYyt
-iQcJCA/9FATzmIKybSjF1aT3s/G8qDmLHfyYKU/82CUuwtq1ezcEvxxVtFAap6jf
-5G9RrRuMtxIdz5NImhi/D2KzOU6yz66lDFnx64mLmEgTlmlvzbCvjiJIO5wiq29K
-SoGn4LkgB6IAfDvh8UHHB3uTIKyoySSzJwpRiZQ41DVuD2zXyZa2NqV4TPYP0pJx
-k9j1UHiWy3dFloHjoNeYuUlPCT3qAnDrx77F8WOOgYFYzpHf7LbXUV8cGnnau/d5
-C3nZed/gtx0DNNXRgaZGLPgBGT0Ichi7Hft3bexGj/3w7pVG/GnYOR/0o6YQGgjt
-SOEqsMPMA7triDHwWQkBu6LJWNTWXijRokdIIrWZRk9Xt9Kgs6r+IXpZT+I2Zuuk
-ey9Hr/ztVWoHkL9ipwXPf+bJ9+DJ+BVsjpZppZ9EzZ9eRZtpNj5SESm0vg87ANEQ
-vOmZmJC0JVajWFMByNmcztGJfL8x29LRis7ORTqTsfDiJDUoXl6gytHtd0DsTJnM
-h+7FdJsQHjN6d3/0gz3XCqK6hOqs+ffHjUTAWV3W3EfBMANdvO+Jg4XV59IkezCf
-tqhkZp/pidC1um4kaGjdosFrz7iktDP5sEhx3z9zn484jQfEZfz18hvy169CmMzm
-EwPPK7WpRPIjNQF+Dp4ML079cT3xjGvmcSrci/9aRXKcdyHVTco=
-=o+gG
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmSCNjsACgkQa+klaYyt
+iQfHsQ//cQZlZW4Jp1t/T23HtoT0yymlTWH5subaxjR22+kUYsf9/FWbcs6uy1/f
+01QMzEmDDeJqFv1Sc2gc4DnA98+r93WQYdUqEcMwr6sBkNKSj5274FjXp35mXHRt
+FpLQfAKNFTqiWe4bnrCUMFy7WQSZID8+UQwGmTVmxSHnzgYvVcyjQXMkHAMJg148
+A79srLHkpP06TaFLQ9Epy9GUZbXC/UdBQjDtgwphdHHhisD6dJsL0/jMI6rC0K3z
+n3ptwvsPei7jmdL/FZpqzmh0/3Sraiaiusp0wlXBRZXDXEoZ3A3TjI/esg/qyh67
+uHkgEKw413nc+tVotpOXs8/Wq+HvMsM4agcMuDndX89xkN/U4fnq/CA2VO+CiPpr
+rxlbenqLyoNwl3V5LHDcAKWCY/JJWmwsMpC+BJ++pu10gRFZ/E+OomwzaKMHtuUT
+VAnoJUELQshRuvygElQGSGV0fN2CtLkDh9d/pTJnDj/ZMN+JkwJNRPPLCLFytJOo
+9UoQ2Ph09i/IA2jYCDsi7ivRAwoss4kTVWJnHmhe0Uhx12++WCIeCuoG3KUpDATU
+eQVH+LJzUu88EOLnt2JjYy9sSwglnq6S/SANGA4xqVMj747VmN1TZ04VGWgOt8MK
+XHjeTpj232zBEKHQpvJzNaRymA/X4aP+Fo8NLUWNuhX1CtJ6Zro=
+=YWfy
 -----END PGP SIGNATURE-----
