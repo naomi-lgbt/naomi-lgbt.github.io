@@ -15,9 +15,11 @@ import { TailorComponent } from './tailor/tailor.component';
 import { TavernComponent } from './tavern/tavern.component';
 import { TempleComponent } from './temple/temple.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
+import { ApproachComponent } from './approach/approach.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent, pathMatch: 'full' },
+  { path: 'approach', component: ApproachComponent },
   { path: 'plaza', component: PlazaComponent },
   { path: 'library', component: LibraryComponent },
   { path: 'arena', component: ArenaComponent },
