@@ -17,9 +17,14 @@ jobs:
         with:
           node-version: 18.x
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Prepare and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm ci
-          npm run deploy
+          pnpm install
+          pnpm run deploy
