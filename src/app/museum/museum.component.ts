@@ -23,12 +23,15 @@ export class MuseumComponent {
   constructor(private assetService: AssetsService) {
     this.assetService.fetchPortraits().subscribe((portraits) => {
       this.portraits = portraits.sort((a, b) => a.name.localeCompare(b.name));
+      this.currentPortraitIndex = Math.floor(Math.random() * portraits.length);
     });
     this.assetService.fetchEmotes().subscribe((emotes) => {
       this.emotes = emotes.sort((a, b) => a.name.localeCompare(b.name));
+      this.currentEmoteIndex = Math.floor(Math.random() * emotes.length);
     });
     this.assetService.fetchPoses().subscribe((poses) => {
       this.poses = poses.sort((a, b) => a.name.localeCompare(b.name));
+      this.currentPoseIndex = Math.floor(Math.random() * poses.length);
     });
   }
 

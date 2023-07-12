@@ -37,6 +37,7 @@ export class TailorComponent {
   constructor(private assetService: AssetsService) {
     assetService.fetchOutfits().subscribe((outfits) => {
       this.outfits = outfits.sort((a, b) => a.name.localeCompare(b.name));
+      this.currentOutfitIndex = Math.floor(Math.random() * outfits.length);
     });
   }
 

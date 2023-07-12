@@ -15,6 +15,7 @@ export class TrainingHallComponent {
   constructor(private assetService: AssetsService) {
     this.assetService.fetchAdventures().subscribe((adventures) => {
       this.games = adventures.sort((a, b) => a.game.localeCompare(b.game));
+      this.currentGameIndex = Math.floor(Math.random() * adventures.length);
     });
   }
 
