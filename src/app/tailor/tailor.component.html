@@ -19,11 +19,15 @@
     </button>
     <div class="nes-container is-rounded is-centered is-dark outfit">
       <a
-        href="https://cdn.naomi.lgbt/naomi/outfits/{{ outfits[currentOutfitIndex].fileName }}"
+        href="https://cdn.naomi.lgbt/naomi/outfits/{{
+          outfits[currentOutfitIndex].fileName
+        }}"
         target="_blank"
       >
         <img
-          src="https://cdn.naomi.lgbt/naomi/outfits/{{ outfits[currentOutfitIndex].fileName }}"
+          src="https://cdn.naomi.lgbt/naomi/outfits/{{
+            outfits[currentOutfitIndex].fileName
+          }}"
           alt="{{ outfits[currentOutfitIndex].alt }}"
           class="outfit-img"
         />
@@ -42,8 +46,12 @@
     <button class="nes-btn" (click)="previousOutfit()">Previous Outfit</button>
     <button class="nes-btn" (click)="nextOutfit()">Next Outfit</button>
     <select #outfit (change)="selectOutfit(outfit.value)">
-      <option disabled selected>Jump to Outfit</option>
-      <option *ngFor="let outfit of outfits; let i = index" [value]="i">
+      <option disabled>Jump to Outfit</option>
+      <option
+        *ngFor="let outfit of outfits; let i = index"
+        [value]="i"
+        [selected]="i === currentOutfitIndex"
+      >
         {{ outfit.name }}
       </option>
     </select>
