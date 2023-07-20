@@ -34,7 +34,7 @@ describe('TempleComponent', () => {
     expect(buttons[1].tagName).toBe('A');
     expect(buttons[1].textContent?.trim()).toBe('GitHub');
     expect(buttons[1].getAttribute('href')).toBe(
-      'https://links.nhcarrigan.com/github'
+      'https://github.com/sponsors/naomi-lgbt'
     );
     expect(buttons[2].tagName).toBe('A');
     expect(buttons[2].textContent?.trim()).toBe('Ko-Fi');
