@@ -46,19 +46,14 @@ describe('TrainingHallComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Training Hall');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(3);
+    expect(buttons.length).toBe(2);
     expect(buttons[0].tagName).toBe('BUTTON');
     expect(buttons[0].textContent?.trim()).toBe('Follow the instructor');
     expect(buttons[1].tagName).toBe('A');
     expect(buttons[1].textContent?.trim()).toBe(
-      "See Naomi's planned adventures"
-    );
-    expect(buttons[1].getAttribute('href')).toBe('https://games.naomi.lgbt');
-    expect(buttons[2].tagName).toBe('A');
-    expect(buttons[2].textContent?.trim()).toBe(
       'This is too hard - Back outside!'
     );
-    expect(buttons[2].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[1].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it('should render the games view', async () => {
@@ -69,19 +64,14 @@ describe('TrainingHallComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Training Hall');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(4);
+    expect(buttons.length).toBe(3);
     expect(buttons[0].tagName).toBe('BUTTON');
     expect(buttons[0].textContent?.trim()).toBe('Previous Adventure');
     expect(buttons[1].tagName).toBe('BUTTON');
     expect(buttons[1].textContent?.trim()).toBe('Next Adventure');
     expect(buttons[2].tagName).toBe('A');
-    expect(buttons[2].textContent?.trim()).toBe(
-      "See Naomi's planned adventures"
-    );
-    expect(buttons[2].getAttribute('href')).toBe('https://games.naomi.lgbt');
-    expect(buttons[3].tagName).toBe('A');
-    expect(buttons[3].textContent?.trim()).toBe("That's enough for today");
-    expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[2].textContent?.trim()).toBe("That's enough for today");
+    expect(buttons[2].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it(`should render the adventures correctly`, async () => {
