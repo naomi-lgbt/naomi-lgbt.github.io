@@ -115,7 +115,10 @@ describe('MuseumComponent', () => {
   it(`should render the portraits correctly`, () => {
     for (const portrait of component.portraits) {
       component.changeView('portrait');
-      component.selectPortrait(String(component.portraits.indexOf(portrait)));
+      component.selectAsset(
+        'portrait',
+        String(component.portraits.indexOf(portrait))
+      );
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('portrait');
@@ -168,7 +171,7 @@ describe('MuseumComponent', () => {
   it(`should render the emotes correctly`, () => {
     for (const emote of component.emotes) {
       component.changeView('emote');
-      component.selectEmote(String(component.emotes.indexOf(emote)));
+      component.selectAsset('emote', String(component.emotes.indexOf(emote)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('emote');
@@ -215,7 +218,7 @@ describe('MuseumComponent', () => {
   it(`should render the poses correctly`, () => {
     for (const pose of component.poses) {
       component.changeView('pose');
-      component.selectPose(String(component.poses.indexOf(pose)));
+      component.selectAsset('pose', String(component.poses.indexOf(pose)));
       fixture.detectChanges();
       compiled = fixture.nativeElement;
       expect(component.view).toBe('pose');

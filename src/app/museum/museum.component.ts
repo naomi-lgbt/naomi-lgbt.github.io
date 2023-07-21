@@ -5,6 +5,25 @@ import { AssetsService } from '../assets.service';
 import { Pose } from 'src/interfaces/Pose';
 
 type viewType = 'intro' | 'portrait' | 'emote' | 'pose';
+type assetViewType = Exclude<viewType, 'intro'>;
+type titledAsset = 'Portrait' | 'Emote' | 'Pose';
+type pluralAsset = 'portraits' | 'emotes' | 'poses';
+
+const titleView: {
+  [key in assetViewType]: titledAsset;
+} = {
+  portrait: 'Portrait',
+  emote: 'Emote',
+  pose: 'Pose',
+};
+
+const pluralView: {
+  [key in assetViewType]: pluralAsset;
+} = {
+  portrait: 'portraits',
+  emote: 'emotes',
+  pose: 'poses',
+};
 
 @Component({
   selector: 'app-museum',
@@ -40,57 +59,26 @@ export class MuseumComponent {
     window.scrollTo({ top: 0 });
   }
 
-  nextPortrait() {
-    this.currentPortraitIndex =
-      this.currentPortraitIndex === this.portraits.length - 1
+  nextAsset(view: assetViewType) {
+    const titledView = titleView[view];
+    const pluraledView = pluralView[view];
+    this[`current${titledView}Index`] =
+      this[pluraledView].length - 1 === this[`current${titledView}Index`]
         ? 0
-        : this.currentPortraitIndex + 1;
+        : this[`current${titledView}Index`] + 1;
   }
 
-  previousPortrait() {
-    this.currentPortraitIndex =
-      this.currentPortraitIndex === 0
-        ? this.portraits.length - 1
-        : this.currentPortraitIndex - 1;
+  previousAsset(view: assetViewType) {
+    const titledView = titleView[view];
+    const pluraledView = pluralView[view];
+    this[`current${titledView}Index`] =
+      this[`current${titledView}Index`] === 0
+        ? this[pluraledView].length - 1
+        : this[`current${titledView}Index`] - 1;
   }
 
-  selectPortrait(index: string) {
-    this.currentPortraitIndex = parseInt(index);
-  }
-
-  nextEmote() {
-    this.currentEmoteIndex =
-      this.currentEmoteIndex === this.emotes.length - 1
-        ? 0
-        : this.currentEmoteIndex + 1;
-  }
-
-  previousEmote() {
-    this.currentEmoteIndex =
-      this.currentEmoteIndex === 0
-        ? this.emotes.length - 1
-        : this.currentEmoteIndex - 1;
-  }
-
-  selectEmote(index: string) {
-    this.currentEmoteIndex = parseInt(index);
-  }
-
-  nextPose() {
-    this.currentPoseIndex =
-      this.currentPoseIndex === this.poses.length - 1
-        ? 0
-        : this.currentPoseIndex + 1;
-  }
-
-  previousPose() {
-    this.currentPoseIndex =
-      this.currentPoseIndex === 0
-        ? this.poses.length - 1
-        : this.currentPoseIndex - 1;
-  }
-
-  selectPose(index: string) {
-    this.currentPoseIndex = parseInt(index);
+  selectAsset(view: assetViewType, index: string) {
+    const titledView = titleView[view];
+    this[`current${titledView}Index`] = parseInt(index);
   }
 }

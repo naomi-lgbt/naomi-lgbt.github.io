@@ -81,15 +81,17 @@
         >{{ portraits[currentPortraitIndex].artist }}</a
       >
     </p>
-    <button class="nes-btn" (click)="previousPortrait()">
+    <button class="nes-btn" (click)="previousAsset('portrait')">
       Previous Portrait
     </button>
-    <button class="nes-btn" (click)="nextPortrait()">Next Portrait</button>
-    <select #portrait (change)="selectPortrait(portrait.value)">
+    <button class="nes-btn" (click)="nextAsset('portrait')">
+      Next Portrait
+    </button>
+    <select #portrait (change)="selectAsset('portrait', portrait.value)">
       <option
         *ngFor="let portrait of portraits; let i = index"
         [value]="i"
-        [selected]="currentPortraitIndex"
+        [selected]="i === currentPortraitIndex"
       >
         {{ portrait.name }}
       </option>
@@ -132,9 +134,11 @@
         alt="{{ emotes[currentEmoteIndex].alt }}"
       />
     </a>
-    <button class="nes-btn" (click)="previousEmote()">Previous Emote</button>
-    <button class="nes-btn" (click)="nextEmote()">Next Emote</button>
-    <select #emote (change)="selectEmote(emote.value)">
+    <button class="nes-btn" (click)="previousAsset('emote')">
+      Previous Emote
+    </button>
+    <button class="nes-btn" (click)="nextAsset('emote')">Next Emote</button>
+    <select #emote (change)="selectAsset('emote', emote.value)">
       <option
         *ngFor="let emote of emotes; let i = index"
         [value]="i"
@@ -181,9 +185,11 @@
         alt="{{ poses[currentPoseIndex].alt }}"
       />
     </a>
-    <button class="nes-btn" (click)="previousPose()">Previous Mural</button>
-    <button class="nes-btn" (click)="nextPose()">Next Mural</button>
-    <select #pose (change)="selectPose(pose.value)">
+    <button class="nes-btn" (click)="previousAsset('pose')">
+      Previous Mural
+    </button>
+    <button class="nes-btn" (click)="nextAsset('pose')">Next Mural</button>
+    <select #pose (change)="selectAsset('pose', pose.value)">
       <option
         *ngFor="let pose of poses; let i = index"
         [value]="i"
