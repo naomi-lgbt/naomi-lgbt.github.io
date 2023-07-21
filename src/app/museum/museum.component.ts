@@ -81,4 +81,11 @@ export class MuseumComponent {
     const titledView = titleView[view];
     this[`current${titledView}Index`] = parseInt(index);
   }
+
+  randomAsset(view: assetViewType) {
+    const titledView = titleView[view];
+    this[`current${titledView}Index`] = Math.floor(
+      Math.random() * this[pluralView[view]].length
+    );
+  }
 }

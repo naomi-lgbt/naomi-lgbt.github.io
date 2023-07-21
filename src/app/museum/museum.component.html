@@ -84,6 +84,9 @@
     <button class="nes-btn" (click)="previousAsset('portrait')">
       Previous Portrait
     </button>
+    <button class="nes-btn is-primary" (click)="randomAsset('portrait')">
+      Random Portrait
+    </button>
     <button class="nes-btn" (click)="nextAsset('portrait')">
       Next Portrait
     </button>
@@ -137,6 +140,9 @@
     <button class="nes-btn" (click)="previousAsset('emote')">
       Previous Emote
     </button>
+    <button class="nes-btn is-primary" (click)="randomAsset('emote')">
+      Random Emote
+    </button>
     <button class="nes-btn" (click)="nextAsset('emote')">Next Emote</button>
     <select #emote (change)="selectAsset('emote', emote.value)">
       <option
@@ -187,6 +193,9 @@
     </a>
     <button class="nes-btn" (click)="previousAsset('pose')">
       Previous Mural
+    </button>
+    <button class="nes-btn is-primary" (click)="randomAsset('pose')">
+      Random Mural
     </button>
     <button class="nes-btn" (click)="nextAsset('pose')">Next Mural</button>
     <select #pose (change)="selectAsset('pose', pose.value)">

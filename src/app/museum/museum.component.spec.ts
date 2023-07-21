@@ -98,18 +98,20 @@ describe('MuseumComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Museum');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(5);
+    expect(buttons.length).toBe(6);
     expect(buttons[0].tagName).toBe('BUTTON');
     expect(buttons[0].textContent?.trim()).toBe('Previous Portrait');
     expect(buttons[1].tagName).toBe('BUTTON');
-    expect(buttons[1].textContent?.trim()).toBe('Next Portrait');
+    expect(buttons[1].textContent?.trim()).toBe('Random Portrait');
     expect(buttons[2].tagName).toBe('BUTTON');
-    expect(buttons[2].textContent?.trim()).toBe('Emotion Exhibit');
+    expect(buttons[2].textContent?.trim()).toBe('Next Portrait');
     expect(buttons[3].tagName).toBe('BUTTON');
-    expect(buttons[3].textContent?.trim()).toBe('Mural Exhibit');
-    expect(buttons[4].tagName).toBe('A');
-    expect(buttons[4].textContent?.trim()).toBe('Enough art for now');
-    expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[3].textContent?.trim()).toBe('Emotion Exhibit');
+    expect(buttons[4].tagName).toBe('BUTTON');
+    expect(buttons[4].textContent?.trim()).toBe('Mural Exhibit');
+    expect(buttons[5].tagName).toBe('A');
+    expect(buttons[5].textContent?.trim()).toBe('Enough art for now');
+    expect(buttons[5].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it(`should render the portraits correctly`, () => {
@@ -154,18 +156,20 @@ describe('MuseumComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Museum');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(5);
+    expect(buttons.length).toBe(6);
     expect(buttons[0].tagName).toBe('BUTTON');
     expect(buttons[0].textContent?.trim()).toBe('Previous Emote');
     expect(buttons[1].tagName).toBe('BUTTON');
-    expect(buttons[1].textContent?.trim()).toBe('Next Emote');
+    expect(buttons[1].textContent?.trim()).toBe('Random Emote');
     expect(buttons[2].tagName).toBe('BUTTON');
-    expect(buttons[2].textContent?.trim()).toBe('Portrait Exhibit');
+    expect(buttons[2].textContent?.trim()).toBe('Next Emote');
     expect(buttons[3].tagName).toBe('BUTTON');
-    expect(buttons[3].textContent?.trim()).toBe('Mural Exhibit');
-    expect(buttons[4].tagName).toBe('A');
-    expect(buttons[4].textContent?.trim()).toBe('Enough art for now');
-    expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[3].textContent?.trim()).toBe('Portrait Exhibit');
+    expect(buttons[4].tagName).toBe('BUTTON');
+    expect(buttons[4].textContent?.trim()).toBe('Mural Exhibit');
+    expect(buttons[5].tagName).toBe('A');
+    expect(buttons[5].textContent?.trim()).toBe('Enough art for now');
+    expect(buttons[5].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it(`should render the emotes correctly`, () => {
@@ -201,18 +205,20 @@ describe('MuseumComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Museum');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(5);
+    expect(buttons.length).toBe(6);
     expect(buttons[0].tagName).toBe('BUTTON');
     expect(buttons[0].textContent?.trim()).toBe('Previous Mural');
     expect(buttons[1].tagName).toBe('BUTTON');
-    expect(buttons[1].textContent?.trim()).toBe('Next Mural');
+    expect(buttons[1].textContent?.trim()).toBe('Random Mural');
     expect(buttons[2].tagName).toBe('BUTTON');
-    expect(buttons[2].textContent?.trim()).toBe('Portrait Exhibit');
+    expect(buttons[2].textContent?.trim()).toBe('Next Mural');
     expect(buttons[3].tagName).toBe('BUTTON');
-    expect(buttons[3].textContent?.trim()).toBe('Emotion Exhibit');
-    expect(buttons[4].tagName).toBe('A');
-    expect(buttons[4].textContent?.trim()).toBe('Enough art for now');
-    expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
+    expect(buttons[3].textContent?.trim()).toBe('Portrait Exhibit');
+    expect(buttons[4].tagName).toBe('BUTTON');
+    expect(buttons[4].textContent?.trim()).toBe('Emotion Exhibit');
+    expect(buttons[5].tagName).toBe('A');
+    expect(buttons[5].textContent?.trim()).toBe('Enough art for now');
+    expect(buttons[5].getAttribute('routerLink')).toBe('/plaza');
   });
 
   it(`should render the poses correctly`, () => {
