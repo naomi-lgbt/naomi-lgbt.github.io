@@ -44,6 +44,9 @@
       </div>
     </div>
     <button class="nes-btn" (click)="previousOutfit()">Previous Outfit</button>
+    <button class="nes-btn is-primary" (click)="randomOutfit()">
+      Random Outfit
+    </button>
     <button class="nes-btn" (click)="nextOutfit()">Next Outfit</button>
     <select #outfit (change)="selectOutfit(outfit.value)">
       <option disabled>Jump to Outfit</option>

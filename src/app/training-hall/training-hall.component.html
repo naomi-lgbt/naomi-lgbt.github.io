@@ -91,6 +91,9 @@
       />
     </a>
     <button class="nes-btn" (click)="previousGame()">Previous Adventure</button>
+    <button class="nes-btn is-primary" (click)="randomGame()">
+      Random Adventure
+    </button>
     <button class="nes-btn" (click)="nextGame()">Next Adventure</button>
     <select #gameOpt (change)="selectGame(gameOpt.value)">
       <option

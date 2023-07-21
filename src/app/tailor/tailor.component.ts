@@ -82,4 +82,8 @@ export class TailorComponent {
   selectOutfit(index: string) {
     this.currentOutfitIndex = parseInt(index);
   }
+
+  randomOutfit() {
+    this.currentOutfitIndex = Math.floor(Math.random() * this.outfits.length);
+  }
 }

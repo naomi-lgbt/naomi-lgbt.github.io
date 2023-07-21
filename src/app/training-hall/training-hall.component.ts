@@ -41,4 +41,8 @@ export class TrainingHallComponent {
   selectGame(index: string) {
     this.currentGameIndex = parseInt(index);
   }
+
+  randomGame() {
+    this.currentGameIndex = Math.floor(Math.random() * this.games.length);
+  }
 }
