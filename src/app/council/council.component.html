@@ -1,0 +1,19 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded">
+    <h1 class="title">Council Chambers</h1>
+    <p>
+      The council chambers are empty, though you see a large table with a number
+      of chairs.
+    </p>
+    <p *ngIf="!councillors.length">
+      There are currently no name plates at the table.
+    </p>
+    <div *ngFor="let councillor of councillors"></div>
+    <p>
+      Want to see your name at one of these chairs? Join the
+      <a href="https://chat.naomi.lgbt" target="_blank">Discord Community</a>
+      and stay active to level up!
+    </p>
+  </div>
+  <a class="nes-btn" routerLink="/plaza">Leave the Chambers</a>
+</div>
