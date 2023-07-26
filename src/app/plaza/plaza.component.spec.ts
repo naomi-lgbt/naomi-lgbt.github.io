@@ -25,7 +25,7 @@ describe('PlazaComponent', () => {
     const title = compiled.querySelector('h1');
     expect(title?.textContent?.trim()).toBe('Town Plaza');
     const buttons = compiled.querySelectorAll('.nes-btn');
-    expect(buttons.length).toBe(7);
+    expect(buttons.length).toBe(8);
     expect(buttons[0].tagName).toBe('A');
     expect(buttons[0].textContent?.trim()).toBe('Library');
     expect(buttons[0].getAttribute('routerLink')).toBe('/library');
@@ -47,5 +47,8 @@ describe('PlazaComponent', () => {
     expect(buttons[6].tagName).toBe('A');
     expect(buttons[6].textContent?.trim()).toBe('Confessional');
     expect(buttons[6].getAttribute('routerLink')).toBe('/confessional');
+    expect(buttons[7].tagName).toBe('A');
+    expect(buttons[7].textContent?.trim()).toBe('Council Chambers');
+    expect(buttons[7].getAttribute('routerLink')).toBe('/council');
   });
 });
