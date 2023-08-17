@@ -41,7 +41,7 @@
     <p>She turns and walks off, motioning for you to come with her.</p>
   </div>
   <div
-    *ngIf="view === 'games'"
+    *ngIf="view === 'games' && games.length"
     class="nes-container with-title is-centered is-rounded"
   >
     <h1 class="title">Training Hall</h1>
@@ -72,7 +72,7 @@
     </p>
   </div>
   <div
-    *ngIf="view === 'games'"
+    *ngIf="view === 'games' && games.length"
     class="nes-container is-rounded is-centered game"
   >
     <h2 class="title">{{ games[currentGameIndex].game }}</h2>
