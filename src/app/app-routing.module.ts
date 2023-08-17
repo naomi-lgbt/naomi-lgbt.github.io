@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ConfessionalComponent } from './confessional/confessional.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LandingComponent } from './landing/landing.component';
 import { LibraryComponent } from './library/library.component';
@@ -14,7 +13,6 @@ import { TavernComponent } from './tavern/tavern.component';
 import { TempleComponent } from './temple/temple.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
 import { ApproachComponent } from './approach/approach.component';
-import { CouncilComponent } from './council/council.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent, pathMatch: 'full' },
@@ -28,9 +26,7 @@ const routes: Routes = [
   { path: 'confirm', component: ConfirmComponent },
   { path: 'tailor', component: TailorComponent },
   { path: 'ref', component: ReferenceComponent },
-  { path: 'confessional', component: ConfessionalComponent },
   { path: 'socials', component: SocialsComponent },
-  { path: 'council', component: CouncilComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: '**', component: LostComponent },
 ];
