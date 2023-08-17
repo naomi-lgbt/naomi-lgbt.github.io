@@ -17,7 +17,6 @@ import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ReferenceComponent } from './reference/reference.component';
-import { ConfessionalComponent } from './confessional/confessional.component';
 import { SocialsComponent } from './socials/socials.component';
 import {
   FontAwesomeModule,
@@ -25,7 +24,6 @@ import {
 } from '@fortawesome/angular-fontawesome';
 import { socials } from '../data/socials';
 import { ApproachComponent } from './approach/approach.component';
-import { CouncilComponent } from './council/council.component';
 
 @NgModule({
   declarations: [
@@ -41,10 +39,8 @@ import { CouncilComponent } from './council/council.component';
     LostComponent,
     TailorComponent,
     ReferenceComponent,
-    ConfessionalComponent,
     SocialsComponent,
     ApproachComponent,
-    CouncilComponent,
   ],
   imports: [
     BrowserModule,
