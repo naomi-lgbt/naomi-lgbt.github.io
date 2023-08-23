@@ -63,7 +63,7 @@ describe('MelodyComponent', () => {
     );
   });
 
-  it(`should render the poses correctly`, () => {
+  it('should render the poses correctly', () => {
     for (const pose of component.poses) {
       component.selectPose(String(component.poses.indexOf(pose)));
       fixture.detectChanges();

@@ -50,6 +50,7 @@ import { MelodyComponent } from './melody/melody.component';
   ],
   bootstrap: [AppComponent],
 })
+//skipcq: JS-0327
 export class AppModule {
   constructor(library: FaIconLibrary) {
     library.addIcons(...socials.map((social) => social.icon));
