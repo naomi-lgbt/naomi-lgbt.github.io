@@ -13,7 +13,6 @@ import { TempleComponent } from './temple/temple.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LostComponent } from './lost/lost.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ReferenceComponent } from './reference/reference.component';
@@ -49,7 +48,6 @@ import { MelodyComponent } from './melody/melody.component';
     NgParticlesModule,
     FontAwesomeModule,
   ],
-  providers: [ActivityService],
   bootstrap: [AppComponent],
 })
 export class AppModule {
