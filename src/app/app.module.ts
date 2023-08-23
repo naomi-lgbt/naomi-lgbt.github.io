@@ -23,7 +23,6 @@ import {
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
 import { socials } from '../data/socials';
-import { ApproachComponent } from './approach/approach.component';
 import { MelodyComponent } from './melody/melody.component';
 
 @NgModule({
@@ -41,7 +40,6 @@ import { MelodyComponent } from './melody/melody.component';
     TailorComponent,
     ReferenceComponent,
     SocialsComponent,
-    ApproachComponent,
     MelodyComponent,
   ],
   imports: [
