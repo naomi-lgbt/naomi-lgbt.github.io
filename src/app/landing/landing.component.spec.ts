@@ -30,7 +30,7 @@ describe('LandingComponent', () => {
     expect(buttons[0].textContent?.trim()).toBe("See Naomi's work");
     expect(buttons[0].getAttribute('href')).toBe('https://www.nhcarrigan.com');
     expect(buttons[1].tagName).toBe('A');
-    expect(buttons[1].textContent?.trim()).toBe('Explore this site');
+    expect(buttons[1].textContent?.trim()).toBe('Learn more about her');
     expect(buttons[1].getAttribute('routerLink')).toBe('/approach');
   });
 });
