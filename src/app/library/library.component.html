@@ -10,43 +10,44 @@
       makes sense, libraries are always quiet.
     </p>
     <p>
-      Near the entrance is a large desk. A polite but quiet woman sits there. As
-      she notices you, she waves you over. When you approach the desk, she
-      speaks to you.
+      Near the entrance is a large desk. Melody walks over to it and motions for
+      you to join her.
     </p>
     <div
       class="nes-container with-title is-centered is-dark is-rounded dialogue"
     >
       <img
-        src="assets/img/faces/librarian.png"
+        src="assets/img/melody/smile.png"
         class="face"
-        alt="librarian's face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
       />
-      <p>Hello there! Was there a specific book you were looking for?</p>
+      <p>Now then, which book may I fetch for you?</p>
     </div>
     <p>Which book would you like to ask about?</p>
   </div>
   <div *ngIf="openBook" class="nes-container with-title is-centered is-rounded">
     <h1 class="title">{{ openBook.title }}</h1>
     <p>
-      The librarian hands you the book you asked for. You slowly open it,
+      Melody hands you the book you asked for. You slowly open it,
       turning through the pages.
     </p>
     <div class="nes-container with-title is-centered is-dark is-rounded">
       <p *ngFor="let line of openBook.text">{{ line }}</p>
     </div>
     <p>
-      Closing the book, you hand it back to the librarian, who smiles at you.
+      Closing the book, you hand it back to Melody, who smiles at you.
     </p>
     <div
       class="nes-container with-title is-centered is-dark is-rounded dialogue"
     >
       <img
-        src="assets/img/faces/librarian.png"
+        src="assets/img/melody/smile.png"
         class="face"
-        alt="librarian's face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
       />
-      <p>Would you like to look at another?</p>
+      <p>
+        Would you like to look at another book?
+      </p>
     </div>
   </div>
   <button
