@@ -52,4 +52,25 @@ describe('TempleComponent', () => {
     );
     expect(buttons[4].getAttribute('routerLink')).toBe('/plaza');
   });
+
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(3);
+    expect(dialogues[0]?.textContent?.trim()).toBe('Please, come over.');
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+    expect(dialogues[1]?.textContent?.trim()).toBe(
+      "For the townsfolk, a place of worship. But for travellers like you? It's a different story."
+    );
+    expect(dialogues[1]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/shrug.png'
+    );
+    expect(dialogues[2]?.textContent?.trim()).toBe(
+      'Travellers such as yourself often leave coins behind, to help support the work Naomi does. It also pays my salary!'
+    );
+    expect(dialogues[2]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/wink.png'
+    );
+  });
 });

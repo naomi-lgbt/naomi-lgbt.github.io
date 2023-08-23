@@ -30,7 +30,24 @@ describe('LandingComponent', () => {
     expect(buttons[0].textContent?.trim()).toBe("See Naomi's work");
     expect(buttons[0].getAttribute('href')).toBe('https://www.nhcarrigan.com');
     expect(buttons[1].tagName).toBe('A');
-    expect(buttons[1].textContent?.trim()).toBe('Explore this site');
-    expect(buttons[1].getAttribute('routerLink')).toBe('/approach');
+    expect(buttons[1].textContent?.trim()).toBe('Learn more about her');
+    expect(buttons[1].getAttribute('routerLink')).toBe('/plaza');
+  });
+
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(2);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      'Ah yes, we were expecting a visitor today.'
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+    expect(dialogues[1]?.textContent?.trim()).toBe(
+      "Now then, were you here to see Naomi's work? Or did you want to learn more about her?"
+    );
+    expect(dialogues[1]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/think.png'
+    );
   });
 });

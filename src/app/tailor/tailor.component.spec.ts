@@ -61,6 +61,17 @@ describe('TailorComponent', () => {
     );
   });
 
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(1);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      "Welcome to Naomi's wardrobe. You can see all of her outfits here, many of which I put together for her."
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+  });
+
   it('should render the model credits correctly', () => {
     component.renderCredits('_default');
     fixture.detectChanges();

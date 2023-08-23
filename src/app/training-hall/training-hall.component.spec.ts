@@ -56,6 +56,34 @@ describe('TrainingHallComponent', () => {
     expect(buttons[1].getAttribute('routerLink')).toBe('/plaza');
   });
 
+  it('should render all the dialogues', () => {
+    let dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(2);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      'Did you want to do some training?'
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/think.png'
+    );
+    expect(dialogues[1]?.textContent?.trim()).toBe(
+      "Very good! The best training starts with reviewing past adventurers' success. In this case, we'll look at some of Naomi's travels."
+    );
+    expect(dialogues[1]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+    component.changeView('games');
+    fixture.detectChanges();
+    compiled = fixture.nativeElement;
+    dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(1);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      'Spend some time studying these. Learn from them. When your learning is sufficient, we can proceed.'
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+  });
+
   it('should render the games view', async () => {
     component.changeView('games');
     fixture.detectChanges();

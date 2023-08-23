@@ -13,7 +13,6 @@ import { TempleComponent } from './temple/temple.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { LostComponent } from './lost/lost.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ActivityService } from './activity.service';
 import { TailorComponent } from './tailor/tailor.component';
 import { NgParticlesModule } from 'ng-particles';
 import { ReferenceComponent } from './reference/reference.component';
@@ -23,7 +22,7 @@ import {
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
 import { socials } from '../data/socials';
-import { ApproachComponent } from './approach/approach.component';
+import { MelodyComponent } from './melody/melody.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +39,7 @@ import { ApproachComponent } from './approach/approach.component';
     TailorComponent,
     ReferenceComponent,
     SocialsComponent,
-    ApproachComponent,
+    MelodyComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,9 +48,9 @@ import { ApproachComponent } from './approach/approach.component';
     NgParticlesModule,
     FontAwesomeModule,
   ],
-  providers: [ActivityService],
   bootstrap: [AppComponent],
 })
+//skipcq: JS-0327
 export class AppModule {
   constructor(library: FaIconLibrary) {
     library.addIcons(...socials.map((social) => social.icon));
