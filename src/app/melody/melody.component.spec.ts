@@ -52,6 +52,17 @@ describe('MelodyComponent', () => {
     expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
   });
 
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(1);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      "There's really not much to look at here..."
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/blush.png'
+    );
+  });
+
   it(`should render the poses correctly`, () => {
     for (const pose of component.poses) {
       component.selectPose(String(component.poses.indexOf(pose)));

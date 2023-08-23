@@ -90,6 +90,23 @@ describe('MuseumComponent', () => {
     expect(buttons[3].getAttribute('routerLink')).toBe('/plaza');
   });
 
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(2);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      'Welcome to the Avalon Museum! Would you like to hear more about our exhibits?'
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+    expect(dialogues[1]?.textContent?.trim()).toBe(
+      'We currently have three exhibits. Our portrait exhibit is the most popular, but we also have a special "Emotion" exhibit and a collection of murals.'
+    );
+    expect(dialogues[1]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+  });
+
   it('should render the portrait view', () => {
     component.changeView('portrait');
     fixture.detectChanges();

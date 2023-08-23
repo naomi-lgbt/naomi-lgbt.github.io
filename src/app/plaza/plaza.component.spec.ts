@@ -48,4 +48,57 @@ describe('PlazaComponent', () => {
     expect(buttons[6].textContent?.trim()).toBe("Melody's Office");
     expect(buttons[6].getAttribute('routerLink')).toBe('/melody');
   });
+
+  it('should render all the dialogues', () => {
+    const dialogues = compiled.querySelectorAll('.dialogue');
+    expect(dialogues.length).toBe(8);
+    expect(dialogues[0]?.textContent?.trim()).toBe(
+      'Ah yes, allow me to explain the layout of our city.'
+    );
+    expect(dialogues[0]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/smile.png'
+    );
+    expect(dialogues[1]?.textContent?.trim()).toBe(
+      "Over at the Library, you could read up on Naomi's history and background."
+    );
+    expect(dialogues[1]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[2]?.textContent?.trim()).toBe(
+      'The Tavern would be the place to go to socialise with your fellow travellers.'
+    );
+    expect(dialogues[2]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[3]?.textContent?.trim()).toBe(
+      'Great works of art can be seen in the Museum.'
+    );
+    expect(dialogues[3]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[4]?.textContent?.trim()).toBe(
+      'If you wish to see past adventures and brush up on your adventuring abilities, spend some time in the Training Hall.'
+    );
+    expect(dialogues[4]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[5]?.textContent?.trim()).toBe(
+      "The Tailor is where you can find some of Naomi's typical clothing sets."
+    );
+    expect(dialogues[5]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[6]?.textContent?.trim()).toBe(
+      'People sometimes choose to make a donation to the Temple, so that the work done in this land can continue.'
+    );
+    expect(dialogues[6]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+    expect(dialogues[7]?.textContent?.trim()).toBe(
+      'Then there is my office, where I plan my work.'
+    );
+    expect(dialogues[7]?.querySelector('img')?.getAttribute('src')).toBe(
+      'assets/img/melody/explain.png'
+    );
+  });
 });
