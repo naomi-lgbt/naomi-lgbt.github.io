@@ -24,6 +24,7 @@ import {
 } from '@fortawesome/angular-fontawesome';
 import { socials } from '../data/socials';
 import { ApproachComponent } from './approach/approach.component';
+import { MelodyComponent } from './melody/melody.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ApproachComponent } from './approach/approach.component';
     ReferenceComponent,
     SocialsComponent,
     ApproachComponent,
+    MelodyComponent,
   ],
   imports: [
     BrowserModule,

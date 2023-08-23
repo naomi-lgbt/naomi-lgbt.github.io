@@ -1,0 +1,17 @@
+select {
+  display: block;
+  margin: auto;
+}
+
+.pose {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.pose-img {
+  width: 100%;
+}

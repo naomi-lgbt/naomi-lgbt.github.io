@@ -10,4 +10,5 @@ export interface Assets {
   outfits: Outfit[];
   portraits: Portrait[];
   poses: Pose[];
+  melody: Pose[];
 }
