@@ -42,8 +42,8 @@ dependencies:
     specifier: 6.4.2
     version: 6.4.2
   angular-cli-ghpages:
-    specifier: 1.0.6
-    version: 1.0.6(@angular-devkit/architect@0.1502.9)(@angular-devkit/core@16.2.0)(@angular-devkit/schematics@16.2.0)
+    specifier: 1.0.7
+    version: 1.0.7(@angular-devkit/architect@0.1502.9)(@angular-devkit/core@16.2.0)(@angular-devkit/schematics@16.2.0)
   dirty-json:
     specifier: 0.9.2
     version: 0.9.2
@@ -3144,11 +3144,11 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /angular-cli-ghpages@1.0.6(@angular-devkit/architect@0.1502.9)(@angular-devkit/core@16.2.0)(@angular-devkit/schematics@16.2.0):
-    resolution: {integrity: sha512-CMX7Z9fTzW1MSO2ypJDKmxfenb5m56SzCSeGDdD4faiOU5tV6PoUaMhramIHK3WAJZBOb69kNBh8/ALWq/0ilA==}
+  /angular-cli-ghpages@1.0.7(@angular-devkit/architect@0.1502.9)(@angular-devkit/core@16.2.0)(@angular-devkit/schematics@16.2.0):
+    resolution: {integrity: sha512-7uq+NSqmhVBnA1uimVQVoQfXP80aSJc/nZGdRUiADcTeRQFPamaQUbh4bn2EHiC9TJn44lDOEGnzdhAej0wz6w==}
     hasBin: true
     peerDependencies:
-      '@angular-devkit/architect': '>= 0.900 < 0.1600'
+      '@angular-devkit/architect': '>= 0.900 < 0.1602.0'
       '@angular-devkit/core': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
       '@angular-devkit/schematics': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
