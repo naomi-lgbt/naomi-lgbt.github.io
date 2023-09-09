@@ -13,7 +13,15 @@ import { Social } from 'src/interfaces/Social';
 
 export const socials: Social[] = [
   {
-    name: 'Discord',
+    name: 'Work Discord',
+    icon: faDiscord,
+    url: 'https://chat.nhcarrigan.com',
+    text: '#FFFFFF',
+    background: '#5865F2',
+    hover: false,
+  },
+  {
+    name: 'Fun Discord',
     icon: faDiscord,
     url: 'https://chat.naomi.lgbt',
     text: '#FFFFFF',
