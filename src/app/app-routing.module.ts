@@ -13,6 +13,7 @@ import { TavernComponent } from './tavern/tavern.component';
 import { TempleComponent } from './temple/temple.component';
 import { TrainingHallComponent } from './training-hall/training-hall.component';
 import { MelodyComponent } from './melody/melody.component';
+import { PartnersComponent } from './partners/partners.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent, pathMatch: 'full' },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'ref', component: ReferenceComponent },
   { path: 'socials', component: SocialsComponent },
   { path: 'melody', component: MelodyComponent },
+  { path: 'erin', component: PartnersComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: '**', component: LostComponent },
 ];

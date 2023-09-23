@@ -1,0 +1,75 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded">
+    <h1>Mysterious Room</h1>
+    <p>You enter a strange room, unsure of its purpose.</p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/melody/smile.png"
+        class="face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
+      />
+      <p>
+        Ah, this is where you can see my mistress with her beloved primary
+        partner Erin.
+      </p>
+    </div>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/melody/wink.png"
+        class="face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
+      />
+      <p>
+        If you would like to meet Erin, or any of Naomi's other partners,
+        <a href="https://chat.naomi.lgbt" target="_blank">join her Discord</a>.
+      </p>
+    </div>
+    <p>Melody shows you the pictures.</p>
+    <p>
+      There are <strong>{{ poses.length }}</strong> pictures to see.
+    </p>
+    <div
+      class="nes-container is-rounded is-centered is-dark pose"
+      *ngIf="poses.length"
+    >
+      <a
+        href="https://cdn.naomi.lgbt/erin/koikatsu/{{
+          poses[currentPoseIndex].fileName
+        }}"
+        target="_blank"
+      >
+        <img
+          src="https://cdn.naomi.lgbt/erin/koikatsu/{{
+            poses[currentPoseIndex].fileName
+          }}"
+          alt="{{ poses[currentPoseIndex].alt }}"
+          class="pose-img"
+        />
+      </a>
+      <div class="pose-description">
+        <h2>{{ poses[currentPoseIndex].name }}</h2>
+        <p>{{ poses[currentPoseIndex].description }}</p>
+      </div>
+    </div>
+    <button class="nes-btn" (click)="previousPose()">Previous Photo</button>
+    <button class="nes-btn is-primary" (click)="randomPose()">
+      Random Photo
+    </button>
+    <button class="nes-btn" (click)="nextPose()">Next Photo</button>
+    <select #pose (change)="selectPose(pose.value)">
+      <option disabled>Jump to Photo</option>
+      <option
+        *ngFor="let pose of poses; let i = index"
+        [value]="i"
+        [selected]="i === currentPoseIndex"
+      >
+        {{ pose.name }}
+      </option>
+    </select>
+  </div>
+  <a class="nes-btn" routerLink="/plaza">Leave</a>
+</div>
