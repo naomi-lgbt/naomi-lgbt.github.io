@@ -21,6 +21,7 @@ export class AssetsService {
       portraits: [],
       poses: [],
       melody: [],
+      erin: [],
     };
   }
 
@@ -87,6 +88,17 @@ export class AssetsService {
       'https://asset-list.naomi.lgbt/json/melody/poses.json'
     );
     poses.subscribe((poses) => (this._data.melody = poses));
+    return poses;
+  }
+
+  public fetchErin(): Observable<Pose[]> {
+    if (this._data.erin.length) {
+      return of(this._data.erin);
+    }
+    const poses = this.http.get<Pose[]>(
+      'https://asset-list.naomi.lgbt/json/erin/poses.json'
+    );
+    poses.subscribe((poses) => (this._data.erin = poses));
     return poses;
   }
 }
