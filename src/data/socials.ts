@@ -1,13 +1,10 @@
 import {
   faDiscord,
-  faFacebook,
   faFreeCodeCamp,
   faGithub,
   faLinkedin,
-  faMastodon,
   faPatreon,
   faSteam,
-  faTwitch,
 } from '@fortawesome/free-brands-svg-icons';
 import { Social } from 'src/interfaces/Social';
 
@@ -26,22 +23,6 @@ export const socials: Social[] = [
     url: 'https://chat.naomi.lgbt',
     text: '#FFFFFF',
     background: '#5865F2',
-    hover: false,
-  },
-  {
-    name: 'Mastodon',
-    icon: faMastodon,
-    url: 'https://mastodon.naomi.lgbt/@naomi',
-    text: '#FFFFFF',
-    background: '#1DA1F2',
-    hover: false,
-  },
-  {
-    name: 'Twitch',
-    icon: faTwitch,
-    url: 'https://twitch.tv/naomilgbt',
-    text: '#E5E5E5',
-    background: '#9146FF',
     hover: false,
   },
   {
@@ -82,14 +63,6 @@ export const socials: Social[] = [
     url: 'https://linkedin.com/in/naomi-lgbt',
     text: '#FFFFFF',
     background: '#0a66c2',
-    hover: false,
-  },
-  {
-    name: 'Facebook',
-    icon: faFacebook,
-    url: 'https://facebook.com/nhcarrigan',
-    text: '#FFFFFF',
-    background: '#4267B2',
     hover: false,
   },
 ];
