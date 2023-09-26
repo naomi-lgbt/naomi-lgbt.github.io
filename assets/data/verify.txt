@@ -13,8 +13,7 @@ My pronouns: https://en.pronouns.page/@nhcarrigan
 
 work server: https://chat.nhcarrigan.com (Discord Server ID: 1149976413319999508)
 chat with me: https://chat.naomi.lgbt (Discord Server ID: 1146133490933436476)
-work discord: naomi_lgbt (ID: 465650873650118659)
-personal discord: naomi_lgbt_personal (ID: 710195136700874893)
+discord: naomi_lgbt (ID: 465650873650118659)
 github: naomi-lgbt - https://github.com/naomi-lgbt
 email: contact@nhcarrigan.com
 
@@ -22,23 +21,13 @@ email: contact@nhcarrigan.com
 
 freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
 freecodecamp chat: Naomi
+twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
 steam: https://steamcommunity.com/id/naomi-lgbt
-twitch: https://www.twitch.tv/naomilgbt
 linkedin: https://linkedin.com/in/naomi-lgbt
 github: nhcarrigan - https://github.com/nhcarrigan
-github: beccalyria - https://github.com/beccalyria
-github: rosalianightsong - https://github.com/RosaliaNightsong
-github: naomis-novas - https://github.com/naomis-novas
 github: naomis-archive - https://github.com/naomis-archive
-twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
-twitter: @becca_lyria - https://twitter.com/becca_lyria
-twitter: @RosaNightsong - https://twitter.com/RosaNightsong
-twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
-twitter: @nhcarrigan - https://twitter.com/nhcarrigan
 linkedin: https://linkedin.com/company/nhcarrigan/
 itch: https://itch.io/profile/nhcarrigan
-facebook: https://www.facebook.com/nhcarrigan
-reddit: https://www.reddit.com/user/nhcarrigan
 
 # Apps and Games
 
@@ -51,8 +40,6 @@ Duolingo: NaomiLGBT https://www.duolingo.com/profile/NaomiLGBT
 
 codepen: https://codepen.io/nhcarrigan
 replit: https://replit.com/@nhcarrigan
-instagram: https://www.instagram.com/nhcarrigan/
-hashnode: https://hashnode.com/@nhcarrigan
 gaia online: https://www.gaiaonline.com/profiles/nhcarrigan/45571101/
 liquipedia: https://liquipedia.net/rocketleague/User:Nhcarrigan and https://liquipedia.net/valorant/User:Nhcarrigan
 codewars: https://www.codewars.com/users/nhcarrigan
@@ -64,29 +51,13 @@ origin: nhcarrigan
 battlenet: nhcarrigan#1956
 dnd beyond: https://www.dndbeyond.com/members/nhcarrigan
 roll20: https://app.roll20.net/users/9564775/nhcarrigan
-mastodon: https://social.freecodecamp.org/@naomi
-tumblr: https://nhcarrigan.tumblr.com
-disqus: nhcarrigan https://disqus.com/by/nhcarrigan/
-youtube: nhcarrigan https://www.youtube.com/channel/UCjzzWNrF-9LOudszZR82dWQ
 cohost: nhcarrigan https://cohost.org/nhcarrigan
-snugmoe: nhcarrigan https://snug.moe/@nhcarrigan
 monkeytype: nhcarrigan https://monkeytype.com/profile/nhcarrigan
-threads: @nhcarrigan https://www.threads.net/nhcarrigan
-bluesky: naomi-lgbt.bsky.social https://bsky.app/profile/naomi-lgbt.bsky.social
 
 # Owned Domains
 
-beccalia.com
-beccalyria.com
-dennagrey.com
-dreamerlabs.studio
-gamersguild.org
-miku.rocks
-naomi.lgbt
-naomi.party
-naomi.exposed
 nhcarrigan.com
-rosalianightsong.com
+naomi.lgbt
 starfazers.art
 
 # Additional Identity Verification
@@ -101,22 +72,58 @@ github sponsors: https://github.com/sponsors/naomi-lgbt
 ko-fi: https://ko-fi.com/nhcarrigan
 paypal: https://www.paypal.com/paypalme/nhcarrigan
 
+# Archived Socials
+
+These are accounts that I have since deactivated. If you see the username resurface, it is no longer mine.
+
+personal discord: naomi_lgbt_personal (ID: 710195136700874893)
+twitter: @becca_lyria - https://twitter.com/becca_lyria
+twitter: @RosaNightsong - https://twitter.com/RosaNightsong
+twitter: @BeccaliaGames - https://twitter.com/BeccaliaGames
+twitter: @nhcarrigan - https://twitter.com/nhcarrigan
+github: rosalianightsong - https://github.com/RosaliaNightsong
+github: beccalia - https://github.com/beccalia
+github: beccalyria - https://github.com/beccalyria
+github: naomis-novas - https://github.com/naomis-novas
+snugmoe: nhcarrigan https://snug.moe/@nhcarrigan
+disqus: nhcarrigan https://disqus.com/by/nhcarrigan/
+mastodon: https://social.freecodecamp.org/@naomi
+tumblr: https://nhcarrigan.tumblr.com
+threads: @nhcarrigan https://www.threads.net/nhcarrigan
+hashnode: https://hashnode.com/@nhcarrigan
+instagram: https://www.instagram.com/nhcarrigan/
+facebook: https://www.facebook.com/nhcarrigan
+reddit: https://www.reddit.com/user/nhcarrigan
+twitch: https://www.twitch.tv/naomilgbt
+youtube: nhcarrigan https://www.youtube.com/channel/UCjzzWNrF-9LOudszZR82dWQ
+bluesky: naomi-lgbt.bsky.social https://bsky.app/profile/naomi-lgbt.bsky.social
+
+beccalyria.com
+beccalia.com
+dennagrey.com
+gamersguild.org
+miku.rocks
+naomi.exposed
+naomi.party
+rosalianightsong.com
+dreamerlabs.studio
+
 # Known Impostor Accounts (these are NOT me)
 
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmT84ZEACgkQa+klaYyt
-iQerkhAAjHmrMVUR+JrPyhI+tfmM+7gmSLljOROiPCLk7FbQ5MV5+MgtzZHkk5l3
-ZZgGGoNG1VGdLEdjIvw3nBpYUxbW/pm9qnBy5hgMTM9j3aehKs8H5URDjxZTJxNJ
-oKEKEGfYHvAKbyrmRQDOMILo1lZeDN22OEJrIAA3mnJWyvbaLmA/c4EFECkrm2RS
-rsGyYKgBNs8Tc36iguP9vZkBZMNgPTY0UufZz+zQccWgFvhjWiYy6Yn/VAyOCyci
-gVQAElclX4CkwUL3vo3Q75uIIIqye6aEPVSm197Qj6fALf48VQ0tnGLAKFmCEMFR
-wU9TJFlY4z0CcEaIVJnX38SRompNdbc3embwdOq1fXvcFzwGIgZneayCBsY2R0m3
-n8KTEvojWW0Hh6w2IICF8jZ4ubKdLT060TWnlkzzmBnn0EhuApOoGNfEm/ep08nI
-i1N+pI5IJ/IlCSnR5y+Kq6nkJknHCKmvcrjYTdtZ4snvU6wuC7rKybAAMcsFdeCC
-lu8l/YrT6pUXzbIoWIfOimrAHq12CPkfEv5dIBvOk4eVb3C+RjF1R/KjOyN6AZW3
-UTMzq2sK2lNKGafkQ49Hi7R0AODaFFI0XnOlTDTz85KaHmGgmQ6QyAUv/D9jGA2C
-jEjAjXXw1lNn5My8Dzs6ENxozc+xHRNARp2jh9kba+nisExciqw=
-=rBs0
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmUTaFIACgkQa+klaYyt
+iQfpog//fx8YXsRauTVaIN96PM3xopDdunjHANMoB7A/l2HhiDJixHfWCVKZgR/9
+ah3VN91XS5Mbdy98YpFFMROaiLaBoRLCfn8PpMDvIREXpu/JY8JTcMmHv+HJ9ecl
+W79kBS/v9kex1eJAIuz6Sw2ToDJ0lBzMeiouyP6BP5j5+rVqQFUhbvEF0tW966OP
+5rGwEkJJ+wcc/mlH0O9GHdyFEo23oeFxWRxUfekD6XgDshbt3c8dkJX9P4Y0xftO
+ZfN7ozSctgOsCsmQzaVSs3FruQDPuwCRrG/4vfAR4ivtYJ+XWF/lmot5YFedQVua
+Vt+soF/TO2xEEF12PJqSFpjHKTb989tfP7G1owWzwMX4z87FJCIloydiZ+mIn8ka
+BgbQtTRF/HXGHmJkVRMzUwARKKxGWg18jbnHCtr0b5iVLEVkkVZMYhfhaU8haAeF
+BVQJKn1R1jcUoEStoDh+TUpTq0XHJY2PdAVo3BkkVIUMEGjKqLV1eKZ2SYSEIBN2
+u3JZwU7xzv8h43kCaBJ6yVfk5r6ah1N8b48zcotAEJ6VPMBrUWRh7P5FBccr3lRU
+aWHFmLyXVAwAF2SHI73gtysl8q1s7ll4BH8R6PFMjzovkNqyc8w1ZH97L67iZvZK
+nXErERyDfhpl05ixWYn3Ib5kQk7cM3Ji+9qZhK0jYK2tFdzPX5M=
+=jOou
 -----END PGP SIGNATURE-----
