@@ -52,11 +52,11 @@ describe('ReferenceComponent', () => {
     component.changeView('body');
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
-    expect(imgs.length).toBe(2);
-    expect(imgs[0].getAttribute('src')).toBe(
+    expect(imgs.length).toBe(3);
+    expect(imgs[1].getAttribute('src')).toBe(
       'https://cdn.naomi.lgbt/naomi/ref/front.png'
     );
-    expect(imgs[1].getAttribute('src')).toBe(
+    expect(imgs[2].getAttribute('src')).toBe(
       'https://cdn.naomi.lgbt/naomi/ref/back.png'
     );
   });
@@ -65,8 +65,8 @@ describe('ReferenceComponent', () => {
     component.changeView('face');
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
-    expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe(
+    expect(imgs.length).toBe(2);
+    expect(imgs[1].getAttribute('src')).toBe(
       'https://cdn.naomi.lgbt/naomi/ref/face.png'
     );
     const h2 = compiled.querySelector('h2');
@@ -77,8 +77,8 @@ describe('ReferenceComponent', () => {
     component.changeView('hands');
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
-    expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe(
+    expect(imgs.length).toBe(2);
+    expect(imgs[1].getAttribute('src')).toBe(
       'https://cdn.naomi.lgbt/naomi/ref/hands.png'
     );
     const h2 = compiled.querySelector('h2');
@@ -89,8 +89,8 @@ describe('ReferenceComponent', () => {
     component.changeView('feet');
     fixture.detectChanges();
     const imgs = compiled.querySelectorAll('img');
-    expect(imgs.length).toBe(1);
-    expect(imgs[0].getAttribute('src')).toBe(
+    expect(imgs.length).toBe(2);
+    expect(imgs[1].getAttribute('src')).toBe(
       'https://cdn.naomi.lgbt/naomi/ref/feet.png'
     );
     const h2 = compiled.querySelector('h2');
