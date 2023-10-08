@@ -3,6 +3,10 @@ select {
   margin: auto;
 }
 
+.ref-img {
+  width: 100%;
+}
+
 .content-grid img {
   height: 350px;
 }
