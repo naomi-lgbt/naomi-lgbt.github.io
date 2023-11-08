@@ -92,8 +92,8 @@ devDependencies:
     specifier: 16.2.4
     version: 16.2.4(@angular/compiler@16.2.4)(typescript@5.1.6)
   '@types/jasmine':
-    specifier: 4.6.1
-    version: 4.6.1
+    specifier: 4.6.2
+    version: 4.6.2
   '@types/node':
     specifier: 18.18.8
     version: 18.18.8
@@ -2620,8 +2620,8 @@ packages:
       '@types/node': 18.18.8
     dev: true
 
-  /@types/jasmine@4.6.1:
-    resolution: {integrity: sha512-Q00+pqd3WGt3xLmbIV6w9cP2uncjzIld+NOE4dl1ETQEut7RACj3QdAE8nD+n2ubPHneeGYsqXK//ORvH2m6eQ==}
+  /@types/jasmine@4.6.2:
+    resolution: {integrity: sha512-1JpgHd7kIaggg8er9h6GCf82ZI0yzCAKjx3rXTuvuZlLqxKj6hqqr7qcDPjQw2791y/AX7XLTahLyZdgnZLlog==}
     dev: true
 
   /@types/json-schema@7.0.12:
