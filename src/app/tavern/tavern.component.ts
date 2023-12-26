@@ -12,7 +12,7 @@ export class TavernComponent {
 
   /**
    *
-   * @param name
+   * @param {string} name The name of the view to switch to.
    */
   changeView(name: string) {
     this.view = name;

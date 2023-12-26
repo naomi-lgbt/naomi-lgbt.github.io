@@ -60,7 +60,7 @@ import { TrainingHallComponent } from "./training-hall/training-hall.component";
 export class AppModule {
   /**
    *
-   * @param library
+   * @param {FaIconLibrary} library The class exported from the FontAwesome library.
    */
   constructor(library: FaIconLibrary) {
     library.addIcons(...socials.map((social) => social.icon));

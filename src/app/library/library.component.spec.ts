@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
-import { library } from "src/data/library";
+
+import { library } from "../../data/library";
 
 import { LibraryComponent } from "./library.component";
 

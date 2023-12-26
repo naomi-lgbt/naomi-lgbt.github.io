@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
-import { tattoos } from "src/data/tattoos";
+
+import { tattoos } from "../../data/tattoos";
 
 import { ReferenceComponent } from "./reference.component";
 

@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { Adventure } from "src/interfaces/Adventure";
 
+import { Adventure } from "../../interfaces/Adventure";
 import { AssetsService } from "../assets.service";
 
 /**
@@ -18,7 +18,7 @@ export class TrainingHallComponent {
 
   /**
    *
-   * @param assetService
+   * @param {AssetsService} assetService The instance of the Asset service.
    */
   constructor(private assetService: AssetsService) {
     this.assetService.fetchAdventures().subscribe((adventures) => {
@@ -29,7 +29,7 @@ export class TrainingHallComponent {
 
   /**
    *
-   * @param name
+   * @param {string} name The name of the view to switch to.
    */
   changeView(name: string) {
     this.view = name;
@@ -58,7 +58,7 @@ export class TrainingHallComponent {
 
   /**
    *
-   * @param index
+   * @param {string} index The index from the select menu.
    */
   selectGame(index: string) {
     this.currentGameIndex = parseInt(index);

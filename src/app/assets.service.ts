@@ -1,12 +1,13 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable, of } from "rxjs";
-import { Adventure } from "src/interfaces/Adventure";
-import { Assets } from "src/interfaces/Assets";
-import { Emote } from "src/interfaces/Emote";
-import { Outfit } from "src/interfaces/Outfit";
-import { Portrait } from "src/interfaces/Portrait";
-import { Pose } from "src/interfaces/Pose";
+
+import { Adventure } from "../interfaces/Adventure";
+import { Assets } from "../interfaces/Assets";
+import { Emote } from "../interfaces/Emote";
+import { Outfit } from "../interfaces/Outfit";
+import { Portrait } from "../interfaces/Portrait";
+import { Pose } from "../interfaces/Pose";
 
 /**
  *
@@ -18,7 +19,7 @@ export class AssetsService {
   private _data: Assets;
   /**
    *
-   * @param http
+   * @param {HttpClient} http Angular's HTTPClient instance.
    */
   constructor(private http: HttpClient) {
     this._data = {
@@ -33,7 +34,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Adventure[]>} The adventure payload from the Assets API.
    */
   public fetchAdventures(): Observable<Adventure[]> {
     if (this._data.adventures.length) {
@@ -47,7 +48,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Emote[]>} The Emote payload from the Assets API.
    */
   public fetchEmotes(): Observable<Emote[]> {
     if (this._data.emotes.length) {
@@ -61,7 +62,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Outfit[]>} The adventure payload from the Assets API.
    */
   public fetchOutfits(): Observable<Outfit[]> {
     if (this._data.outfits.length) {
@@ -75,7 +76,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Portrait[]>} The Portrait payload from the Assets API.
    */
   public fetchPortraits(): Observable<Portrait[]> {
     if (this._data.portraits.length) {
@@ -89,7 +90,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Pose[]>} The Pose payload from the Assets API.
    */
   public fetchPoses(): Observable<Pose[]> {
     if (this._data.poses.length) {
@@ -103,7 +104,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Pose[]>} The Pose payload from the Assets API.
    */
   public fetchMelody(): Observable<Pose[]> {
     if (this._data.melody.length) {
@@ -117,7 +118,7 @@ export class AssetsService {
   }
 
   /**
-   *
+   * @returns {Observable<Pose[]>} The Pose payload from the Assets API.
    */
   public fetchErin(): Observable<Pose[]> {
     if (this._data.erin.length) {

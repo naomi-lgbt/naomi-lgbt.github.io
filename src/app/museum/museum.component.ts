@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
-import { Emote } from "src/interfaces/Emote";
-import { Portrait } from "src/interfaces/Portrait";
-import { Pose } from "src/interfaces/Pose";
 
+import { Emote } from "../../interfaces/Emote";
+import { Portrait } from "../../interfaces/Portrait";
+import { Pose } from "../../interfaces/Pose";
 import { AssetsService } from "../assets.service";
 
 type viewType = "intro" | "portrait" | "emote" | "pose";
@@ -45,7 +45,7 @@ export class MuseumComponent {
 
   /**
    *
-   * @param assetService
+   * @param {AssetsService} assetService The instance of the Assets service.
    */
   constructor(private assetService: AssetsService) {
     this.assetService.fetchPortraits().subscribe((portraits) => {
@@ -64,7 +64,7 @@ export class MuseumComponent {
 
   /**
    *
-   * @param name
+   * @param {viewType} name The type of view to load.
    */
   changeView(name: viewType) {
     this.view = name;
@@ -73,7 +73,7 @@ export class MuseumComponent {
 
   /**
    *
-   * @param view
+   * @param {assetViewType} view The type of asset view to load.
    */
   nextAsset(view: assetViewType) {
     const titledView = titleView[view];
@@ -86,7 +86,7 @@ export class MuseumComponent {
 
   /**
    *
-   * @param view
+   * @param {assetViewType} view The type of asset view to load.
    */
   previousAsset(view: assetViewType) {
     const titledView = titleView[view];
@@ -99,8 +99,8 @@ export class MuseumComponent {
 
   /**
    *
-   * @param view
-   * @param index
+   * @param {assetViewType} view The type of asset view to load.
+   * @param {string} index The string from the select menu.
    */
   selectAsset(view: assetViewType, index: string) {
     const titledView = titleView[view];
@@ -109,7 +109,7 @@ export class MuseumComponent {
 
   /**
    *
-   * @param view
+   * @param {assetViewType} view The type of asset view to load.
    */
   randomAsset(view: assetViewType) {
     const titledView = titleView[view];

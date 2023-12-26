@@ -1,4 +1,4 @@
-import { Fight } from "src/interfaces/Fight";
+import { Fight } from "../interfaces/Fight";
 
 export const hallOfFame: Fight[] = [
   {

@@ -28,15 +28,13 @@
   <div *ngIf="openBook" class="nes-container with-title is-centered is-rounded">
     <h1 class="title">{{ openBook.title }}</h1>
     <p>
-      Melody hands you the book you asked for. You slowly open it,
-      turning through the pages.
+      Melody hands you the book you asked for. You slowly open it, turning
+      through the pages.
     </p>
     <div class="nes-container with-title is-centered is-dark is-rounded">
       <p *ngFor="let line of openBook.text">{{ line }}</p>
     </div>
-    <p>
-      Closing the book, you hand it back to Melody, who smiles at you.
-    </p>
+    <p>Closing the book, you hand it back to Melody, who smiles at you.</p>
     <div
       class="nes-container with-title is-centered is-dark is-rounded dialogue"
     >
@@ -45,9 +43,7 @@
         class="face"
         alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
       />
-      <p>
-        Would you like to look at another book?
-      </p>
+      <p>Would you like to look at another book?</p>
     </div>
   </div>
   <button

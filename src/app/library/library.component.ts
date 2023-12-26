@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
-import { library } from "src/data/library";
-import { LibraryBook } from "src/interfaces/LibraryBook";
+
+import { library } from "../../data/library";
+import { LibraryBook } from "../../interfaces/LibraryBook";
 
 /**
  *
@@ -14,7 +15,7 @@ export class LibraryComponent {
 
   /**
    *
-   * @param key
+   * @param {string} key The key of the object to find in the library data.
    */
   loadBook(key: string) {
     const chosenBook = library.find((el) => el.key === key);

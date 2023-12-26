@@ -1,4 +1,4 @@
-import { Tattoo } from "src/interfaces/Tattoo";
+import { Tattoo } from "../interfaces/Tattoo";
 
 export const tattoos: Tattoo[] = [
   {

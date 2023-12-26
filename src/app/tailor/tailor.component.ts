@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { Outfit } from "src/interfaces/Outfit";
 
+import { Outfit } from "../../interfaces/Outfit";
 import { AssetsService } from "../assets.service";
 
 /**
@@ -40,7 +40,7 @@ export class TailorComponent {
 
   /**
    *
-   * @param assetService
+   * @param {AssetsService} assetService The instance of the Asset service.
    */
   constructor(private assetService: AssetsService) {
     assetService.fetchOutfits().subscribe((outfits) => {
@@ -51,7 +51,7 @@ export class TailorComponent {
 
   /**
    *
-   * @param outfit
+   * @param {string} outfit The name of the outfit to get credits for.
    */
   renderCredits(outfit: string) {
     const creditData =
@@ -102,7 +102,7 @@ export class TailorComponent {
 
   /**
    *
-   * @param index
+   * @param {string} index The index of the select menu.
    */
   selectOutfit(index: string) {
     this.currentOutfitIndex = parseInt(index);

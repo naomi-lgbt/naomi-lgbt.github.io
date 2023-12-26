@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
-import { tattoos } from "src/data/tattoos";
 
 import { reference } from "../../data/reference";
+import { tattoos } from "../../data/tattoos";
 
 /**
  *
@@ -19,7 +19,7 @@ export class ReferenceComponent {
 
   /**
    *
-   * @param name
+   * @param {string} name The view to switch to.
    */
   changeView(name: string) {
     this.view = name;
@@ -48,7 +48,7 @@ export class ReferenceComponent {
 
   /**
    *
-   * @param index
+   * @param {string} index The index from the select menu.
    */
   selectTattoo(index: string) {
     this.currentTattooIndex = parseInt(index);

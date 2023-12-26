@@ -1,4 +1,4 @@
-import { LibraryBook } from "src/interfaces/LibraryBook";
+import { LibraryBook } from "../interfaces/LibraryBook";
 
 export const library: LibraryBook[] = [
   {
@@ -31,7 +31,7 @@ export const library: LibraryBook[] = [
     text: [
       "In April of 2020, Naomi found herself in a position where she would resign from her retail work. In the midst of the pandemic, she was now unemployed - but in a good financial position where she could take some time off.",
       "Her plan was originally to take a few months off to do nothing but lounge around, game, and explore her own interests. That... lasted all of two weeks before she was completely bored out of her mind.",
-      'In need of a new hobby (and having always loved computers, electronics, and technology), Naomi decided she would explore the idea of learning to code. She searched up "learn to code for free" and came across freeCodeCamp, where she signed up and started the curriculum.',
+      `In need of a new hobby (and having always loved computers, electronics, and technology), Naomi decided she would explore the idea of learning to code. She searched up "learn to code for free" and came across freeCodeCamp, where she signed up and started the curriculum.`,
       "While this was just intended to be a hobby, and Naomi was considering a career in human resources, she ended up diving in full force. Within about 6 months she had completed the entire freeCodeCamp curriculum (at least, what was there at the time). Finding a strong love for this work, she continued to branch out.",
       "freeCodeCamp had taught her the basics of the MERN stack, but a fellow developer in the community had introduced her to TypeScript and Angular. She fell in love, and now uses TypeScript on all of her projects.",
       "Naomi became highly involved in open source, contributing to other projects and starting her own projects. Included in those contributions, of course, was the freeCodeCamp code base. After a few months of steady and quality contribution, she was given the chance to join the freeCodeCamp team in December of 2020. She has remained there ever since."

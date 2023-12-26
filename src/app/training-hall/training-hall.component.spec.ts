@@ -38,11 +38,11 @@ describe("TrainingHallComponent", () => {
     compiled = fixture.nativeElement;
   });
 
-  it("should create", async () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 
-  it("should render the intro view", async () => {
+  it("should render the intro view", () => {
     expect(component.view).toBe("intro");
     const title = compiled.querySelector("h1");
     expect(title?.textContent?.trim()).toBe("Training Hall");
@@ -85,7 +85,7 @@ describe("TrainingHallComponent", () => {
     );
   });
 
-  it("should render the games view", async () => {
+  it("should render the games view", () => {
     component.changeView("games");
     fixture.detectChanges();
     compiled = fixture.nativeElement;
@@ -105,7 +105,7 @@ describe("TrainingHallComponent", () => {
     expect(buttons[3].getAttribute("routerLink")).toBe("/plaza");
   });
 
-  it(`should render the adventures correctly`, async () => {
+  it(`should render the adventures correctly`, () => {
     for (const adventure of component.games) {
       component.changeView("games");
       component.selectGame(String(component.games.indexOf(adventure)));

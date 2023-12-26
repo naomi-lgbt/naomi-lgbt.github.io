@@ -101,7 +101,7 @@ describe("MuseumComponent", () => {
       "assets/img/melody/smile.png"
     );
     expect(dialogues[1]?.textContent?.trim()).toBe(
-      'We currently have three exhibits. Our portrait exhibit is the most popular, but we also have a special "Emotion" exhibit and a collection of murals.'
+      `We currently have three exhibits. Our portrait exhibit is the most popular, but we also have a special "Emotion" exhibit and a collection of murals.`
     );
     expect(dialogues[1]?.querySelector("img")?.getAttribute("src")).toBe(
       "assets/img/melody/explain.png"

@@ -1,3 +1,18 @@
 {
-  "extends": "@nhcarrigan/eslint-config-angular"
+  "extends": "@nhcarrigan/eslint-config-angular",
+  "rules": {
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "@angular/common/http",
+          "@angular/core/testing",
+          "@angular/router/testing",
+          "@fortawesome/angular-fontawesome/testing",
+          "zone.js/testing",
+          "@angular/platform-browser-dynamic/testing"
+        ]
+      }
+    ]
+  }
 }

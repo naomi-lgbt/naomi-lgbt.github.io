@@ -1,7 +1,8 @@
 import { Component } from "@angular/core";
-import { ParticleOptions } from "src/config/ParticleOptions";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
+
+import { ParticleOptions } from "../config/ParticleOptions";
 
 /**
  *
@@ -20,7 +21,7 @@ export class AppComponent {
   // skipcq: JS-0105
   /**
    *
-   * @param engine
+   * @param {Engine} engine The TSParticles engine.
    */
   async particlesInit(engine: Engine): Promise<void> {
     await loadFull(engine);

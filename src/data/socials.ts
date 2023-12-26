@@ -6,7 +6,8 @@ import {
   faPatreon,
   faSteam
 } from "@fortawesome/free-brands-svg-icons";
-import { Social } from "src/interfaces/Social";
+
+import { Social } from "../interfaces/Social";
 
 export const socials: Social[] = [
   {

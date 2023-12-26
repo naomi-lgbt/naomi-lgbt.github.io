@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
-import { Social } from "src/interfaces/Social";
 
 import { socials } from "../../data/socials";
+import { Social } from "../../interfaces/Social";
 
 /**
  *

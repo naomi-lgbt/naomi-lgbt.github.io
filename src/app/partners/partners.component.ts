@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { Pose } from "src/interfaces/Pose";
 
+import { Pose } from "../../interfaces/Pose";
 import { AssetsService } from "../assets.service";
 
 /**
@@ -17,7 +17,7 @@ export class PartnersComponent {
 
   /**
    *
-   * @param assetService
+   * @param {AssetsService} assetService The instance of the Asset service.
    */
   constructor(private assetService: AssetsService) {
     this.assetService.fetchErin().subscribe((poses) => {
@@ -48,7 +48,7 @@ export class PartnersComponent {
 
   /**
    *
-   * @param index
+   * @param {string} index The index from the select menu.
    */
   selectPose(index: string) {
     this.currentPoseIndex = parseInt(index);
