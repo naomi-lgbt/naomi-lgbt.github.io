@@ -1,16 +1,16 @@
 export const ParticleOptions = {
   background: {
-    opacity: 0,
+    opacity: 0
   },
   fullScreen: {
-    zIndex: -1,
+    zIndex: -1
   },
   interactivity: {
     events: {
       onHover: {
-        mode: 'trail',
-        enable: true,
-      },
+        mode: "trail",
+        enable: true
+      }
     },
     modes: {
       trail: {
@@ -19,24 +19,24 @@ export const ParticleOptions = {
         pauseOnStop: true,
         particles: {
           color: {
-            value: '#ff0000',
+            value: "#ff0000",
             animation: {
               enable: true,
               speed: 400,
-              sync: true,
-            },
+              sync: true
+            }
           },
           collisions: {
-            enable: false,
+            enable: false
           },
           links: {
-            enable: false,
+            enable: false
           },
           move: {
             outModes: {
-              default: 'destroy',
+              default: "destroy"
             },
-            speed: 2,
+            speed: 2
           },
           size: {
             value: 5,
@@ -45,62 +45,62 @@ export const ParticleOptions = {
               speed: 5,
               minimumValue: 1,
               sync: true,
-              startValue: 'min',
-              destroy: 'max',
-            },
-          },
-        },
-      },
-    },
+              startValue: "min",
+              destroy: "max"
+            }
+          }
+        }
+      }
+    }
   },
   particles: {
     color: {
       animation: {
         enable: true,
         sync: false,
-        speed: 50,
+        speed: 50
       },
-      value: '#ff0000',
+      value: "#ff0000"
     },
     links: {
-      color: 'random',
-      enable: false,
+      color: "random",
+      enable: false
     },
     collisions: {
-      enable: true,
+      enable: true
     },
     move: {
-      enable: true,
+      enable: true
     },
     number: {
       density: {
-        enable: true,
-      },
+        enable: true
+      }
     },
     opacity: {
       animation: {
         enable: true,
         minimumValue: 0.3,
-        speed: 0.5,
+        speed: 0.5
       },
       value: 0.8,
       random: {
         enable: true,
-        minimumValue: 0.3,
-      },
+        minimumValue: 0.3
+      }
     },
     size: {
       animation: {
         enable: true,
         minimumValue: 1,
-        speed: 3,
+        speed: 3
       },
       value: 5,
       random: {
         enable: true,
-        minimumValue: 1,
-      },
-    },
+        minimumValue: 1
+      }
+    }
   },
-  emitters: [],
+  emitters: []
 };

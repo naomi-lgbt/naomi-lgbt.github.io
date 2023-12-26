@@ -1,16 +1,24 @@
-import { Component } from '@angular/core';
-import { Pose } from 'src/interfaces/Pose';
-import { AssetsService } from '../assets.service';
+import { Component } from "@angular/core";
+import { Pose } from "src/interfaces/Pose";
 
+import { AssetsService } from "../assets.service";
+
+/**
+ *
+ */
 @Component({
-  selector: 'app-partners',
-  templateUrl: './partners.component.html',
-  styleUrls: ['./partners.component.css'],
+  selector: "app-partners",
+  templateUrl: "./partners.component.html",
+  styleUrls: ["./partners.component.css"]
 })
 export class PartnersComponent {
   public poses: Pose[] = [];
   public currentPoseIndex = 0;
 
+  /**
+   *
+   * @param assetService
+   */
   constructor(private assetService: AssetsService) {
     this.assetService.fetchErin().subscribe((poses) => {
       this.poses = poses.sort((a, b) => a.name.localeCompare(b.name));
@@ -18,6 +26,9 @@ export class PartnersComponent {
     });
   }
 
+  /**
+   *
+   */
   nextPose() {
     this.currentPoseIndex =
       this.currentPoseIndex === this.poses.length - 1
@@ -25,6 +36,9 @@ export class PartnersComponent {
         : this.currentPoseIndex + 1;
   }
 
+  /**
+   *
+   */
   previousPose() {
     this.currentPoseIndex =
       this.currentPoseIndex === 0
@@ -32,10 +46,17 @@ export class PartnersComponent {
         : this.currentPoseIndex - 1;
   }
 
+  /**
+   *
+   * @param index
+   */
   selectPose(index: string) {
     this.currentPoseIndex = parseInt(index);
   }
 
+  /**
+   *
+   */
   randomPose() {
     this.currentPoseIndex = Math.floor(Math.random() * this.poses.length);
   }
