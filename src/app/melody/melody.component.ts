@@ -1,16 +1,24 @@
-import { Component } from '@angular/core';
-import { Pose } from 'src/interfaces/Pose';
-import { AssetsService } from '../assets.service';
+import { Component } from "@angular/core";
 
+import { Pose } from "../../interfaces/Pose";
+import { AssetsService } from "../assets.service";
+
+/**
+ *
+ */
 @Component({
-  selector: 'app-melody',
-  templateUrl: './melody.component.html',
-  styleUrls: ['./melody.component.css'],
+  selector: "app-melody",
+  templateUrl: "./melody.component.html",
+  styleUrls: ["./melody.component.css"]
 })
 export class MelodyComponent {
   public poses: Pose[] = [];
   public currentPoseIndex = 0;
 
+  /**
+   *
+   * @param {AssetsService} assetService The instance of the Asset Service.
+   */
   constructor(private assetService: AssetsService) {
     this.assetService.fetchMelody().subscribe((poses) => {
       this.poses = poses.sort((a, b) => a.name.localeCompare(b.name));
@@ -18,6 +26,9 @@ export class MelodyComponent {
     });
   }
 
+  /**
+   *
+   */
   nextPose() {
     this.currentPoseIndex =
       this.currentPoseIndex === this.poses.length - 1
@@ -25,6 +36,9 @@ export class MelodyComponent {
         : this.currentPoseIndex + 1;
   }
 
+  /**
+   *
+   */
   previousPose() {
     this.currentPoseIndex =
       this.currentPoseIndex === 0
@@ -32,10 +46,17 @@ export class MelodyComponent {
         : this.currentPoseIndex - 1;
   }
 
+  /**
+   *
+   * @param {string} index The index from the select menu.
+   */
   selectPose(index: string) {
     this.currentPoseIndex = parseInt(index);
   }
 
+  /**
+   *
+   */
   randomPose() {
     this.currentPoseIndex = Math.floor(Math.random() * this.poses.length);
   }

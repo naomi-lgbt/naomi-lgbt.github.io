@@ -1,7 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
+/**
+ *
+ */
 @Component({
-  selector: 'app-lost',
-  templateUrl: './lost.component.html',
+  selector: "app-lost",
+  templateUrl: "./lost.component.html"
 })
 export class LostComponent {}

@@ -1,17 +1,18 @@
-import { TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-import { NgParticlesModule } from 'ng-particles';
-import { AppComponent } from './app.component';
+import { TestBed } from "@angular/core/testing";
+import { RouterTestingModule } from "@angular/router/testing";
+import { NgParticlesModule } from "ng-particles";
 
-describe('AppComponent', () => {
+import { AppComponent } from "./app.component";
+
+describe("AppComponent", () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule, NgParticlesModule],
-      declarations: [AppComponent],
+      declarations: [AppComponent]
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  it("should create the app", () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
@@ -20,6 +21,6 @@ describe('AppComponent', () => {
   it(`should have as title 'profile'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('profile');
+    expect(app.title).toEqual("profile");
   });
 });

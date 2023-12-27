@@ -42,7 +42,8 @@ a {
   color: var(--dark-blue);
 }
 
-.light-link, .dialogue a {
+.light-link,
+.dialogue a {
   color: var(--light-blue);
 }
 
