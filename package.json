@@ -44,7 +44,7 @@
     "@nhcarrigan/eslint-config-angular": "1.0.1",
     "@nhcarrigan/prettier-config": "3.2.0",
     "@types/jasmine": "4.6.4",
-    "@types/node": "18.19.7",
+    "@types/node": "18.19.8",
     "eslint": "8.56.0",
     "jasmine-core": "4.6.0",
     "karma": "6.4.2",

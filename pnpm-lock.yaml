@@ -69,7 +69,7 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: 17.0.10
-    version: 17.0.10(@angular/compiler-cli@17.0.8)(@types/node@18.19.7)(karma@6.4.2)(typescript@5.2.2)
+    version: 17.0.10(@angular/compiler-cli@17.0.8)(@types/node@18.19.8)(karma@6.4.2)(typescript@5.2.2)
   '@angular/cli':
     specifier: 17.0.10
     version: 17.0.10
@@ -86,8 +86,8 @@ devDependencies:
     specifier: 4.6.4
     version: 4.6.4
   '@types/node':
-    specifier: 18.19.7
-    version: 18.19.7
+    specifier: 18.19.8
+    version: 18.19.8
   eslint:
     specifier: 8.56.0
     version: 8.56.0
@@ -148,7 +148,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@17.0.10(@angular/compiler-cli@17.0.8)(@types/node@18.19.7)(karma@6.4.2)(typescript@5.2.2):
+  /@angular-devkit/build-angular@17.0.10(@angular/compiler-cli@17.0.8)(@types/node@18.19.8)(karma@6.4.2)(typescript@5.2.2):
     resolution: {integrity: sha512-RWVu5Pdg6VdO3v1i0oI+HGr/NE4rhbNelM43w+9TqrzDtwmvckWsadSp0H88cPhQ4YGY5ldGKyQufO1UItR26w==}
     engines: {node: ^18.13.0 || >=20.9.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -245,7 +245,7 @@ packages:
       tslib: 2.6.2
       typescript: 5.2.2
       undici: 5.27.2
-      vite: 4.5.1(@types/node@18.19.7)(less@4.2.0)(sass@1.69.5)(terser@5.24.0)
+      vite: 4.5.1(@types/node@18.19.8)(less@4.2.0)(sass@1.69.5)(terser@5.24.0)
       webpack: 5.89.0(esbuild@0.19.5)
       webpack-dev-middleware: 6.1.1(webpack@5.89.0)
       webpack-dev-server: 4.15.1(webpack@5.89.0)
@@ -2783,26 +2783,26 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/bonjour@3.5.10:
     resolution: {integrity: sha512-p7ienRMiS41Nu2/igbJxxLDWrSZ0WxM8UQgCeO9KhoVF7cOVFkrKsiDr1EsJIla8vV3oEEjGcz11jc5yimhzZw==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/connect-history-api-fallback@1.5.0:
     resolution: {integrity: sha512-4x5FkPpLipqwthjPsF7ZRbOv3uoLUFkTA9G9v583qi4pACvq0uTELrB8OLUzPWUI4IJIyvM85vzkV1nyiI2Lig==}
     dependencies:
       '@types/express-serve-static-core': 4.17.35
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/cookie@0.4.1:
@@ -2812,7 +2812,7 @@ packages:
   /@types/cors@2.8.13:
     resolution: {integrity: sha512-RG8AStHlUiV5ysZQKq97copd2UmVYw3/pRMLefISZ3S1hK104Cwm7iLQ3fTKx+lsUH2CE8FlLaYeEA2LSeqYUA==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/eslint-scope@3.7.4:
@@ -2836,7 +2836,7 @@ packages:
   /@types/express-serve-static-core@4.17.35:
     resolution: {integrity: sha512-wALWQwrgiB2AWTT91CB62b6Yt0sNHpznUXeZEcnPU3DRdlDIz74x8Qg1UUYKSVFi+va5vKOLYRBI1bRKiLLKIg==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -2858,7 +2858,7 @@ packages:
   /@types/http-proxy@1.17.11:
     resolution: {integrity: sha512-HC8G7c1WmaF2ekqpnFq626xd3Zz0uvaqFmBJNRZCGEZCXkvSdJoNFn/8Ygbd9fKNQj8UzLdCETaI0UWPAjK7IA==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/jasmine@4.6.4:
@@ -2881,8 +2881,8 @@ packages:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
     dev: true
 
-  /@types/node@18.19.7:
-    resolution: {integrity: sha512-IGRJfoNX10N/PfrReRZ1br/7SQ+2vF/tK3KXNwzXz82D32z5dMQEoOlFew18nLSN+vMNcLY4GrKfzwi/yWI8/w==}
+  /@types/node@18.19.8:
+    resolution: {integrity: sha512-g1pZtPhsvGVTwmeVoexWZLTQaOvXwoSq//pTL0DHeNzUDrFnir4fgETdhjhIxjVnN+hKOuh98+E1eMLnUXstFg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2907,7 +2907,7 @@ packages:
     resolution: {integrity: sha512-Cwo8LE/0rnvX7kIIa3QHCkcuF21c05Ayb0ZfxPiv0W8VRiZiNW/WuRupHKpqqGVGf7SUA44QSOUKaEd9lIrd/Q==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/serve-index@1.9.1:
@@ -2921,19 +2921,19 @@ packages:
     dependencies:
       '@types/http-errors': 2.0.1
       '@types/mime': 3.0.1
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/sockjs@0.3.33:
     resolution: {integrity: sha512-f0KEEe05NvUnat+boPTZ0dgaLZ4SfSouXUgv5noUiefG2ajgKjmETo9ZJyuqsl7dfl2aHlLJUiki6B4ZYldiiw==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@types/ws@8.5.5:
     resolution: {integrity: sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
     dev: true
 
   /@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.56.0)(typescript@5.2.2):
@@ -3157,7 +3157,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      vite: 4.5.1(@types/node@18.19.7)(less@4.2.0)(sass@1.69.5)(terser@5.24.0)
+      vite: 4.5.1(@types/node@18.19.8)(less@4.2.0)(sass@1.69.5)(terser@5.24.0)
     dev: true
 
   /@webassemblyjs/ast@1.11.6:
@@ -4654,7 +4654,7 @@ packages:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.13
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.4.2
@@ -6331,7 +6331,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -9436,7 +9436,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@4.5.1(@types/node@18.19.7)(less@4.2.0)(sass@1.69.5)(terser@5.24.0):
+  /vite@4.5.1(@types/node@18.19.8)(less@4.2.0)(sass@1.69.5)(terser@5.24.0):
     resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -9464,7 +9464,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.19.7
+      '@types/node': 18.19.8
       esbuild: 0.18.17
       less: 4.2.0
       postcss: 8.4.31
