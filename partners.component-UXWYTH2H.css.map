@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/partners/partners.component.css"],
+  "sourcesContent": ["select {\n  display: block;\n  margin: auto;\n}\n\n.pose {\n  width: 100%;\n  display: grid;\n  grid-template-rows: auto auto;\n  align-items: center;\n  word-break: normal;\n  overflow-wrap: anywhere;\n}\n\n.pose-img {\n  width: 100%;\n}\n"],
+  "mappings": "AAAA,OACE,QAAS,MADX,OAEU,IACV,CAEA,CAAC,KACC,MAAO,KACP,QAAS,KACT,mBAAoB,KAAK,KACzB,YAAa,OACb,WAAY,OACZ,cAAe,QACjB,CAEA,CAAC,SACC,MAAO,IACT",
+  "names": []
+}
