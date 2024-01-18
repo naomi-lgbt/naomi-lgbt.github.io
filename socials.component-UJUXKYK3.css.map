@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/socials/socials.component.css"],
-  "sourcesContent": [".social {\n  display: grid;\n  grid-template-columns: 1fr 3fr;\n  width: 50%;\n  margin: auto;\n  border-radius: 50px;\n  align-items: center;\n  justify-items: center;\n  font-size: 2rem;\n  border-width: medium;\n  border-style: solid;\n  margin-bottom: 10px;\n}\n\n.social:hover {\n  text-decoration: none;\n}\n\n.social p {\n  width: 100%;\n  height: 100%;\n  margin: auto;\n  text-align: center;\n}\n\n@media (max-width: 600px) {\n  .social {\n    width: 100%;\n  }\n}\n"],
-  "mappings": "AAAA,CAAC,OACC,QAAS,KACT,sBAAuB,IAAI,IAC3B,MAAO,IAHT,OAIU,UAOO,KAXjB,cAKiB,KACf,YAAa,OACb,cAAe,OACf,UAAW,KACX,aAAc,OACd,aAAc,KAEhB,CAEA,CAdC,MAcM,OACL,gBAAiB,IACnB,CAEA,CAlBC,OAkBO,EACN,MAAO,KACP,OAAQ,KApBV,OAqBU,KACR,WAAY,MACd,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CA1BD,OA2BG,MAAO,IACT,CACF",
-  "names": []
-}

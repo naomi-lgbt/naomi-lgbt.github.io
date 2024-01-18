@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/museum/museum.component.css"],
-  "sourcesContent": ["select {\n  display: block;\n  margin: auto;\n}\n\n.image {\n  background-color: var(--dark-purple);\n  color: var(--light-purple);\n  padding: 10px;\n}\n\n.image img {\n  width: 100%;\n  aspect-ratio: 1 / 1;\n  object-fit: cover;\n  object-position: top center;\n}\n\n.image a {\n  position: relative;\n}\n\n.spicy {\n  filter: blur(25px);\n}\n\n.overlay {\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  position: absolute;\n  top: 0;\n  color: red;\n  transform: rotate(45deg);\n}\n\na:not(.nes-btn) {\n  color: var(--light-blue);\n}\n\n#model {\n  width: 500px;\n  display: block;\n  margin: auto;\n}\n"],
-  "mappings": "AAAA,OACE,QAAS,MADX,OAEU,IACV,CAEA,CAAC,MACC,iBAAkB,IAAI,eACtB,MAAO,IAAI,gBAPb,QAQW,IACX,CAEA,CANC,MAMM,IACL,MAAO,KACP,aAAc,EAAE,EAAE,EAClB,WAAY,MACZ,gBAAiB,IAAI,MACvB,CAEA,CAbC,MAaM,EACL,SAAU,QACZ,CAEA,CAAC,MACC,OAAQ,KAAK,KACf,CAEA,CAAC,QACC,MAAO,KACP,OAAQ,KACR,QAAS,EACT,SAAU,SACV,IAAK,EACL,MAAO,IACP,UAAW,OAAO,MACpB,CAEA,CAAC,KAAK,CAAC,SACL,MAAO,IAAI,aACb,CAEA,CAAC,MACC,MAAO,MACP,QAAS,MA1CX,OA2CU,IACV",
-  "names": []
-}

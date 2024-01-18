@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/reference/reference.component.css"],
-  "sourcesContent": ["select {\n  display: block;\n  margin: auto;\n}\n\n.ref-img {\n  width: 100%;\n}\n\n.content-grid img {\n  height: 350px;\n}\n\n.content-grid {\n  display: grid;\n  grid-template-columns: 2fr 1fr;\n  justify-items: center;\n  margin: 10px 0;\n}\n\n.content-grid div {\n  height: 100%;\n}\n\n.tattoo img {\n  height: auto;\n  width: 100%;\n}\n"],
-  "mappings": "AAAA,OACE,QAAS,MADX,OAEU,IACV,CAEA,CAAC,QACC,MAAO,IACT,CAEA,CAAC,aAAa,IACZ,OAAQ,KACV,CAEA,CAJC,aAKC,QAAS,KACT,sBAAuB,IAAI,IAC3B,cAAe,OAhBjB,OAiBU,KAAK,CACf,CAEA,CAXC,aAWa,IACZ,OAAQ,IACV,CAEA,CAAC,OAAO,IACN,OAAQ,KACR,MAAO,IACT",
-  "names": []
-}
