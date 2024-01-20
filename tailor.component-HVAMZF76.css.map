@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/tailor/tailor.component.css"],
+  "sourcesContent": ["select {\n  display: block;\n  margin: auto;\n}\n\n.outfit {\n  width: 100%;\n  display: grid;\n  grid-template-rows: auto auto;\n  align-items: center;\n  word-break: normal;\n  overflow-wrap: anywhere;\n}\n\n.outfit-img {\n  width: 100%;\n}\n\n.modal {\n  max-width: 500px;\n  max-height: 100vh;\n  position: fixed;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 2;\n  overflow-y: scroll;\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\n.modal::-webkit-scrollbar {\n  display: none;\n}\n\n.modal-bg {\n  position: fixed;\n  width: 100vw;\n  height: 100vh;\n  overflow: none;\n  background-color: rgba(0, 0, 0, 0.5);\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 1;\n}\n"],
+  "mappings": "AAAA,OACE,QAAS,MADX,OAEU,IACV,CAEA,CAAC,OACC,MAAO,KACP,QAAS,KACT,mBAAoB,KAAK,KACzB,YAAa,OACb,WAAY,OACZ,cAAe,QACjB,CAEA,CAAC,WACC,MAAO,IACT,CAEA,CAAC,MACC,UAAW,MACX,WAAY,MACZ,SAAU,MACV,KAAM,IACN,IAAK,IACL,UAAW,UAAU,IAAI,CAAE,MAC3B,QAAS,EACT,WAAY,OACZ,mBAAoB,KACpB,gBAAiB,IACnB,CAEA,CAbC,KAaK,oBACJ,QAAS,IACX,CAEA,CAAC,SACC,SAAU,MACV,MAAO,MACP,OAAQ,MACR,SAAU,KACV,iBAAkB,UAClB,KAAM,IACN,IAAK,IACL,UAAW,UAAU,IAAI,CAAE,MAC3B,QAAS,CACX",
+  "names": []
+}

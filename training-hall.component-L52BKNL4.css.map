@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/training-hall/training-hall.component.css"],
+  "sourcesContent": ["select {\n  display: block;\n  margin: auto;\n}\n\n.games-grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  gap: 10px;\n}\n\n.game {\n  background-color: var(--dark-purple);\n  color: var(--light-purple);\n  padding: 10px;\n}\n\n.game img {\n  width: 75%;\n  aspect-ratio: 1 / 1;\n  object-fit: cover;\n  object-position: top center;\n}\n\n@media screen and (max-width: 749px) {\n  .games-grid {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n"],
+  "mappings": "AAAA,OACE,QAAS,MADX,OAEU,IACV,CAEA,CAAC,WACC,QAAS,KACT,sBAAuB,IAAI,IAAI,IAC/B,IAAK,IACP,CAEA,CAAC,KACC,iBAAkB,IAAI,eACtB,MAAO,IAAI,gBAbb,QAcW,IACX,CAEA,CANC,KAMK,IACJ,MAAO,IACP,aAAc,EAAE,EAAE,EAClB,WAAY,MACZ,gBAAiB,IAAI,MACvB,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC5B,CApBD,WAqBG,sBAAuB,IAAI,GAC7B,CACF",
+  "names": []
+}

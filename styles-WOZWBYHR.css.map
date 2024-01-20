@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/styles.css"],
-  "sourcesContent": ["@font-face {\n  font-family: \"Precious\";\n  src: url(\"./assets/fonts/precious.ttf\");\n}\n\n:root {\n  font-size: 24pt;\n  cursor: url(\"https://cdn.nhcarrigan.com/cursors/cursor.cur\"), default;\n}\n\nbody {\n  font-family: \"Precious\";\n  color: #aea8de;\n  background-color: #3a3240;\n  text-align: center;\n}\n\na,\na:visited {\n  cursor: url(\"https://cdn.nhcarrigan.com/cursors/pointer.cur\"), pointer;\n  color: #aea8de;\n}\n"],
-  "mappings": "AAAA,WACE,YAAa,SACb,IAAK,oCACP,CAEA,MACE,UAAW,KACX,OAAQ,kDAAoD,CAAE,OAChE,CAEA,KACE,YAAa,SACb,MAAO,QACP,iBAAkB,QAClB,WAAY,MACd,CAEA,EACA,CAAC,SACC,OAAQ,mDAAqD,CAAE,QAC/D,MAAO,OACT",
-  "names": []
-}

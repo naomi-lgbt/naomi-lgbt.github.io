@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/landing/landing.component.css"],
+  "sourcesContent": [".avatar {\n  height: 250px;\n}\n"],
+  "mappings": "AAAA,CAAC,OACC,OAAQ,KACV",
+  "names": []
+}
