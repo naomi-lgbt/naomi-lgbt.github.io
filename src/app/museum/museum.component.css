@@ -1,0 +1,45 @@
+select {
+  display: block;
+  margin: auto;
+}
+
+.image {
+  background-color: var(--dark-purple);
+  color: var(--light-purple);
+  padding: 10px;
+}
+
+.image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.image a {
+  position: relative;
+}
+
+.spicy {
+  filter: blur(25px);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  color: red;
+  transform: rotate(45deg);
+}
+
+a:not(.nes-btn) {
+  color: var(--light-blue);
+}
+
+#model {
+  width: 500px;
+  display: block;
+  margin: auto;
+}

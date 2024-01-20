@@ -1,0 +1,93 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded">
+    <h1 class="title">Tailor</h1>
+    <p>
+      You find yourself in a strange tailor shoppe. Rather than an actual store,
+      this appears to be meant to show off Naomi's outfits.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/melody/smile.png"
+        class="face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
+      />
+      <p>
+        Welcome to Naomi's wardrobe. You can see all of her outfits here, many
+        of which I put together for her.
+      </p>
+    </div>
+    <p>
+      Each outfit is carefully displayed on a stand, with a placard explaining
+      the purpose of the clothing.
+    </p>
+    <p>
+      There are <strong>{{ outfits.length }}</strong> outfits available to
+      peruse.
+    </p>
+    <button class="nes-btn" (click)="renderCredits('_default')">
+      Model Credits
+    </button>
+    <div
+      class="nes-container is-rounded is-centered is-dark outfit"
+      *ngIf="outfits.length"
+    >
+      <a
+        href="https://cdn.naomi.lgbt/naomi/outfits/{{
+          outfits[currentOutfitIndex].fileName
+        }}"
+        target="_blank"
+      >
+        <img
+          src="https://cdn.naomi.lgbt/naomi/outfits/{{
+            outfits[currentOutfitIndex].fileName
+          }}"
+          alt="{{ outfits[currentOutfitIndex].alt }}"
+          class="outfit-img"
+        />
+      </a>
+      <div class="outfit-description">
+        <h2>{{ outfits[currentOutfitIndex].name }}</h2>
+        <p>{{ outfits[currentOutfitIndex].description }}</p>
+        <button
+          class="nes-btn"
+          (click)="renderCredits(outfits[currentOutfitIndex].name)"
+        >
+          Credits
+        </button>
+      </div>
+    </div>
+    <button class="nes-btn" (click)="previousOutfit()">Previous Outfit</button>
+    <button class="nes-btn is-primary" (click)="randomOutfit()">
+      Random Outfit
+    </button>
+    <button class="nes-btn" (click)="nextOutfit()">Next Outfit</button>
+    <select #outfit (change)="selectOutfit(outfit.value)">
+      <option disabled>Jump to Outfit</option>
+      <option
+        *ngFor="let outfit of outfits; let i = index"
+        [value]="i"
+        [selected]="i === currentOutfitIndex"
+      >
+        {{ outfit.name }}
+      </option>
+    </select>
+  </div>
+  <a class="nes-btn" routerLink="/plaza"
+    >These are nice - but time to move on</a
+  >
+</div>
+<div aria-hidden="true" class="modal-bg" *ngIf="showCreditModal"></div>
+<div
+  class="modal nes-container with-title is-centered is-rounded"
+  *ngIf="showCreditModal"
+>
+  <h1>Credits</h1>
+  <p *ngFor="let credit of credits">
+    <a href="{{ credit[1] }}" target="_blank" rel="noopener noreferrer">{{
+      credit[0]
+    }}</a>
+  </p>
+  <button class="nes-btn" (click)="closeModal()">Close</button>
+</div>

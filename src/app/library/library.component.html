@@ -1,0 +1,71 @@
+<div class="content">
+  <div
+    *ngIf="!openBook"
+    class="nes-container with-title is-centered is-rounded"
+  >
+    <h1 class="title">Library</h1>
+    <p>
+      As you walk in to this hall of knowledge, your eyes readjust to the dim
+      candle light. The first thing you notice is just how quiet it is. Which
+      makes sense, libraries are always quiet.
+    </p>
+    <p>
+      Near the entrance is a large desk. Melody walks over to it and motions for
+      you to join her.
+    </p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/melody/smile.png"
+        class="face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
+      />
+      <p>Now then, which book may I fetch for you?</p>
+    </div>
+    <p>Which book would you like to ask about?</p>
+  </div>
+  <div *ngIf="openBook" class="nes-container with-title is-centered is-rounded">
+    <h1 class="title">{{ openBook.title }}</h1>
+    <p>
+      Melody hands you the book you asked for. You slowly open it, turning
+      through the pages.
+    </p>
+    <div class="nes-container with-title is-centered is-dark is-rounded">
+      <p *ngFor="let line of openBook.text">{{ line }}</p>
+    </div>
+    <p>Closing the book, you hand it back to Melody, who smiles at you.</p>
+    <div
+      class="nes-container with-title is-centered is-dark is-rounded dialogue"
+    >
+      <img
+        src="assets/img/melody/smile.png"
+        class="face"
+        alt="A woman with teal-green hair pulled up in a tight bun, her left eye green and her right eye cyan, wearing a grey suit with a blue bow."
+      />
+      <p>Would you like to look at another book?</p>
+    </div>
+  </div>
+  <button
+    *ngIf="openBook?.key !== 'naomi'"
+    class="nes-btn"
+    (click)="loadBook('naomi')"
+  >
+    Who is Naomi?
+  </button>
+  <button
+    *ngIf="openBook?.key !== 'before'"
+    class="nes-btn"
+    (click)="loadBook('before')"
+  >
+    Before the Journey
+  </button>
+  <button
+    *ngIf="openBook?.key !== 'dev'"
+    class="nes-btn"
+    (click)="loadBook('dev')"
+  >
+    The Life of a Developer
+  </button>
+  <a class="nes-btn" routerLink="/plaza">Thank her, and leave</a>
+</div>
