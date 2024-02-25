@@ -69,7 +69,7 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: 17.2.1
-    version: 17.2.1(@angular/compiler-cli@17.1.3)(@types/node@18.19.18)(karma@6.4.2)(typescript@5.2.2)
+    version: 17.2.1(@angular/compiler-cli@17.1.3)(@types/node@18.19.18)(karma@6.4.3)(typescript@5.2.2)
   '@angular/cli':
     specifier: 17.2.1
     version: 17.2.1
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 4.6.0
     version: 4.6.0
   karma:
-    specifier: 6.4.2
-    version: 6.4.2
+    specifier: 6.4.3
+    version: 6.4.3
   karma-chrome-launcher:
     specifier: 3.2.0
     version: 3.2.0
@@ -105,10 +105,10 @@ devDependencies:
     version: 2.2.1
   karma-jasmine:
     specifier: 5.1.0
-    version: 5.1.0(karma@6.4.2)
+    version: 5.1.0(karma@6.4.3)
   karma-jasmine-html-reporter:
     specifier: 2.1.0
-    version: 2.1.0(jasmine-core@4.6.0)(karma-jasmine@5.1.0)(karma@6.4.2)
+    version: 2.1.0(jasmine-core@4.6.0)(karma-jasmine@5.1.0)(karma@6.4.3)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -148,7 +148,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@17.2.1(@angular/compiler-cli@17.1.3)(@types/node@18.19.18)(karma@6.4.2)(typescript@5.2.2):
+  /@angular-devkit/build-angular@17.2.1(@angular/compiler-cli@17.1.3)(@types/node@18.19.18)(karma@6.4.3)(typescript@5.2.2):
     resolution: {integrity: sha512-Wq3ggliCMQCRVCucbjE4/9BJCN1KMSGfF6Bx1ke2B+vW3ElLt+M4x4Eeyg2dSPEYB7slgY9WOx7qtyOkUy15tQ==}
     engines: {node: ^18.13.0 || >=20.9.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -220,7 +220,7 @@ packages:
       https-proxy-agent: 7.0.2
       inquirer: 9.2.14
       jsonc-parser: 3.2.1
-      karma: 6.4.2
+      karma: 6.4.3
       karma-source-map-support: 1.4.0
       less: 4.2.0
       less-loader: 11.1.0(less@4.2.0)(webpack@5.90.1)
@@ -4726,14 +4726,14 @@ packages:
       once: 1.4.0
     dev: true
 
-  /engine.io-parser@5.1.0:
-    resolution: {integrity: sha512-enySgNiK5tyZFynt3z7iqBR+Bto9EVVVvDFuTT0ioHCGbzirZVGDGiQjZzEp8hWl6hd5FSVytJGuScX1C1C35w==}
+  /engine.io-parser@5.2.2:
+    resolution: {integrity: sha512-RcyUFKA93/CXH20l4SoVvzZfrSDMOTUS3bWVpTt2FuFP+XYrL8i8oonHP7WInRyVHXh0n/ORtoeiE1os+8qkSw==}
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /engine.io@6.5.1:
-    resolution: {integrity: sha512-mGqhI+D7YxS9KJMppR6Iuo37Ed3abhU8NdfgSvJSDUafQutrN+sPTncJYTyM9+tkhSmWodKtVYGPPHyXJEwEQA==}
-    engines: {node: '>=10.0.0'}
+  /engine.io@6.5.4:
+    resolution: {integrity: sha512-KdVSDKhVKyOi+r5uEabrDLZw2qXStVvCsEB/LN3mw4WFi6Gx50jTyuxYVCwAAC0U46FdnzP/ScKRBTXb/NiEOg==}
+    engines: {node: '>=10.2.0'}
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.13
@@ -4743,7 +4743,7 @@ packages:
       cookie: 0.4.2
       cors: 2.8.5
       debug: 4.3.4
-      engine.io-parser: 5.1.0
+      engine.io-parser: 5.2.2
       ws: 8.11.0
     transitivePeerDependencies:
       - bufferutil
@@ -6463,7 +6463,7 @@ packages:
       - supports-color
     dev: true
 
-  /karma-jasmine-html-reporter@2.1.0(jasmine-core@4.6.0)(karma-jasmine@5.1.0)(karma@6.4.2):
+  /karma-jasmine-html-reporter@2.1.0(jasmine-core@4.6.0)(karma-jasmine@5.1.0)(karma@6.4.3):
     resolution: {integrity: sha512-sPQE1+nlsn6Hwb5t+HHwyy0A1FNCVKuL1192b+XNauMYWThz2kweiBVW1DqloRpVvZIJkIoHVB7XRpK78n1xbQ==}
     peerDependencies:
       jasmine-core: ^4.0.0 || ^5.0.0
@@ -6471,18 +6471,18 @@ packages:
       karma-jasmine: ^5.0.0
     dependencies:
       jasmine-core: 4.6.0
-      karma: 6.4.2
-      karma-jasmine: 5.1.0(karma@6.4.2)
+      karma: 6.4.3
+      karma-jasmine: 5.1.0(karma@6.4.3)
     dev: true
 
-  /karma-jasmine@5.1.0(karma@6.4.2):
+  /karma-jasmine@5.1.0(karma@6.4.3):
     resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.6.0
-      karma: 6.4.2
+      karma: 6.4.3
     dev: true
 
   /karma-source-map-support@1.4.0:
@@ -6491,8 +6491,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /karma@6.4.2:
-    resolution: {integrity: sha512-C6SU/53LB31BEgRg+omznBEMY4SjHU3ricV6zBcAe1EeILKkeScr+fZXtaI5WyDbkVowJxxAI6h73NcFPmXolQ==}
+  /karma@6.4.3:
+    resolution: {integrity: sha512-LuucC/RE92tJ8mlCwqEoRWXP38UMAqpnq98vktmS9SznSoUPPUJQbc91dHcxcunROvfQjdORVA/YFviH+Xci9Q==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -6515,7 +6515,7 @@ packages:
       qjobs: 1.2.0
       range-parser: 1.2.1
       rimraf: 3.0.2
-      socket.io: 4.7.1
+      socket.io: 4.7.4
       source-map: 0.6.1
       tmp: 0.2.1
       ua-parser-js: 0.7.35
@@ -8340,15 +8340,15 @@ packages:
       - supports-color
     dev: true
 
-  /socket.io@4.7.1:
-    resolution: {integrity: sha512-W+utHys2w//dhFjy7iQQu9sGd3eokCjGbl2r59tyLqNiJJBdIebn3GAKEXBr3osqHTObJi2die/25bCx2zsaaw==}
-    engines: {node: '>=10.0.0'}
+  /socket.io@4.7.4:
+    resolution: {integrity: sha512-DcotgfP1Zg9iP/dH9zvAQcWrE0TtbMVwXmlV4T4mqsvY+gw+LqUGPfx2AoVyRk0FLME+GQhufDMyacFmw7ksqw==}
+    engines: {node: '>=10.2.0'}
     dependencies:
       accepts: 1.3.8
       base64id: 2.0.0
       cors: 2.8.5
       debug: 4.3.4
-      engine.io: 6.5.1
+      engine.io: 6.5.4
       socket.io-adapter: 2.5.2
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
