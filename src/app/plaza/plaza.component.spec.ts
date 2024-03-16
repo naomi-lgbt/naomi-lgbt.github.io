@@ -47,9 +47,6 @@ describe("PlazaComponent", () => {
     expect(buttons[6].tagName).toBe("A");
     expect(buttons[6].textContent?.trim()).toBe("Melody's Office");
     expect(buttons[6].getAttribute("routerLink")).toBe("/melody");
-    expect(buttons[7].tagName).toBe("A");
-    expect(buttons[7].textContent?.trim()).toBe("Mysterious Room");
-    expect(buttons[7].getAttribute("routerLink")).toBe("/erin");
   });
 
   it("should render all the dialogues", () => {

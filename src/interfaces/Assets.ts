@@ -11,5 +11,4 @@ export interface Assets {
   portraits: Portrait[];
   poses: Pose[];
   melody: Pose[];
-  erin: Pose[];
 }
