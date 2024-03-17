@@ -25,7 +25,7 @@ describe("PlazaComponent", () => {
     const title = compiled.querySelector("h1");
     expect(title?.textContent?.trim()).toBe("Town Plaza");
     const buttons = compiled.querySelectorAll(".nes-btn");
-    expect(buttons.length).toBe(8);
+    expect(buttons.length).toBe(7);
     expect(buttons[0].tagName).toBe("A");
     expect(buttons[0].textContent?.trim()).toBe("Library");
     expect(buttons[0].getAttribute("routerLink")).toBe("/library");
