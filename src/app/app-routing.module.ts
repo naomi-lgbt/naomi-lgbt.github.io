@@ -7,7 +7,6 @@ import { LibraryComponent } from "./library/library.component";
 import { LostComponent } from "./lost/lost.component";
 import { MelodyComponent } from "./melody/melody.component";
 import { MuseumComponent } from "./museum/museum.component";
-import { PartnersComponent } from "./partners/partners.component";
 import { PlazaComponent } from "./plaza/plaza.component";
 import { ReferenceComponent } from "./reference/reference.component";
 import { SocialsComponent } from "./socials/socials.component";
@@ -29,7 +28,6 @@ const routes: Routes = [
   { path: "ref", component: ReferenceComponent },
   { path: "socials", component: SocialsComponent },
   { path: "melody", component: MelodyComponent },
-  { path: "erin", component: PartnersComponent },
   // wildcard route for 404 - ALL routes go above this :)
   { path: "**", component: LostComponent }
 ];
