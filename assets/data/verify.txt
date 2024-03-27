@@ -11,7 +11,6 @@ My pronouns: https://en.pronouns.page/@nhcarrigan
 
 # Primary Contact points (in order of response time)
 
-work server: https://chat.nhcarrigan.com (Discord Server ID: 1149976413319999508)
 chat with me: https://chat.naomi.lgbt (Discord Server ID: 1146133490933436476)
 discord: naomi_lgbt (ID: 465650873650118659)
 github: naomi-lgbt - https://github.com/naomi-lgbt
@@ -23,11 +22,14 @@ freecodecamp forum: https://forum.freecodecamp.org/u/nhcarrigan
 freecodecamp chat: Naomi
 twitter: @naomi_lgbt - https://twitter.com/naomi_lgbt
 steam: https://steamcommunity.com/id/naomi-lgbt
+twitch: https://www.twitch.tv/naomilgbt
 linkedin: https://linkedin.com/in/naomi-lgbt
 github: nhcarrigan - https://github.com/nhcarrigan
 github: naomis-archive - https://github.com/naomis-archive
 linkedin: https://linkedin.com/company/nhcarrigan/
 itch: https://itch.io/profile/nhcarrigan
+youtube: https://www.youtube.com/@naomi_lgbt
+reddit: https://www.reddit.com/user/naomi-lgbt/
 
 # Apps and Games
 
@@ -62,7 +64,7 @@ starfazers.art
 
 # Additional Identity Verification
 
-keybase: https://keybase.io/nhcarrigan
+keybase: https://keybase.io/nhcarrigan (Likely outdated!)
 gpg key: https://naomi.lgbt/assets/data/key.txt (E0733A3A214E74717BA897996BE925698CAD8907)
 
 # Pls gib money?
@@ -94,7 +96,6 @@ hashnode: https://hashnode.com/@nhcarrigan
 instagram: https://www.instagram.com/nhcarrigan/
 facebook: https://www.facebook.com/nhcarrigan
 reddit: https://www.reddit.com/user/nhcarrigan
-twitch: https://www.twitch.tv/naomilgbt
 youtube: nhcarrigan https://www.youtube.com/channel/UCjzzWNrF-9LOudszZR82dWQ
 bluesky: naomi-lgbt.bsky.social https://bsky.app/profile/naomi-lgbt.bsky.social
 
@@ -113,17 +114,17 @@ dreamerlabs.studio
 None :)
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmUTaFIACgkQa+klaYyt
-iQfpog//fx8YXsRauTVaIN96PM3xopDdunjHANMoB7A/l2HhiDJixHfWCVKZgR/9
-ah3VN91XS5Mbdy98YpFFMROaiLaBoRLCfn8PpMDvIREXpu/JY8JTcMmHv+HJ9ecl
-W79kBS/v9kex1eJAIuz6Sw2ToDJ0lBzMeiouyP6BP5j5+rVqQFUhbvEF0tW966OP
-5rGwEkJJ+wcc/mlH0O9GHdyFEo23oeFxWRxUfekD6XgDshbt3c8dkJX9P4Y0xftO
-ZfN7ozSctgOsCsmQzaVSs3FruQDPuwCRrG/4vfAR4ivtYJ+XWF/lmot5YFedQVua
-Vt+soF/TO2xEEF12PJqSFpjHKTb989tfP7G1owWzwMX4z87FJCIloydiZ+mIn8ka
-BgbQtTRF/HXGHmJkVRMzUwARKKxGWg18jbnHCtr0b5iVLEVkkVZMYhfhaU8haAeF
-BVQJKn1R1jcUoEStoDh+TUpTq0XHJY2PdAVo3BkkVIUMEGjKqLV1eKZ2SYSEIBN2
-u3JZwU7xzv8h43kCaBJ6yVfk5r6ah1N8b48zcotAEJ6VPMBrUWRh7P5FBccr3lRU
-aWHFmLyXVAwAF2SHI73gtysl8q1s7ll4BH8R6PFMjzovkNqyc8w1ZH97L67iZvZK
-nXErERyDfhpl05ixWYn3Ib5kQk7cM3Ji+9qZhK0jYK2tFdzPX5M=
-=jOou
+iQIzBAEBCgAdFiEE4HM6OiFOdHF7qJeZa+klaYytiQcFAmYDr5wACgkQa+klaYyt
+iQcUKg//Y4OaiXkuIUvS532vCytzs46+e4wZboxAn1HL+D529/MXrlZcGzLwHNcV
+TINnZkAJkYrGG/ynHqirxXBJOySM6spAaxbDYZcoP1LZbY+dp0VBduD9r7ZifTAG
+Grml+L/OBqs3u2bhUcY968GhVWWciPF9O8lpqxwWttolko1AsYWDudWEe3vAvoMh
+xFu6rnGMXOZxbk0vTlyzeRu3RHCDwYvtn+dzQ7j1zgeLssH8a1WUhXXOfP5eHSMo
+WglAfZBbodHi2d2SbFCLo46CVtjphnHtuJWg5wb6jYxHisZppUlxJBGmOx0GEFgw
+bd4aCqHJS47ELgVMsvmuvmxHNTfpkza1QlEg9W04FJV2NkycMwAHph1fyvP821rs
+0sBVxj+4HIdO6sQfY1R9deuX8LKkAfvZeqFEA00HToWgW2Pgl6oD857h+hkrjjEy
+SvQYYnDY55wVvF5yamQtYpdQUAu4qAFUqfNnOV+eiJ2e5/XNWpUFaKWmghvmNldj
+ZMnGiWM713V1lLpehQkppdvzlmjrFXVJik+8amC7MhBT2sirIbDlJg2QtL9D/xHz
+36cJv/W3XY22AZDzurIz0Gi8qVrXbpUAK4Mch4qqcNkVQjfStJdY9NJl9tGeHPU4
+dEUm10KwVw2VXovarFgu4DWM0pYM/fg95sV+pSR5EyLjJSKvaoo=
+=Ttiv
 -----END PGP SIGNATURE-----
